@@ -1,0 +1,15 @@
+{
+  "paramsTypes": {
+    "tileCount": "ivec2",
+    "flipX": "bool",
+    "flipY": "bool"
+  },
+  "defaultParams": {
+    "tileCount": [
+      8,
+      8
+    ],
+    "flipX": true,
+    "flipY": false
+  }
+}

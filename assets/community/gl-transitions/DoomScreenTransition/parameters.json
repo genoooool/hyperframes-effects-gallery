@@ -1,0 +1,16 @@
+{
+  "paramsTypes": {
+    "bars": "int",
+    "amplitude": "float",
+    "noise": "float",
+    "frequency": "float",
+    "dripScale": "float"
+  },
+  "defaultParams": {
+    "bars": 30,
+    "amplitude": 2,
+    "noise": 0.1,
+    "frequency": 0.5,
+    "dripScale": 0.5
+  }
+}

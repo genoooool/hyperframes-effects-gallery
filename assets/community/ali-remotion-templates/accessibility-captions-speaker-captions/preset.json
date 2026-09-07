@@ -1,0 +1,52 @@
+{
+  "id": "accessibility-captions-speaker-captions",
+  "title": "Speaker Captions",
+  "category": "accessibility-production",
+  "tags": [
+    "accessibility",
+    "captions",
+    "speaker",
+    "dialogue"
+  ],
+  "description": "A speaker-labeled dialogue treatment that keeps identity and spoken content legible as separate visual layers.",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 132,
+  "defaultProps": {
+    "variant": "speaker-captions",
+    "transcript": "Every voice belongs in the frame.",
+    "segments": [
+      {
+        "text": "Welcome to the conversation.",
+        "start": 0,
+        "end": 42,
+        "speaker": "Avery Stone"
+      },
+      {
+        "text": "Every voice belongs in the frame.",
+        "start": 42,
+        "end": 88,
+        "speaker": "Avery Stone"
+      },
+      {
+        "text": "Let us make it easier to follow.",
+        "start": 88,
+        "end": 132,
+        "speaker": "Jordan Lee"
+      }
+    ],
+    "wordTimings": [],
+    "speaker": "Avery Stone",
+    "speakerRole": "Host",
+    "description": "Two speakers share a calm interview frame.",
+    "signLanguageLabel": "Interpreter",
+    "language": "en",
+    "captionPosition": "bottom",
+    "contrastMode": "dark",
+    "safeArea": 72,
+    "paletteName": "ocean",
+    "showProgress": true,
+    "showSpeaker": true
+  }
+}

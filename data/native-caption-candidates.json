@@ -1,0 +1,1220 @@
+[
+  {
+    "id": "themes-pop",
+    "title": "弹性弹出字幕",
+    "en": "pop",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · vshukla7",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "弹性弹出字幕。使用原始 React 组件与逐词时间轴渲染，展示朗读时的文字变化。",
+    "use": "口播字幕 · 逐词强调",
+    "tags": "字幕 pop 弹性弹出字幕 vshukla7/remotion-captions-themes",
+    "duration": 4,
+    "poster": "assets/community/remotion-captions-themes/previews/pop/poster.jpg",
+    "videoPreview": "assets/community/remotion-captions-themes/previews/pop/preview.mp4",
+    "previewLabel": "源码实渲",
+    "page": "https://github.com/vshukla7/remotion-captions-themes#readme",
+    "source": "https://github.com/vshukla7/remotion-captions-themes/blob/c2cfe29cb732bf01aac2a92b84f58fda28fc182e/src/themes/pop.tsx",
+    "install": "npm install remotion-captions-themes\nimport { CaptionTheme } from \"remotion-captions-themes\"; 使用 theme=\"pop\"，传入 data.lines[].words（text/start/end，时间单位秒）。",
+    "sources": [
+      {
+        "path": "assets/community/remotion-captions-themes/src/themes/pop.tsx"
+      }
+    ],
+    "renderProps": {
+      "library": "themes",
+      "variant": "pop"
+    },
+    "provenance": {
+      "commit": "c2cfe29cb732bf01aac2a92b84f58fda28fc182e",
+      "license": "MIT",
+      "files": {
+        "CaptionTheme.tsx": "ee010645a3fdcae505cfe50968b30b614147becc70be12b54d94090834a06abf",
+        "types.ts": "33ca01fafb41a33d69e9570a4e2380424ee16b4b81e5c3743641a3ffee3c6dc3",
+        "registry.ts": "d877012f244a1ca3ca7fea2ce0ae36cb5948bdf86bd3510248e5cf80da6ded80",
+        "index.ts": "e4d3aaf87dc977ee210dc5a2179dd7f2684d679ed02f6387ca6df3e9a6d56274",
+        "layout/anchors.ts": "688545e79ee589c370c678bee9264c04837b78547b454e91590a765090619fe2",
+        "layout/types.ts": "289086a4b115f40c96a4355d449ac45a11df02519ae93885e2825e807b645348",
+        "layout/layoutEngine.ts": "9638a8109b31223daf6e7851f3440613af1619aa52edd1bc66e153fcccf01251",
+        "layout/collision.ts": "6649193efdec2365d454193de9d5a5afdb601838369c89a856e310c0c575a18b",
+        "layout/relations.ts": "c2ddf2287f0f39d17423119f08a2054e0bb690ec0004033128c12fffeb9202ab",
+        "utils/resolveColors.ts": "8c55008933f5ef1c5166c0da5033d10d3e8caf6e96c4de15619e38492a892c73",
+        "utils/secondsToFrames.ts": "7144d4ae8ca088b471204fe28dd6bdc70403c8d14a275726c858e3e56ac5a60d",
+        "utils/useWordTiming.ts": "50a0170d5db59322aff503568f3523feb90d8e9c690295c30bf24d021f85f999",
+        "themes/poppin.tsx": "858fd654c4e28c31b9ec9739df3c97d7febea079ae300110a869710d89d63eff",
+        "themes/hustle.tsx": "e3199181a80046d65c7a9b35c7769e08341e5aa7f11bf4061ec704092666b0a9",
+        "themes/simple-one-word.tsx": "a9e1be1a4c3ca816d56727f1d0b2bdea34349e350084973c911f37a14950b0b7",
+        "themes/podcast.tsx": "3ab2234ba65b91af2f4c1d937e1ad98f2d0eab9be92f4e3f6293f5c34bc84096",
+        "themes/soft-ai.tsx": "87a9fb1ac98edf2df0b610839235a33c80c362e810f5f84c69f9329e1045b9d0",
+        "themes/grape.tsx": "ccb1d9d53f58abf571da9cbd38e2b5f822f714a0c876f92eaeeec2b418c06510",
+        "themes/gaming-stream.tsx": "186e55c802ecdab7fc505f46cee2cf29dbba9c6c9ee4c3cf143ff383bd1edbe7",
+        "themes/kinetic-01.tsx": "9aa7c8973cc555b27b6b88e1182ed0d9d273d46d86556ee91115d7114655c6bf",
+        "themes/kinetic-02.tsx": "19f6ec2d529f006f4b2f829a62f40695a6d27fe06ed5c34ebaf747589e72297a",
+        "themes/pop.tsx": "3593fbeb5a5271afab590f39779017de38ce314333e14219436cebccf63ad90b",
+        "themes/karaoke.tsx": "0bfc7fb8a166e6c2bf4badfc7a391bced746b82dbc480eee001bb56ea8d28d56",
+        "themes/aarit.tsx": "f64b88131a53a7924e52a9bdf1d665dec16f8190d85a3b828b772bd381f5d25d",
+        "themes/beast.tsx": "ee502b7a0cebc8011d2d2dc0ce1accf7703e3c9177d01f39e3e35a356c4f82a3"
+      }
+    },
+    "videoProvenance": {
+      "kind": "locally-rendered-original-react",
+      "renderer": "tools/community-render",
+      "fps": 24
+    },
+    "previewNote": "使用原始 React 组件在 Remotion Player 中逐帧渲染，示例文字和时间由本库提供。按作者字体栈使用本机可用字体；未转换为 HyperFrames。"
+  },
+  {
+    "id": "themes-karaoke",
+    "title": "流动高亮字幕",
+    "en": "karaoke",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · vshukla7",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "流动高亮字幕。使用原始 React 组件与逐词时间轴渲染，展示朗读时的文字变化。",
+    "use": "口播字幕 · 逐词强调",
+    "tags": "字幕 karaoke 流动高亮字幕 vshukla7/remotion-captions-themes",
+    "duration": 4,
+    "poster": "assets/community/remotion-captions-themes/previews/karaoke/poster.jpg",
+    "videoPreview": "assets/community/remotion-captions-themes/previews/karaoke/preview.mp4",
+    "previewLabel": "源码实渲",
+    "page": "https://github.com/vshukla7/remotion-captions-themes#readme",
+    "source": "https://github.com/vshukla7/remotion-captions-themes/blob/c2cfe29cb732bf01aac2a92b84f58fda28fc182e/src/themes/karaoke.tsx",
+    "install": "npm install remotion-captions-themes\nimport { CaptionTheme } from \"remotion-captions-themes\"; 使用 theme=\"karaoke\"，传入 data.lines[].words（text/start/end，时间单位秒）。",
+    "sources": [
+      {
+        "path": "assets/community/remotion-captions-themes/src/themes/karaoke.tsx"
+      }
+    ],
+    "renderProps": {
+      "library": "themes",
+      "variant": "karaoke"
+    },
+    "provenance": {
+      "commit": "c2cfe29cb732bf01aac2a92b84f58fda28fc182e",
+      "license": "MIT",
+      "files": {
+        "CaptionTheme.tsx": "ee010645a3fdcae505cfe50968b30b614147becc70be12b54d94090834a06abf",
+        "types.ts": "33ca01fafb41a33d69e9570a4e2380424ee16b4b81e5c3743641a3ffee3c6dc3",
+        "registry.ts": "d877012f244a1ca3ca7fea2ce0ae36cb5948bdf86bd3510248e5cf80da6ded80",
+        "index.ts": "e4d3aaf87dc977ee210dc5a2179dd7f2684d679ed02f6387ca6df3e9a6d56274",
+        "layout/anchors.ts": "688545e79ee589c370c678bee9264c04837b78547b454e91590a765090619fe2",
+        "layout/types.ts": "289086a4b115f40c96a4355d449ac45a11df02519ae93885e2825e807b645348",
+        "layout/layoutEngine.ts": "9638a8109b31223daf6e7851f3440613af1619aa52edd1bc66e153fcccf01251",
+        "layout/collision.ts": "6649193efdec2365d454193de9d5a5afdb601838369c89a856e310c0c575a18b",
+        "layout/relations.ts": "c2ddf2287f0f39d17423119f08a2054e0bb690ec0004033128c12fffeb9202ab",
+        "utils/resolveColors.ts": "8c55008933f5ef1c5166c0da5033d10d3e8caf6e96c4de15619e38492a892c73",
+        "utils/secondsToFrames.ts": "7144d4ae8ca088b471204fe28dd6bdc70403c8d14a275726c858e3e56ac5a60d",
+        "utils/useWordTiming.ts": "50a0170d5db59322aff503568f3523feb90d8e9c690295c30bf24d021f85f999",
+        "themes/poppin.tsx": "858fd654c4e28c31b9ec9739df3c97d7febea079ae300110a869710d89d63eff",
+        "themes/hustle.tsx": "e3199181a80046d65c7a9b35c7769e08341e5aa7f11bf4061ec704092666b0a9",
+        "themes/simple-one-word.tsx": "a9e1be1a4c3ca816d56727f1d0b2bdea34349e350084973c911f37a14950b0b7",
+        "themes/podcast.tsx": "3ab2234ba65b91af2f4c1d937e1ad98f2d0eab9be92f4e3f6293f5c34bc84096",
+        "themes/soft-ai.tsx": "87a9fb1ac98edf2df0b610839235a33c80c362e810f5f84c69f9329e1045b9d0",
+        "themes/grape.tsx": "ccb1d9d53f58abf571da9cbd38e2b5f822f714a0c876f92eaeeec2b418c06510",
+        "themes/gaming-stream.tsx": "186e55c802ecdab7fc505f46cee2cf29dbba9c6c9ee4c3cf143ff383bd1edbe7",
+        "themes/kinetic-01.tsx": "9aa7c8973cc555b27b6b88e1182ed0d9d273d46d86556ee91115d7114655c6bf",
+        "themes/kinetic-02.tsx": "19f6ec2d529f006f4b2f829a62f40695a6d27fe06ed5c34ebaf747589e72297a",
+        "themes/pop.tsx": "3593fbeb5a5271afab590f39779017de38ce314333e14219436cebccf63ad90b",
+        "themes/karaoke.tsx": "0bfc7fb8a166e6c2bf4badfc7a391bced746b82dbc480eee001bb56ea8d28d56",
+        "themes/aarit.tsx": "f64b88131a53a7924e52a9bdf1d665dec16f8190d85a3b828b772bd381f5d25d",
+        "themes/beast.tsx": "ee502b7a0cebc8011d2d2dc0ce1accf7703e3c9177d01f39e3e35a356c4f82a3"
+      }
+    },
+    "videoProvenance": {
+      "kind": "locally-rendered-original-react",
+      "renderer": "tools/community-render",
+      "fps": 24
+    },
+    "previewNote": "使用原始 React 组件在 Remotion Player 中逐帧渲染，示例文字和时间由本库提供。按作者字体栈使用本机可用字体；未转换为 HyperFrames。"
+  },
+  {
+    "id": "themes-kinetic-01",
+    "title": "空间排布字幕 01",
+    "en": "kinetic-01",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · vshukla7",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "空间排布字幕 01。使用原始 React 组件与逐词时间轴渲染，展示朗读时的文字变化。",
+    "use": "口播字幕 · 逐词强调",
+    "tags": "字幕 kinetic-01 空间排布字幕 01 vshukla7/remotion-captions-themes",
+    "duration": 4,
+    "poster": "assets/community/remotion-captions-themes/previews/kinetic-01/poster.jpg",
+    "videoPreview": "assets/community/remotion-captions-themes/previews/kinetic-01/preview.mp4",
+    "previewLabel": "源码实渲",
+    "page": "https://github.com/vshukla7/remotion-captions-themes#readme",
+    "source": "https://github.com/vshukla7/remotion-captions-themes/blob/c2cfe29cb732bf01aac2a92b84f58fda28fc182e/src/themes/kinetic-01.tsx",
+    "install": "npm install remotion-captions-themes\nimport { CaptionTheme } from \"remotion-captions-themes\"; 使用 theme=\"kinetic-01\"，传入 data.lines[].words（text/start/end，时间单位秒）。",
+    "sources": [
+      {
+        "path": "assets/community/remotion-captions-themes/src/themes/kinetic-01.tsx"
+      }
+    ],
+    "renderProps": {
+      "library": "themes",
+      "variant": "kinetic-01"
+    },
+    "provenance": {
+      "commit": "c2cfe29cb732bf01aac2a92b84f58fda28fc182e",
+      "license": "MIT",
+      "files": {
+        "CaptionTheme.tsx": "ee010645a3fdcae505cfe50968b30b614147becc70be12b54d94090834a06abf",
+        "types.ts": "33ca01fafb41a33d69e9570a4e2380424ee16b4b81e5c3743641a3ffee3c6dc3",
+        "registry.ts": "d877012f244a1ca3ca7fea2ce0ae36cb5948bdf86bd3510248e5cf80da6ded80",
+        "index.ts": "e4d3aaf87dc977ee210dc5a2179dd7f2684d679ed02f6387ca6df3e9a6d56274",
+        "layout/anchors.ts": "688545e79ee589c370c678bee9264c04837b78547b454e91590a765090619fe2",
+        "layout/types.ts": "289086a4b115f40c96a4355d449ac45a11df02519ae93885e2825e807b645348",
+        "layout/layoutEngine.ts": "9638a8109b31223daf6e7851f3440613af1619aa52edd1bc66e153fcccf01251",
+        "layout/collision.ts": "6649193efdec2365d454193de9d5a5afdb601838369c89a856e310c0c575a18b",
+        "layout/relations.ts": "c2ddf2287f0f39d17423119f08a2054e0bb690ec0004033128c12fffeb9202ab",
+        "utils/resolveColors.ts": "8c55008933f5ef1c5166c0da5033d10d3e8caf6e96c4de15619e38492a892c73",
+        "utils/secondsToFrames.ts": "7144d4ae8ca088b471204fe28dd6bdc70403c8d14a275726c858e3e56ac5a60d",
+        "utils/useWordTiming.ts": "50a0170d5db59322aff503568f3523feb90d8e9c690295c30bf24d021f85f999",
+        "themes/poppin.tsx": "858fd654c4e28c31b9ec9739df3c97d7febea079ae300110a869710d89d63eff",
+        "themes/hustle.tsx": "e3199181a80046d65c7a9b35c7769e08341e5aa7f11bf4061ec704092666b0a9",
+        "themes/simple-one-word.tsx": "a9e1be1a4c3ca816d56727f1d0b2bdea34349e350084973c911f37a14950b0b7",
+        "themes/podcast.tsx": "3ab2234ba65b91af2f4c1d937e1ad98f2d0eab9be92f4e3f6293f5c34bc84096",
+        "themes/soft-ai.tsx": "87a9fb1ac98edf2df0b610839235a33c80c362e810f5f84c69f9329e1045b9d0",
+        "themes/grape.tsx": "ccb1d9d53f58abf571da9cbd38e2b5f822f714a0c876f92eaeeec2b418c06510",
+        "themes/gaming-stream.tsx": "186e55c802ecdab7fc505f46cee2cf29dbba9c6c9ee4c3cf143ff383bd1edbe7",
+        "themes/kinetic-01.tsx": "9aa7c8973cc555b27b6b88e1182ed0d9d273d46d86556ee91115d7114655c6bf",
+        "themes/kinetic-02.tsx": "19f6ec2d529f006f4b2f829a62f40695a6d27fe06ed5c34ebaf747589e72297a",
+        "themes/pop.tsx": "3593fbeb5a5271afab590f39779017de38ce314333e14219436cebccf63ad90b",
+        "themes/karaoke.tsx": "0bfc7fb8a166e6c2bf4badfc7a391bced746b82dbc480eee001bb56ea8d28d56",
+        "themes/aarit.tsx": "f64b88131a53a7924e52a9bdf1d665dec16f8190d85a3b828b772bd381f5d25d",
+        "themes/beast.tsx": "ee502b7a0cebc8011d2d2dc0ce1accf7703e3c9177d01f39e3e35a356c4f82a3"
+      }
+    },
+    "videoProvenance": {
+      "kind": "locally-rendered-original-react",
+      "renderer": "tools/community-render",
+      "fps": 24
+    },
+    "previewNote": "使用原始 React 组件在 Remotion Player 中逐帧渲染，示例文字和时间由本库提供。按作者字体栈使用本机可用字体；未转换为 HyperFrames。"
+  },
+  {
+    "id": "themes-kinetic-02",
+    "title": "空间排布字幕 02",
+    "en": "kinetic-02",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · vshukla7",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "空间排布字幕 02。使用原始 React 组件与逐词时间轴渲染，展示朗读时的文字变化。",
+    "use": "口播字幕 · 逐词强调",
+    "tags": "字幕 kinetic-02 空间排布字幕 02 vshukla7/remotion-captions-themes",
+    "duration": 4,
+    "poster": "assets/community/remotion-captions-themes/previews/kinetic-02/poster.jpg",
+    "videoPreview": "assets/community/remotion-captions-themes/previews/kinetic-02/preview.mp4",
+    "previewLabel": "源码实渲",
+    "page": "https://github.com/vshukla7/remotion-captions-themes#readme",
+    "source": "https://github.com/vshukla7/remotion-captions-themes/blob/c2cfe29cb732bf01aac2a92b84f58fda28fc182e/src/themes/kinetic-02.tsx",
+    "install": "npm install remotion-captions-themes\nimport { CaptionTheme } from \"remotion-captions-themes\"; 使用 theme=\"kinetic-02\"，传入 data.lines[].words（text/start/end，时间单位秒）。",
+    "sources": [
+      {
+        "path": "assets/community/remotion-captions-themes/src/themes/kinetic-02.tsx"
+      }
+    ],
+    "renderProps": {
+      "library": "themes",
+      "variant": "kinetic-02"
+    },
+    "provenance": {
+      "commit": "c2cfe29cb732bf01aac2a92b84f58fda28fc182e",
+      "license": "MIT",
+      "files": {
+        "CaptionTheme.tsx": "ee010645a3fdcae505cfe50968b30b614147becc70be12b54d94090834a06abf",
+        "types.ts": "33ca01fafb41a33d69e9570a4e2380424ee16b4b81e5c3743641a3ffee3c6dc3",
+        "registry.ts": "d877012f244a1ca3ca7fea2ce0ae36cb5948bdf86bd3510248e5cf80da6ded80",
+        "index.ts": "e4d3aaf87dc977ee210dc5a2179dd7f2684d679ed02f6387ca6df3e9a6d56274",
+        "layout/anchors.ts": "688545e79ee589c370c678bee9264c04837b78547b454e91590a765090619fe2",
+        "layout/types.ts": "289086a4b115f40c96a4355d449ac45a11df02519ae93885e2825e807b645348",
+        "layout/layoutEngine.ts": "9638a8109b31223daf6e7851f3440613af1619aa52edd1bc66e153fcccf01251",
+        "layout/collision.ts": "6649193efdec2365d454193de9d5a5afdb601838369c89a856e310c0c575a18b",
+        "layout/relations.ts": "c2ddf2287f0f39d17423119f08a2054e0bb690ec0004033128c12fffeb9202ab",
+        "utils/resolveColors.ts": "8c55008933f5ef1c5166c0da5033d10d3e8caf6e96c4de15619e38492a892c73",
+        "utils/secondsToFrames.ts": "7144d4ae8ca088b471204fe28dd6bdc70403c8d14a275726c858e3e56ac5a60d",
+        "utils/useWordTiming.ts": "50a0170d5db59322aff503568f3523feb90d8e9c690295c30bf24d021f85f999",
+        "themes/poppin.tsx": "858fd654c4e28c31b9ec9739df3c97d7febea079ae300110a869710d89d63eff",
+        "themes/hustle.tsx": "e3199181a80046d65c7a9b35c7769e08341e5aa7f11bf4061ec704092666b0a9",
+        "themes/simple-one-word.tsx": "a9e1be1a4c3ca816d56727f1d0b2bdea34349e350084973c911f37a14950b0b7",
+        "themes/podcast.tsx": "3ab2234ba65b91af2f4c1d937e1ad98f2d0eab9be92f4e3f6293f5c34bc84096",
+        "themes/soft-ai.tsx": "87a9fb1ac98edf2df0b610839235a33c80c362e810f5f84c69f9329e1045b9d0",
+        "themes/grape.tsx": "ccb1d9d53f58abf571da9cbd38e2b5f822f714a0c876f92eaeeec2b418c06510",
+        "themes/gaming-stream.tsx": "186e55c802ecdab7fc505f46cee2cf29dbba9c6c9ee4c3cf143ff383bd1edbe7",
+        "themes/kinetic-01.tsx": "9aa7c8973cc555b27b6b88e1182ed0d9d273d46d86556ee91115d7114655c6bf",
+        "themes/kinetic-02.tsx": "19f6ec2d529f006f4b2f829a62f40695a6d27fe06ed5c34ebaf747589e72297a",
+        "themes/pop.tsx": "3593fbeb5a5271afab590f39779017de38ce314333e14219436cebccf63ad90b",
+        "themes/karaoke.tsx": "0bfc7fb8a166e6c2bf4badfc7a391bced746b82dbc480eee001bb56ea8d28d56",
+        "themes/aarit.tsx": "f64b88131a53a7924e52a9bdf1d665dec16f8190d85a3b828b772bd381f5d25d",
+        "themes/beast.tsx": "ee502b7a0cebc8011d2d2dc0ce1accf7703e3c9177d01f39e3e35a356c4f82a3"
+      }
+    },
+    "videoProvenance": {
+      "kind": "locally-rendered-original-react",
+      "renderer": "tools/community-render",
+      "fps": 24
+    },
+    "previewNote": "使用原始 React 组件在 Remotion Player 中逐帧渲染，示例文字和时间由本库提供。按作者字体栈使用本机可用字体；未转换为 HyperFrames。"
+  },
+  {
+    "id": "themes-hustle",
+    "title": "节奏冲击字幕",
+    "en": "hustle",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · vshukla7",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "节奏冲击字幕。使用原始 React 组件与逐词时间轴渲染，展示朗读时的文字变化。",
+    "use": "口播字幕 · 逐词强调",
+    "tags": "字幕 hustle 节奏冲击字幕 vshukla7/remotion-captions-themes",
+    "duration": 4,
+    "poster": "assets/community/remotion-captions-themes/previews/hustle/poster.jpg",
+    "videoPreview": "assets/community/remotion-captions-themes/previews/hustle/preview.mp4",
+    "previewLabel": "源码实渲",
+    "page": "https://github.com/vshukla7/remotion-captions-themes#readme",
+    "source": "https://github.com/vshukla7/remotion-captions-themes/blob/c2cfe29cb732bf01aac2a92b84f58fda28fc182e/src/themes/hustle.tsx",
+    "install": "npm install remotion-captions-themes\nimport { CaptionTheme } from \"remotion-captions-themes\"; 使用 theme=\"hustle\"，传入 data.lines[].words（text/start/end，时间单位秒）。",
+    "sources": [
+      {
+        "path": "assets/community/remotion-captions-themes/src/themes/hustle.tsx"
+      }
+    ],
+    "renderProps": {
+      "library": "themes",
+      "variant": "hustle"
+    },
+    "provenance": {
+      "commit": "c2cfe29cb732bf01aac2a92b84f58fda28fc182e",
+      "license": "MIT",
+      "files": {
+        "CaptionTheme.tsx": "ee010645a3fdcae505cfe50968b30b614147becc70be12b54d94090834a06abf",
+        "types.ts": "33ca01fafb41a33d69e9570a4e2380424ee16b4b81e5c3743641a3ffee3c6dc3",
+        "registry.ts": "d877012f244a1ca3ca7fea2ce0ae36cb5948bdf86bd3510248e5cf80da6ded80",
+        "index.ts": "e4d3aaf87dc977ee210dc5a2179dd7f2684d679ed02f6387ca6df3e9a6d56274",
+        "layout/anchors.ts": "688545e79ee589c370c678bee9264c04837b78547b454e91590a765090619fe2",
+        "layout/types.ts": "289086a4b115f40c96a4355d449ac45a11df02519ae93885e2825e807b645348",
+        "layout/layoutEngine.ts": "9638a8109b31223daf6e7851f3440613af1619aa52edd1bc66e153fcccf01251",
+        "layout/collision.ts": "6649193efdec2365d454193de9d5a5afdb601838369c89a856e310c0c575a18b",
+        "layout/relations.ts": "c2ddf2287f0f39d17423119f08a2054e0bb690ec0004033128c12fffeb9202ab",
+        "utils/resolveColors.ts": "8c55008933f5ef1c5166c0da5033d10d3e8caf6e96c4de15619e38492a892c73",
+        "utils/secondsToFrames.ts": "7144d4ae8ca088b471204fe28dd6bdc70403c8d14a275726c858e3e56ac5a60d",
+        "utils/useWordTiming.ts": "50a0170d5db59322aff503568f3523feb90d8e9c690295c30bf24d021f85f999",
+        "themes/poppin.tsx": "858fd654c4e28c31b9ec9739df3c97d7febea079ae300110a869710d89d63eff",
+        "themes/hustle.tsx": "e3199181a80046d65c7a9b35c7769e08341e5aa7f11bf4061ec704092666b0a9",
+        "themes/simple-one-word.tsx": "a9e1be1a4c3ca816d56727f1d0b2bdea34349e350084973c911f37a14950b0b7",
+        "themes/podcast.tsx": "3ab2234ba65b91af2f4c1d937e1ad98f2d0eab9be92f4e3f6293f5c34bc84096",
+        "themes/soft-ai.tsx": "87a9fb1ac98edf2df0b610839235a33c80c362e810f5f84c69f9329e1045b9d0",
+        "themes/grape.tsx": "ccb1d9d53f58abf571da9cbd38e2b5f822f714a0c876f92eaeeec2b418c06510",
+        "themes/gaming-stream.tsx": "186e55c802ecdab7fc505f46cee2cf29dbba9c6c9ee4c3cf143ff383bd1edbe7",
+        "themes/kinetic-01.tsx": "9aa7c8973cc555b27b6b88e1182ed0d9d273d46d86556ee91115d7114655c6bf",
+        "themes/kinetic-02.tsx": "19f6ec2d529f006f4b2f829a62f40695a6d27fe06ed5c34ebaf747589e72297a",
+        "themes/pop.tsx": "3593fbeb5a5271afab590f39779017de38ce314333e14219436cebccf63ad90b",
+        "themes/karaoke.tsx": "0bfc7fb8a166e6c2bf4badfc7a391bced746b82dbc480eee001bb56ea8d28d56",
+        "themes/aarit.tsx": "f64b88131a53a7924e52a9bdf1d665dec16f8190d85a3b828b772bd381f5d25d",
+        "themes/beast.tsx": "ee502b7a0cebc8011d2d2dc0ce1accf7703e3c9177d01f39e3e35a356c4f82a3"
+      }
+    },
+    "videoProvenance": {
+      "kind": "locally-rendered-original-react",
+      "renderer": "tools/community-render",
+      "fps": 24
+    },
+    "previewNote": "使用原始 React 组件在 Remotion Player 中逐帧渲染，示例文字和时间由本库提供。按作者字体栈使用本机可用字体；未转换为 HyperFrames。"
+  },
+  {
+    "id": "themes-grape",
+    "title": "圆角色块字幕",
+    "en": "grape",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · vshukla7",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "圆角色块字幕。使用原始 React 组件与逐词时间轴渲染，展示朗读时的文字变化。",
+    "use": "口播字幕 · 逐词强调",
+    "tags": "字幕 grape 圆角色块字幕 vshukla7/remotion-captions-themes",
+    "duration": 4,
+    "poster": "assets/community/remotion-captions-themes/previews/grape/poster.jpg",
+    "videoPreview": "assets/community/remotion-captions-themes/previews/grape/preview.mp4",
+    "previewLabel": "源码实渲",
+    "page": "https://github.com/vshukla7/remotion-captions-themes#readme",
+    "source": "https://github.com/vshukla7/remotion-captions-themes/blob/c2cfe29cb732bf01aac2a92b84f58fda28fc182e/src/themes/grape.tsx",
+    "install": "npm install remotion-captions-themes\nimport { CaptionTheme } from \"remotion-captions-themes\"; 使用 theme=\"grape\"，传入 data.lines[].words（text/start/end，时间单位秒）。",
+    "sources": [
+      {
+        "path": "assets/community/remotion-captions-themes/src/themes/grape.tsx"
+      }
+    ],
+    "renderProps": {
+      "library": "themes",
+      "variant": "grape"
+    },
+    "provenance": {
+      "commit": "c2cfe29cb732bf01aac2a92b84f58fda28fc182e",
+      "license": "MIT",
+      "files": {
+        "CaptionTheme.tsx": "ee010645a3fdcae505cfe50968b30b614147becc70be12b54d94090834a06abf",
+        "types.ts": "33ca01fafb41a33d69e9570a4e2380424ee16b4b81e5c3743641a3ffee3c6dc3",
+        "registry.ts": "d877012f244a1ca3ca7fea2ce0ae36cb5948bdf86bd3510248e5cf80da6ded80",
+        "index.ts": "e4d3aaf87dc977ee210dc5a2179dd7f2684d679ed02f6387ca6df3e9a6d56274",
+        "layout/anchors.ts": "688545e79ee589c370c678bee9264c04837b78547b454e91590a765090619fe2",
+        "layout/types.ts": "289086a4b115f40c96a4355d449ac45a11df02519ae93885e2825e807b645348",
+        "layout/layoutEngine.ts": "9638a8109b31223daf6e7851f3440613af1619aa52edd1bc66e153fcccf01251",
+        "layout/collision.ts": "6649193efdec2365d454193de9d5a5afdb601838369c89a856e310c0c575a18b",
+        "layout/relations.ts": "c2ddf2287f0f39d17423119f08a2054e0bb690ec0004033128c12fffeb9202ab",
+        "utils/resolveColors.ts": "8c55008933f5ef1c5166c0da5033d10d3e8caf6e96c4de15619e38492a892c73",
+        "utils/secondsToFrames.ts": "7144d4ae8ca088b471204fe28dd6bdc70403c8d14a275726c858e3e56ac5a60d",
+        "utils/useWordTiming.ts": "50a0170d5db59322aff503568f3523feb90d8e9c690295c30bf24d021f85f999",
+        "themes/poppin.tsx": "858fd654c4e28c31b9ec9739df3c97d7febea079ae300110a869710d89d63eff",
+        "themes/hustle.tsx": "e3199181a80046d65c7a9b35c7769e08341e5aa7f11bf4061ec704092666b0a9",
+        "themes/simple-one-word.tsx": "a9e1be1a4c3ca816d56727f1d0b2bdea34349e350084973c911f37a14950b0b7",
+        "themes/podcast.tsx": "3ab2234ba65b91af2f4c1d937e1ad98f2d0eab9be92f4e3f6293f5c34bc84096",
+        "themes/soft-ai.tsx": "87a9fb1ac98edf2df0b610839235a33c80c362e810f5f84c69f9329e1045b9d0",
+        "themes/grape.tsx": "ccb1d9d53f58abf571da9cbd38e2b5f822f714a0c876f92eaeeec2b418c06510",
+        "themes/gaming-stream.tsx": "186e55c802ecdab7fc505f46cee2cf29dbba9c6c9ee4c3cf143ff383bd1edbe7",
+        "themes/kinetic-01.tsx": "9aa7c8973cc555b27b6b88e1182ed0d9d273d46d86556ee91115d7114655c6bf",
+        "themes/kinetic-02.tsx": "19f6ec2d529f006f4b2f829a62f40695a6d27fe06ed5c34ebaf747589e72297a",
+        "themes/pop.tsx": "3593fbeb5a5271afab590f39779017de38ce314333e14219436cebccf63ad90b",
+        "themes/karaoke.tsx": "0bfc7fb8a166e6c2bf4badfc7a391bced746b82dbc480eee001bb56ea8d28d56",
+        "themes/aarit.tsx": "f64b88131a53a7924e52a9bdf1d665dec16f8190d85a3b828b772bd381f5d25d",
+        "themes/beast.tsx": "ee502b7a0cebc8011d2d2dc0ce1accf7703e3c9177d01f39e3e35a356c4f82a3"
+      }
+    },
+    "videoProvenance": {
+      "kind": "locally-rendered-original-react",
+      "renderer": "tools/community-render",
+      "fps": 24
+    },
+    "previewNote": "使用原始 React 组件在 Remotion Player 中逐帧渲染，示例文字和时间由本库提供。按作者字体栈使用本机可用字体；未转换为 HyperFrames。"
+  },
+  {
+    "id": "themes-beast",
+    "title": "粗体描边字幕",
+    "en": "beast",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · vshukla7",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "粗体描边字幕。使用原始 React 组件与逐词时间轴渲染，展示朗读时的文字变化。",
+    "use": "口播字幕 · 逐词强调",
+    "tags": "字幕 beast 粗体描边字幕 vshukla7/remotion-captions-themes",
+    "duration": 4,
+    "poster": "assets/community/remotion-captions-themes/previews/beast/poster.jpg",
+    "videoPreview": "assets/community/remotion-captions-themes/previews/beast/preview.mp4",
+    "previewLabel": "源码实渲",
+    "page": "https://github.com/vshukla7/remotion-captions-themes#readme",
+    "source": "https://github.com/vshukla7/remotion-captions-themes/blob/c2cfe29cb732bf01aac2a92b84f58fda28fc182e/src/themes/beast.tsx",
+    "install": "npm install remotion-captions-themes\nimport { CaptionTheme } from \"remotion-captions-themes\"; 使用 theme=\"beast\"，传入 data.lines[].words（text/start/end，时间单位秒）。",
+    "sources": [
+      {
+        "path": "assets/community/remotion-captions-themes/src/themes/beast.tsx"
+      }
+    ],
+    "renderProps": {
+      "library": "themes",
+      "variant": "beast"
+    },
+    "provenance": {
+      "commit": "c2cfe29cb732bf01aac2a92b84f58fda28fc182e",
+      "license": "MIT",
+      "files": {
+        "CaptionTheme.tsx": "ee010645a3fdcae505cfe50968b30b614147becc70be12b54d94090834a06abf",
+        "types.ts": "33ca01fafb41a33d69e9570a4e2380424ee16b4b81e5c3743641a3ffee3c6dc3",
+        "registry.ts": "d877012f244a1ca3ca7fea2ce0ae36cb5948bdf86bd3510248e5cf80da6ded80",
+        "index.ts": "e4d3aaf87dc977ee210dc5a2179dd7f2684d679ed02f6387ca6df3e9a6d56274",
+        "layout/anchors.ts": "688545e79ee589c370c678bee9264c04837b78547b454e91590a765090619fe2",
+        "layout/types.ts": "289086a4b115f40c96a4355d449ac45a11df02519ae93885e2825e807b645348",
+        "layout/layoutEngine.ts": "9638a8109b31223daf6e7851f3440613af1619aa52edd1bc66e153fcccf01251",
+        "layout/collision.ts": "6649193efdec2365d454193de9d5a5afdb601838369c89a856e310c0c575a18b",
+        "layout/relations.ts": "c2ddf2287f0f39d17423119f08a2054e0bb690ec0004033128c12fffeb9202ab",
+        "utils/resolveColors.ts": "8c55008933f5ef1c5166c0da5033d10d3e8caf6e96c4de15619e38492a892c73",
+        "utils/secondsToFrames.ts": "7144d4ae8ca088b471204fe28dd6bdc70403c8d14a275726c858e3e56ac5a60d",
+        "utils/useWordTiming.ts": "50a0170d5db59322aff503568f3523feb90d8e9c690295c30bf24d021f85f999",
+        "themes/poppin.tsx": "858fd654c4e28c31b9ec9739df3c97d7febea079ae300110a869710d89d63eff",
+        "themes/hustle.tsx": "e3199181a80046d65c7a9b35c7769e08341e5aa7f11bf4061ec704092666b0a9",
+        "themes/simple-one-word.tsx": "a9e1be1a4c3ca816d56727f1d0b2bdea34349e350084973c911f37a14950b0b7",
+        "themes/podcast.tsx": "3ab2234ba65b91af2f4c1d937e1ad98f2d0eab9be92f4e3f6293f5c34bc84096",
+        "themes/soft-ai.tsx": "87a9fb1ac98edf2df0b610839235a33c80c362e810f5f84c69f9329e1045b9d0",
+        "themes/grape.tsx": "ccb1d9d53f58abf571da9cbd38e2b5f822f714a0c876f92eaeeec2b418c06510",
+        "themes/gaming-stream.tsx": "186e55c802ecdab7fc505f46cee2cf29dbba9c6c9ee4c3cf143ff383bd1edbe7",
+        "themes/kinetic-01.tsx": "9aa7c8973cc555b27b6b88e1182ed0d9d273d46d86556ee91115d7114655c6bf",
+        "themes/kinetic-02.tsx": "19f6ec2d529f006f4b2f829a62f40695a6d27fe06ed5c34ebaf747589e72297a",
+        "themes/pop.tsx": "3593fbeb5a5271afab590f39779017de38ce314333e14219436cebccf63ad90b",
+        "themes/karaoke.tsx": "0bfc7fb8a166e6c2bf4badfc7a391bced746b82dbc480eee001bb56ea8d28d56",
+        "themes/aarit.tsx": "f64b88131a53a7924e52a9bdf1d665dec16f8190d85a3b828b772bd381f5d25d",
+        "themes/beast.tsx": "ee502b7a0cebc8011d2d2dc0ce1accf7703e3c9177d01f39e3e35a356c4f82a3"
+      }
+    },
+    "videoProvenance": {
+      "kind": "locally-rendered-original-react",
+      "renderer": "tools/community-render",
+      "fps": 24
+    },
+    "previewNote": "使用原始 React 组件在 Remotion Player 中逐帧渲染，示例文字和时间由本库提供。按作者字体栈使用本机可用字体；未转换为 HyperFrames。"
+  },
+  {
+    "id": "themes-poppin",
+    "title": "醒目大写字幕",
+    "en": "poppin",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · vshukla7",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "醒目大写字幕。使用原始 React 组件与逐词时间轴渲染，展示朗读时的文字变化。",
+    "use": "口播字幕 · 逐词强调",
+    "tags": "字幕 poppin 醒目大写字幕 vshukla7/remotion-captions-themes",
+    "duration": 4,
+    "poster": "assets/community/remotion-captions-themes/previews/poppin/poster.jpg",
+    "videoPreview": "assets/community/remotion-captions-themes/previews/poppin/preview.mp4",
+    "previewLabel": "源码实渲",
+    "page": "https://github.com/vshukla7/remotion-captions-themes#readme",
+    "source": "https://github.com/vshukla7/remotion-captions-themes/blob/c2cfe29cb732bf01aac2a92b84f58fda28fc182e/src/themes/poppin.tsx",
+    "install": "npm install remotion-captions-themes\nimport { CaptionTheme } from \"remotion-captions-themes\"; 使用 theme=\"poppin\"，传入 data.lines[].words（text/start/end，时间单位秒）。",
+    "sources": [
+      {
+        "path": "assets/community/remotion-captions-themes/src/themes/poppin.tsx"
+      }
+    ],
+    "renderProps": {
+      "library": "themes",
+      "variant": "poppin"
+    },
+    "provenance": {
+      "commit": "c2cfe29cb732bf01aac2a92b84f58fda28fc182e",
+      "license": "MIT",
+      "files": {
+        "CaptionTheme.tsx": "ee010645a3fdcae505cfe50968b30b614147becc70be12b54d94090834a06abf",
+        "types.ts": "33ca01fafb41a33d69e9570a4e2380424ee16b4b81e5c3743641a3ffee3c6dc3",
+        "registry.ts": "d877012f244a1ca3ca7fea2ce0ae36cb5948bdf86bd3510248e5cf80da6ded80",
+        "index.ts": "e4d3aaf87dc977ee210dc5a2179dd7f2684d679ed02f6387ca6df3e9a6d56274",
+        "layout/anchors.ts": "688545e79ee589c370c678bee9264c04837b78547b454e91590a765090619fe2",
+        "layout/types.ts": "289086a4b115f40c96a4355d449ac45a11df02519ae93885e2825e807b645348",
+        "layout/layoutEngine.ts": "9638a8109b31223daf6e7851f3440613af1619aa52edd1bc66e153fcccf01251",
+        "layout/collision.ts": "6649193efdec2365d454193de9d5a5afdb601838369c89a856e310c0c575a18b",
+        "layout/relations.ts": "c2ddf2287f0f39d17423119f08a2054e0bb690ec0004033128c12fffeb9202ab",
+        "utils/resolveColors.ts": "8c55008933f5ef1c5166c0da5033d10d3e8caf6e96c4de15619e38492a892c73",
+        "utils/secondsToFrames.ts": "7144d4ae8ca088b471204fe28dd6bdc70403c8d14a275726c858e3e56ac5a60d",
+        "utils/useWordTiming.ts": "50a0170d5db59322aff503568f3523feb90d8e9c690295c30bf24d021f85f999",
+        "themes/poppin.tsx": "858fd654c4e28c31b9ec9739df3c97d7febea079ae300110a869710d89d63eff",
+        "themes/hustle.tsx": "e3199181a80046d65c7a9b35c7769e08341e5aa7f11bf4061ec704092666b0a9",
+        "themes/simple-one-word.tsx": "a9e1be1a4c3ca816d56727f1d0b2bdea34349e350084973c911f37a14950b0b7",
+        "themes/podcast.tsx": "3ab2234ba65b91af2f4c1d937e1ad98f2d0eab9be92f4e3f6293f5c34bc84096",
+        "themes/soft-ai.tsx": "87a9fb1ac98edf2df0b610839235a33c80c362e810f5f84c69f9329e1045b9d0",
+        "themes/grape.tsx": "ccb1d9d53f58abf571da9cbd38e2b5f822f714a0c876f92eaeeec2b418c06510",
+        "themes/gaming-stream.tsx": "186e55c802ecdab7fc505f46cee2cf29dbba9c6c9ee4c3cf143ff383bd1edbe7",
+        "themes/kinetic-01.tsx": "9aa7c8973cc555b27b6b88e1182ed0d9d273d46d86556ee91115d7114655c6bf",
+        "themes/kinetic-02.tsx": "19f6ec2d529f006f4b2f829a62f40695a6d27fe06ed5c34ebaf747589e72297a",
+        "themes/pop.tsx": "3593fbeb5a5271afab590f39779017de38ce314333e14219436cebccf63ad90b",
+        "themes/karaoke.tsx": "0bfc7fb8a166e6c2bf4badfc7a391bced746b82dbc480eee001bb56ea8d28d56",
+        "themes/aarit.tsx": "f64b88131a53a7924e52a9bdf1d665dec16f8190d85a3b828b772bd381f5d25d",
+        "themes/beast.tsx": "ee502b7a0cebc8011d2d2dc0ce1accf7703e3c9177d01f39e3e35a356c4f82a3"
+      }
+    },
+    "videoProvenance": {
+      "kind": "locally-rendered-original-react",
+      "renderer": "tools/community-render",
+      "fps": 24
+    },
+    "previewNote": "使用原始 React 组件在 Remotion Player 中逐帧渲染，示例文字和时间由本库提供。按作者字体栈使用本机可用字体；未转换为 HyperFrames。"
+  },
+  {
+    "id": "themes-aarit",
+    "title": "渐变逐字字幕",
+    "en": "aarit",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · vshukla7",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "渐变逐字字幕。使用原始 React 组件与逐词时间轴渲染，展示朗读时的文字变化。",
+    "use": "口播字幕 · 逐词强调",
+    "tags": "字幕 aarit 渐变逐字字幕 vshukla7/remotion-captions-themes",
+    "duration": 4,
+    "poster": "assets/community/remotion-captions-themes/previews/aarit/poster.jpg",
+    "videoPreview": "assets/community/remotion-captions-themes/previews/aarit/preview.mp4",
+    "previewLabel": "源码实渲",
+    "page": "https://github.com/vshukla7/remotion-captions-themes#readme",
+    "source": "https://github.com/vshukla7/remotion-captions-themes/blob/c2cfe29cb732bf01aac2a92b84f58fda28fc182e/src/themes/aarit.tsx",
+    "install": "npm install remotion-captions-themes\nimport { CaptionTheme } from \"remotion-captions-themes\"; 使用 theme=\"aarit\"，传入 data.lines[].words（text/start/end，时间单位秒）。",
+    "sources": [
+      {
+        "path": "assets/community/remotion-captions-themes/src/themes/aarit.tsx"
+      }
+    ],
+    "renderProps": {
+      "library": "themes",
+      "variant": "aarit"
+    },
+    "provenance": {
+      "commit": "c2cfe29cb732bf01aac2a92b84f58fda28fc182e",
+      "license": "MIT",
+      "files": {
+        "CaptionTheme.tsx": "ee010645a3fdcae505cfe50968b30b614147becc70be12b54d94090834a06abf",
+        "types.ts": "33ca01fafb41a33d69e9570a4e2380424ee16b4b81e5c3743641a3ffee3c6dc3",
+        "registry.ts": "d877012f244a1ca3ca7fea2ce0ae36cb5948bdf86bd3510248e5cf80da6ded80",
+        "index.ts": "e4d3aaf87dc977ee210dc5a2179dd7f2684d679ed02f6387ca6df3e9a6d56274",
+        "layout/anchors.ts": "688545e79ee589c370c678bee9264c04837b78547b454e91590a765090619fe2",
+        "layout/types.ts": "289086a4b115f40c96a4355d449ac45a11df02519ae93885e2825e807b645348",
+        "layout/layoutEngine.ts": "9638a8109b31223daf6e7851f3440613af1619aa52edd1bc66e153fcccf01251",
+        "layout/collision.ts": "6649193efdec2365d454193de9d5a5afdb601838369c89a856e310c0c575a18b",
+        "layout/relations.ts": "c2ddf2287f0f39d17423119f08a2054e0bb690ec0004033128c12fffeb9202ab",
+        "utils/resolveColors.ts": "8c55008933f5ef1c5166c0da5033d10d3e8caf6e96c4de15619e38492a892c73",
+        "utils/secondsToFrames.ts": "7144d4ae8ca088b471204fe28dd6bdc70403c8d14a275726c858e3e56ac5a60d",
+        "utils/useWordTiming.ts": "50a0170d5db59322aff503568f3523feb90d8e9c690295c30bf24d021f85f999",
+        "themes/poppin.tsx": "858fd654c4e28c31b9ec9739df3c97d7febea079ae300110a869710d89d63eff",
+        "themes/hustle.tsx": "e3199181a80046d65c7a9b35c7769e08341e5aa7f11bf4061ec704092666b0a9",
+        "themes/simple-one-word.tsx": "a9e1be1a4c3ca816d56727f1d0b2bdea34349e350084973c911f37a14950b0b7",
+        "themes/podcast.tsx": "3ab2234ba65b91af2f4c1d937e1ad98f2d0eab9be92f4e3f6293f5c34bc84096",
+        "themes/soft-ai.tsx": "87a9fb1ac98edf2df0b610839235a33c80c362e810f5f84c69f9329e1045b9d0",
+        "themes/grape.tsx": "ccb1d9d53f58abf571da9cbd38e2b5f822f714a0c876f92eaeeec2b418c06510",
+        "themes/gaming-stream.tsx": "186e55c802ecdab7fc505f46cee2cf29dbba9c6c9ee4c3cf143ff383bd1edbe7",
+        "themes/kinetic-01.tsx": "9aa7c8973cc555b27b6b88e1182ed0d9d273d46d86556ee91115d7114655c6bf",
+        "themes/kinetic-02.tsx": "19f6ec2d529f006f4b2f829a62f40695a6d27fe06ed5c34ebaf747589e72297a",
+        "themes/pop.tsx": "3593fbeb5a5271afab590f39779017de38ce314333e14219436cebccf63ad90b",
+        "themes/karaoke.tsx": "0bfc7fb8a166e6c2bf4badfc7a391bced746b82dbc480eee001bb56ea8d28d56",
+        "themes/aarit.tsx": "f64b88131a53a7924e52a9bdf1d665dec16f8190d85a3b828b772bd381f5d25d",
+        "themes/beast.tsx": "ee502b7a0cebc8011d2d2dc0ce1accf7703e3c9177d01f39e3e35a356c4f82a3"
+      }
+    },
+    "videoProvenance": {
+      "kind": "locally-rendered-original-react",
+      "renderer": "tools/community-render",
+      "fps": 24
+    },
+    "previewNote": "使用原始 React 组件在 Remotion Player 中逐帧渲染，示例文字和时间由本库提供。按作者字体栈使用本机可用字体；未转换为 HyperFrames。"
+  },
+  {
+    "id": "themes-soft-ai",
+    "title": "柔焦玻璃字幕",
+    "en": "soft-ai",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · vshukla7",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "柔焦玻璃字幕。使用原始 React 组件与逐词时间轴渲染，展示朗读时的文字变化。",
+    "use": "口播字幕 · 逐词强调",
+    "tags": "字幕 soft-ai 柔焦玻璃字幕 vshukla7/remotion-captions-themes",
+    "duration": 4,
+    "poster": "assets/community/remotion-captions-themes/previews/soft-ai/poster.jpg",
+    "videoPreview": "assets/community/remotion-captions-themes/previews/soft-ai/preview.mp4",
+    "previewLabel": "源码实渲",
+    "page": "https://github.com/vshukla7/remotion-captions-themes#readme",
+    "source": "https://github.com/vshukla7/remotion-captions-themes/blob/c2cfe29cb732bf01aac2a92b84f58fda28fc182e/src/themes/soft-ai.tsx",
+    "install": "npm install remotion-captions-themes\nimport { CaptionTheme } from \"remotion-captions-themes\"; 使用 theme=\"soft-ai\"，传入 data.lines[].words（text/start/end，时间单位秒）。",
+    "sources": [
+      {
+        "path": "assets/community/remotion-captions-themes/src/themes/soft-ai.tsx"
+      }
+    ],
+    "renderProps": {
+      "library": "themes",
+      "variant": "soft-ai"
+    },
+    "provenance": {
+      "commit": "c2cfe29cb732bf01aac2a92b84f58fda28fc182e",
+      "license": "MIT",
+      "files": {
+        "CaptionTheme.tsx": "ee010645a3fdcae505cfe50968b30b614147becc70be12b54d94090834a06abf",
+        "types.ts": "33ca01fafb41a33d69e9570a4e2380424ee16b4b81e5c3743641a3ffee3c6dc3",
+        "registry.ts": "d877012f244a1ca3ca7fea2ce0ae36cb5948bdf86bd3510248e5cf80da6ded80",
+        "index.ts": "e4d3aaf87dc977ee210dc5a2179dd7f2684d679ed02f6387ca6df3e9a6d56274",
+        "layout/anchors.ts": "688545e79ee589c370c678bee9264c04837b78547b454e91590a765090619fe2",
+        "layout/types.ts": "289086a4b115f40c96a4355d449ac45a11df02519ae93885e2825e807b645348",
+        "layout/layoutEngine.ts": "9638a8109b31223daf6e7851f3440613af1619aa52edd1bc66e153fcccf01251",
+        "layout/collision.ts": "6649193efdec2365d454193de9d5a5afdb601838369c89a856e310c0c575a18b",
+        "layout/relations.ts": "c2ddf2287f0f39d17423119f08a2054e0bb690ec0004033128c12fffeb9202ab",
+        "utils/resolveColors.ts": "8c55008933f5ef1c5166c0da5033d10d3e8caf6e96c4de15619e38492a892c73",
+        "utils/secondsToFrames.ts": "7144d4ae8ca088b471204fe28dd6bdc70403c8d14a275726c858e3e56ac5a60d",
+        "utils/useWordTiming.ts": "50a0170d5db59322aff503568f3523feb90d8e9c690295c30bf24d021f85f999",
+        "themes/poppin.tsx": "858fd654c4e28c31b9ec9739df3c97d7febea079ae300110a869710d89d63eff",
+        "themes/hustle.tsx": "e3199181a80046d65c7a9b35c7769e08341e5aa7f11bf4061ec704092666b0a9",
+        "themes/simple-one-word.tsx": "a9e1be1a4c3ca816d56727f1d0b2bdea34349e350084973c911f37a14950b0b7",
+        "themes/podcast.tsx": "3ab2234ba65b91af2f4c1d937e1ad98f2d0eab9be92f4e3f6293f5c34bc84096",
+        "themes/soft-ai.tsx": "87a9fb1ac98edf2df0b610839235a33c80c362e810f5f84c69f9329e1045b9d0",
+        "themes/grape.tsx": "ccb1d9d53f58abf571da9cbd38e2b5f822f714a0c876f92eaeeec2b418c06510",
+        "themes/gaming-stream.tsx": "186e55c802ecdab7fc505f46cee2cf29dbba9c6c9ee4c3cf143ff383bd1edbe7",
+        "themes/kinetic-01.tsx": "9aa7c8973cc555b27b6b88e1182ed0d9d273d46d86556ee91115d7114655c6bf",
+        "themes/kinetic-02.tsx": "19f6ec2d529f006f4b2f829a62f40695a6d27fe06ed5c34ebaf747589e72297a",
+        "themes/pop.tsx": "3593fbeb5a5271afab590f39779017de38ce314333e14219436cebccf63ad90b",
+        "themes/karaoke.tsx": "0bfc7fb8a166e6c2bf4badfc7a391bced746b82dbc480eee001bb56ea8d28d56",
+        "themes/aarit.tsx": "f64b88131a53a7924e52a9bdf1d665dec16f8190d85a3b828b772bd381f5d25d",
+        "themes/beast.tsx": "ee502b7a0cebc8011d2d2dc0ce1accf7703e3c9177d01f39e3e35a356c4f82a3"
+      }
+    },
+    "videoProvenance": {
+      "kind": "locally-rendered-original-react",
+      "renderer": "tools/community-render",
+      "fps": 24
+    },
+    "previewNote": "使用原始 React 组件在 Remotion Player 中逐帧渲染，示例文字和时间由本库提供。按作者字体栈使用本机可用字体；未转换为 HyperFrames。"
+  },
+  {
+    "id": "themes-gaming-stream",
+    "title": "电竞发光字幕",
+    "en": "gaming-stream",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · vshukla7",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "电竞发光字幕。使用原始 React 组件与逐词时间轴渲染，展示朗读时的文字变化。",
+    "use": "口播字幕 · 逐词强调",
+    "tags": "字幕 gaming-stream 电竞发光字幕 vshukla7/remotion-captions-themes",
+    "duration": 4,
+    "poster": "assets/community/remotion-captions-themes/previews/gaming-stream/poster.jpg",
+    "videoPreview": "assets/community/remotion-captions-themes/previews/gaming-stream/preview.mp4",
+    "previewLabel": "源码实渲",
+    "page": "https://github.com/vshukla7/remotion-captions-themes#readme",
+    "source": "https://github.com/vshukla7/remotion-captions-themes/blob/c2cfe29cb732bf01aac2a92b84f58fda28fc182e/src/themes/gaming-stream.tsx",
+    "install": "npm install remotion-captions-themes\nimport { CaptionTheme } from \"remotion-captions-themes\"; 使用 theme=\"gaming-stream\"，传入 data.lines[].words（text/start/end，时间单位秒）。",
+    "sources": [
+      {
+        "path": "assets/community/remotion-captions-themes/src/themes/gaming-stream.tsx"
+      }
+    ],
+    "renderProps": {
+      "library": "themes",
+      "variant": "gaming-stream"
+    },
+    "provenance": {
+      "commit": "c2cfe29cb732bf01aac2a92b84f58fda28fc182e",
+      "license": "MIT",
+      "files": {
+        "CaptionTheme.tsx": "ee010645a3fdcae505cfe50968b30b614147becc70be12b54d94090834a06abf",
+        "types.ts": "33ca01fafb41a33d69e9570a4e2380424ee16b4b81e5c3743641a3ffee3c6dc3",
+        "registry.ts": "d877012f244a1ca3ca7fea2ce0ae36cb5948bdf86bd3510248e5cf80da6ded80",
+        "index.ts": "e4d3aaf87dc977ee210dc5a2179dd7f2684d679ed02f6387ca6df3e9a6d56274",
+        "layout/anchors.ts": "688545e79ee589c370c678bee9264c04837b78547b454e91590a765090619fe2",
+        "layout/types.ts": "289086a4b115f40c96a4355d449ac45a11df02519ae93885e2825e807b645348",
+        "layout/layoutEngine.ts": "9638a8109b31223daf6e7851f3440613af1619aa52edd1bc66e153fcccf01251",
+        "layout/collision.ts": "6649193efdec2365d454193de9d5a5afdb601838369c89a856e310c0c575a18b",
+        "layout/relations.ts": "c2ddf2287f0f39d17423119f08a2054e0bb690ec0004033128c12fffeb9202ab",
+        "utils/resolveColors.ts": "8c55008933f5ef1c5166c0da5033d10d3e8caf6e96c4de15619e38492a892c73",
+        "utils/secondsToFrames.ts": "7144d4ae8ca088b471204fe28dd6bdc70403c8d14a275726c858e3e56ac5a60d",
+        "utils/useWordTiming.ts": "50a0170d5db59322aff503568f3523feb90d8e9c690295c30bf24d021f85f999",
+        "themes/poppin.tsx": "858fd654c4e28c31b9ec9739df3c97d7febea079ae300110a869710d89d63eff",
+        "themes/hustle.tsx": "e3199181a80046d65c7a9b35c7769e08341e5aa7f11bf4061ec704092666b0a9",
+        "themes/simple-one-word.tsx": "a9e1be1a4c3ca816d56727f1d0b2bdea34349e350084973c911f37a14950b0b7",
+        "themes/podcast.tsx": "3ab2234ba65b91af2f4c1d937e1ad98f2d0eab9be92f4e3f6293f5c34bc84096",
+        "themes/soft-ai.tsx": "87a9fb1ac98edf2df0b610839235a33c80c362e810f5f84c69f9329e1045b9d0",
+        "themes/grape.tsx": "ccb1d9d53f58abf571da9cbd38e2b5f822f714a0c876f92eaeeec2b418c06510",
+        "themes/gaming-stream.tsx": "186e55c802ecdab7fc505f46cee2cf29dbba9c6c9ee4c3cf143ff383bd1edbe7",
+        "themes/kinetic-01.tsx": "9aa7c8973cc555b27b6b88e1182ed0d9d273d46d86556ee91115d7114655c6bf",
+        "themes/kinetic-02.tsx": "19f6ec2d529f006f4b2f829a62f40695a6d27fe06ed5c34ebaf747589e72297a",
+        "themes/pop.tsx": "3593fbeb5a5271afab590f39779017de38ce314333e14219436cebccf63ad90b",
+        "themes/karaoke.tsx": "0bfc7fb8a166e6c2bf4badfc7a391bced746b82dbc480eee001bb56ea8d28d56",
+        "themes/aarit.tsx": "f64b88131a53a7924e52a9bdf1d665dec16f8190d85a3b828b772bd381f5d25d",
+        "themes/beast.tsx": "ee502b7a0cebc8011d2d2dc0ce1accf7703e3c9177d01f39e3e35a356c4f82a3"
+      }
+    },
+    "videoProvenance": {
+      "kind": "locally-rendered-original-react",
+      "renderer": "tools/community-render",
+      "fps": 24
+    },
+    "previewNote": "使用原始 React 组件在 Remotion Player 中逐帧渲染，示例文字和时间由本库提供。按作者字体栈使用本机可用字体；未转换为 HyperFrames。"
+  },
+  {
+    "id": "themes-simple-one-word",
+    "title": "单词聚焦字幕",
+    "en": "simple-one-word",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · vshukla7",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "单词聚焦字幕。使用原始 React 组件与逐词时间轴渲染，展示朗读时的文字变化。",
+    "use": "口播字幕 · 逐词强调",
+    "tags": "字幕 simple-one-word 单词聚焦字幕 vshukla7/remotion-captions-themes",
+    "duration": 4,
+    "poster": "assets/community/remotion-captions-themes/previews/simple-one-word/poster.jpg",
+    "videoPreview": "assets/community/remotion-captions-themes/previews/simple-one-word/preview.mp4",
+    "previewLabel": "源码实渲",
+    "page": "https://github.com/vshukla7/remotion-captions-themes#readme",
+    "source": "https://github.com/vshukla7/remotion-captions-themes/blob/c2cfe29cb732bf01aac2a92b84f58fda28fc182e/src/themes/simple-one-word.tsx",
+    "install": "npm install remotion-captions-themes\nimport { CaptionTheme } from \"remotion-captions-themes\"; 使用 theme=\"simple-one-word\"，传入 data.lines[].words（text/start/end，时间单位秒）。",
+    "sources": [
+      {
+        "path": "assets/community/remotion-captions-themes/src/themes/simple-one-word.tsx"
+      }
+    ],
+    "renderProps": {
+      "library": "themes",
+      "variant": "simple-one-word"
+    },
+    "provenance": {
+      "commit": "c2cfe29cb732bf01aac2a92b84f58fda28fc182e",
+      "license": "MIT",
+      "files": {
+        "CaptionTheme.tsx": "ee010645a3fdcae505cfe50968b30b614147becc70be12b54d94090834a06abf",
+        "types.ts": "33ca01fafb41a33d69e9570a4e2380424ee16b4b81e5c3743641a3ffee3c6dc3",
+        "registry.ts": "d877012f244a1ca3ca7fea2ce0ae36cb5948bdf86bd3510248e5cf80da6ded80",
+        "index.ts": "e4d3aaf87dc977ee210dc5a2179dd7f2684d679ed02f6387ca6df3e9a6d56274",
+        "layout/anchors.ts": "688545e79ee589c370c678bee9264c04837b78547b454e91590a765090619fe2",
+        "layout/types.ts": "289086a4b115f40c96a4355d449ac45a11df02519ae93885e2825e807b645348",
+        "layout/layoutEngine.ts": "9638a8109b31223daf6e7851f3440613af1619aa52edd1bc66e153fcccf01251",
+        "layout/collision.ts": "6649193efdec2365d454193de9d5a5afdb601838369c89a856e310c0c575a18b",
+        "layout/relations.ts": "c2ddf2287f0f39d17423119f08a2054e0bb690ec0004033128c12fffeb9202ab",
+        "utils/resolveColors.ts": "8c55008933f5ef1c5166c0da5033d10d3e8caf6e96c4de15619e38492a892c73",
+        "utils/secondsToFrames.ts": "7144d4ae8ca088b471204fe28dd6bdc70403c8d14a275726c858e3e56ac5a60d",
+        "utils/useWordTiming.ts": "50a0170d5db59322aff503568f3523feb90d8e9c690295c30bf24d021f85f999",
+        "themes/poppin.tsx": "858fd654c4e28c31b9ec9739df3c97d7febea079ae300110a869710d89d63eff",
+        "themes/hustle.tsx": "e3199181a80046d65c7a9b35c7769e08341e5aa7f11bf4061ec704092666b0a9",
+        "themes/simple-one-word.tsx": "a9e1be1a4c3ca816d56727f1d0b2bdea34349e350084973c911f37a14950b0b7",
+        "themes/podcast.tsx": "3ab2234ba65b91af2f4c1d937e1ad98f2d0eab9be92f4e3f6293f5c34bc84096",
+        "themes/soft-ai.tsx": "87a9fb1ac98edf2df0b610839235a33c80c362e810f5f84c69f9329e1045b9d0",
+        "themes/grape.tsx": "ccb1d9d53f58abf571da9cbd38e2b5f822f714a0c876f92eaeeec2b418c06510",
+        "themes/gaming-stream.tsx": "186e55c802ecdab7fc505f46cee2cf29dbba9c6c9ee4c3cf143ff383bd1edbe7",
+        "themes/kinetic-01.tsx": "9aa7c8973cc555b27b6b88e1182ed0d9d273d46d86556ee91115d7114655c6bf",
+        "themes/kinetic-02.tsx": "19f6ec2d529f006f4b2f829a62f40695a6d27fe06ed5c34ebaf747589e72297a",
+        "themes/pop.tsx": "3593fbeb5a5271afab590f39779017de38ce314333e14219436cebccf63ad90b",
+        "themes/karaoke.tsx": "0bfc7fb8a166e6c2bf4badfc7a391bced746b82dbc480eee001bb56ea8d28d56",
+        "themes/aarit.tsx": "f64b88131a53a7924e52a9bdf1d665dec16f8190d85a3b828b772bd381f5d25d",
+        "themes/beast.tsx": "ee502b7a0cebc8011d2d2dc0ce1accf7703e3c9177d01f39e3e35a356c4f82a3"
+      }
+    },
+    "videoProvenance": {
+      "kind": "locally-rendered-original-react",
+      "renderer": "tools/community-render",
+      "fps": 24
+    },
+    "previewNote": "使用原始 React 组件在 Remotion Player 中逐帧渲染，示例文字和时间由本库提供。按作者字体栈使用本机可用字体；未转换为 HyperFrames。"
+  },
+  {
+    "id": "themes-podcast",
+    "title": "播客强调字幕",
+    "en": "podcast",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · vshukla7",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "播客强调字幕。使用原始 React 组件与逐词时间轴渲染，展示朗读时的文字变化。",
+    "use": "口播字幕 · 逐词强调",
+    "tags": "字幕 podcast 播客强调字幕 vshukla7/remotion-captions-themes",
+    "duration": 4,
+    "poster": "assets/community/remotion-captions-themes/previews/podcast/poster.jpg",
+    "videoPreview": "assets/community/remotion-captions-themes/previews/podcast/preview.mp4",
+    "previewLabel": "源码实渲",
+    "page": "https://github.com/vshukla7/remotion-captions-themes#readme",
+    "source": "https://github.com/vshukla7/remotion-captions-themes/blob/c2cfe29cb732bf01aac2a92b84f58fda28fc182e/src/themes/podcast.tsx",
+    "install": "npm install remotion-captions-themes\nimport { CaptionTheme } from \"remotion-captions-themes\"; 使用 theme=\"podcast\"，传入 data.lines[].words（text/start/end，时间单位秒）。",
+    "sources": [
+      {
+        "path": "assets/community/remotion-captions-themes/src/themes/podcast.tsx"
+      }
+    ],
+    "renderProps": {
+      "library": "themes",
+      "variant": "podcast"
+    },
+    "provenance": {
+      "commit": "c2cfe29cb732bf01aac2a92b84f58fda28fc182e",
+      "license": "MIT",
+      "files": {
+        "CaptionTheme.tsx": "ee010645a3fdcae505cfe50968b30b614147becc70be12b54d94090834a06abf",
+        "types.ts": "33ca01fafb41a33d69e9570a4e2380424ee16b4b81e5c3743641a3ffee3c6dc3",
+        "registry.ts": "d877012f244a1ca3ca7fea2ce0ae36cb5948bdf86bd3510248e5cf80da6ded80",
+        "index.ts": "e4d3aaf87dc977ee210dc5a2179dd7f2684d679ed02f6387ca6df3e9a6d56274",
+        "layout/anchors.ts": "688545e79ee589c370c678bee9264c04837b78547b454e91590a765090619fe2",
+        "layout/types.ts": "289086a4b115f40c96a4355d449ac45a11df02519ae93885e2825e807b645348",
+        "layout/layoutEngine.ts": "9638a8109b31223daf6e7851f3440613af1619aa52edd1bc66e153fcccf01251",
+        "layout/collision.ts": "6649193efdec2365d454193de9d5a5afdb601838369c89a856e310c0c575a18b",
+        "layout/relations.ts": "c2ddf2287f0f39d17423119f08a2054e0bb690ec0004033128c12fffeb9202ab",
+        "utils/resolveColors.ts": "8c55008933f5ef1c5166c0da5033d10d3e8caf6e96c4de15619e38492a892c73",
+        "utils/secondsToFrames.ts": "7144d4ae8ca088b471204fe28dd6bdc70403c8d14a275726c858e3e56ac5a60d",
+        "utils/useWordTiming.ts": "50a0170d5db59322aff503568f3523feb90d8e9c690295c30bf24d021f85f999",
+        "themes/poppin.tsx": "858fd654c4e28c31b9ec9739df3c97d7febea079ae300110a869710d89d63eff",
+        "themes/hustle.tsx": "e3199181a80046d65c7a9b35c7769e08341e5aa7f11bf4061ec704092666b0a9",
+        "themes/simple-one-word.tsx": "a9e1be1a4c3ca816d56727f1d0b2bdea34349e350084973c911f37a14950b0b7",
+        "themes/podcast.tsx": "3ab2234ba65b91af2f4c1d937e1ad98f2d0eab9be92f4e3f6293f5c34bc84096",
+        "themes/soft-ai.tsx": "87a9fb1ac98edf2df0b610839235a33c80c362e810f5f84c69f9329e1045b9d0",
+        "themes/grape.tsx": "ccb1d9d53f58abf571da9cbd38e2b5f822f714a0c876f92eaeeec2b418c06510",
+        "themes/gaming-stream.tsx": "186e55c802ecdab7fc505f46cee2cf29dbba9c6c9ee4c3cf143ff383bd1edbe7",
+        "themes/kinetic-01.tsx": "9aa7c8973cc555b27b6b88e1182ed0d9d273d46d86556ee91115d7114655c6bf",
+        "themes/kinetic-02.tsx": "19f6ec2d529f006f4b2f829a62f40695a6d27fe06ed5c34ebaf747589e72297a",
+        "themes/pop.tsx": "3593fbeb5a5271afab590f39779017de38ce314333e14219436cebccf63ad90b",
+        "themes/karaoke.tsx": "0bfc7fb8a166e6c2bf4badfc7a391bced746b82dbc480eee001bb56ea8d28d56",
+        "themes/aarit.tsx": "f64b88131a53a7924e52a9bdf1d665dec16f8190d85a3b828b772bd381f5d25d",
+        "themes/beast.tsx": "ee502b7a0cebc8011d2d2dc0ce1accf7703e3c9177d01f39e3e35a356c4f82a3"
+      }
+    },
+    "videoProvenance": {
+      "kind": "locally-rendered-original-react",
+      "renderer": "tools/community-render",
+      "fps": 24
+    },
+    "previewNote": "使用原始 React 组件在 Remotion Player 中逐帧渲染，示例文字和时间由本库提供。按作者字体栈使用本机可用字体；未转换为 HyperFrames。"
+  },
+  {
+    "id": "kit-karaoke-fill",
+    "title": "逐词填色",
+    "en": "KaraokeFill",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · Fats403",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "逐词填色。使用原始 React 组件与逐词时间轴渲染，展示朗读时的文字变化。",
+    "use": "口播字幕 · 逐词强调",
+    "tags": "字幕 KaraokeFill 逐词填色 Fats403/remotion-captions-kit",
+    "duration": 4,
+    "poster": "assets/community/remotion-captions-kit/previews/KaraokeFill/poster.jpg",
+    "videoPreview": "assets/community/remotion-captions-kit/previews/KaraokeFill/preview.mp4",
+    "previewLabel": "源码实渲",
+    "page": "https://github.com/Fats403/remotion-captions-kit#readme",
+    "source": "https://github.com/Fats403/remotion-captions-kit/blob/97232270364bd6bba4ca8d11180c350409495e95/src/presets/karaoke-fill.tsx",
+    "install": "npm install remotion-captions-kit\nimport { KaraokeFill, CaptionTrack, captionsFromWords, createCaptionPages } from \"remotion-captions-kit\"; 使用真实逐词时间创建字幕页并渲染 KaraokeFill。",
+    "sources": [
+      {
+        "path": "assets/community/remotion-captions-kit/src/presets/karaoke-fill.tsx"
+      }
+    ],
+    "renderProps": {
+      "library": "kit",
+      "variant": "KaraokeFill"
+    },
+    "provenance": {
+      "commit": "97232270364bd6bba4ca8d11180c350409495e95",
+      "license": "MIT",
+      "files": {
+        "normalize-captions.ts": "be26ec7f62409d8419ffb04b3878b6529c08e553cb49424b77fbdaaf41c0505e",
+        "create-caption-pages.ts": "1695eedf6b55e1dda2bc53a2266fb83555e1e70a158da6a19348fbd0bff61343",
+        "emphasis.ts": "bcafcfe83c8da54a452621209c05fb37be12f91c3189cc0d681bf54f5c36fbee",
+        "ease.ts": "8aa45dc701d29f86c120c05942485f3051ab65293f02218fb52fa8a8d6bc26e0",
+        "types.ts": "2a9836868525a993a8d56ab36adf287043e2ecfab68ffadf210bed6da5391923",
+        "split-captions-into-words.ts": "7cf0b12bc5d15a1686ee7094eed2b865d45a479e6b94e7cfab93f60c26176016",
+        "use-token-states.ts": "bb7cbc28e941dd4ef95d24178e6300be509a1b3c458fc5bb022f021854f7c39d",
+        "sentence-boundaries.ts": "44df2e728b621433a3f5567370b80ff16f5c061fc8e1c605ea7355a37beb8493",
+        "index.ts": "d89e80b3f493880f9a1be0f794339bcb38636f781228ea60debd3c10a5b9731a",
+        "theme.ts": "af1e541760254c35fc52836eb242615c087fe9f54a1739f21ea7ae0393809822",
+        "caption-track.tsx": "a18e7b9cdcbc59e84db7cee43a1be100140637f001c8bf3ab4c58bd11f71a56f",
+        "use-caption-pages.ts": "136c23dd9686ad64c4bcc25c376450da9360dcce015950c20229426f439fb95c",
+        "captions-from-words.ts": "65d6d549a7c4fea450560d57826d9d950163042a761044b94c84591a77fa48bf",
+        "presets/pill-karaoke.tsx": "213895057057ab0fc2e6e0542045476cd74728183a6f5cb818ba698dbff98a89",
+        "presets/neon-glow.tsx": "d2082ff1d7ed3f872009fa031fc3fb1087fbc2314269979faff014324775ee40",
+        "presets/weight-shift.tsx": "09fc8aea635ac0b6317928a7073834ef557e69fdbc1f8425364fbe5bd065e0de",
+        "presets/kinetic-slam.tsx": "2655744bf11fa002c03ab87a0cd8db82b3b4d9c119c77f3f267fbde278890275",
+        "presets/karaoke-fill.tsx": "839c5ee25c3ee283889d2f246f632d5b0762e8429aba6260e4044bdcef939760",
+        "presets/editorial-emphasis.tsx": "d1772c276e42401e9239360a0fa0e689a6b58748ca7e2f9026c57f89391f6b92"
+      }
+    },
+    "videoProvenance": {
+      "kind": "locally-rendered-original-react",
+      "renderer": "tools/community-render",
+      "fps": 24
+    },
+    "previewNote": "使用原始 React 组件在 Remotion Player 中逐帧渲染，示例文字和时间由本库提供。按作者字体栈使用本机可用字体；未转换为 HyperFrames。"
+  },
+  {
+    "id": "kit-kinetic-slam",
+    "title": "重击逐词",
+    "en": "KineticSlam",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · Fats403",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "重击逐词。使用原始 React 组件与逐词时间轴渲染，展示朗读时的文字变化。",
+    "use": "口播字幕 · 逐词强调",
+    "tags": "字幕 KineticSlam 重击逐词 Fats403/remotion-captions-kit",
+    "duration": 4,
+    "poster": "assets/community/remotion-captions-kit/previews/KineticSlam/poster.jpg",
+    "videoPreview": "assets/community/remotion-captions-kit/previews/KineticSlam/preview.mp4",
+    "previewLabel": "源码实渲",
+    "page": "https://github.com/Fats403/remotion-captions-kit#readme",
+    "source": "https://github.com/Fats403/remotion-captions-kit/blob/97232270364bd6bba4ca8d11180c350409495e95/src/presets/kinetic-slam.tsx",
+    "install": "npm install remotion-captions-kit\nimport { KineticSlam, CaptionTrack, captionsFromWords, createCaptionPages } from \"remotion-captions-kit\"; 使用真实逐词时间创建字幕页并渲染 KineticSlam。",
+    "sources": [
+      {
+        "path": "assets/community/remotion-captions-kit/src/presets/kinetic-slam.tsx"
+      }
+    ],
+    "renderProps": {
+      "library": "kit",
+      "variant": "KineticSlam"
+    },
+    "provenance": {
+      "commit": "97232270364bd6bba4ca8d11180c350409495e95",
+      "license": "MIT",
+      "files": {
+        "normalize-captions.ts": "be26ec7f62409d8419ffb04b3878b6529c08e553cb49424b77fbdaaf41c0505e",
+        "create-caption-pages.ts": "1695eedf6b55e1dda2bc53a2266fb83555e1e70a158da6a19348fbd0bff61343",
+        "emphasis.ts": "bcafcfe83c8da54a452621209c05fb37be12f91c3189cc0d681bf54f5c36fbee",
+        "ease.ts": "8aa45dc701d29f86c120c05942485f3051ab65293f02218fb52fa8a8d6bc26e0",
+        "types.ts": "2a9836868525a993a8d56ab36adf287043e2ecfab68ffadf210bed6da5391923",
+        "split-captions-into-words.ts": "7cf0b12bc5d15a1686ee7094eed2b865d45a479e6b94e7cfab93f60c26176016",
+        "use-token-states.ts": "bb7cbc28e941dd4ef95d24178e6300be509a1b3c458fc5bb022f021854f7c39d",
+        "sentence-boundaries.ts": "44df2e728b621433a3f5567370b80ff16f5c061fc8e1c605ea7355a37beb8493",
+        "index.ts": "d89e80b3f493880f9a1be0f794339bcb38636f781228ea60debd3c10a5b9731a",
+        "theme.ts": "af1e541760254c35fc52836eb242615c087fe9f54a1739f21ea7ae0393809822",
+        "caption-track.tsx": "a18e7b9cdcbc59e84db7cee43a1be100140637f001c8bf3ab4c58bd11f71a56f",
+        "use-caption-pages.ts": "136c23dd9686ad64c4bcc25c376450da9360dcce015950c20229426f439fb95c",
+        "captions-from-words.ts": "65d6d549a7c4fea450560d57826d9d950163042a761044b94c84591a77fa48bf",
+        "presets/pill-karaoke.tsx": "213895057057ab0fc2e6e0542045476cd74728183a6f5cb818ba698dbff98a89",
+        "presets/neon-glow.tsx": "d2082ff1d7ed3f872009fa031fc3fb1087fbc2314269979faff014324775ee40",
+        "presets/weight-shift.tsx": "09fc8aea635ac0b6317928a7073834ef557e69fdbc1f8425364fbe5bd065e0de",
+        "presets/kinetic-slam.tsx": "2655744bf11fa002c03ab87a0cd8db82b3b4d9c119c77f3f267fbde278890275",
+        "presets/karaoke-fill.tsx": "839c5ee25c3ee283889d2f246f632d5b0762e8429aba6260e4044bdcef939760",
+        "presets/editorial-emphasis.tsx": "d1772c276e42401e9239360a0fa0e689a6b58748ca7e2f9026c57f89391f6b92"
+      }
+    },
+    "videoProvenance": {
+      "kind": "locally-rendered-original-react",
+      "renderer": "tools/community-render",
+      "fps": 24
+    },
+    "previewNote": "使用原始 React 组件在 Remotion Player 中逐帧渲染，示例文字和时间由本库提供。按作者字体栈使用本机可用字体；未转换为 HyperFrames。"
+  },
+  {
+    "id": "kit-pill-karaoke",
+    "title": "胶囊逐词",
+    "en": "PillKaraoke",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · Fats403",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "胶囊逐词。使用原始 React 组件与逐词时间轴渲染，展示朗读时的文字变化。",
+    "use": "口播字幕 · 逐词强调",
+    "tags": "字幕 PillKaraoke 胶囊逐词 Fats403/remotion-captions-kit",
+    "duration": 4,
+    "poster": "assets/community/remotion-captions-kit/previews/PillKaraoke/poster.jpg",
+    "videoPreview": "assets/community/remotion-captions-kit/previews/PillKaraoke/preview.mp4",
+    "previewLabel": "源码实渲",
+    "page": "https://github.com/Fats403/remotion-captions-kit#readme",
+    "source": "https://github.com/Fats403/remotion-captions-kit/blob/97232270364bd6bba4ca8d11180c350409495e95/src/presets/pill-karaoke.tsx",
+    "install": "npm install remotion-captions-kit\nimport { PillKaraoke, CaptionTrack, captionsFromWords, createCaptionPages } from \"remotion-captions-kit\"; 使用真实逐词时间创建字幕页并渲染 PillKaraoke。",
+    "sources": [
+      {
+        "path": "assets/community/remotion-captions-kit/src/presets/pill-karaoke.tsx"
+      }
+    ],
+    "renderProps": {
+      "library": "kit",
+      "variant": "PillKaraoke"
+    },
+    "provenance": {
+      "commit": "97232270364bd6bba4ca8d11180c350409495e95",
+      "license": "MIT",
+      "files": {
+        "normalize-captions.ts": "be26ec7f62409d8419ffb04b3878b6529c08e553cb49424b77fbdaaf41c0505e",
+        "create-caption-pages.ts": "1695eedf6b55e1dda2bc53a2266fb83555e1e70a158da6a19348fbd0bff61343",
+        "emphasis.ts": "bcafcfe83c8da54a452621209c05fb37be12f91c3189cc0d681bf54f5c36fbee",
+        "ease.ts": "8aa45dc701d29f86c120c05942485f3051ab65293f02218fb52fa8a8d6bc26e0",
+        "types.ts": "2a9836868525a993a8d56ab36adf287043e2ecfab68ffadf210bed6da5391923",
+        "split-captions-into-words.ts": "7cf0b12bc5d15a1686ee7094eed2b865d45a479e6b94e7cfab93f60c26176016",
+        "use-token-states.ts": "bb7cbc28e941dd4ef95d24178e6300be509a1b3c458fc5bb022f021854f7c39d",
+        "sentence-boundaries.ts": "44df2e728b621433a3f5567370b80ff16f5c061fc8e1c605ea7355a37beb8493",
+        "index.ts": "d89e80b3f493880f9a1be0f794339bcb38636f781228ea60debd3c10a5b9731a",
+        "theme.ts": "af1e541760254c35fc52836eb242615c087fe9f54a1739f21ea7ae0393809822",
+        "caption-track.tsx": "a18e7b9cdcbc59e84db7cee43a1be100140637f001c8bf3ab4c58bd11f71a56f",
+        "use-caption-pages.ts": "136c23dd9686ad64c4bcc25c376450da9360dcce015950c20229426f439fb95c",
+        "captions-from-words.ts": "65d6d549a7c4fea450560d57826d9d950163042a761044b94c84591a77fa48bf",
+        "presets/pill-karaoke.tsx": "213895057057ab0fc2e6e0542045476cd74728183a6f5cb818ba698dbff98a89",
+        "presets/neon-glow.tsx": "d2082ff1d7ed3f872009fa031fc3fb1087fbc2314269979faff014324775ee40",
+        "presets/weight-shift.tsx": "09fc8aea635ac0b6317928a7073834ef557e69fdbc1f8425364fbe5bd065e0de",
+        "presets/kinetic-slam.tsx": "2655744bf11fa002c03ab87a0cd8db82b3b4d9c119c77f3f267fbde278890275",
+        "presets/karaoke-fill.tsx": "839c5ee25c3ee283889d2f246f632d5b0762e8429aba6260e4044bdcef939760",
+        "presets/editorial-emphasis.tsx": "d1772c276e42401e9239360a0fa0e689a6b58748ca7e2f9026c57f89391f6b92"
+      }
+    },
+    "videoProvenance": {
+      "kind": "locally-rendered-original-react",
+      "renderer": "tools/community-render",
+      "fps": 24
+    },
+    "previewNote": "使用原始 React 组件在 Remotion Player 中逐帧渲染，示例文字和时间由本库提供。按作者字体栈使用本机可用字体；未转换为 HyperFrames。"
+  },
+  {
+    "id": "kit-weight-shift",
+    "title": "字重聚焦",
+    "en": "WeightShift",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · Fats403",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "字重聚焦。使用原始 React 组件与逐词时间轴渲染，展示朗读时的文字变化。",
+    "use": "口播字幕 · 逐词强调",
+    "tags": "字幕 WeightShift 字重聚焦 Fats403/remotion-captions-kit",
+    "duration": 4,
+    "poster": "assets/community/remotion-captions-kit/previews/WeightShift/poster.jpg",
+    "videoPreview": "assets/community/remotion-captions-kit/previews/WeightShift/preview.mp4",
+    "previewLabel": "源码实渲",
+    "page": "https://github.com/Fats403/remotion-captions-kit#readme",
+    "source": "https://github.com/Fats403/remotion-captions-kit/blob/97232270364bd6bba4ca8d11180c350409495e95/src/presets/weight-shift.tsx",
+    "install": "npm install remotion-captions-kit\nimport { WeightShift, CaptionTrack, captionsFromWords, createCaptionPages } from \"remotion-captions-kit\"; 使用真实逐词时间创建字幕页并渲染 WeightShift。",
+    "sources": [
+      {
+        "path": "assets/community/remotion-captions-kit/src/presets/weight-shift.tsx"
+      }
+    ],
+    "renderProps": {
+      "library": "kit",
+      "variant": "WeightShift"
+    },
+    "provenance": {
+      "commit": "97232270364bd6bba4ca8d11180c350409495e95",
+      "license": "MIT",
+      "files": {
+        "normalize-captions.ts": "be26ec7f62409d8419ffb04b3878b6529c08e553cb49424b77fbdaaf41c0505e",
+        "create-caption-pages.ts": "1695eedf6b55e1dda2bc53a2266fb83555e1e70a158da6a19348fbd0bff61343",
+        "emphasis.ts": "bcafcfe83c8da54a452621209c05fb37be12f91c3189cc0d681bf54f5c36fbee",
+        "ease.ts": "8aa45dc701d29f86c120c05942485f3051ab65293f02218fb52fa8a8d6bc26e0",
+        "types.ts": "2a9836868525a993a8d56ab36adf287043e2ecfab68ffadf210bed6da5391923",
+        "split-captions-into-words.ts": "7cf0b12bc5d15a1686ee7094eed2b865d45a479e6b94e7cfab93f60c26176016",
+        "use-token-states.ts": "bb7cbc28e941dd4ef95d24178e6300be509a1b3c458fc5bb022f021854f7c39d",
+        "sentence-boundaries.ts": "44df2e728b621433a3f5567370b80ff16f5c061fc8e1c605ea7355a37beb8493",
+        "index.ts": "d89e80b3f493880f9a1be0f794339bcb38636f781228ea60debd3c10a5b9731a",
+        "theme.ts": "af1e541760254c35fc52836eb242615c087fe9f54a1739f21ea7ae0393809822",
+        "caption-track.tsx": "a18e7b9cdcbc59e84db7cee43a1be100140637f001c8bf3ab4c58bd11f71a56f",
+        "use-caption-pages.ts": "136c23dd9686ad64c4bcc25c376450da9360dcce015950c20229426f439fb95c",
+        "captions-from-words.ts": "65d6d549a7c4fea450560d57826d9d950163042a761044b94c84591a77fa48bf",
+        "presets/pill-karaoke.tsx": "213895057057ab0fc2e6e0542045476cd74728183a6f5cb818ba698dbff98a89",
+        "presets/neon-glow.tsx": "d2082ff1d7ed3f872009fa031fc3fb1087fbc2314269979faff014324775ee40",
+        "presets/weight-shift.tsx": "09fc8aea635ac0b6317928a7073834ef557e69fdbc1f8425364fbe5bd065e0de",
+        "presets/kinetic-slam.tsx": "2655744bf11fa002c03ab87a0cd8db82b3b4d9c119c77f3f267fbde278890275",
+        "presets/karaoke-fill.tsx": "839c5ee25c3ee283889d2f246f632d5b0762e8429aba6260e4044bdcef939760",
+        "presets/editorial-emphasis.tsx": "d1772c276e42401e9239360a0fa0e689a6b58748ca7e2f9026c57f89391f6b92"
+      }
+    },
+    "videoProvenance": {
+      "kind": "locally-rendered-original-react",
+      "renderer": "tools/community-render",
+      "fps": 24
+    },
+    "previewNote": "使用原始 React 组件在 Remotion Player 中逐帧渲染，示例文字和时间由本库提供。按作者字体栈使用本机可用字体；未转换为 HyperFrames。"
+  },
+  {
+    "id": "kit-neon-glow",
+    "title": "霓虹余辉",
+    "en": "NeonGlow",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · Fats403",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "霓虹余辉。使用原始 React 组件与逐词时间轴渲染，展示朗读时的文字变化。",
+    "use": "口播字幕 · 逐词强调",
+    "tags": "字幕 NeonGlow 霓虹余辉 Fats403/remotion-captions-kit",
+    "duration": 4,
+    "poster": "assets/community/remotion-captions-kit/previews/NeonGlow/poster.jpg",
+    "videoPreview": "assets/community/remotion-captions-kit/previews/NeonGlow/preview.mp4",
+    "previewLabel": "源码实渲",
+    "page": "https://github.com/Fats403/remotion-captions-kit#readme",
+    "source": "https://github.com/Fats403/remotion-captions-kit/blob/97232270364bd6bba4ca8d11180c350409495e95/src/presets/neon-glow.tsx",
+    "install": "npm install remotion-captions-kit\nimport { NeonGlow, CaptionTrack, captionsFromWords, createCaptionPages } from \"remotion-captions-kit\"; 使用真实逐词时间创建字幕页并渲染 NeonGlow。",
+    "sources": [
+      {
+        "path": "assets/community/remotion-captions-kit/src/presets/neon-glow.tsx"
+      }
+    ],
+    "renderProps": {
+      "library": "kit",
+      "variant": "NeonGlow"
+    },
+    "provenance": {
+      "commit": "97232270364bd6bba4ca8d11180c350409495e95",
+      "license": "MIT",
+      "files": {
+        "normalize-captions.ts": "be26ec7f62409d8419ffb04b3878b6529c08e553cb49424b77fbdaaf41c0505e",
+        "create-caption-pages.ts": "1695eedf6b55e1dda2bc53a2266fb83555e1e70a158da6a19348fbd0bff61343",
+        "emphasis.ts": "bcafcfe83c8da54a452621209c05fb37be12f91c3189cc0d681bf54f5c36fbee",
+        "ease.ts": "8aa45dc701d29f86c120c05942485f3051ab65293f02218fb52fa8a8d6bc26e0",
+        "types.ts": "2a9836868525a993a8d56ab36adf287043e2ecfab68ffadf210bed6da5391923",
+        "split-captions-into-words.ts": "7cf0b12bc5d15a1686ee7094eed2b865d45a479e6b94e7cfab93f60c26176016",
+        "use-token-states.ts": "bb7cbc28e941dd4ef95d24178e6300be509a1b3c458fc5bb022f021854f7c39d",
+        "sentence-boundaries.ts": "44df2e728b621433a3f5567370b80ff16f5c061fc8e1c605ea7355a37beb8493",
+        "index.ts": "d89e80b3f493880f9a1be0f794339bcb38636f781228ea60debd3c10a5b9731a",
+        "theme.ts": "af1e541760254c35fc52836eb242615c087fe9f54a1739f21ea7ae0393809822",
+        "caption-track.tsx": "a18e7b9cdcbc59e84db7cee43a1be100140637f001c8bf3ab4c58bd11f71a56f",
+        "use-caption-pages.ts": "136c23dd9686ad64c4bcc25c376450da9360dcce015950c20229426f439fb95c",
+        "captions-from-words.ts": "65d6d549a7c4fea450560d57826d9d950163042a761044b94c84591a77fa48bf",
+        "presets/pill-karaoke.tsx": "213895057057ab0fc2e6e0542045476cd74728183a6f5cb818ba698dbff98a89",
+        "presets/neon-glow.tsx": "d2082ff1d7ed3f872009fa031fc3fb1087fbc2314269979faff014324775ee40",
+        "presets/weight-shift.tsx": "09fc8aea635ac0b6317928a7073834ef557e69fdbc1f8425364fbe5bd065e0de",
+        "presets/kinetic-slam.tsx": "2655744bf11fa002c03ab87a0cd8db82b3b4d9c119c77f3f267fbde278890275",
+        "presets/karaoke-fill.tsx": "839c5ee25c3ee283889d2f246f632d5b0762e8429aba6260e4044bdcef939760",
+        "presets/editorial-emphasis.tsx": "d1772c276e42401e9239360a0fa0e689a6b58748ca7e2f9026c57f89391f6b92"
+      }
+    },
+    "videoProvenance": {
+      "kind": "locally-rendered-original-react",
+      "renderer": "tools/community-render",
+      "fps": 24
+    },
+    "previewNote": "使用原始 React 组件在 Remotion Player 中逐帧渲染，示例文字和时间由本库提供。按作者字体栈使用本机可用字体；未转换为 HyperFrames。"
+  },
+  {
+    "id": "kit-editorial-emphasis",
+    "title": "下划线跟读",
+    "en": "EditorialEmphasis",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · Fats403",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "下划线跟读。使用原始 React 组件与逐词时间轴渲染，展示朗读时的文字变化。",
+    "use": "口播字幕 · 逐词强调",
+    "tags": "字幕 EditorialEmphasis 下划线跟读 Fats403/remotion-captions-kit",
+    "duration": 4,
+    "poster": "assets/community/remotion-captions-kit/previews/EditorialEmphasis/poster.jpg",
+    "videoPreview": "assets/community/remotion-captions-kit/previews/EditorialEmphasis/preview.mp4",
+    "previewLabel": "源码实渲",
+    "page": "https://github.com/Fats403/remotion-captions-kit#readme",
+    "source": "https://github.com/Fats403/remotion-captions-kit/blob/97232270364bd6bba4ca8d11180c350409495e95/src/presets/editorial-emphasis.tsx",
+    "install": "npm install remotion-captions-kit\nimport { EditorialEmphasis, CaptionTrack, captionsFromWords, createCaptionPages } from \"remotion-captions-kit\"; 使用真实逐词时间创建字幕页并渲染 EditorialEmphasis。",
+    "sources": [
+      {
+        "path": "assets/community/remotion-captions-kit/src/presets/editorial-emphasis.tsx"
+      }
+    ],
+    "renderProps": {
+      "library": "kit",
+      "variant": "EditorialEmphasis"
+    },
+    "provenance": {
+      "commit": "97232270364bd6bba4ca8d11180c350409495e95",
+      "license": "MIT",
+      "files": {
+        "normalize-captions.ts": "be26ec7f62409d8419ffb04b3878b6529c08e553cb49424b77fbdaaf41c0505e",
+        "create-caption-pages.ts": "1695eedf6b55e1dda2bc53a2266fb83555e1e70a158da6a19348fbd0bff61343",
+        "emphasis.ts": "bcafcfe83c8da54a452621209c05fb37be12f91c3189cc0d681bf54f5c36fbee",
+        "ease.ts": "8aa45dc701d29f86c120c05942485f3051ab65293f02218fb52fa8a8d6bc26e0",
+        "types.ts": "2a9836868525a993a8d56ab36adf287043e2ecfab68ffadf210bed6da5391923",
+        "split-captions-into-words.ts": "7cf0b12bc5d15a1686ee7094eed2b865d45a479e6b94e7cfab93f60c26176016",
+        "use-token-states.ts": "bb7cbc28e941dd4ef95d24178e6300be509a1b3c458fc5bb022f021854f7c39d",
+        "sentence-boundaries.ts": "44df2e728b621433a3f5567370b80ff16f5c061fc8e1c605ea7355a37beb8493",
+        "index.ts": "d89e80b3f493880f9a1be0f794339bcb38636f781228ea60debd3c10a5b9731a",
+        "theme.ts": "af1e541760254c35fc52836eb242615c087fe9f54a1739f21ea7ae0393809822",
+        "caption-track.tsx": "a18e7b9cdcbc59e84db7cee43a1be100140637f001c8bf3ab4c58bd11f71a56f",
+        "use-caption-pages.ts": "136c23dd9686ad64c4bcc25c376450da9360dcce015950c20229426f439fb95c",
+        "captions-from-words.ts": "65d6d549a7c4fea450560d57826d9d950163042a761044b94c84591a77fa48bf",
+        "presets/pill-karaoke.tsx": "213895057057ab0fc2e6e0542045476cd74728183a6f5cb818ba698dbff98a89",
+        "presets/neon-glow.tsx": "d2082ff1d7ed3f872009fa031fc3fb1087fbc2314269979faff014324775ee40",
+        "presets/weight-shift.tsx": "09fc8aea635ac0b6317928a7073834ef557e69fdbc1f8425364fbe5bd065e0de",
+        "presets/kinetic-slam.tsx": "2655744bf11fa002c03ab87a0cd8db82b3b4d9c119c77f3f267fbde278890275",
+        "presets/karaoke-fill.tsx": "839c5ee25c3ee283889d2f246f632d5b0762e8429aba6260e4044bdcef939760",
+        "presets/editorial-emphasis.tsx": "d1772c276e42401e9239360a0fa0e689a6b58748ca7e2f9026c57f89391f6b92"
+      }
+    },
+    "videoProvenance": {
+      "kind": "locally-rendered-original-react",
+      "renderer": "tools/community-render",
+      "fps": 24
+    },
+    "previewNote": "使用原始 React 组件在 Remotion Player 中逐帧渲染，示例文字和时间由本库提供。按作者字体栈使用本机可用字体；未转换为 HyperFrames。"
+  }
+]

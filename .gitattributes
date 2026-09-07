@@ -1,0 +1,12 @@
+*.gif binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.mp4 binary
+*.woff2 binary
+
+# Preserve upstream source bytes exactly; do not normalize their whitespace.
+assets/community/** -whitespace
+assets/official/** -whitespace
+assets/vendor/** -whitespace
+data/research/** -whitespace

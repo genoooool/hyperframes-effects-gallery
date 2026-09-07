@@ -1,0 +1,22 @@
+{
+  "paramsTypes": {
+    "center": "vec2",
+    "rotations": "float",
+    "scale": "float",
+    "backColor": "vec4"
+  },
+  "defaultParams": {
+    "center": [
+      0.5,
+      0.5
+    ],
+    "rotations": 1,
+    "scale": 8,
+    "backColor": [
+      0.15,
+      0.15,
+      0.15,
+      1
+    ]
+  }
+}

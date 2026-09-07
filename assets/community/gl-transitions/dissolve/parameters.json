@@ -1,0 +1,24 @@
+{
+  "paramsTypes": {
+    "uLineWidth": "float",
+    "uSpreadClr": "vec3",
+    "uHotClr": "vec3",
+    "uPow": "float",
+    "uIntensity": "float"
+  },
+  "defaultParams": {
+    "uLineWidth": 0.1,
+    "uSpreadClr": [
+      1,
+      0,
+      0
+    ],
+    "uHotClr": [
+      0.9,
+      0.9,
+      0.2
+    ],
+    "uPow": 5,
+    "uIntensity": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "transition-pixel-dissolve",
+  "title": "Seeded Pixel Dissolve",
+  "category": "transitions",
+  "tags": [
+    "pixel",
+    "dissolve",
+    "digital"
+  ],
+  "description": "A deterministic randomized tile field resolves Scene B cell by cell with a bright digital grid afterimage.",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 90,
+  "defaultProps": {
+    "variant": "pixel-dissolve",
+    "sceneA": "Analog patterns",
+    "sceneB": "Digital futures",
+    "accentColor": "#24e6a8",
+    "transitionPoint": 0.52
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "paramsTypes": {
+    "center": "vec2",
+    "backColor": "vec3"
+  },
+  "defaultParams": {
+    "center": [
+      0.5,
+      0.5
+    ],
+    "backColor": [
+      0.1,
+      0.1,
+      0.1
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "paramsTypes": {
+    "rectIn": "int",
+    "location": "int"
+  },
+  "defaultParams": {
+    "rectIn": 1,
+    "location": 0
+  }
+}

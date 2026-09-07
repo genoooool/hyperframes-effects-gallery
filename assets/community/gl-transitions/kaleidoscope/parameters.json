@@ -1,0 +1,12 @@
+{
+  "paramsTypes": {
+    "speed": "float",
+    "angle": "float",
+    "power": "float"
+  },
+  "defaultParams": {
+    "speed": 1,
+    "angle": 1,
+    "power": 1.5
+  }
+}

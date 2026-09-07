@@ -1,0 +1,33 @@
+{
+  "id": "accessibility-captions-high-contrast-captions",
+  "title": "High Contrast Captions",
+  "category": "accessibility-production",
+  "tags": [
+    "accessibility",
+    "captions",
+    "high-contrast",
+    "readability"
+  ],
+  "description": "A bold outlined caption treatment with maximum contrast, clear hierarchy, and a language marker for reliable readability.",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 132,
+  "defaultProps": {
+    "variant": "high-contrast-captions",
+    "transcript": "Design should be clear for everyone.",
+    "segments": [],
+    "wordTimings": [],
+    "speaker": "Avery Stone",
+    "speakerRole": "Host",
+    "description": "A presenter speaks clearly to camera.",
+    "signLanguageLabel": "Interpreter",
+    "language": "en",
+    "captionPosition": "bottom",
+    "contrastMode": "yellow",
+    "safeArea": 72,
+    "paletteName": "midnight",
+    "showProgress": true,
+    "showSpeaker": false
+  }
+}

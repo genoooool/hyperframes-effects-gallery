@@ -1,0 +1,15 @@
+{
+  "paramsTypes": {
+    "center": "vec2",
+    "threshold": "float",
+    "fadeEdge": "float"
+  },
+  "defaultParams": {
+    "center": [
+      0.5,
+      0.5
+    ],
+    "threshold": 3,
+    "fadeEdge": 0.1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "paramsTypes": {
+    "scale": "float",
+    "smoothness": "float",
+    "seed": "float"
+  },
+  "defaultParams": {
+    "scale": 4,
+    "smoothness": 0.01,
+    "seed": 12.9898
+  }
+}

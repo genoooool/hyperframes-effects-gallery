@@ -1,0 +1,22 @@
+{
+  "id": "transition-diagonal-slices",
+  "title": "Diagonal Slice Cascade",
+  "category": "transitions",
+  "tags": [
+    "slices",
+    "cascade",
+    "dynamic"
+  ],
+  "description": "Nine angled scene strips arrive in an alternating cascade, finished by a fast specular light streak.",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 84,
+  "defaultProps": {
+    "variant": "diagonal-slices",
+    "sceneA": "Measured momentum",
+    "sceneB": "Cut to clarity",
+    "accentColor": "#00d9ff",
+    "transitionPoint": 0.48
+  }
+}

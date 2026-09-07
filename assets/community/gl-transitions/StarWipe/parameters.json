@@ -1,0 +1,22 @@
+{
+  "paramsTypes": {
+    "border_thickness": "float",
+    "star_rotation": "float",
+    "border_color": "vec4",
+    "star_center": "vec2"
+  },
+  "defaultParams": {
+    "border_thickness": 0.01,
+    "star_rotation": 0.75,
+    "border_color": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_center": [
+      0.5,
+      0.5
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "paramsTypes": {
+    "segments": "int"
+  },
+  "defaultParams": {
+    "segments": 5
+  }
+}

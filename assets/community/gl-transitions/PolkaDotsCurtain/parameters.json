@@ -1,0 +1,13 @@
+{
+  "paramsTypes": {
+    "dots": "float",
+    "center": "vec2"
+  },
+  "defaultParams": {
+    "dots": 20,
+    "center": [
+      0,
+      0
+    ]
+  }
+}

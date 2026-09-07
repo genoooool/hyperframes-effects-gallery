@@ -1,0 +1,182 @@
+[
+  {
+    "id": "transition-horizontal-push",
+    "title": "Horizontal Momentum Push",
+    "category": "transitions",
+    "tags": ["push", "directional", "editorial"],
+    "description": "Two complete scenes travel together across a luminous seam for a crisp, spatial leftward handoff.",
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "durationInFrames": 72,
+    "defaultProps": {
+      "variant": "horizontal-push",
+      "sceneA": "Signals in motion",
+      "sceneB": "A new perspective",
+      "accentColor": "#ff4d8d",
+      "transitionPoint": 0.5
+    }
+  },
+  {
+    "id": "transition-circular-iris",
+    "title": "Circular Iris Portal",
+    "category": "transitions",
+    "tags": ["iris", "circle", "cinematic"],
+    "description": "Scene B blooms from a glowing central iris that expands beyond the frame like a graphic lens aperture.",
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "durationInFrames": 78,
+    "defaultProps": {
+      "variant": "circular-iris",
+      "sceneA": "Inside the system",
+      "sceneB": "Beyond the frame",
+      "accentColor": "#6c5cff",
+      "transitionPoint": 0.5
+    }
+  },
+  {
+    "id": "transition-diagonal-slices",
+    "title": "Diagonal Slice Cascade",
+    "category": "transitions",
+    "tags": ["slices", "cascade", "dynamic"],
+    "description": "Nine angled scene strips arrive in an alternating cascade, finished by a fast specular light streak.",
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "durationInFrames": 84,
+    "defaultProps": {
+      "variant": "diagonal-slices",
+      "sceneA": "Measured momentum",
+      "sceneB": "Cut to clarity",
+      "accentColor": "#00d9ff",
+      "transitionPoint": 0.48
+    }
+  },
+  {
+    "id": "transition-pixel-dissolve",
+    "title": "Seeded Pixel Dissolve",
+    "category": "transitions",
+    "tags": ["pixel", "dissolve", "digital"],
+    "description": "A deterministic randomized tile field resolves Scene B cell by cell with a bright digital grid afterimage.",
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "durationInFrames": 90,
+    "defaultProps": {
+      "variant": "pixel-dissolve",
+      "sceneA": "Analog patterns",
+      "sceneB": "Digital futures",
+      "accentColor": "#24e6a8",
+      "transitionPoint": 0.52
+    }
+  },
+  {
+    "id": "transition-clock-wipe",
+    "title": "Precision Clock Wipe",
+    "category": "transitions",
+    "tags": ["clock", "radial", "precision"],
+    "description": "A conic reveal sweeps clockwise from twelve, tracked by a glowing radial hand and orbiting marker.",
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "durationInFrames": 80,
+    "defaultProps": {
+      "variant": "clock-wipe",
+      "sceneA": "Before the moment",
+      "sceneB": "Right on time",
+      "accentColor": "#ff7a36",
+      "transitionPoint": 0.5
+    }
+  },
+  {
+    "id": "transition-luma-sweep",
+    "title": "Luma Light Sweep",
+    "category": "transitions",
+    "tags": ["luma", "light", "premium"],
+    "description": "A blown-out brightness band scans across the canvas, exposing the brighter second scene in its wake.",
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "durationInFrames": 76,
+    "defaultProps": {
+      "variant": "luma-sweep",
+      "sceneA": "Under the surface",
+      "sceneB": "Into the light",
+      "accentColor": "#f4bf2a",
+      "transitionPoint": 0.46
+    }
+  },
+  {
+    "id": "transition-zoom-through",
+    "title": "Center Zoom Through",
+    "category": "transitions",
+    "tags": ["zoom", "portal", "depth"],
+    "description": "Scene A accelerates past camera while Scene B grows through a centered portal with depth, blur and rim light.",
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "durationInFrames": 82,
+    "defaultProps": {
+      "variant": "zoom-through",
+      "sceneA": "Approaching threshold",
+      "sceneB": "Enter the next state",
+      "accentColor": "#ff3f74",
+      "transitionPoint": 0.5
+    }
+  },
+  {
+    "id": "transition-venetian-blinds",
+    "title": "Venetian Depth Blinds",
+    "category": "transitions",
+    "tags": ["blinds", "3d", "modular"],
+    "description": "Twelve alternating vertical slats rotate in three-dimensional space until Scene B locks into one image.",
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "durationInFrames": 88,
+    "defaultProps": {
+      "variant": "venetian-blinds",
+      "sceneA": "One modular view",
+      "sceneB": "Another dimension",
+      "accentColor": "#8a63ff",
+      "transitionPoint": 0.51
+    }
+  },
+  {
+    "id": "transition-shatter-panels",
+    "title": "Shatter Panel Release",
+    "category": "transitions",
+    "tags": ["shatter", "panels", "impact"],
+    "description": "Triangulated fragments of Scene A break from center and fly outward to uncover the new composition below.",
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "durationInFrames": 96,
+    "defaultProps": {
+      "variant": "shatter-panels",
+      "sceneA": "Break the pattern",
+      "sceneB": "Reveal the outcome",
+      "accentColor": "#ff5151",
+      "transitionPoint": 0.49
+    }
+  },
+  {
+    "id": "transition-liquid-bars",
+    "title": "Liquid Morph Bar Sweep",
+    "category": "transitions",
+    "tags": ["liquid", "bars", "organic"],
+    "description": "Rounded horizontal ribbons surge across in a soft wave, carrying liquid droplets and the complete next scene.",
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "durationInFrames": 92,
+    "defaultProps": {
+      "variant": "liquid-bars",
+      "sceneA": "Structured currents",
+      "sceneB": "Flow into form",
+      "accentColor": "#00bfa6",
+      "transitionPoint": 0.53
+    }
+  }
+]

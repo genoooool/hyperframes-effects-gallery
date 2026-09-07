@@ -1,0 +1,64 @@
+{
+  "id": "accessibility-captions-karaoke-captions",
+  "title": "Karaoke Captions",
+  "category": "accessibility-production",
+  "tags": [
+    "accessibility",
+    "captions",
+    "word-highlight",
+    "kinetic"
+  ],
+  "description": "Word-by-word timing with a high-contrast fill sweep that makes the current spoken word easy to track.",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 132,
+  "defaultProps": {
+    "variant": "karaoke-captions",
+    "transcript": "Make every word easy to follow.",
+    "segments": [],
+    "wordTimings": [
+      {
+        "text": "Make",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "text": "every",
+        "start": 6,
+        "end": 14
+      },
+      {
+        "text": "word",
+        "start": 12,
+        "end": 20
+      },
+      {
+        "text": "easy",
+        "start": 18,
+        "end": 26
+      },
+      {
+        "text": "to",
+        "start": 24,
+        "end": 30
+      },
+      {
+        "text": "follow.",
+        "start": 28,
+        "end": 38
+      }
+    ],
+    "speaker": "Avery Stone",
+    "speakerRole": "Narrator",
+    "description": "A narrator explains the idea one word at a time.",
+    "signLanguageLabel": "Interpreter",
+    "language": "en",
+    "captionPosition": "center",
+    "contrastMode": "dark",
+    "safeArea": 64,
+    "paletteName": "candy",
+    "showProgress": true,
+    "showSpeaker": false
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "paramsTypes": {
+    "edge_thickness": "float",
+    "edge_brightness": "float"
+  },
+  "defaultParams": {
+    "edge_thickness": 0.001,
+    "edge_brightness": 8
+  }
+}

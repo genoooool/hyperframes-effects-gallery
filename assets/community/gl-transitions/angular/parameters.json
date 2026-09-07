@@ -1,0 +1,8 @@
+{
+  "paramsTypes": {
+    "startingAngle": "float"
+  },
+  "defaultParams": {
+    "startingAngle": 90
+  }
+}

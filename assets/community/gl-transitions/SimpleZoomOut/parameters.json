@@ -1,0 +1,10 @@
+{
+  "paramsTypes": {
+    "zoom_quickness": "float",
+    "fade": "bool"
+  },
+  "defaultParams": {
+    "zoom_quickness": 0.8,
+    "fade": true
+  }
+}

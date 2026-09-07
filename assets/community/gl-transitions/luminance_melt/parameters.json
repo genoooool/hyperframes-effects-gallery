@@ -1,0 +1,12 @@
+{
+  "paramsTypes": {
+    "direction": "bool",
+    "l_threshold": "float",
+    "above": "bool"
+  },
+  "defaultParams": {
+    "direction": false,
+    "l_threshold": 0.8,
+    "above": false
+  }
+}

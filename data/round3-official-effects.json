@@ -1,0 +1,130 @@
+[
+  {
+    "id": "hw-underline",
+    "title": "手绘下划线",
+    "en": "Squiggle Marks",
+    "category": "局部强调",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "desc": "手绘下划线、双笔删除线与括号沿笔画画出，标注当前重点。",
+    "sourceDescription": "Hand-drawn squiggle underline, double-pass strikethrough, and bracket marks that draw on",
+    "use": "局部强调 · 社交短视频",
+    "tags": "handwritten annotation text-treatment 手绘下划线",
+    "duration": 4.0,
+    "poster": "assets/official/hw-underline/poster.jpg",
+    "videoPreview": "assets/official/hw-underline/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/components/hw-underline",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/hw-underline",
+    "install": "npx hyperframes add hw-underline",
+    "sources": [
+      {
+        "path": "assets/official/hw-underline/source/hw-underline.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/hw-underline/hw-underline.html",
+        "sha256": "2e4fdeac4c27f9c90bc6f87b4fee041426a095c9c4ad00b6cc0cf4005470e174"
+      },
+      {
+        "path": "assets/official/hw-underline/source/assets/fonts/Caveat-700-latin.woff2",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/hw-underline/assets/fonts/Caveat-700-latin.woff2",
+        "sha256": "891951df5e8b5b0f0bc760d31375405e795c666b5add70437de12d4a6482b33f"
+      }
+    ],
+    "preview": "assets/official/hw-underline/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/hw-underline.json",
+      "preview_sha256": "d8ad76b6a7640374b5754bbb7106c0d4a0f7974d7fc52985a6d6c50cefc282b0"
+    },
+    "previewLabel": "官方示例",
+    "videoProvenance": {
+      "kind": "official-catalog-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/hw-underline.mp4",
+      "discovery": "Official catalog asset URL; not declared in pinned registry metadata",
+      "sha256": "10683668f95b2c15b19f44772bc97770410c6329f35edaf7bbdecc00f6919d95"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。"
+  },
+  {
+    "id": "marker-highlight",
+    "title": "荧光笔划重点",
+    "en": "Marker Highlight",
+    "category": "局部强调",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "desc": "荧光笔色块沿目标内容扫过，突出要讲解的信息。",
+    "sourceDescription": "Display text settles in, then one hand-drawn marker stroke (highlight, circle, underline, or scribble) draws over the emphasized word on cue.",
+    "use": "局部强调 · 社交短视频",
+    "tags": "motion-primitive typography emphasis marker deterministic 荧光笔划重点",
+    "duration": 5.0,
+    "poster": "assets/official/marker-highlight/poster.jpg",
+    "videoPreview": "assets/official/marker-highlight/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/components/marker-highlight",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/marker-highlight",
+    "install": "npx hyperframes add marker-highlight",
+    "sources": [
+      {
+        "path": "assets/official/marker-highlight/source/marker-highlight.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/marker-highlight/marker-highlight.html",
+        "sha256": "bedd128ffab3808b4624f9aa5bcd0e80c9022726fdad59191301259adb0512dc"
+      }
+    ],
+    "preview": "assets/official/marker-highlight/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/marker-highlight.json",
+      "preview_sha256": "1e3e74fd7d152a5c71932bf6c00ab60918e694dc3fd843566ce1bb7d66df0b6e"
+    },
+    "previewLabel": "官方源码实渲",
+    "videoProvenance": {
+      "kind": "locally-rendered-official-preview",
+      "url": null,
+      "renderer": "hyperframes@0.8.30",
+      "sha256": "85d2369c67131129cd3a5168a2e925204035377596456f148e5bfe025f6a2a55"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。"
+  },
+  {
+    "id": "confetti",
+    "title": "彩纸庆祝",
+    "en": "Confetti",
+    "category": "节奏与情绪",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "desc": "彩色纸屑散开并飘落，强调完成与庆祝时刻。",
+    "sourceDescription": "A deterministic celebration burst with seeded particles and gravity.",
+    "use": "节奏与情绪 · 社交短视频",
+    "tags": "effect 彩纸庆祝",
+    "duration": 5.0,
+    "poster": "assets/official/confetti/poster.jpg",
+    "videoPreview": "assets/official/confetti/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/components/confetti",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/confetti",
+    "install": "npx hyperframes add confetti",
+    "sources": [
+      {
+        "path": "assets/official/confetti/source/confetti.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/confetti/confetti.html",
+        "sha256": "e1aab1fba4eac8fcbed7367d94a262c41b08dc26cd723a3a0cde51158f7c864f"
+      }
+    ],
+    "preview": "assets/official/confetti/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/confetti.json",
+      "preview_sha256": "6ebdef545dc81336b1f9e802a0aa362fa2b142f105d0214e3f6a2f686ad48422"
+    },
+    "previewLabel": "官方源码实渲",
+    "videoProvenance": {
+      "kind": "locally-rendered-official-preview",
+      "url": null,
+      "renderer": "hyperframes@0.8.30",
+      "sha256": "888bdd95f25475cde92c80faf02eb9ed372782aa844d4cd4993962347a87b9eb"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。"
+  }
+]

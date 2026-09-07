@@ -1,0 +1,24 @@
+{
+  "paramsTypes": {
+    "size": "ivec2",
+    "pause": "float",
+    "dividerWidth": "float",
+    "bgcolor": "vec4",
+    "randomness": "float"
+  },
+  "defaultParams": {
+    "size": [
+      4,
+      4
+    ],
+    "pause": 0.1,
+    "dividerWidth": 0.05,
+    "bgcolor": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "randomness": 0.1
+  }
+}

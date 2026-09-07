@@ -1,0 +1,8 @@
+{
+  "paramsTypes": {
+    "blurSize": "float"
+  },
+  "defaultParams": {
+    "blurSize": 0.02
+  }
+}

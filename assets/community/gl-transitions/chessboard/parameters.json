@@ -1,0 +1,8 @@
+{
+  "paramsTypes": {
+    "grid_num": "float"
+  },
+  "defaultParams": {
+    "grid_num": 10
+  }
+}

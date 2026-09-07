@@ -1,0 +1,18 @@
+{
+  "paramsTypes": {
+    "squares": "ivec2",
+    "direction": "vec2",
+    "smoothness": "float"
+  },
+  "defaultParams": {
+    "squares": [
+      10,
+      10
+    ],
+    "direction": [
+      1,
+      -0.5
+    ],
+    "smoothness": 1.6
+  }
+}

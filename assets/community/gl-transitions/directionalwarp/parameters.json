@@ -1,0 +1,13 @@
+{
+  "paramsTypes": {
+    "smoothness": "float",
+    "direction": "vec2"
+  },
+  "defaultParams": {
+    "smoothness": 0.1,
+    "direction": [
+      -1,
+      1
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+<!doctype html><meta charset="utf-8"><title>Original GLSL preview renderer</title>
+<style>body{margin:0;background:#111}canvas{display:block}</style><canvas width="640" height="360"></canvas>
+<script>
+const canvas = document.querySelector('canvas');
+const gl = canvas.getContext('webgl', {preserveDrawingBuffer: true, alpha: false});
+if (!gl) throw new Error('WebGL unavailable');
+let program;
+const buffer=gl.createBuffer();
+function shader(type, code) {
+  const s = gl.createShader(type); gl.shaderSource(s, code); gl.compileShader(s);
+  if (!gl.getShaderParameter(s, gl.COMPILE_STATUS)) throw new Error(gl.getShaderInfoLog(s));
+  return s;
+}
+function scene(second) {
+  const c = document.createElement('canvas'); c.width=640; c.height=360;
+  const ctx=c.getContext('2d');
+  const gradient=ctx.createLinearGradient(0,0,640,360);
+  gradient.addColorStop(0,second?'#ffde9b':'#193e5b'); gradient.addColorStop(1,second?'#e17758':'#5da0b0');
+  ctx.fillStyle=gradient;ctx.fillRect(0,0,640,360);
+  ctx.strokeStyle=second?'#ffffff35':'#ffffff18';ctx.lineWidth=1;
+  for(let i=0;i<640;i+=40){ctx.beginPath();ctx.moveTo(i,0);ctx.lineTo(i,360);ctx.stroke();}
+  for(let i=0;i<360;i+=40){ctx.beginPath();ctx.moveTo(0,i);ctx.lineTo(640,i);ctx.stroke();}
+  ctx.fillStyle=second?'#843c49':'#ccf2d1';ctx.beginPath();
+  if(second){ctx.moveTo(460,65);ctx.lineTo(550,210);ctx.lineTo(370,210);ctx.closePath();}
+  else ctx.arc(465,143,78,0,Math.PI*2);
+  ctx.fill();ctx.fillStyle=second?'#593443':'#e5f8f3';
+  ctx.font='bold 84px Arial';ctx.fillText(second?'TWO':'ONE',40,195);
+  ctx.font='13px Arial';ctx.fillText(second?'SCENE B / WARM':'SCENE A / COOL',44,225);
+  ctx.fillRect(44,270,90,3);return c;
+}
+for(let i=0;i<2;i++) {
+  gl.activeTexture(gl.TEXTURE0+i);const texture=gl.createTexture();gl.bindTexture(gl.TEXTURE_2D,texture);
+  gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL,true);
+  gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,gl.RGBA,gl.UNSIGNED_BYTE,scene(Boolean(i)));
+  gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MIN_FILTER,gl.LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MAG_FILTER,gl.LINEAR);
+  gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_S,gl.CLAMP_TO_EDGE);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE);
+}
+window.prepare = record => {
+  // Upstream 1.71.0 metadata misses this inline GLSL default; retain author colour.
+  if(record.name==='burn' && !record.paramsTypes.color)record={...record,paramsTypes:{...record.paramsTypes,color:'vec3'},defaultParams:{...record.defaultParams,color:[0.9,0.4,0.2]}};
+  if(program)gl.deleteProgram(program);
+  program=gl.createProgram();
+  const vs=shader(gl.VERTEX_SHADER,'attribute vec2 position; varying vec2 uv; void main(){uv=(position+1.0)*0.5;gl_Position=vec4(position,0.0,1.0);}');
+  const fs=shader(gl.FRAGMENT_SHADER,`precision highp float;
+  uniform sampler2D fromTexture; uniform sampler2D toTexture; uniform float progress; uniform float ratio;
+  varying vec2 uv;
+  vec4 getFromColor(vec2 p){return texture2D(fromTexture,p);}
+  vec4 getToColor(vec2 p){return texture2D(toTexture,p);}
+  ${record.glsl}
+  void main(){gl_FragColor=transition(uv);}`);
+  gl.attachShader(program,vs);gl.attachShader(program,fs);gl.linkProgram(program);
+  gl.deleteShader(vs);gl.deleteShader(fs);
+  if(!gl.getProgramParameter(program,gl.LINK_STATUS))throw new Error(gl.getProgramInfoLog(program));
+  gl.useProgram(program);
+  gl.bindBuffer(gl.ARRAY_BUFFER,buffer);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,1,-1,-1,1,-1,1,1,-1,1,1]),gl.STATIC_DRAW);
+  const pos=gl.getAttribLocation(program,'position');gl.enableVertexAttribArray(pos);gl.vertexAttribPointer(pos,2,gl.FLOAT,false,0,0);
+  gl.uniform1i(gl.getUniformLocation(program,'fromTexture'),0);gl.uniform1i(gl.getUniformLocation(program,'toTexture'),1);gl.uniform1f(gl.getUniformLocation(program,'ratio'),640/360);
+  for(const [key,type] of Object.entries(record.paramsTypes)) {
+    const value=record.defaultParams[key], location=gl.getUniformLocation(program,key);
+    if(location===null)continue;
+    const setter={float:'uniform1f',int:'uniform1i',bool:'uniform1i',vec2:'uniform2fv',vec3:'uniform3fv',vec4:'uniform4fv',ivec2:'uniform2iv',ivec3:'uniform3iv',ivec4:'uniform4iv'}[type];
+    if(!setter || value===undefined)throw new Error('Unsupported parameter '+key+': '+type);
+    gl[setter](location,value);
+  }
+};
+window.draw = progress => {
+  gl.uniform1f(gl.getUniformLocation(program,'progress'),progress);gl.drawArrays(gl.TRIANGLES,0,6);gl.finish();
+  const error=gl.getError();if(error!==gl.NO_ERROR)throw new Error('GL error '+error);
+  return canvas.toDataURL('image/jpeg',0.9).split(',')[1];
+};
+</script>

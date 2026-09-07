@@ -1,0 +1,33 @@
+{
+  "name": "remotionui",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@9.15.4",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "registry:build": "turbo registry:build",
+    "remotion-ui:test": "turbo test --filter=remotion-ui",
+    "format": "prettier --write \"**/*.{ts,tsx,md,json}\"",
+    "changeset": "changeset",
+    "skills:sync": "bash scripts/sync-remotion-skills.sh && node scripts/patch-remotion-skill-docs.mjs && node scripts/fetch-remotion-docs.mjs && bash scripts/setup-codex-skills.sh",
+    "docs:remotion": "node scripts/fetch-remotion-docs.mjs",
+    "publish:cli": "bash scripts/publish-remotion-ui.sh",
+    "prepare:publish": "bash scripts/prepare-publish.sh",
+    "qa:browser": "node scripts/qa-browser.mjs",
+    "render:showcases": "node scripts/render-showcases.mjs",
+    "render:component": "pnpm --filter web render:component"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.12",
+    "prettier": "^3.5.1",
+    "turbo": "^2.4.2",
+    "typescript": "^6.0.3"
+  },
+  "pnpm": {
+    "overrides": {
+      "next@16.2.7>postcss": "8.5.15"
+    }
+  }
+}

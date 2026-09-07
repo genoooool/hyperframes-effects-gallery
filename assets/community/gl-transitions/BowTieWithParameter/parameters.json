@@ -1,0 +1,10 @@
+{
+  "paramsTypes": {
+    "adjust": "float",
+    "reverse": "bool"
+  },
+  "defaultParams": {
+    "adjust": 0.5,
+    "reverse": false
+  }
+}

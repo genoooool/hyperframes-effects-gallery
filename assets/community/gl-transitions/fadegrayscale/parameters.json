@@ -1,0 +1,8 @@
+{
+  "paramsTypes": {
+    "intensity": "float"
+  },
+  "defaultParams": {
+    "intensity": 0.3
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "transition-clock-wipe",
+  "title": "Precision Clock Wipe",
+  "category": "transitions",
+  "tags": [
+    "clock",
+    "radial",
+    "precision"
+  ],
+  "description": "A conic reveal sweeps clockwise from twelve, tracked by a glowing radial hand and orbiting marker.",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 80,
+  "defaultProps": {
+    "variant": "clock-wipe",
+    "sceneA": "Before the moment",
+    "sceneB": "Right on time",
+    "accentColor": "#ff7a36",
+    "transitionPoint": 0.5
+  }
+}

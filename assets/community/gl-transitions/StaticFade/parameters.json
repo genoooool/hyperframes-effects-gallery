@@ -1,0 +1,10 @@
+{
+  "paramsTypes": {
+    "n_noise_pixels": "float",
+    "static_luminosity": "float"
+  },
+  "defaultParams": {
+    "n_noise_pixels": 200,
+    "static_luminosity": 0.8
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "paramsTypes": {
+    "size": "float",
+    "zoom": "float",
+    "colorSeparation": "float"
+  },
+  "defaultParams": {
+    "size": 0.04,
+    "zoom": 50,
+    "colorSeparation": 0.3
+  }
+}

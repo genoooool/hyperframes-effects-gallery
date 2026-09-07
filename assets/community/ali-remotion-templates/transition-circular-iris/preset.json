@@ -1,0 +1,22 @@
+{
+  "id": "transition-circular-iris",
+  "title": "Circular Iris Portal",
+  "category": "transitions",
+  "tags": [
+    "iris",
+    "circle",
+    "cinematic"
+  ],
+  "description": "Scene B blooms from a glowing central iris that expands beyond the frame like a graphic lens aperture.",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 78,
+  "defaultProps": {
+    "variant": "circular-iris",
+    "sceneA": "Inside the system",
+    "sceneB": "Beyond the frame",
+    "accentColor": "#6c5cff",
+    "transitionPoint": 0.5
+  }
+}

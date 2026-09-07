@@ -1,0 +1,1885 @@
+[
+  {
+    "id": "transitions-blur",
+    "title": "模糊转场",
+    "en": "Blur Transitions",
+    "category": "转场",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:block",
+    "tags": "transition showcase",
+    "desc": "利用运动模糊与失焦衔接镜头，官方组合示例展示多种模糊方式。",
+    "use": "场景衔接 · 镜头切换",
+    "duration": 20.0,
+    "page": "https://hyperframes.heygen.com/catalog/blocks/transitions-blur",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/transitions-blur",
+    "install": "npx hyperframes add transitions-blur",
+    "sources": [
+      {
+        "path": "assets/official/transitions-blur/source/transitions-blur.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/transitions-blur/transitions-blur.html"
+      }
+    ],
+    "preview": "assets/official/transitions-blur/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/transitions-blur.json",
+      "sha256": {
+        "preview": "34651b19ad97fa269ee76f52668fd2818540b2d5537b80465035b32ed0a85244",
+        "transitions-blur.html": "d493c347a9399f33cf02f7be887d67555681af48fe9f102c5247884d1c0518c3",
+        "poster": "db451e0e94817970d2ba25abb623cc4d67351b0a5078f487a7d8e9d8f7990a6d"
+      }
+    },
+    "previewNote": "官方转场组合演示，包含多个变体。",
+    "videoPreview": "assets/official/transitions-blur/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/transitions-blur.mp4",
+      "sha256": "786d90e0e9fe8370bfeed9e2e1bdf868e1eef06bb80bcf84705f816bd6a87a6c",
+      "bytes": 936889
+    },
+    "poster": "assets/official/transitions-blur/poster.png",
+    "hoverStart": 4.25,
+    "sourceDescription": "Showcase of blur-based transitions between scenes"
+  },
+  {
+    "id": "transitions-cover",
+    "title": "遮盖转场",
+    "en": "Cover Transitions",
+    "category": "转场",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:block",
+    "tags": "transition showcase",
+    "desc": "新画面从边缘遮盖旧画面，包含不同方向的覆盖与揭开。",
+    "use": "场景衔接 · 镜头切换",
+    "duration": 21.0,
+    "page": "https://hyperframes.heygen.com/catalog/blocks/transitions-cover",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/transitions-cover",
+    "install": "npx hyperframes add transitions-cover",
+    "sources": [
+      {
+        "path": "assets/official/transitions-cover/source/transitions-cover.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/transitions-cover/transitions-cover.html"
+      }
+    ],
+    "preview": "assets/official/transitions-cover/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/transitions-cover.json",
+      "sha256": {
+        "preview": "c7488c4aff10a0b7e85dc7f4f9e9e64fd77fe6404aa56d4b912f8f13e934673d",
+        "transitions-cover.html": "dc1d84f3401628d23b049ae7eff9719af54e700e1ab9adfde70e8a391e333ee6",
+        "poster": "5addc05a676f38ed8936453fd1538b5380f4ef47f7fd47d86fe94fd3f3615aba"
+      }
+    },
+    "previewNote": "官方转场组合演示，包含多个变体。",
+    "videoPreview": "assets/official/transitions-cover/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/transitions-cover.mp4",
+      "sha256": "aba2d0336630fd0ec4fdf72f498e69401ce86be3048cc3f40238e57fdbd930d2",
+      "bytes": 604427
+    },
+    "poster": "assets/official/transitions-cover/poster.png",
+    "hoverStart": 4.25,
+    "sourceDescription": "Showcase of cover/uncover slide transitions"
+  },
+  {
+    "id": "transitions-grid",
+    "title": "网格转场",
+    "en": "Grid Transitions",
+    "category": "转场",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:block",
+    "tags": "transition showcase",
+    "desc": "把画面拆成网格，通过分块切换完成转场。",
+    "use": "场景衔接 · 镜头切换",
+    "duration": 11.0,
+    "page": "https://hyperframes.heygen.com/catalog/blocks/transitions-grid",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/transitions-grid",
+    "install": "npx hyperframes add transitions-grid",
+    "sources": [
+      {
+        "path": "assets/official/transitions-grid/source/transitions-grid.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/transitions-grid/transitions-grid.html"
+      }
+    ],
+    "preview": "assets/official/transitions-grid/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/transitions-grid.json",
+      "sha256": {
+        "preview": "84dfb153f1d3804cdb5c41752fa2aff63fabb75cf640e833568347da00fca4af",
+        "transitions-grid.html": "abb3c444c9d73e97973a93f4fa810babc2deb80f575ebefb9b628599f8c94211",
+        "poster": "a3adb542139d2b7a97210986083629e848df8357bddfb7348dc7ba20a9dca8ef"
+      }
+    },
+    "previewNote": "官方转场组合演示，包含多个变体。",
+    "videoPreview": "assets/official/transitions-grid/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/transitions-grid.mp4",
+      "sha256": "9cb21d4024a903585b67da2fcf48885aa507e5ec243c3750db14cf669b854e51",
+      "bytes": 421254
+    },
+    "poster": "assets/official/transitions-grid/poster.png",
+    "hoverStart": 4.25,
+    "sourceDescription": "Showcase of grid-based tile transitions"
+  },
+  {
+    "id": "transitions-push",
+    "title": "推移转场",
+    "en": "Push Transitions",
+    "category": "转场",
+    "desc": "前后画面同步推移，包含横向、纵向与带回弹的切换。",
+    "use": "场景衔接 · 镜头切换",
+    "tags": "transition showcase",
+    "duration": 24.0,
+    "type": "hyperframes:block",
+    "preview": "assets/official/transitions-push/preview.json",
+    "poster": "assets/official/transitions-push/poster.png",
+    "page": "https://hyperframes.heygen.com/catalog/blocks/transitions-push",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/transitions-push",
+    "install": "npx hyperframes add transitions-push",
+    "sources": [
+      {
+        "path": "assets/official/transitions-push/source/transitions-push.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/transitions-push/transitions-push.html"
+      }
+    ],
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/transitions-push.json",
+      "sha256": {
+        "preview": "77e35e3055504f249dd3566bd8223a5d282c3764aa8cecd23cf2aa1c604deb5b",
+        "transitions-push.html": "6e94839890101bbcbf14cfe76c5d41d06738fa70b6d1c423e3b41692d52c8441",
+        "poster": "db451e0e94817970d2ba25abb623cc4d67351b0a5078f487a7d8e9d8f7990a6d"
+      }
+    },
+    "localPreview": "assets/official/transitions-push/preview-local.json",
+    "localPreviewSha256": "2964034807fed460e8b04a73f3b955e4aedb40dfdabfe6015ffd589ae3d785ca",
+    "videoPreview": "assets/official/transitions-push/preview.mp4",
+    "videoProvenance": {
+      "kind": "locally-rendered-official-preview",
+      "sha256": "41bdb5c3fcaa8f6d73d959af4e73871845b68f8662167732db8e8eda66b6d8d8",
+      "renderer": "hyperframes@0.8.30",
+      "fps": 30,
+      "duration": 24.0,
+      "bytes": 468899,
+      "officialPreviewSha256": "77e35e3055504f249dd3566bd8223a5d282c3764aa8cecd23cf2aa1c604deb5b"
+    },
+    "hoverStart": 4.25,
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "previewNote": "官方转场组合演示，包含多个变体。",
+    "sourceDescription": "Showcase of push and slide transitions"
+  },
+  {
+    "id": "transitions-scale",
+    "title": "缩放转场",
+    "en": "Scale Transitions",
+    "category": "转场",
+    "desc": "通过放大穿越或缩小退场，把一个画面交接给下一个画面。",
+    "use": "场景衔接 · 镜头切换",
+    "tags": "transition showcase",
+    "duration": 15.0,
+    "type": "hyperframes:block",
+    "preview": "assets/official/transitions-scale/preview.json",
+    "poster": "assets/official/transitions-scale/poster.png",
+    "page": "https://hyperframes.heygen.com/catalog/blocks/transitions-scale",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/transitions-scale",
+    "install": "npx hyperframes add transitions-scale",
+    "sources": [
+      {
+        "path": "assets/official/transitions-scale/source/transitions-scale.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/transitions-scale/transitions-scale.html"
+      }
+    ],
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/transitions-scale.json",
+      "sha256": {
+        "preview": "b9a67659683d9c8f341b749796b9687056068ebb8c137ea7c0e97771f8d55fe8",
+        "transitions-scale.html": "6781bb145004f49ca83ad57bacdba3c32678bee568ac5583b88211eec24be143",
+        "poster": "db451e0e94817970d2ba25abb623cc4d67351b0a5078f487a7d8e9d8f7990a6d"
+      }
+    },
+    "localPreview": "assets/official/transitions-scale/preview-local.json",
+    "localPreviewSha256": "1f62d5c1395da9d12bfa8d4c2e474a754df9c48c644b718f4a9da6b42ecf5288",
+    "videoPreview": "assets/official/transitions-scale/preview.mp4",
+    "videoProvenance": {
+      "kind": "locally-rendered-official-preview",
+      "sha256": "530c0c88a7b7f45f426781e08e2390df4ff3a2e0c2e6cf9c5ae0808edba66151",
+      "renderer": "hyperframes@0.8.30",
+      "fps": 30,
+      "duration": 15.0,
+      "bytes": 313627,
+      "officialPreviewSha256": "b9a67659683d9c8f341b749796b9687056068ebb8c137ea7c0e97771f8d55fe8"
+    },
+    "hoverStart": 4.25,
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "previewNote": "官方转场组合演示，包含多个变体。",
+    "sourceDescription": "Showcase of scale and zoom transitions"
+  },
+  {
+    "id": "transitions-3d",
+    "title": "立体转场",
+    "en": "3D Transitions",
+    "category": "转场",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:block",
+    "tags": "transition showcase",
+    "desc": "利用透视、翻转与旋转制造立体的画面交接。",
+    "use": "场景衔接 · 镜头切换",
+    "duration": 11.0,
+    "page": "https://hyperframes.heygen.com/catalog/blocks/transitions-3d",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/transitions-3d",
+    "install": "npx hyperframes add transitions-3d",
+    "sources": [
+      {
+        "path": "assets/official/transitions-3d/source/transitions-3d.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/transitions-3d/transitions-3d.html"
+      }
+    ],
+    "preview": "assets/official/transitions-3d/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/transitions-3d.json",
+      "sha256": {
+        "preview": "5f1e43e8cc048f7fedd20454bc9b7274ecd9fb5cac91220d2ba717f34b2c6069",
+        "transitions-3d.html": "54b3034238d1383f334d6a4234d5f45e74b7f646b84558f3ffe2bcbecb3a677c",
+        "poster": "194ee2c1984e4ba5d4fd14bd04a2e007b76d3978ef7ae27cdd6f758c0314a59a"
+      }
+    },
+    "previewNote": "官方转场组合演示，包含多个变体。",
+    "videoPreview": "assets/official/transitions-3d/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/transitions-3d.mp4",
+      "sha256": "0e0cbb3fdff60707ffa7de7ab5c7902c983d598a8f9e435a43a05f1a478bcd3a",
+      "bytes": 466309
+    },
+    "poster": "assets/official/transitions-3d/poster.png",
+    "hoverStart": 4.25,
+    "sourceDescription": "Showcase of 3D perspective flip and rotate transitions"
+  },
+  {
+    "id": "transitions-dissolve",
+    "title": "溶解转场",
+    "en": "Dissolve Transitions",
+    "category": "转场",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:block",
+    "tags": "transition showcase",
+    "desc": "用渐隐、叠化与溶解自然地交接两个画面。",
+    "use": "场景衔接 · 镜头切换",
+    "duration": 24.0,
+    "page": "https://hyperframes.heygen.com/catalog/blocks/transitions-dissolve",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/transitions-dissolve",
+    "install": "npx hyperframes add transitions-dissolve",
+    "sources": [
+      {
+        "path": "assets/official/transitions-dissolve/source/transitions-dissolve.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/transitions-dissolve/transitions-dissolve.html"
+      }
+    ],
+    "preview": "assets/official/transitions-dissolve/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/transitions-dissolve.json",
+      "sha256": {
+        "preview": "b608ca4278d81d385a0c363a7738b48614f95e176ab291bf6f151b157d8df945",
+        "transitions-dissolve.html": "be35ea72f94bcf20ce5b4e4b4c39f99c9f734d6aa8d2244f33ff247439f31afb",
+        "poster": "db451e0e94817970d2ba25abb623cc4d67351b0a5078f487a7d8e9d8f7990a6d"
+      }
+    },
+    "previewNote": "官方转场组合演示，包含多个变体。",
+    "videoPreview": "assets/official/transitions-dissolve/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/transitions-dissolve.mp4",
+      "sha256": "694ddaed75ea565e723668d0a91aa3e16f3a8ca0e4a9a8eac73d7f9ece406762",
+      "bytes": 959320
+    },
+    "poster": "assets/official/transitions-dissolve/poster.png",
+    "hoverStart": 4.25,
+    "sourceDescription": "Showcase of dissolve and fade transitions"
+  },
+  {
+    "id": "transitions-distortion",
+    "title": "扭曲转场",
+    "en": "Distortion Transitions",
+    "category": "转场",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:block",
+    "tags": "transition showcase",
+    "desc": "让画面发生拉伸、扭曲和形变，再进入下一镜。",
+    "use": "场景衔接 · 镜头切换",
+    "duration": 21.0,
+    "page": "https://hyperframes.heygen.com/catalog/blocks/transitions-distortion",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/transitions-distortion",
+    "install": "npx hyperframes add transitions-distortion",
+    "sources": [
+      {
+        "path": "assets/official/transitions-distortion/source/transitions-distortion.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/transitions-distortion/transitions-distortion.html"
+      }
+    ],
+    "preview": "assets/official/transitions-distortion/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/transitions-distortion.json",
+      "sha256": {
+        "preview": "517bf32a1ccd99d6330d378f524f6e57031b61a6bacc7a849f9d36ffd411318b",
+        "transitions-distortion.html": "1ed8fd8308a10f749fc920ce9d77df7985a1b024bfc66ed8555bbd4d25e5ad84",
+        "poster": "a3adb542139d2b7a97210986083629e848df8357bddfb7348dc7ba20a9dca8ef"
+      }
+    },
+    "previewNote": "官方转场组合演示，包含多个变体。",
+    "videoPreview": "assets/official/transitions-distortion/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/transitions-distortion.mp4",
+      "sha256": "0a92d553557519e9741dfd1c20660c86f85838ad841c3e0d39b1d3572ae8d3db",
+      "bytes": 696529
+    },
+    "poster": "assets/official/transitions-distortion/poster.png",
+    "hoverStart": 4.25,
+    "sourceDescription": "Showcase of warp and distortion transitions"
+  },
+  {
+    "id": "transitions-destruction",
+    "title": "破碎转场",
+    "en": "Destruction Transitions",
+    "category": "转场",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:block",
+    "tags": "transition showcase",
+    "desc": "画面以破碎、拆散等方式退场，露出下一镜。",
+    "use": "场景衔接 · 镜头切换",
+    "duration": 14.0,
+    "page": "https://hyperframes.heygen.com/catalog/blocks/transitions-destruction",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/transitions-destruction",
+    "install": "npx hyperframes add transitions-destruction",
+    "sources": [
+      {
+        "path": "assets/official/transitions-destruction/source/transitions-destruction.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/transitions-destruction/transitions-destruction.html"
+      }
+    ],
+    "preview": "assets/official/transitions-destruction/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/transitions-destruction.json",
+      "sha256": {
+        "preview": "74dfe82affa092a1c3e4e5ecb3682851d803c5aa3ce419af35b95c0f4fab4006",
+        "transitions-destruction.html": "d5cd1cdd3a1e087bbbc8f0b4e4a47b45170e612845b637453119ce95cd1cf3d9",
+        "poster": "db451e0e94817970d2ba25abb623cc4d67351b0a5078f487a7d8e9d8f7990a6d"
+      }
+    },
+    "previewNote": "官方转场组合演示，包含多个变体。",
+    "videoPreview": "assets/official/transitions-destruction/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/transitions-destruction.mp4",
+      "sha256": "56ca9edfb656698fc56816fef8d11b0bf6338d338d6ca030c6d2fc6c0dd9fc13",
+      "bytes": 1154985
+    },
+    "poster": "assets/official/transitions-destruction/poster.png",
+    "hoverStart": 4.25,
+    "sourceDescription": "Showcase of destructive break-apart transitions"
+  },
+  {
+    "id": "transitions-light",
+    "title": "光效转场",
+    "en": "Light Transitions",
+    "category": "转场",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:block",
+    "tags": "transition showcase",
+    "desc": "利用闪光与亮度变化完成镜头切换，包含多种光效变体。",
+    "use": "场景衔接 · 镜头切换",
+    "duration": 21.0,
+    "page": "https://hyperframes.heygen.com/catalog/blocks/transitions-light",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/transitions-light",
+    "install": "npx hyperframes add transitions-light",
+    "sources": [
+      {
+        "path": "assets/official/transitions-light/source/transitions-light.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/transitions-light/transitions-light.html"
+      }
+    ],
+    "preview": "assets/official/transitions-light/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/transitions-light.json",
+      "sha256": {
+        "preview": "8df34acbc5243eecc7236116bab42716ea1f3bd2bc3196eec755c4e073287444",
+        "transitions-light.html": "74b04f50a317191dc30ae8b849819bc51c24ec045b094fa553d9cc92d2a8ab74",
+        "poster": "3faac51cac597a3fe275461a49ec194e9572ae0454269d0b1e4e255429fad32c"
+      }
+    },
+    "previewNote": "官方转场组合演示，包含多个变体。",
+    "videoPreview": "assets/official/transitions-light/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/transitions-light.mp4",
+      "sha256": "68f7817b80e50e8660ecfeb3056f700c30df91e8649473a6137d4aa036c76102",
+      "bytes": 1267486
+    },
+    "poster": "assets/official/transitions-light/poster.png",
+    "hoverStart": 4.25,
+    "sourceDescription": "Showcase of light-based glow and flash transitions"
+  },
+  {
+    "id": "transitions-mechanical",
+    "title": "机械转场",
+    "en": "Mechanical Transitions",
+    "category": "转场",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:block",
+    "tags": "transition showcase",
+    "desc": "模拟快门、机械分片与开合的切换方式。",
+    "use": "场景衔接 · 镜头切换",
+    "duration": 15.0,
+    "page": "https://hyperframes.heygen.com/catalog/blocks/transitions-mechanical",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/transitions-mechanical",
+    "install": "npx hyperframes add transitions-mechanical",
+    "sources": [
+      {
+        "path": "assets/official/transitions-mechanical/source/transitions-mechanical.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/transitions-mechanical/transitions-mechanical.html"
+      }
+    ],
+    "preview": "assets/official/transitions-mechanical/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/transitions-mechanical.json",
+      "sha256": {
+        "preview": "7ea289404868ed60dcc2d062639a5041f7db5e6be581feea77c2869274eb6f4e",
+        "transitions-mechanical.html": "098589405f547834c5359d5c94a2f1dfed06c0780f23962e54c3e3577cea9c1f",
+        "poster": "db451e0e94817970d2ba25abb623cc4d67351b0a5078f487a7d8e9d8f7990a6d"
+      }
+    },
+    "previewNote": "官方转场组合演示，包含多个变体。",
+    "videoPreview": "assets/official/transitions-mechanical/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/transitions-mechanical.mp4",
+      "sha256": "da2bc0ddb4d1f62597772f610677a1e7960f9c587b68b88b048a6ec57c1b9c31",
+      "bytes": 553705
+    },
+    "poster": "assets/official/transitions-mechanical/poster.png",
+    "hoverStart": 4.25,
+    "sourceDescription": "Showcase of mechanical shutter and iris transitions"
+  },
+  {
+    "id": "transitions-radial",
+    "title": "径向转场",
+    "en": "Radial Transitions",
+    "category": "转场",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:block",
+    "tags": "transition showcase",
+    "desc": "从中心或圆形边界向外揭开下一画面。",
+    "use": "场景衔接 · 镜头切换",
+    "duration": 20.0,
+    "page": "https://hyperframes.heygen.com/catalog/blocks/transitions-radial",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/transitions-radial",
+    "install": "npx hyperframes add transitions-radial",
+    "sources": [
+      {
+        "path": "assets/official/transitions-radial/source/transitions-radial.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/transitions-radial/transitions-radial.html"
+      }
+    ],
+    "preview": "assets/official/transitions-radial/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/transitions-radial.json",
+      "sha256": {
+        "preview": "11c7d4ac0e5605be6d6fd71f1a2a00a13aac56dd4ba1813ae78dca7347fcebf2",
+        "transitions-radial.html": "2e723ae75e92e6e4c1c51e6c596122bb43df8c2fef1ff4363ed787588bec4111",
+        "poster": "194ee2c1984e4ba5d4fd14bd04a2e007b76d3978ef7ae27cdd6f758c0314a59a"
+      }
+    },
+    "previewNote": "官方转场组合演示，包含多个变体。",
+    "videoPreview": "assets/official/transitions-radial/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/transitions-radial.mp4",
+      "sha256": "e05215934f33c3c72d547cb75db4164881a9a458aa97e524736cac886d3ad8a0",
+      "bytes": 737599
+    },
+    "poster": "assets/official/transitions-radial/poster.png",
+    "hoverStart": 4.25,
+    "sourceDescription": "Showcase of radial wipe and reveal transitions"
+  },
+  {
+    "id": "transitions-other",
+    "title": "创意转场",
+    "en": "Other Transitions",
+    "category": "转场",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:block",
+    "tags": "transition showcase",
+    "desc": "官方收录的其他创意切换方式，包含多个转场变体。",
+    "use": "场景衔接 · 镜头切换",
+    "duration": 20.0,
+    "page": "https://hyperframes.heygen.com/catalog/blocks/transitions-other",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/transitions-other",
+    "install": "npx hyperframes add transitions-other",
+    "sources": [
+      {
+        "path": "assets/official/transitions-other/source/transitions-other.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/transitions-other/transitions-other.html"
+      }
+    ],
+    "preview": "assets/official/transitions-other/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/transitions-other.json",
+      "sha256": {
+        "preview": "b80fd7e24e28cd56297bb0b7cafb9953f1d8ca51eb99ceff47a0b89f3021dc48",
+        "transitions-other.html": "3da08bf8cc6dacd298e8f313c9dd2ca95948ee911bde683a813abaf4706eb03b",
+        "poster": "db451e0e94817970d2ba25abb623cc4d67351b0a5078f487a7d8e9d8f7990a6d"
+      }
+    },
+    "previewNote": "官方转场组合演示，包含多个变体。",
+    "videoPreview": "assets/official/transitions-other/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/transitions-other.mp4",
+      "sha256": "d3a51356920dabd72922d36b300d60e8c611d914333a2cd22b0c827d1ef2c22f",
+      "bytes": 623355
+    },
+    "poster": "assets/official/transitions-other/poster.png",
+    "hoverStart": 4.25,
+    "sourceDescription": "Showcase of miscellaneous creative transitions"
+  },
+  {
+    "id": "flash-through-white",
+    "title": "闪白切换",
+    "en": "Flash Through White",
+    "category": "转场",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:block",
+    "tags": "transition shader",
+    "desc": "两镜之间短暂闪白，以高亮过渡掩盖切点。",
+    "use": "场景衔接 · 镜头切换",
+    "duration": 4.0,
+    "page": "https://hyperframes.heygen.com/catalog/blocks/flash-through-white",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/flash-through-white",
+    "install": "npx hyperframes add flash-through-white",
+    "sources": [
+      {
+        "path": "assets/official/flash-through-white/source/flash-through-white.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/flash-through-white/flash-through-white.html"
+      }
+    ],
+    "preview": "assets/official/flash-through-white/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/flash-through-white.json",
+      "sha256": {
+        "preview": "37a2dc4dc7f93fd95a08fc1cb5b85fb7550ae34afd0196d9765b4cf0367734ed",
+        "flash-through-white.html": "d63cdbe17d81c12ee23406dd2dacf7e6a9489121906a7a3a2f74980ece623bac",
+        "poster": "e9045f8942f6f6b9e618202e238b8dc1d1107bdd709194663653e6fb2d3e7264"
+      }
+    },
+    "previewNote": "官方原始效果示例。",
+    "videoPreview": "assets/official/flash-through-white/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/flash-through-white.mp4",
+      "sha256": "48ef3c8979acaf64e3dcfd6fc3751a27a892ff687ffa7946f06dfd1897dcb8ea",
+      "bytes": 338313
+    },
+    "poster": "assets/official/flash-through-white/poster.png",
+    "sourceDescription": "Shader transition with white flash crossfade"
+  },
+  {
+    "id": "glitch",
+    "title": "故障切换",
+    "en": "Glitch",
+    "category": "转场",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:block",
+    "tags": "transition shader",
+    "desc": "以数字故障、画面错位和扰动衔接两个镜头。",
+    "use": "场景衔接 · 镜头切换",
+    "duration": 4.0,
+    "page": "https://hyperframes.heygen.com/catalog/blocks/glitch",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/glitch",
+    "install": "npx hyperframes add glitch",
+    "sources": [
+      {
+        "path": "assets/official/glitch/source/glitch.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/glitch/glitch.html"
+      }
+    ],
+    "preview": "assets/official/glitch/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/glitch.json",
+      "sha256": {
+        "preview": "b73777c8d1fc40b21495dc79880bc75c29af614189eaefd03f4c97b31dec0179",
+        "glitch.html": "f8101d1a5b71aa0ce4eb44444ee95e6ad0d7d16eb8b38b5ac81422a01fc5240b",
+        "poster": "2c8cf38a5a6b1002cc0ac192a4e63796e26f6a7b9c12f5a8d848c5a374ff0fc9"
+      }
+    },
+    "previewNote": "官方原始效果示例。",
+    "videoPreview": "assets/official/glitch/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/glitch.mp4",
+      "sha256": "4a20f6333d821d87dbde3d45c0a116873dadbc5fdba4c15a7902e97c5ffef712",
+      "bytes": 482548
+    },
+    "poster": "assets/official/glitch/poster.png",
+    "sourceDescription": "Shader transition with digital glitch artifacts"
+  },
+  {
+    "id": "light-leak",
+    "title": "漏光切换",
+    "en": "Light Leak",
+    "category": "转场",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:block",
+    "tags": "transition shader",
+    "desc": "模拟镜头漏光，让彩色光晕经过画面完成切换。",
+    "use": "场景衔接 · 镜头切换",
+    "duration": 4.0,
+    "page": "https://hyperframes.heygen.com/catalog/blocks/light-leak",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/light-leak",
+    "install": "npx hyperframes add light-leak",
+    "sources": [
+      {
+        "path": "assets/official/light-leak/source/light-leak.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/light-leak/light-leak.html"
+      }
+    ],
+    "preview": "assets/official/light-leak/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/light-leak.json",
+      "sha256": {
+        "preview": "fc1d33ffff977b7f747a75420dcc9d4ece11bb4a7f65d0cde4b3eeba60adb468",
+        "light-leak.html": "018575074693864c3f0f71380f85f089c172f73717b80787640b2da3615345be",
+        "poster": "0e1e2adb11a82ab97ecdcb95ac62206e6d24e000bba87c2d536eec19507456e7"
+      }
+    },
+    "previewNote": "官方原始效果示例。",
+    "videoPreview": "assets/official/light-leak/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/light-leak.mp4",
+      "sha256": "23b6442cd310d203a0b8c6db56ebd2a7fd0aeb5ba645f28df87ae8a06b055723",
+      "bytes": 556391
+    },
+    "poster": "assets/official/light-leak/poster.png",
+    "sourceDescription": "Shader transition with cinematic light leak overlay"
+  },
+  {
+    "id": "whip-pan",
+    "title": "甩镜切换",
+    "en": "Whip Pan",
+    "category": "转场",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:block",
+    "tags": "transition shader",
+    "desc": "模拟快速甩动镜头，借助横向运动感完成切换。",
+    "use": "场景衔接 · 镜头切换",
+    "duration": 4.0,
+    "page": "https://hyperframes.heygen.com/catalog/blocks/whip-pan",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/whip-pan",
+    "install": "npx hyperframes add whip-pan",
+    "sources": [
+      {
+        "path": "assets/official/whip-pan/source/whip-pan.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/whip-pan/whip-pan.html"
+      }
+    ],
+    "preview": "assets/official/whip-pan/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/whip-pan.json",
+      "sha256": {
+        "preview": "56c724520b4657ca099bb0181aae4d16321eb02776d39a72065f7fc25e03aab7",
+        "whip-pan.html": "97a690de11f6dcebd6356bea84cba1af6ae61bfe03b9b7cc75a81368c93a12c9",
+        "poster": "32cb7bd9ce6b397cc622130c5663b02e8929df5ff55f956aeff89a831cd7aa2c"
+      }
+    },
+    "previewNote": "官方原始效果示例。",
+    "videoPreview": "assets/official/whip-pan/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/whip-pan.mp4",
+      "sha256": "43e153337572e66de09f0d409c0dd9bbb2c81c89c23276c9bfd7bca9575a2319",
+      "bytes": 334262
+    },
+    "poster": "assets/official/whip-pan/poster.png",
+    "sourceDescription": "Shader transition simulating a fast camera whip pan"
+  },
+  {
+    "id": "swirl-vortex",
+    "title": "旋涡转场",
+    "en": "Swirl Vortex",
+    "category": "转场",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:block",
+    "tags": "transition shader",
+    "desc": "画面围绕中心旋转、卷入漩涡并切换到下一镜。",
+    "use": "场景衔接 · 镜头切换",
+    "duration": 4.0,
+    "page": "https://hyperframes.heygen.com/catalog/blocks/swirl-vortex",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/swirl-vortex",
+    "install": "npx hyperframes add swirl-vortex",
+    "sources": [
+      {
+        "path": "assets/official/swirl-vortex/source/swirl-vortex.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/swirl-vortex/swirl-vortex.html"
+      }
+    ],
+    "preview": "assets/official/swirl-vortex/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/swirl-vortex.json",
+      "sha256": {
+        "preview": "aee5ea8d8636384a6fdbfdf3bb71e69cf4497031dbca683a3cf110a7c7b6cbf2",
+        "swirl-vortex.html": "d2ec8ec40dd47e584463b82f806dbc474aed8e1a94648e7637032ecb0f9f481b",
+        "poster": "d4897fc7aae5bc418a4919dfa09bcad8efa9bd6c5a7aed5aea1092822730e8f6"
+      }
+    },
+    "previewNote": "官方原始效果示例。",
+    "videoPreview": "assets/official/swirl-vortex/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/swirl-vortex.mp4",
+      "sha256": "a540bcc8089fd0fc753539c20ef520666d9e071bab3d626684cd1b2012a1d9e4",
+      "bytes": 401304
+    },
+    "poster": "assets/official/swirl-vortex/poster.png",
+    "sourceDescription": "Shader transition with swirling vortex distortion"
+  },
+  {
+    "id": "ripple-waves",
+    "title": "波纹转场",
+    "en": "Ripple Waves",
+    "category": "转场",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:block",
+    "tags": "transition shader",
+    "desc": "波纹穿过画面边界，把旧画面逐步替换为新画面。",
+    "use": "场景衔接 · 镜头切换",
+    "duration": 4.0,
+    "page": "https://hyperframes.heygen.com/catalog/blocks/ripple-waves",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/ripple-waves",
+    "install": "npx hyperframes add ripple-waves",
+    "sources": [
+      {
+        "path": "assets/official/ripple-waves/source/ripple-waves.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/ripple-waves/ripple-waves.html"
+      }
+    ],
+    "preview": "assets/official/ripple-waves/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/ripple-waves.json",
+      "sha256": {
+        "preview": "47772b0ac7c758409bf045a3651045bc5f4c10f93425babce2b71c8d399f197c",
+        "ripple-waves.html": "4b6c4df7f51c0a5fd163cf6c584876e169de3357190a6570474f6213f2d0db83",
+        "poster": "a6bd95d39944bed541e31afa2cb4d6e435f1a6273da7838ea050c7ed74ad1582"
+      }
+    },
+    "previewNote": "官方原始效果示例。",
+    "videoPreview": "assets/official/ripple-waves/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/ripple-waves.mp4",
+      "sha256": "33f7c026154e295a2048ea0aec4460917b269b87476185dfe5d7e82c9b0eb119",
+      "bytes": 518053
+    },
+    "poster": "assets/official/ripple-waves/poster.png",
+    "sourceDescription": "Shader transition with concentric ripple wave distortion"
+  },
+  {
+    "id": "cinematic-zoom",
+    "title": "电影感推进",
+    "en": "Cinematic Zoom",
+    "category": "转场",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:block",
+    "tags": "transition shader",
+    "desc": "以镜头推进和缩放制造有速度感的画面交接。",
+    "use": "场景衔接 · 镜头切换",
+    "duration": 4.0,
+    "page": "https://hyperframes.heygen.com/catalog/blocks/cinematic-zoom",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/cinematic-zoom",
+    "install": "npx hyperframes add cinematic-zoom",
+    "sources": [
+      {
+        "path": "assets/official/cinematic-zoom/source/cinematic-zoom.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/cinematic-zoom/cinematic-zoom.html"
+      }
+    ],
+    "preview": "assets/official/cinematic-zoom/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/cinematic-zoom.json",
+      "sha256": {
+        "preview": "f810a96a1e33d0bdcebc75b0ab0cfdbf0e5be968d5d1ca9ab2ed6a10a5ce9229",
+        "cinematic-zoom.html": "72b3a83d5de6a56fd389044aa15e785dbb40d5402cea6b95684b6b9cec0e4aba",
+        "poster": "e57cdc0aa76e34979177ba98b446d5b95bb71a27eb9c32be5bba71e97e95218f"
+      }
+    },
+    "previewNote": "官方原始效果示例。",
+    "videoPreview": "assets/official/cinematic-zoom/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/cinematic-zoom.mp4",
+      "sha256": "a9def8f5c1a6338c831fe6d4c9c6d6c80000bdc2f045b10bcd454e24f0de520c",
+      "bytes": 361285
+    },
+    "poster": "assets/official/cinematic-zoom/poster.png",
+    "sourceDescription": "Shader transition with dramatic zoom blur"
+  },
+  {
+    "id": "chromatic-radial-split",
+    "title": "径向色差",
+    "en": "Chromatic Radial Split",
+    "category": "转场",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:block",
+    "tags": "transition shader",
+    "desc": "沿径向分离颜色通道，形成色差扩散转场。",
+    "use": "场景衔接 · 镜头切换",
+    "duration": 4.0,
+    "page": "https://hyperframes.heygen.com/catalog/blocks/chromatic-radial-split",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/chromatic-radial-split",
+    "install": "npx hyperframes add chromatic-radial-split",
+    "sources": [
+      {
+        "path": "assets/official/chromatic-radial-split/source/chromatic-radial-split.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/chromatic-radial-split/chromatic-radial-split.html"
+      }
+    ],
+    "preview": "assets/official/chromatic-radial-split/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/chromatic-radial-split.json",
+      "sha256": {
+        "preview": "47000b9234147dfeb5179880d808872cc4f246abb7a8ecb8257c905f19f476aa",
+        "chromatic-radial-split.html": "d328cc320397eb2109c6a2dab030bbcca7556c06c197416c288995aeef1e4d99",
+        "poster": "3498bd6df2a3cb14ba82c91a41a26dc6b3887f380aaf09fa0ba7c38eb0f57201"
+      }
+    },
+    "previewNote": "官方原始效果示例。",
+    "videoPreview": "assets/official/chromatic-radial-split/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/chromatic-radial-split.mp4",
+      "sha256": "521d97b993a22cb2f597c7ddeb8b65bab5a133d05bcc24e38fe3f85c59e19603",
+      "bytes": 333543
+    },
+    "poster": "assets/official/chromatic-radial-split/poster.png",
+    "sourceDescription": "Shader transition with chromatic aberration radial split"
+  },
+  {
+    "id": "cross-warp-morph",
+    "title": "交叉形变",
+    "en": "Cross Warp Morph",
+    "category": "转场",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:block",
+    "tags": "transition shader",
+    "desc": "两幅画面在交叉扭曲中进行形变衔接。",
+    "use": "场景衔接 · 镜头切换",
+    "duration": 4.0,
+    "page": "https://hyperframes.heygen.com/catalog/blocks/cross-warp-morph",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/cross-warp-morph",
+    "install": "npx hyperframes add cross-warp-morph",
+    "sources": [
+      {
+        "path": "assets/official/cross-warp-morph/source/cross-warp-morph.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/cross-warp-morph/cross-warp-morph.html"
+      }
+    ],
+    "preview": "assets/official/cross-warp-morph/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/cross-warp-morph.json",
+      "sha256": {
+        "preview": "ae446530301ab0a7593bd6d24ef2f04fda36e9e8cd682ac7a04498696155431a",
+        "cross-warp-morph.html": "fa9748f6f6059b2575d90eb98fd14a45de3c75e7dac1e925d997bc61e56ab85e",
+        "poster": "69aeee6d3970497bbf45ee9a170dc7587c6488edd045298d270287c89a663f20"
+      }
+    },
+    "previewNote": "官方原始效果示例。",
+    "videoPreview": "assets/official/cross-warp-morph/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/cross-warp-morph.mp4",
+      "sha256": "d31d524cb244b6dd0ccdeafec67d7f05b7a0eb4df8198313cd26eaa573c7bd9f",
+      "bytes": 234819
+    },
+    "poster": "assets/official/cross-warp-morph/poster.png",
+    "sourceDescription": "Shader transition with cross-warped morphing"
+  },
+  {
+    "id": "domain-warp-dissolve",
+    "title": "流体溶解",
+    "en": "Domain Warp Dissolve",
+    "category": "转场",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:block",
+    "tags": "transition shader",
+    "desc": "以不规则的噪声形变溶解旧画面，露出下一镜。",
+    "use": "场景衔接 · 镜头切换",
+    "duration": 4.0,
+    "page": "https://hyperframes.heygen.com/catalog/blocks/domain-warp-dissolve",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/domain-warp-dissolve",
+    "install": "npx hyperframes add domain-warp-dissolve",
+    "sources": [
+      {
+        "path": "assets/official/domain-warp-dissolve/source/domain-warp-dissolve.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/domain-warp-dissolve/domain-warp-dissolve.html"
+      }
+    ],
+    "preview": "assets/official/domain-warp-dissolve/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/domain-warp-dissolve.json",
+      "sha256": {
+        "preview": "3b3f5c24275b2def954b153c7bc92f54299ccb4c13bfbfadf30dbaefe700f99c",
+        "domain-warp-dissolve.html": "7d910616bf3eb799c9904a941a5edeb99a00de14bf6e0a094844978c30b2a874",
+        "poster": "fe392e7fa8aff4e582843ec6b4dc56980f218f796d392c56fdd1adcc8bd15c53"
+      }
+    },
+    "previewNote": "官方原始效果示例。",
+    "videoPreview": "assets/official/domain-warp-dissolve/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/domain-warp-dissolve.mp4",
+      "sha256": "a8dbd727855e4c39269def9d158cb5663a0042c9f0af07befb24a34287d20797",
+      "bytes": 1051439
+    },
+    "poster": "assets/official/domain-warp-dissolve/poster.png",
+    "sourceDescription": "Shader transition with fractal noise domain warping"
+  },
+  {
+    "id": "gravitational-lens",
+    "title": "引力透镜",
+    "en": "Gravitational Lens",
+    "category": "转场",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:block",
+    "tags": "transition shader",
+    "desc": "模拟引力透镜对画面的弯曲和聚拢，形成空间扭曲切换。",
+    "use": "场景衔接 · 镜头切换",
+    "duration": 4.0,
+    "page": "https://hyperframes.heygen.com/catalog/blocks/gravitational-lens",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/gravitational-lens",
+    "install": "npx hyperframes add gravitational-lens",
+    "sources": [
+      {
+        "path": "assets/official/gravitational-lens/source/gravitational-lens.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/gravitational-lens/gravitational-lens.html"
+      }
+    ],
+    "preview": "assets/official/gravitational-lens/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/gravitational-lens.json",
+      "sha256": {
+        "preview": "698fc9b8fa268d66b752a7aa41e20e58d3dbf2df067af763262cfafc99ca3949",
+        "gravitational-lens.html": "e873bcca352a2e2721c3fed5d7ea355145d9df9dc9d2454564609bea8e61e475",
+        "poster": "7cc28591a0744463ac34e65b2ddf20d769cb3ff1bc10f7ee7c11280a0c20b4fa"
+      }
+    },
+    "previewNote": "官方原始效果示例。",
+    "videoPreview": "assets/official/gravitational-lens/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/gravitational-lens.mp4",
+      "sha256": "b8338bea8f57f415795f4bebd07e0548a46e4d76d0a50bf77f3717e90f42e5ca",
+      "bytes": 288526
+    },
+    "poster": "assets/official/gravitational-lens/poster.png",
+    "sourceDescription": "Shader transition with gravitational lensing distortion"
+  },
+  {
+    "id": "ridged-burn",
+    "title": "纹理燃烧",
+    "en": "Ridged Burn",
+    "category": "转场",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:block",
+    "tags": "transition shader",
+    "desc": "沿起伏的纹理边缘逐步燃烧、揭开下一画面。",
+    "use": "场景衔接 · 镜头切换",
+    "duration": 4.0,
+    "page": "https://hyperframes.heygen.com/catalog/blocks/ridged-burn",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/ridged-burn",
+    "install": "npx hyperframes add ridged-burn",
+    "sources": [
+      {
+        "path": "assets/official/ridged-burn/source/ridged-burn.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/ridged-burn/ridged-burn.html"
+      }
+    ],
+    "preview": "assets/official/ridged-burn/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/ridged-burn.json",
+      "sha256": {
+        "preview": "2f886cc3c3d4c20342659398efe1782327197cee5128192b1fbe6ad3da4645f0",
+        "ridged-burn.html": "fd6309001b327eba4004e3c334a2d45525fcd5730ba6fd2d2e095e21b5ecd477",
+        "poster": "70bce07e52853ec8052cb34a3380b75e957942fdeec984a22399470ad8bce6a0"
+      }
+    },
+    "previewNote": "官方原始效果示例。",
+    "videoPreview": "assets/official/ridged-burn/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/ridged-burn.mp4",
+      "sha256": "3b218db426b848dc15ec4963c5de8f83d840c9ed7b896171e3b0828145d26a5b",
+      "bytes": 959623
+    },
+    "poster": "assets/official/ridged-burn/poster.png",
+    "sourceDescription": "Shader transition with ridged turbulence burn effect"
+  },
+  {
+    "id": "sdf-iris",
+    "title": "光圈开合",
+    "en": "SDF Iris",
+    "category": "转场",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:block",
+    "tags": "transition shader",
+    "desc": "以可变化的光圈边界开合，完成画面揭示。",
+    "use": "场景衔接 · 镜头切换",
+    "duration": 4.0,
+    "page": "https://hyperframes.heygen.com/catalog/blocks/sdf-iris",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/sdf-iris",
+    "install": "npx hyperframes add sdf-iris",
+    "sources": [
+      {
+        "path": "assets/official/sdf-iris/source/sdf-iris.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/sdf-iris/sdf-iris.html"
+      }
+    ],
+    "preview": "assets/official/sdf-iris/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/sdf-iris.json",
+      "sha256": {
+        "preview": "84ae0c8285bfcabc57064bd22fd1a479fb12d3d8efd338632e61a1f2deea68b9",
+        "sdf-iris.html": "355dd21c493cb11d92f7153c7d8e4f0d832c67e3d094ce95e8abce73cea46e99",
+        "poster": "8c0260f11232de158cf49c9f3c0bd4fc6b5473aabf600d202f712cd4d491064c"
+      }
+    },
+    "previewNote": "官方原始效果示例。",
+    "videoPreview": "assets/official/sdf-iris/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/sdf-iris.mp4",
+      "sha256": "bc3d24066d0ab99e4512128ecd66dd49b79b8b5e178ace30109c43f05faed664",
+      "bytes": 262819
+    },
+    "poster": "assets/official/sdf-iris/poster.png",
+    "sourceDescription": "Shader transition with signed distance field iris reveal"
+  },
+  {
+    "id": "thermal-distortion",
+    "title": "热浪扭曲",
+    "en": "Thermal Distortion",
+    "category": "转场",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:block",
+    "tags": "transition shader",
+    "desc": "模拟热浪造成的空气折射，让画面在扭曲中交接。",
+    "use": "场景衔接 · 镜头切换",
+    "duration": 4.0,
+    "page": "https://hyperframes.heygen.com/catalog/blocks/thermal-distortion",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/thermal-distortion",
+    "install": "npx hyperframes add thermal-distortion",
+    "sources": [
+      {
+        "path": "assets/official/thermal-distortion/source/thermal-distortion.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/thermal-distortion/thermal-distortion.html"
+      }
+    ],
+    "preview": "assets/official/thermal-distortion/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/thermal-distortion.json",
+      "sha256": {
+        "preview": "22d4530608df6ec1c47ad701beb63ec5da651d21aae0ed19ec01554ad7a4f787",
+        "thermal-distortion.html": "cb82b1f76d6c2dcd0d555697fec0155105ba62395d555852ace032448127e276",
+        "poster": "f996530c5f92155b42e2243d782b4621199840ada2b09e899d53f3becccd8b61"
+      }
+    },
+    "previewNote": "官方原始效果示例。",
+    "videoPreview": "assets/official/thermal-distortion/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/thermal-distortion.mp4",
+      "sha256": "d9c52e1f88aab8cec24655ee6c1e5973d8f9f930c032799e1749a01b5d3e7977",
+      "bytes": 360568
+    },
+    "poster": "assets/official/thermal-distortion/poster.png",
+    "sourceDescription": "Shader transition with heat haze thermal distortion"
+  },
+  {
+    "id": "grid-pixelate-wipe",
+    "title": "像素网格擦除",
+    "en": "Grid Pixelate Wipe",
+    "category": "转场",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "tags": "transition wipe grid pixelate",
+    "desc": "网格方块依次消退，在前后画面之间形成像素化擦除。",
+    "use": "场景衔接 · 像素转场",
+    "duration": 8.0,
+    "page": "https://hyperframes.heygen.com/catalog/components/grid-pixelate-wipe",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/grid-pixelate-wipe",
+    "install": "npx hyperframes add grid-pixelate-wipe",
+    "sources": [
+      {
+        "path": "assets/official/grid-pixelate-wipe/source/grid-pixelate-wipe.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/grid-pixelate-wipe/grid-pixelate-wipe.html"
+      }
+    ],
+    "preview": "assets/official/grid-pixelate-wipe/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/grid-pixelate-wipe.json",
+      "sha256": {
+        "preview": "cd3a8101a878d7586bc71b13db278867800a3442cfe272126c556ad7b77f0fdc",
+        "grid-pixelate-wipe.html": "60981a8c4a97c1686014543cefdeac439daa621d3da9074485834f16ed7ac03c",
+        "poster": "de5138755c48ef8f7b913bd8a18aa03c86ee2c136014eb4017320567edac818c"
+      }
+    },
+    "previewNote": "官方原始效果示例。",
+    "poster": "assets/official/grid-pixelate-wipe/poster.png",
+    "videoPreview": "assets/official/grid-pixelate-wipe/preview.mp4",
+    "videoProvenance": {
+      "kind": "locally-rendered-official-preview",
+      "renderer": "hyperframes@0.8.30",
+      "officialPreviewSha256": "cd3a8101a878d7586bc71b13db278867800a3442cfe272126c556ad7b77f0fdc",
+      "sha256": "cd8946df58acdfa72465b353270098b0f9b7c3c3448343d7223f825e44415582",
+      "bytes": 975635
+    },
+    "sourceDescription": "Transition effect where the screen dissolves into a grid of squares that fade out with staggered timing — use between scenes"
+  },
+  {
+    "id": "caption-clip-wipe",
+    "title": "逐词擦入",
+    "en": "Clip Wipe",
+    "category": "字幕",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "tags": "captions caption-style wipe clip-path reveal",
+    "desc": "每个词从左向右擦入，跟随字幕节奏逐步显现。",
+    "use": "口播字幕 · 逐词强调",
+    "duration": 8.0,
+    "page": "https://hyperframes.heygen.com/catalog/components/caption-clip-wipe",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-clip-wipe",
+    "install": "npx hyperframes add caption-clip-wipe",
+    "sources": [
+      {
+        "path": "assets/official/caption-clip-wipe/source/caption-clip-wipe.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-clip-wipe/caption-clip-wipe.html"
+      }
+    ],
+    "preview": "assets/official/caption-clip-wipe/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/caption-clip-wipe.json",
+      "sha256": {
+        "preview": "c2db9e05aacffc9e8ad1b96a61786d0c7ff6b920e573b59af88028cff82c1d2f",
+        "caption-clip-wipe.html": "8b9e06353df3ea3bc0113a9c7ef3e480293a6ed75bee46744b053bf5e02dc5f6",
+        "poster": "f534299f5dc3f5aac52cd8093fa3247c788addf5e6cf71817f71501ba6eb961b"
+      }
+    },
+    "previewNote": "官方原始效果示例。",
+    "videoPreview": "assets/official/caption-clip-wipe/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/registry/components/caption-clip-wipe/preview-v2.mp4",
+      "sha256": "d910efe52f0400cd0d8dd36267034ef3bcac6c8c871e66d8c261ee7ea395d5d7",
+      "bytes": 398591
+    },
+    "poster": "assets/official/caption-clip-wipe/poster.png",
+    "sourceDescription": "Left-to-right clip-path wipe reveal per word"
+  },
+  {
+    "id": "caption-editorial-emphasis",
+    "title": "重点词强调",
+    "en": "Editorial Emphasis",
+    "category": "字幕",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "tags": "captions caption-style editorial typography emphasis",
+    "desc": "用不同字体与明显的字号对比，强调句子中的重点词。",
+    "use": "口播字幕 · 逐词强调",
+    "duration": 8.0,
+    "page": "https://hyperframes.heygen.com/catalog/components/caption-editorial-emphasis",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-editorial-emphasis",
+    "install": "npx hyperframes add caption-editorial-emphasis",
+    "sources": [
+      {
+        "path": "assets/official/caption-editorial-emphasis/source/caption-editorial-emphasis.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-editorial-emphasis/caption-editorial-emphasis.html"
+      }
+    ],
+    "preview": "assets/official/caption-editorial-emphasis/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/caption-editorial-emphasis.json",
+      "sha256": {
+        "preview": "b083ab70c2d2d150dfcc09890ad521cffb1bd869cef22a9b03b62d7a256b9e07",
+        "caption-editorial-emphasis.html": "6144571b6c73dbdec282284fe2277d3c958e15cddaf362295ba9cca02e705d1c",
+        "poster": "70d9990968aa3890073f965a748f0e0e895e6396cf810cc089ec3ddd07e57edf"
+      }
+    },
+    "previewNote": "官方原始效果示例。",
+    "videoPreview": "assets/official/caption-editorial-emphasis/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/registry/components/caption-editorial-emphasis/preview.mp4?v=1779051416",
+      "sha256": "b6b5cfb1724d4b376540df31a214abe90ee221de3e862d45f3ee018deea7e717",
+      "bytes": 586528
+    },
+    "poster": "assets/official/caption-editorial-emphasis/poster.png",
+    "sourceDescription": "Dual-font system with dramatic size contrast for emphasis words"
+  },
+  {
+    "id": "caption-emoji-pop",
+    "title": "表情弹出字幕",
+    "en": "Emoji Pop",
+    "category": "字幕",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "tags": "captions caption-style emoji social",
+    "desc": "在字幕中配合表情符号与挤压弹出动作，增强口语表达。",
+    "use": "口播字幕 · 逐词强调",
+    "duration": 8.0,
+    "page": "https://hyperframes.heygen.com/catalog/components/caption-emoji-pop",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-emoji-pop",
+    "install": "npx hyperframes add caption-emoji-pop",
+    "sources": [
+      {
+        "path": "assets/official/caption-emoji-pop/source/caption-emoji-pop.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-emoji-pop/caption-emoji-pop.html"
+      }
+    ],
+    "preview": "assets/official/caption-emoji-pop/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/caption-emoji-pop.json",
+      "sha256": {
+        "preview": "710dfcf9443251fc9c3ab003eb25ed1f2fdd66a4b76cdbee6a1ab562e2a1f106",
+        "caption-emoji-pop.html": "79e7cad5cf54dec70e7af59c8d0583531017bacca6bc9ee057bfad386904eb9b",
+        "poster": "105a744aa55f47eb0c62269050dc1435c686a9ba2a623d9682fe24238a552bf3"
+      }
+    },
+    "previewNote": "官方原始效果示例。",
+    "videoPreview": "assets/official/caption-emoji-pop/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/registry/components/caption-emoji-pop/preview.mp4?v=1779051416",
+      "sha256": "f0ad239a28c4a7ec088fe38d36d6f789f1dc84f241a683bb23d2eb692e895640",
+      "bytes": 445379
+    },
+    "poster": "assets/official/caption-emoji-pop/poster.png",
+    "sourceDescription": "Emoji integration with stroked text and horizontal squeeze entrance"
+  },
+  {
+    "id": "caption-glitch-rgb",
+    "title": "RGB 故障字幕",
+    "en": "Glitch RGB",
+    "category": "字幕",
+    "desc": "文字叠加 RGB 通道错位与扫描线，形成电子故障质感。",
+    "use": "口播字幕 · 逐词强调",
+    "tags": "captions caption-style glitch cyber tech",
+    "duration": 8.0,
+    "type": "hyperframes:component",
+    "preview": "assets/official/caption-glitch-rgb/preview.json",
+    "poster": "assets/official/caption-glitch-rgb/poster.png",
+    "page": "https://hyperframes.heygen.com/catalog/components/caption-glitch-rgb",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-glitch-rgb",
+    "install": "npx hyperframes add caption-glitch-rgb",
+    "sources": [
+      {
+        "path": "assets/official/caption-glitch-rgb/source/caption-glitch-rgb.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-glitch-rgb/caption-glitch-rgb.html"
+      }
+    ],
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/caption-glitch-rgb.json",
+      "sha256": {
+        "preview": "1b40d704b1b6932daf8d774c077d26cbf50d3fbf0565e6d529bf6e0f8c10c62c",
+        "caption-glitch-rgb.html": "65e588d27515cde0e361cddd6034a3dad647a86f50c02847c6cc453619d58648",
+        "poster": "713a53dd4f9babdda4673582f2bdbf6282966bfef90406a4c0ec5d2ac69c52e5"
+      }
+    },
+    "localPreview": "assets/official/caption-glitch-rgb/preview-local.json",
+    "localPreviewSha256": "874b6b240ed67bb6958c7f7db05bcd2864ecd42761e457589f36820a015b819a",
+    "videoPreview": "assets/official/caption-glitch-rgb/preview.mp4",
+    "videoProvenance": {
+      "kind": "locally-rendered-official-preview",
+      "sha256": "376cba3a4de9c29d8c5567c8ed03cd2bd60e89cba5ebd61f99b8ee06340842ec",
+      "renderer": "hyperframes@0.8.30",
+      "fps": 30,
+      "duration": 8.0,
+      "bytes": 574775,
+      "officialPreviewSha256": "1b40d704b1b6932daf8d774c077d26cbf50d3fbf0565e6d529bf6e0f8c10c62c"
+    },
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "previewNote": "官方原始效果示例。",
+    "sourceDescription": "RGB chromatic aberration with CRT scanline overlay"
+  },
+  {
+    "id": "caption-gradient-fill",
+    "title": "渐变弹性字幕",
+    "en": "Gradient Fill",
+    "category": "字幕",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "tags": "captions caption-style gradient colorful",
+    "desc": "文字使用渐变填色，并以弹性动作进入画面。",
+    "use": "口播字幕 · 逐词强调",
+    "duration": 8.0,
+    "page": "https://hyperframes.heygen.com/catalog/components/caption-gradient-fill",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-gradient-fill",
+    "install": "npx hyperframes add caption-gradient-fill",
+    "sources": [
+      {
+        "path": "assets/official/caption-gradient-fill/source/caption-gradient-fill.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-gradient-fill/caption-gradient-fill.html"
+      }
+    ],
+    "preview": "assets/official/caption-gradient-fill/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/caption-gradient-fill.json",
+      "sha256": {
+        "preview": "e39a9373cfa02a351bff32eae232b6f1550547be306c419abf6e28062da1f0d0",
+        "caption-gradient-fill.html": "6d08dc0a9f54d25b25590721ec579a3521a0079c70f32b292bd93697384c60ff",
+        "poster": "83f67fe5d4f9f0bf2704fc4e104ea88d4290785f479870e7a23d86af05a09b88"
+      }
+    },
+    "previewNote": "官方原始效果示例。",
+    "videoPreview": "assets/official/caption-gradient-fill/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/registry/components/caption-gradient-fill/preview-v2.mp4",
+      "sha256": "9b9fa579a52121ad77a2cef45fa5d4d6a5e756d80dc06d9d0e05bd6844c49847",
+      "bytes": 1280360
+    },
+    "poster": "assets/official/caption-gradient-fill/poster.png",
+    "sourceDescription": "Gradient-clipped text with elastic bounce entrance"
+  },
+  {
+    "id": "caption-highlight",
+    "title": "逐词底色高亮",
+    "en": "Highlight",
+    "category": "字幕",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "tags": "captions caption-style highlight social tiktok",
+    "desc": "活动词后方出现红色底色，随说话节奏逐词移动。",
+    "use": "口播字幕 · 逐词强调",
+    "duration": 8.0,
+    "page": "https://hyperframes.heygen.com/catalog/components/caption-highlight",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-highlight",
+    "install": "npx hyperframes add caption-highlight",
+    "sources": [
+      {
+        "path": "assets/official/caption-highlight/source/caption-highlight.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-highlight/caption-highlight.html"
+      }
+    ],
+    "preview": "assets/official/caption-highlight/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/caption-highlight.json",
+      "sha256": {
+        "preview": "5188fb400a8ef5417331a38f797958a4e62f3348fdbc491c2941e1d47647efbe",
+        "caption-highlight.html": "77f877ddcef85e787453daa6724cec5e85a0678fcb098fe94f9b86ce0ef5f2f4",
+        "poster": "fa64406d57128c51efd5856b363ae4bd5e9f64800e07de78721e34e9de862e0d"
+      }
+    },
+    "previewNote": "官方原始效果示例。",
+    "videoPreview": "assets/official/caption-highlight/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/registry/components/caption-highlight/preview-v2.mp4",
+      "sha256": "67d00f7358c1a553527aa2c7e1ec6be8280dffb2ffc2279c328938009beb888d",
+      "bytes": 893910
+    },
+    "poster": "assets/official/caption-highlight/poster.png",
+    "sourceDescription": "Red background sweep behind each active word, TikTok-style"
+  },
+  {
+    "id": "caption-kinetic-slam",
+    "title": "重击字幕",
+    "en": "Kinetic Slam",
+    "category": "字幕",
+    "desc": "单词依次占据画面中心，从交替方向快速进入，突出语言节奏。",
+    "use": "口播字幕 · 逐词强调",
+    "tags": "captions caption-style kinetic typography slam",
+    "duration": 8.0,
+    "type": "hyperframes:component",
+    "preview": "assets/official/caption-kinetic-slam/preview.json",
+    "poster": "assets/official/caption-kinetic-slam/poster.png",
+    "page": "https://hyperframes.heygen.com/catalog/components/caption-kinetic-slam",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-kinetic-slam",
+    "install": "npx hyperframes add caption-kinetic-slam",
+    "sources": [
+      {
+        "path": "assets/official/caption-kinetic-slam/source/caption-kinetic-slam.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-kinetic-slam/caption-kinetic-slam.html"
+      }
+    ],
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/caption-kinetic-slam.json",
+      "sha256": {
+        "preview": "d07358aa7829315f9c4d9b515c12f44a2b3af84f26f58419bc6378bba4b80ba4",
+        "caption-kinetic-slam.html": "86b7a54e045f626d1375636a2f1cde19c2f3cbdad1df1d7d0204fe6b4452044a",
+        "poster": "e48937b6a586f4fb461536f2bc63c3ba21949a8916199dfe7f6cb162e74336f4"
+      }
+    },
+    "localPreview": "assets/official/caption-kinetic-slam/preview-local.json",
+    "localPreviewSha256": "4d0598102f18a89d1fd1ee60c620fa48283bd001243e576e7b020ebae9ce04f3",
+    "videoPreview": "assets/official/caption-kinetic-slam/preview.mp4",
+    "videoProvenance": {
+      "kind": "locally-rendered-official-preview",
+      "sha256": "16c977dee17e4cf66c59f5d5e2e031ed6ceaf52220eb8032c3e4e5e894cee099",
+      "renderer": "hyperframes@0.8.30",
+      "fps": 30,
+      "duration": 8.0,
+      "bytes": 680724,
+      "officialPreviewSha256": "d07358aa7829315f9c4d9b515c12f44a2b3af84f26f58419bc6378bba4b80ba4"
+    },
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "previewNote": "官方原始效果示例。",
+    "sourceDescription": "Full-screen single-word display with alternating entrance directions"
+  },
+  {
+    "id": "caption-matrix-decode",
+    "title": "字符解码字幕",
+    "en": "Matrix Decode",
+    "category": "字幕",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "tags": "captions caption-style matrix scramble decode",
+    "desc": "字符先打乱，再逐步解码成清晰的字幕内容。",
+    "use": "口播字幕 · 逐词强调",
+    "duration": 8.0,
+    "page": "https://hyperframes.heygen.com/catalog/components/caption-matrix-decode",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-matrix-decode",
+    "install": "npx hyperframes add caption-matrix-decode",
+    "sources": [
+      {
+        "path": "assets/official/caption-matrix-decode/source/caption-matrix-decode.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-matrix-decode/caption-matrix-decode.html"
+      }
+    ],
+    "preview": "assets/official/caption-matrix-decode/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/caption-matrix-decode.json",
+      "sha256": {
+        "preview": "fe6745d5ded41e5a5f20006149da1c05e9063a330a44008a1d535a66d3c9fd8d",
+        "caption-matrix-decode.html": "c8f703cbe6e8dd547107f2e6298f27c287a9d08b133ceab128e874ce88d36e78",
+        "poster": "05933595ae6d2cc7f7d27ee6b62827262bd52d5fc485148b8ac3dd7d80f4e410"
+      }
+    },
+    "previewNote": "官方原始效果示例。",
+    "videoPreview": "assets/official/caption-matrix-decode/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/registry/components/caption-matrix-decode/preview-v2.mp4",
+      "sha256": "8e48c837572eecc2231e9259f05cce578581ff6bedca436fd17e83952ef7e78e",
+      "bytes": 861192
+    },
+    "poster": "assets/official/caption-matrix-decode/poster.png",
+    "sourceDescription": "Character scramble animation before text reveal"
+  },
+  {
+    "id": "caption-neon-accent",
+    "title": "多彩霓虹字幕",
+    "en": "Neon Accent",
+    "category": "字幕",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "tags": "captions caption-style neon glow accent",
+    "desc": "用多色霓虹光晕和轻微摆动突出字幕。",
+    "use": "口播字幕 · 逐词强调",
+    "duration": 8.0,
+    "page": "https://hyperframes.heygen.com/catalog/components/caption-neon-accent",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-neon-accent",
+    "install": "npx hyperframes add caption-neon-accent",
+    "sources": [
+      {
+        "path": "assets/official/caption-neon-accent/source/caption-neon-accent.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-neon-accent/caption-neon-accent.html"
+      }
+    ],
+    "preview": "assets/official/caption-neon-accent/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/caption-neon-accent.json",
+      "sha256": {
+        "preview": "eb62929170229bc4fd17cced1839c9d95e1b61ab870b5fb8470df434786486ee",
+        "caption-neon-accent.html": "1c4af30ab35c6e3f754157cce2c364c75386f37059d47fa52446bca19200339d",
+        "poster": "7ecf5e53363ee0b7e50951843ef5d09ea5363316bfaf695ea9cfb28ba2c34e73"
+      }
+    },
+    "previewNote": "官方原始效果示例。",
+    "videoPreview": "assets/official/caption-neon-accent/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/registry/components/caption-neon-accent/preview.mp4?v=1779051416",
+      "sha256": "3cfc99025d67b849aaeff5aaae8f7d894910657bdaacf39cfdd41ae4b0009fbb",
+      "bytes": 2012937
+    },
+    "poster": "assets/official/caption-neon-accent/poster.png",
+    "sourceDescription": "Multi-color neon glow accents with wiggle drift animation"
+  },
+  {
+    "id": "caption-neon-glow",
+    "title": "霓虹发光字幕",
+    "en": "Neon Glow",
+    "category": "字幕",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "tags": "captions caption-style neon glow gaming",
+    "desc": "青色与洋红色霓虹发光，重点词使用不同强调色。",
+    "use": "口播字幕 · 逐词强调",
+    "duration": 8.0,
+    "page": "https://hyperframes.heygen.com/catalog/components/caption-neon-glow",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-neon-glow",
+    "install": "npx hyperframes add caption-neon-glow",
+    "sources": [
+      {
+        "path": "assets/official/caption-neon-glow/source/caption-neon-glow.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-neon-glow/caption-neon-glow.html"
+      }
+    ],
+    "preview": "assets/official/caption-neon-glow/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/caption-neon-glow.json",
+      "sha256": {
+        "preview": "e584b57876c937d7b5aaa99865e1313370984beed9f7a299b853bff9a2b3b357",
+        "caption-neon-glow.html": "dc9d43d58879e1422837c213aa7f8921ca43b58f4e9c77f8463232585e05034c",
+        "poster": "531144a990023d38800d9972b6366021c2034412cea5a92ffff72fd08cac3a2a"
+      }
+    },
+    "previewNote": "官方原始效果示例。",
+    "videoPreview": "assets/official/caption-neon-glow/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/registry/components/caption-neon-glow/preview.mp4?v=1779051416",
+      "sha256": "088cb7c6727928fa454976711c848ef1150cd996a9f8a0eb732df21d9d350338",
+      "bytes": 799383
+    },
+    "poster": "assets/official/caption-neon-glow/poster.png",
+    "sourceDescription": "Cyan and magenta neon glow with keyword accent colors"
+  },
+  {
+    "id": "caption-parallax-layers",
+    "title": "视差层叠字幕",
+    "en": "Parallax Layers",
+    "category": "字幕",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "tags": "captions caption-style parallax 3d depth",
+    "desc": "用视差、层次和文字拉伸，让字幕带有空间感。",
+    "use": "口播字幕 · 逐词强调",
+    "duration": 8.0,
+    "page": "https://hyperframes.heygen.com/catalog/components/caption-parallax-layers",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-parallax-layers",
+    "install": "npx hyperframes add caption-parallax-layers",
+    "sources": [
+      {
+        "path": "assets/official/caption-parallax-layers/source/caption-parallax-layers.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-parallax-layers/caption-parallax-layers.html"
+      }
+    ],
+    "preview": "assets/official/caption-parallax-layers/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/caption-parallax-layers.json",
+      "sha256": {
+        "preview": "904093be5563214a1a8be0e691d3d6932c1563205924f7dabf629136db61f8fa",
+        "caption-parallax-layers.html": "e1c14eb380fa7d7b8c84798e40530e946ed140547c61d2e6f5111d712cb72d78",
+        "poster": "183ba50918d13512aeea3c326d70d11998134532cd258de7fc05f096386079e8"
+      }
+    },
+    "previewNote": "官方原始效果示例。",
+    "videoPreview": "assets/official/caption-parallax-layers/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/registry/components/caption-parallax-layers/preview.mp4?v=1779051692",
+      "sha256": "c86134da3950e139d859d934153c0c0324ded3f1f3d278615a44aba6ce8fbeb5",
+      "bytes": 1065224
+    },
+    "poster": "assets/official/caption-parallax-layers/poster.png",
+    "sourceDescription": "Behind-subject 3D text layering with vertical stretch effect"
+  },
+  {
+    "id": "caption-particle-burst",
+    "title": "关键词粒子字幕",
+    "en": "Particle Burst",
+    "category": "字幕",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "tags": "captions caption-style particles burst effects",
+    "desc": "关键词出现时触发彩色粒子爆发，强调关键表达。",
+    "use": "口播字幕 · 逐词强调",
+    "duration": 8.0,
+    "page": "https://hyperframes.heygen.com/catalog/components/caption-particle-burst",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-particle-burst",
+    "install": "npx hyperframes add caption-particle-burst",
+    "sources": [
+      {
+        "path": "assets/official/caption-particle-burst/source/caption-particle-burst.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-particle-burst/caption-particle-burst.html"
+      }
+    ],
+    "preview": "assets/official/caption-particle-burst/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/caption-particle-burst.json",
+      "sha256": {
+        "preview": "7f5c27ece3b37e01332bf20ac05fc6daaaf3b087abb8e5ecf2fa3fc499db19c7",
+        "caption-particle-burst.html": "48ec0a000e9c40cff891c2ca0e66ed4cf33c358bbeb2ca76fb3bdc8288bf5936",
+        "poster": "db83ca5880a188708f10467002b214fde09ff1f5a3526f682a346fbe90b04676"
+      }
+    },
+    "previewNote": "官方原始效果示例。",
+    "videoPreview": "assets/official/caption-particle-burst/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/registry/components/caption-particle-burst/preview.mp4?v=1779051416",
+      "sha256": "371d8938018763e57e2d0e7bf5744b3ca7e8a3535e46509499eb1a8547b4996e",
+      "bytes": 829966
+    },
+    "poster": "assets/official/caption-particle-burst/poster.png",
+    "sourceDescription": "Keyword words trigger colored particle explosions"
+  },
+  {
+    "id": "caption-pill-karaoke",
+    "title": "胶囊卡拉 OK 字幕",
+    "en": "Pill Karaoke",
+    "category": "字幕",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "tags": "captions caption-style karaoke pill",
+    "desc": "字幕放在胶囊容器中，逐词高亮形成卡拉 OK 阅读效果。",
+    "use": "口播字幕 · 逐词强调",
+    "duration": 8.0,
+    "page": "https://hyperframes.heygen.com/catalog/components/caption-pill-karaoke",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-pill-karaoke",
+    "install": "npx hyperframes add caption-pill-karaoke",
+    "sources": [
+      {
+        "path": "assets/official/caption-pill-karaoke/source/caption-pill-karaoke.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-pill-karaoke/caption-pill-karaoke.html"
+      }
+    ],
+    "preview": "assets/official/caption-pill-karaoke/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/caption-pill-karaoke.json",
+      "sha256": {
+        "preview": "02cc4ad72a6e1e6ae2e561e07039dba54344fe08520eb0ef04a060af011f880e",
+        "caption-pill-karaoke.html": "cdbbc72af7fbac440c0bf5750cf9e3d4ded20f26588b00ac79399342ca60b3e3",
+        "poster": "05715b5d9ae679848ff194a6b3cbb66fc5685af40438368439593fc8e4d86b6f"
+      }
+    },
+    "previewNote": "官方原始效果示例。",
+    "videoPreview": "assets/official/caption-pill-karaoke/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/registry/components/caption-pill-karaoke/preview.mp4?v=1779051416",
+      "sha256": "3d13e060d29f31d4f97a4ac74c8991811b8a8a9cc2f3d7538519dd19c0a3564c",
+      "bytes": 267047
+    },
+    "poster": "assets/official/caption-pill-karaoke/poster.png",
+    "sourceDescription": "Pill-shaped container with per-word karaoke color highlight"
+  },
+  {
+    "id": "caption-weight-shift",
+    "title": "字重变化字幕",
+    "en": "Weight Shift",
+    "category": "字幕",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "tags": "captions caption-style minimal typography",
+    "desc": "通过字体粗细变化，把阅读注意力引向当前字幕。",
+    "use": "口播字幕 · 逐词强调",
+    "duration": 8.0,
+    "page": "https://hyperframes.heygen.com/catalog/components/caption-weight-shift",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-weight-shift",
+    "install": "npx hyperframes add caption-weight-shift",
+    "sources": [
+      {
+        "path": "assets/official/caption-weight-shift/source/caption-weight-shift.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-weight-shift/caption-weight-shift.html"
+      }
+    ],
+    "preview": "assets/official/caption-weight-shift/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/caption-weight-shift.json",
+      "sha256": {
+        "preview": "42e06a715ca2e5f17cae815d5b16a366d4271b4620ca188a367ac9ff726e5043",
+        "caption-weight-shift.html": "8a5294debec3eadeb7ca0a8688c31a6e8c517ebb1c55ff410aa81df3807daa55",
+        "poster": "78b72b82cf0114e4862b1b3fecf91423f50322e2e42615e9b4f6510ad0910ade"
+      }
+    },
+    "previewNote": "官方原始效果示例。",
+    "videoPreview": "assets/official/caption-weight-shift/preview.mp4",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/registry/components/caption-weight-shift/preview-v2.mp4",
+      "sha256": "b80f1d6047160df6b50ce05284df6b7bd4cfc8f0a415498d5ec2a97fba222d32",
+      "bytes": 348802
+    },
+    "poster": "assets/official/caption-weight-shift/poster.png",
+    "sourceDescription": "Elegant font-weight transition between caption lines"
+  },
+  {
+    "id": "caption-camera-follow",
+    "title": "镜头跟随字幕",
+    "en": "Camera Follow Captions",
+    "category": "字幕",
+    "sourceLabel": "HyperFrames 官方",
+    "origin": "official",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "tags": "captions caption-style camera typography motion-primitive portrait",
+    "desc": "单词不断写入更大的空间，镜头持续拉远跟随，最终展示整句。",
+    "use": "口播字幕 · 逐词强调",
+    "duration": 5.0,
+    "page": "https://hyperframes.heygen.com/catalog/components/caption-camera-follow",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-camera-follow",
+    "install": "npx hyperframes add caption-camera-follow",
+    "sources": [
+      {
+        "path": "assets/official/caption-camera-follow/source/caption-camera-follow.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/caption-camera-follow/caption-camera-follow.html"
+      }
+    ],
+    "preview": "assets/official/caption-camera-follow/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/caption-camera-follow.json",
+      "sha256": {
+        "preview": "c966fb587c73edd99822fb6376e2d77e9b417775f848c49539081d246d938595",
+        "caption-camera-follow.html": "4a0da1ba065882e95274468c8f3e36f1094fc598c3c93be1fc63182e9e42953c"
+      }
+    },
+    "previewNote": "官方原始效果示例。",
+    "videoPreview": "assets/official/caption-camera-follow/preview.mp4",
+    "videoProvenance": {
+      "kind": "locally-rendered-official-preview",
+      "renderer": "hyperframes@0.8.30",
+      "officialPreviewSha256": "c966fb587c73edd99822fb6376e2d77e9b417775f848c49539081d246d938595",
+      "sha256": "200b7879edf40df637de6c18b89f7f1d0adb392822c3a9dd5720595f75a72390",
+      "bytes": 1319688
+    },
+    "poster": "assets/official/caption-camera-follow/poster.jpg",
+    "sourceDescription": "One sentence written across a world far larger than the frame. Each word is sized against everything already written, so the block grows geometrically and the camera pulls back at a steady rate to keep landing the new word at the same size. Old words stay lit and simply become small."
+  }
+]

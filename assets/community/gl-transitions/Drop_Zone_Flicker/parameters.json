@@ -1,0 +1,18 @@
+{
+  "paramsTypes": {
+    "frameRate": "float",
+    "rgbOffset": "float",
+    "blockAmount": "float",
+    "ghostAmount": "float",
+    "redCyan": "float",
+    "scanline": "float"
+  },
+  "defaultParams": {
+    "frameRate": 24,
+    "rgbOffset": 0.014,
+    "blockAmount": 0.72,
+    "ghostAmount": 0.62,
+    "redCyan": 0.58,
+    "scanline": 0.075
+  }
+}

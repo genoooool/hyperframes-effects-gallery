@@ -1,0 +1,29 @@
+{
+  "paramsTypes": {
+    "center": "vec2",
+    "direction": "float",
+    "maxRotation": "float",
+    "peakZoom": "float",
+    "swirl": "float",
+    "barrel": "float",
+    "motionBlur": "float",
+    "switchStart": "float",
+    "switchEnd": "float",
+    "shadow": "float"
+  },
+  "defaultParams": {
+    "center": [
+      0.46,
+      0.52
+    ],
+    "direction": -1,
+    "maxRotation": 1.95,
+    "peakZoom": 2.22,
+    "swirl": 2.85,
+    "barrel": 0.38,
+    "motionBlur": 1,
+    "switchStart": 0.3,
+    "switchEnd": 0.5,
+    "shadow": 0.16
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "accessibility-captions-large-type-captions",
+  "title": "Large Type Captions",
+  "category": "accessibility-production",
+  "tags": [
+    "accessibility",
+    "captions",
+    "large-type",
+    "distance"
+  ],
+  "description": "Oversized captions use short lines, strong weight, and a quiet background for viewers watching from a distance.",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 132,
+  "defaultProps": {
+    "variant": "large-type-captions",
+    "transcript": "Readable from a distance.",
+    "segments": [],
+    "wordTimings": [],
+    "speaker": "Avery Stone",
+    "speakerRole": "Narrator",
+    "description": "Large type remains legible on a phone, screen, or presentation wall.",
+    "signLanguageLabel": "Interpreter",
+    "language": "en",
+    "captionPosition": "center",
+    "contrastMode": "light",
+    "safeArea": 70,
+    "paletteName": "paper",
+    "showProgress": true,
+    "showSpeaker": false
+  }
+}

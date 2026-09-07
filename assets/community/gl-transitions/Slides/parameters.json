@@ -1,0 +1,10 @@
+{
+  "paramsTypes": {
+    "type": "int",
+    "In": "bool"
+  },
+  "defaultParams": {
+    "type": 0,
+    "In": false
+  }
+}

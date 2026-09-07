@@ -1,0 +1,10 @@
+{
+  "paramsTypes": {
+    "endx": "int",
+    "endy": "int"
+  },
+  "defaultParams": {
+    "endx": 2,
+    "endy": -1
+  }
+}

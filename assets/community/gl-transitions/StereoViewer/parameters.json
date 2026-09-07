@@ -1,0 +1,10 @@
+{
+  "paramsTypes": {
+    "zoom": "float",
+    "corner_radius": "float"
+  },
+  "defaultParams": {
+    "zoom": 0.88,
+    "corner_radius": 0.22
+  }
+}

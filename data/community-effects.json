@@ -1,0 +1,767 @@
+[
+  {
+    "id": "remotion-bounce-caption",
+    "title": "弹跳字幕",
+    "en": "BounceCaption",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ahgsql",
+    "compatibility": "Remotion 原生 · 待适配",
+    "desc": "作者提供的 BounceCaption 字幕效果预览。保留原始 React 组件，可在 Remotion 中传入文字与样式使用。",
+    "use": "短视频字幕 · 口播包装",
+    "tags": "字幕 Remotion BounceCaption 弹跳字幕",
+    "type": "remotion:component",
+    "duration": 4.466667,
+    "poster": "assets/community/remotion-subtitles/BounceCaption/poster.jpg",
+    "videoPreview": "assets/community/remotion-subtitles/BounceCaption/preview.mp4",
+    "page": "https://github.com/ahgsql/remotion-subtitles#available-caption-templates",
+    "source": "https://github.com/ahgsql/remotion-subtitles/blob/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/BounceCaption.js",
+    "install": "npm install remotion-subtitle\nimport { BounceCaption } from \"remotion-subtitle\";",
+    "sources": [
+      {
+        "path": "assets/community/remotion-subtitles/BounceCaption/BounceCaption.js",
+        "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/BounceCaption.js"
+      }
+    ],
+    "provenance": {
+      "commit": "d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43",
+      "license": "MIT",
+      "files": {
+        "BounceCaption.js": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/BounceCaption.js",
+          "sha256": "ff8f4da2946589bac0bc7b77358659b1ed2216f5d5f4a607a5337efbb5f9f725"
+        },
+        "original.gif": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/BounceCaption.gif",
+          "sha256": "7321f79dac0a471841ee14dbaac30d1cc559a25bea829ebd98a4b2975c17711e"
+        }
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-gif-transcoded",
+      "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/BounceCaption.gif",
+      "sha256": "43392a4cb56bf2dcd6ebc50b8e099cbaf8104ed747675ce1b45872a24fc069d9"
+    },
+    "previewNote": "作者原始动图转为视频，画面与节奏保持原样。原生组件用于 Remotion；尚未转换或验证为 HyperFrames 模板。"
+  },
+  {
+    "id": "remotion--caption",
+    "title": "标准字幕",
+    "en": "Caption",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ahgsql",
+    "compatibility": "Remotion 原生 · 待适配",
+    "desc": "作者提供的 Caption 字幕效果预览。保留原始 React 组件，可在 Remotion 中传入文字与样式使用。",
+    "use": "短视频字幕 · 口播包装",
+    "tags": "字幕 Remotion Caption 标准字幕",
+    "type": "remotion:component",
+    "duration": 4.466667,
+    "poster": "assets/community/remotion-subtitles/Caption/poster.jpg",
+    "videoPreview": "assets/community/remotion-subtitles/Caption/preview.mp4",
+    "page": "https://github.com/ahgsql/remotion-subtitles#available-caption-templates",
+    "source": "https://github.com/ahgsql/remotion-subtitles/blob/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/Caption.js",
+    "install": "npm install remotion-subtitle\nimport { Caption } from \"remotion-subtitle\";",
+    "sources": [
+      {
+        "path": "assets/community/remotion-subtitles/Caption/Caption.js",
+        "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/Caption.js"
+      }
+    ],
+    "provenance": {
+      "commit": "d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43",
+      "license": "MIT",
+      "files": {
+        "Caption.js": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/Caption.js",
+          "sha256": "5dfffc45247f4d64bd526c311412a39ccaa4ed3e0540c2c1cdda6a9dc3f9caa9"
+        },
+        "original.gif": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/Caption.gif",
+          "sha256": "dfe6ea11d195455e97a32b7205241c6f819223e14ce8195d4056a640a36ea371"
+        }
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-gif-transcoded",
+      "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/Caption.gif",
+      "sha256": "d33d85b2f2ef6521be1cfa3e312953b5b3c5a4f9a20091ae4497b14f61fbf34e"
+    },
+    "previewNote": "作者原始动图转为视频，画面与节奏保持原样。原生组件用于 Remotion；尚未转换或验证为 HyperFrames 模板。"
+  },
+  {
+    "id": "remotion-colorful-caption",
+    "title": "多彩字幕",
+    "en": "ColorfulCaption",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ahgsql",
+    "compatibility": "Remotion 原生 · 待适配",
+    "desc": "作者提供的 ColorfulCaption 字幕效果预览。保留原始 React 组件，可在 Remotion 中传入文字与样式使用。",
+    "use": "短视频字幕 · 口播包装",
+    "tags": "字幕 Remotion ColorfulCaption 多彩字幕",
+    "type": "remotion:component",
+    "duration": 4.466667,
+    "poster": "assets/community/remotion-subtitles/ColorfulCaption/poster.jpg",
+    "videoPreview": "assets/community/remotion-subtitles/ColorfulCaption/preview.mp4",
+    "page": "https://github.com/ahgsql/remotion-subtitles#available-caption-templates",
+    "source": "https://github.com/ahgsql/remotion-subtitles/blob/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/ColorfulCaption.js",
+    "install": "npm install remotion-subtitle\nimport { ColorfulCaption } from \"remotion-subtitle\";",
+    "sources": [
+      {
+        "path": "assets/community/remotion-subtitles/ColorfulCaption/ColorfulCaption.js",
+        "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/ColorfulCaption.js"
+      }
+    ],
+    "provenance": {
+      "commit": "d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43",
+      "license": "MIT",
+      "files": {
+        "ColorfulCaption.js": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/ColorfulCaption.js",
+          "sha256": "8adaa0b8d6ccb6fe00f2b6a61ddecf6eb0a7d2838142982b813777c49ad24f9e"
+        },
+        "original.gif": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/ColorfulCaption.gif",
+          "sha256": "56927372652aa0b1279818b0f1536649855a99e8a3e6fb540ce8e3a8d5b8c330"
+        }
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-gif-transcoded",
+      "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/ColorfulCaption.gif",
+      "sha256": "de961e6ed39c58f66dfa86bb8c26ce07d2dffbdd5fc9a4cff2ebfc6635a60151"
+    },
+    "previewNote": "作者原始动图转为视频，画面与节奏保持原样。原生组件用于 Remotion；尚未转换或验证为 HyperFrames 模板。"
+  },
+  {
+    "id": "remotion-explosive-caption",
+    "title": "爆发字幕",
+    "en": "ExplosiveCaption",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ahgsql",
+    "compatibility": "Remotion 原生 · 待适配",
+    "desc": "作者提供的 ExplosiveCaption 字幕效果预览。保留原始 React 组件，可在 Remotion 中传入文字与样式使用。",
+    "use": "短视频字幕 · 口播包装",
+    "tags": "字幕 Remotion ExplosiveCaption 爆发字幕",
+    "type": "remotion:component",
+    "duration": 4.466667,
+    "poster": "assets/community/remotion-subtitles/ExplosiveCaption/poster.jpg",
+    "videoPreview": "assets/community/remotion-subtitles/ExplosiveCaption/preview.mp4",
+    "page": "https://github.com/ahgsql/remotion-subtitles#available-caption-templates",
+    "source": "https://github.com/ahgsql/remotion-subtitles/blob/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/ExplosiveCaption.js",
+    "install": "npm install remotion-subtitle\nimport { ExplosiveCaption } from \"remotion-subtitle\";",
+    "sources": [
+      {
+        "path": "assets/community/remotion-subtitles/ExplosiveCaption/ExplosiveCaption.js",
+        "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/ExplosiveCaption.js"
+      }
+    ],
+    "provenance": {
+      "commit": "d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43",
+      "license": "MIT",
+      "files": {
+        "ExplosiveCaption.js": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/ExplosiveCaption.js",
+          "sha256": "bbd6b8524fd016e2e9ae5df20104481df0ab8d44d6d08843c21ff0267eb4d4dc"
+        },
+        "original.gif": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/ExplosiveCaption.gif",
+          "sha256": "b04c6e187f275b99f569bb3a06522ce969a451d591b00f7785f95e6845b924d2"
+        }
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-gif-transcoded",
+      "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/ExplosiveCaption.gif",
+      "sha256": "2d8323af49d1f8579593061bb7b18dbe7b0c173dee72a3d71067dc3e7762ec0b"
+    },
+    "previewNote": "作者原始动图转为视频，画面与节奏保持原样。原生组件用于 Remotion；尚未转换或验证为 HyperFrames 模板。"
+  },
+  {
+    "id": "remotion-fade-caption",
+    "title": "淡入淡出字幕",
+    "en": "FadeCaption",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ahgsql",
+    "compatibility": "Remotion 原生 · 待适配",
+    "desc": "作者提供的 FadeCaption 字幕效果预览。保留原始 React 组件，可在 Remotion 中传入文字与样式使用。",
+    "use": "短视频字幕 · 口播包装",
+    "tags": "字幕 Remotion FadeCaption 淡入淡出字幕",
+    "type": "remotion:component",
+    "duration": 4.466667,
+    "poster": "assets/community/remotion-subtitles/FadeCaption/poster.jpg",
+    "videoPreview": "assets/community/remotion-subtitles/FadeCaption/preview.mp4",
+    "page": "https://github.com/ahgsql/remotion-subtitles#available-caption-templates",
+    "source": "https://github.com/ahgsql/remotion-subtitles/blob/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/FadeCaption.js",
+    "install": "npm install remotion-subtitle\nimport { FadeCaption } from \"remotion-subtitle\";",
+    "sources": [
+      {
+        "path": "assets/community/remotion-subtitles/FadeCaption/FadeCaption.js",
+        "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/FadeCaption.js"
+      }
+    ],
+    "provenance": {
+      "commit": "d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43",
+      "license": "MIT",
+      "files": {
+        "FadeCaption.js": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/FadeCaption.js",
+          "sha256": "a937254df7f2b010fbdc1f37ec1f84193425722aa8dab037c81b0d3341f2f50b"
+        },
+        "original.gif": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/FadeCaption.gif",
+          "sha256": "be587fc093d80e55686edb85231f9169345b56dc1963711141c03b82c4001510"
+        }
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-gif-transcoded",
+      "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/FadeCaption.gif",
+      "sha256": "6f6b9bcd4d88b213e0282d50e94e45bde65e95af0d66b21be49402ba99059112"
+    },
+    "previewNote": "作者原始动图转为视频，画面与节奏保持原样。原生组件用于 Remotion；尚未转换或验证为 HyperFrames 模板。"
+  },
+  {
+    "id": "remotion-fire-caption",
+    "title": "火焰字幕",
+    "en": "FireCaption",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ahgsql",
+    "compatibility": "Remotion 原生 · 待适配",
+    "desc": "作者提供的 FireCaption 字幕效果预览。保留原始 React 组件，可在 Remotion 中传入文字与样式使用。",
+    "use": "短视频字幕 · 口播包装",
+    "tags": "字幕 Remotion FireCaption 火焰字幕",
+    "type": "remotion:component",
+    "duration": 4.466667,
+    "poster": "assets/community/remotion-subtitles/FireCaption/poster.jpg",
+    "videoPreview": "assets/community/remotion-subtitles/FireCaption/preview.mp4",
+    "page": "https://github.com/ahgsql/remotion-subtitles#available-caption-templates",
+    "source": "https://github.com/ahgsql/remotion-subtitles/blob/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/FireCaption.js",
+    "install": "npm install remotion-subtitle\nimport { FireCaption } from \"remotion-subtitle\";",
+    "sources": [
+      {
+        "path": "assets/community/remotion-subtitles/FireCaption/FireCaption.js",
+        "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/FireCaption.js"
+      }
+    ],
+    "provenance": {
+      "commit": "d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43",
+      "license": "MIT",
+      "files": {
+        "FireCaption.js": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/FireCaption.js",
+          "sha256": "ebdac81203dfa702662f6237f508ae522c58909d8d6dc4f4d1a83b11353694eb"
+        },
+        "original.gif": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/FireCaption.gif",
+          "sha256": "02c03f43de7f32c4b8d201f76350ca7f243a82f110f9bdaed08cd76834140e2b"
+        }
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-gif-transcoded",
+      "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/FireCaption.gif",
+      "sha256": "84be769b4f352357c5a42f3ea335e01b17950d75f5d01c4b259169df397d0aac"
+    },
+    "previewNote": "作者原始动图转为视频，画面与节奏保持原样。原生组件用于 Remotion；尚未转换或验证为 HyperFrames 模板。"
+  },
+  {
+    "id": "remotion-glitch-caption",
+    "title": "抖动故障字幕",
+    "en": "GlitchCaption",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ahgsql",
+    "compatibility": "Remotion 原生 · 待适配",
+    "desc": "作者提供的 GlitchCaption 字幕效果预览。保留原始 React 组件，可在 Remotion 中传入文字与样式使用。",
+    "use": "短视频字幕 · 口播包装",
+    "tags": "字幕 Remotion GlitchCaption 抖动故障字幕",
+    "type": "remotion:component",
+    "duration": 4.466667,
+    "poster": "assets/community/remotion-subtitles/GlitchCaption/poster.jpg",
+    "videoPreview": "assets/community/remotion-subtitles/GlitchCaption/preview.mp4",
+    "page": "https://github.com/ahgsql/remotion-subtitles#available-caption-templates",
+    "source": "https://github.com/ahgsql/remotion-subtitles/blob/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/GlitchCaption.js",
+    "install": "npm install remotion-subtitle\nimport { GlitchCaption } from \"remotion-subtitle\";",
+    "sources": [
+      {
+        "path": "assets/community/remotion-subtitles/GlitchCaption/GlitchCaption.js",
+        "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/GlitchCaption.js"
+      }
+    ],
+    "provenance": {
+      "commit": "d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43",
+      "license": "MIT",
+      "files": {
+        "GlitchCaption.js": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/GlitchCaption.js",
+          "sha256": "1db4bc33d63d2386cc0d4743ce85ea58ef546e83a21297a7e920efb18f1f0b1d"
+        },
+        "original.gif": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/GlitchCaption.gif",
+          "sha256": "9a3457e44a9aee64e3840a20c488e3cfd4670dad2f6b6edde4a97495fbb91ed1"
+        }
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-gif-transcoded",
+      "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/GlitchCaption.gif",
+      "sha256": "a75ec3ae7c12131e0ac9e2bdda1d1bda9b55c70a8fc4265c601477a5f72552bd"
+    },
+    "previewNote": "作者原始动图转为视频，画面与节奏保持原样。原生组件用于 Remotion；尚未转换或验证为 HyperFrames 模板。"
+  },
+  {
+    "id": "remotion-glowing-caption",
+    "title": "柔光字幕",
+    "en": "GlowingCaption",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ahgsql",
+    "compatibility": "Remotion 原生 · 待适配",
+    "desc": "作者提供的 GlowingCaption 字幕效果预览。保留原始 React 组件，可在 Remotion 中传入文字与样式使用。",
+    "use": "短视频字幕 · 口播包装",
+    "tags": "字幕 Remotion GlowingCaption 柔光字幕",
+    "type": "remotion:component",
+    "duration": 4.466667,
+    "poster": "assets/community/remotion-subtitles/GlowingCaption/poster.jpg",
+    "videoPreview": "assets/community/remotion-subtitles/GlowingCaption/preview.mp4",
+    "page": "https://github.com/ahgsql/remotion-subtitles#available-caption-templates",
+    "source": "https://github.com/ahgsql/remotion-subtitles/blob/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/GlowingCaption.js",
+    "install": "npm install remotion-subtitle\nimport { GlowingCaption } from \"remotion-subtitle\";",
+    "sources": [
+      {
+        "path": "assets/community/remotion-subtitles/GlowingCaption/GlowingCaption.js",
+        "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/GlowingCaption.js"
+      }
+    ],
+    "provenance": {
+      "commit": "d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43",
+      "license": "MIT",
+      "files": {
+        "GlowingCaption.js": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/GlowingCaption.js",
+          "sha256": "c09d1d8e80235845ff3c54d8407e2855f49e22d30e5df2dfad8a659bd4a74000"
+        },
+        "original.gif": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/GlowingCaption.gif",
+          "sha256": "5e1910d8f44c75d6b5b2e3bcd57ab1dee32fe262e24695626b5ebfb744257443"
+        }
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-gif-transcoded",
+      "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/GlowingCaption.gif",
+      "sha256": "204ab0ae94a8e853613ad2cb20e8fd38a7514cc3231c86eaab21acdd81e74f6c"
+    },
+    "previewNote": "作者原始动图转为视频，画面与节奏保持原样。原生组件用于 Remotion；尚未转换或验证为 HyperFrames 模板。"
+  },
+  {
+    "id": "remotion-lightning-caption",
+    "title": "闪电字幕",
+    "en": "LightningCaption",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ahgsql",
+    "compatibility": "Remotion 原生 · 待适配",
+    "desc": "作者提供的 LightningCaption 字幕效果预览。保留原始 React 组件，可在 Remotion 中传入文字与样式使用。",
+    "use": "短视频字幕 · 口播包装",
+    "tags": "字幕 Remotion LightningCaption 闪电字幕",
+    "type": "remotion:component",
+    "duration": 4.466667,
+    "poster": "assets/community/remotion-subtitles/LightningCaption/poster.jpg",
+    "videoPreview": "assets/community/remotion-subtitles/LightningCaption/preview.mp4",
+    "page": "https://github.com/ahgsql/remotion-subtitles#available-caption-templates",
+    "source": "https://github.com/ahgsql/remotion-subtitles/blob/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/LightningCaption.js",
+    "install": "npm install remotion-subtitle\nimport { LightningCaption } from \"remotion-subtitle\";",
+    "sources": [
+      {
+        "path": "assets/community/remotion-subtitles/LightningCaption/LightningCaption.js",
+        "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/LightningCaption.js"
+      }
+    ],
+    "provenance": {
+      "commit": "d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43",
+      "license": "MIT",
+      "files": {
+        "LightningCaption.js": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/LightningCaption.js",
+          "sha256": "84bdcb9350b07dfbc51ef6fd3bdebba8967e435f7e3646717099028c3633bfe2"
+        },
+        "original.gif": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/LightningCaption.gif",
+          "sha256": "b723de09908d8d171ddaa751e4c9b2c4a744381c629cda19101b766234ae3a7d"
+        }
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-gif-transcoded",
+      "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/LightningCaption.gif",
+      "sha256": "65852bdd71686525d3effc3724e5c57c5e67e46732af2bfcad99dfbba5f74c52"
+    },
+    "previewNote": "作者原始动图转为视频，画面与节奏保持原样。原生组件用于 Remotion；尚未转换或验证为 HyperFrames 模板。"
+  },
+  {
+    "id": "remotion-neon-caption",
+    "title": "霓虹字幕",
+    "en": "NeonCaption",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ahgsql",
+    "compatibility": "Remotion 原生 · 待适配",
+    "desc": "作者提供的 NeonCaption 字幕效果预览。保留原始 React 组件，可在 Remotion 中传入文字与样式使用。",
+    "use": "短视频字幕 · 口播包装",
+    "tags": "字幕 Remotion NeonCaption 霓虹字幕",
+    "type": "remotion:component",
+    "duration": 4.466667,
+    "poster": "assets/community/remotion-subtitles/NeonCaption/poster.jpg",
+    "videoPreview": "assets/community/remotion-subtitles/NeonCaption/preview.mp4",
+    "page": "https://github.com/ahgsql/remotion-subtitles#available-caption-templates",
+    "source": "https://github.com/ahgsql/remotion-subtitles/blob/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/NeonCaption.js",
+    "install": "npm install remotion-subtitle\nimport { NeonCaption } from \"remotion-subtitle\";",
+    "sources": [
+      {
+        "path": "assets/community/remotion-subtitles/NeonCaption/NeonCaption.js",
+        "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/NeonCaption.js"
+      }
+    ],
+    "provenance": {
+      "commit": "d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43",
+      "license": "MIT",
+      "files": {
+        "NeonCaption.js": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/NeonCaption.js",
+          "sha256": "aafd174865239d137a97ddae4baa308a7c047d2155d37032078fc25dafab5029"
+        },
+        "original.gif": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/NeonCaption.gif",
+          "sha256": "2f1274925f9f108a19e1fd3a11bd6f3aaf544a181fb80772d5761f56756d70d4"
+        }
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-gif-transcoded",
+      "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/NeonCaption.gif",
+      "sha256": "c232838df61fd4e8c278736da1fe9614854c5dd2e4777bb2873e5e4d3c5410e7"
+    },
+    "previewNote": "作者原始动图转为视频，画面与节奏保持原样。原生组件用于 Remotion；尚未转换或验证为 HyperFrames 模板。"
+  },
+  {
+    "id": "remotion-rotating-caption",
+    "title": "旋转字幕",
+    "en": "RotatingCaption",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ahgsql",
+    "compatibility": "Remotion 原生 · 待适配",
+    "desc": "作者提供的 RotatingCaption 字幕效果预览。保留原始 React 组件，可在 Remotion 中传入文字与样式使用。",
+    "use": "短视频字幕 · 口播包装",
+    "tags": "字幕 Remotion RotatingCaption 旋转字幕",
+    "type": "remotion:component",
+    "duration": 4.466667,
+    "poster": "assets/community/remotion-subtitles/RotatingCaption/poster.jpg",
+    "videoPreview": "assets/community/remotion-subtitles/RotatingCaption/preview.mp4",
+    "page": "https://github.com/ahgsql/remotion-subtitles#available-caption-templates",
+    "source": "https://github.com/ahgsql/remotion-subtitles/blob/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/RotatingCaption.js",
+    "install": "npm install remotion-subtitle\nimport { RotatingCaption } from \"remotion-subtitle\";",
+    "sources": [
+      {
+        "path": "assets/community/remotion-subtitles/RotatingCaption/RotatingCaption.js",
+        "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/RotatingCaption.js"
+      }
+    ],
+    "provenance": {
+      "commit": "d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43",
+      "license": "MIT",
+      "files": {
+        "RotatingCaption.js": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/RotatingCaption.js",
+          "sha256": "ae4f2d221f421200102f2595b4217c3b0bab95979ae000057137f7995eb60dc5"
+        },
+        "original.gif": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/RotatingCaption.gif",
+          "sha256": "e2c4e557a278d1803629a3721763a5c6f71961923f3e82fd306df26bc701b428"
+        }
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-gif-transcoded",
+      "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/RotatingCaption.gif",
+      "sha256": "aeec348d663bcf2e88d5c99567f3243b22ceea83a2550649b59866acf627a9bb"
+    },
+    "previewNote": "作者原始动图转为视频，画面与节奏保持原样。原生组件用于 Remotion；尚未转换或验证为 HyperFrames 模板。"
+  },
+  {
+    "id": "remotion-shake-caption",
+    "title": "震动字幕",
+    "en": "ShakeCaption",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ahgsql",
+    "compatibility": "Remotion 原生 · 待适配",
+    "desc": "作者提供的 ShakeCaption 字幕效果预览。保留原始 React 组件，可在 Remotion 中传入文字与样式使用。",
+    "use": "短视频字幕 · 口播包装",
+    "tags": "字幕 Remotion ShakeCaption 震动字幕",
+    "type": "remotion:component",
+    "duration": 4.466667,
+    "poster": "assets/community/remotion-subtitles/ShakeCaption/poster.jpg",
+    "videoPreview": "assets/community/remotion-subtitles/ShakeCaption/preview.mp4",
+    "page": "https://github.com/ahgsql/remotion-subtitles#available-caption-templates",
+    "source": "https://github.com/ahgsql/remotion-subtitles/blob/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/ShakeCaption.js",
+    "install": "npm install remotion-subtitle\nimport { ShakeCaption } from \"remotion-subtitle\";",
+    "sources": [
+      {
+        "path": "assets/community/remotion-subtitles/ShakeCaption/ShakeCaption.js",
+        "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/ShakeCaption.js"
+      }
+    ],
+    "provenance": {
+      "commit": "d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43",
+      "license": "MIT",
+      "files": {
+        "ShakeCaption.js": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/ShakeCaption.js",
+          "sha256": "eb36d94d1ca62c1ce7dcd239b3508bf3cd01415ef13163ae21230539bf76cdcd"
+        },
+        "original.gif": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/ShakeCaption.gif",
+          "sha256": "bd3fa276fc6d2a0bbf92c8f23a0e347042e94403f4125002d2fc83b9e824034a"
+        }
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-gif-transcoded",
+      "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/ShakeCaption.gif",
+      "sha256": "88ff4c129d6c7dfdc139136d1455f9fbd90853a90a9eece5ad044f53815b8c9c"
+    },
+    "previewNote": "作者原始动图转为视频，画面与节奏保持原样。原生组件用于 Remotion；尚未转换或验证为 HyperFrames 模板。"
+  },
+  {
+    "id": "remotion-threedish-caption",
+    "title": "立体字幕",
+    "en": "ThreeDishCaption",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ahgsql",
+    "compatibility": "Remotion 原生 · 待适配",
+    "desc": "作者提供的 ThreeDishCaption 字幕效果预览。保留原始 React 组件，可在 Remotion 中传入文字与样式使用。",
+    "use": "短视频字幕 · 口播包装",
+    "tags": "字幕 Remotion ThreeDishCaption 立体字幕",
+    "type": "remotion:component",
+    "duration": 4.466667,
+    "poster": "assets/community/remotion-subtitles/ThreeDishCaption/poster.jpg",
+    "videoPreview": "assets/community/remotion-subtitles/ThreeDishCaption/preview.mp4",
+    "page": "https://github.com/ahgsql/remotion-subtitles#available-caption-templates",
+    "source": "https://github.com/ahgsql/remotion-subtitles/blob/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/ThreeDishCaption.js",
+    "install": "npm install remotion-subtitle\nimport { ThreeDishCaption } from \"remotion-subtitle\";",
+    "sources": [
+      {
+        "path": "assets/community/remotion-subtitles/ThreeDishCaption/ThreeDishCaption.js",
+        "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/ThreeDishCaption.js"
+      }
+    ],
+    "provenance": {
+      "commit": "d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43",
+      "license": "MIT",
+      "files": {
+        "ThreeDishCaption.js": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/ThreeDishCaption.js",
+          "sha256": "c83b989aa67da294d7a818c61e35fe04203bc96ee5cba6ff9a75f9826c85fbac"
+        },
+        "original.gif": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/ThreeDishCaption.gif",
+          "sha256": "059b4875f9625da413058a4e08ca32c0e9d541d25b6af5a32aae504c4298bfbe"
+        }
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-gif-transcoded",
+      "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/ThreeDishCaption.gif",
+      "sha256": "324a462db16e1a0362e2992edd536e7c7fea5c06d7008919532729eda606251e"
+    },
+    "previewNote": "作者原始动图转为视频，画面与节奏保持原样。原生组件用于 Remotion；尚未转换或验证为 HyperFrames 模板。"
+  },
+  {
+    "id": "remotion-tiltshift-caption",
+    "title": "移轴字幕",
+    "en": "TiltShiftCaption",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ahgsql",
+    "compatibility": "Remotion 原生 · 待适配",
+    "desc": "作者提供的 TiltShiftCaption 字幕效果预览。保留原始 React 组件，可在 Remotion 中传入文字与样式使用。",
+    "use": "短视频字幕 · 口播包装",
+    "tags": "字幕 Remotion TiltShiftCaption 移轴字幕",
+    "type": "remotion:component",
+    "duration": 4.466667,
+    "poster": "assets/community/remotion-subtitles/TiltShiftCaption/poster.jpg",
+    "videoPreview": "assets/community/remotion-subtitles/TiltShiftCaption/preview.mp4",
+    "page": "https://github.com/ahgsql/remotion-subtitles#available-caption-templates",
+    "source": "https://github.com/ahgsql/remotion-subtitles/blob/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/TiltShiftCaption.js",
+    "install": "npm install remotion-subtitle\nimport { TiltShiftCaption } from \"remotion-subtitle\";",
+    "sources": [
+      {
+        "path": "assets/community/remotion-subtitles/TiltShiftCaption/TiltShiftCaption.js",
+        "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/TiltShiftCaption.js"
+      }
+    ],
+    "provenance": {
+      "commit": "d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43",
+      "license": "MIT",
+      "files": {
+        "TiltShiftCaption.js": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/TiltShiftCaption.js",
+          "sha256": "02f34b771705231b48032f88a01ba0d0cfb92bd7be73bf8b8b71da4e976417b6"
+        },
+        "original.gif": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/TiltShiftCaption.gif",
+          "sha256": "7e35633e8bb723c64d816f32ca41d1fdf52709818c1e1855556cdbc3a58cbb13"
+        }
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-gif-transcoded",
+      "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/TiltShiftCaption.gif",
+      "sha256": "6a267c85bb8b2a4b814d5b2a381f4cc70ce7242ba697864cabc47f1252eb3d49"
+    },
+    "previewNote": "作者原始动图转为视频，画面与节奏保持原样。原生组件用于 Remotion；尚未转换或验证为 HyperFrames 模板。"
+  },
+  {
+    "id": "remotion-typewriter-caption",
+    "title": "打字机字幕",
+    "en": "TypewriterCaption",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ahgsql",
+    "compatibility": "Remotion 原生 · 待适配",
+    "desc": "作者提供的 TypewriterCaption 字幕效果预览。保留原始 React 组件，可在 Remotion 中传入文字与样式使用。",
+    "use": "短视频字幕 · 口播包装",
+    "tags": "字幕 Remotion TypewriterCaption 打字机字幕",
+    "type": "remotion:component",
+    "duration": 4.466667,
+    "poster": "assets/community/remotion-subtitles/TypewriterCaption/poster.jpg",
+    "videoPreview": "assets/community/remotion-subtitles/TypewriterCaption/preview.mp4",
+    "page": "https://github.com/ahgsql/remotion-subtitles#available-caption-templates",
+    "source": "https://github.com/ahgsql/remotion-subtitles/blob/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/TypewriterCaption.js",
+    "install": "npm install remotion-subtitle\nimport { TypewriterCaption } from \"remotion-subtitle\";",
+    "sources": [
+      {
+        "path": "assets/community/remotion-subtitles/TypewriterCaption/TypewriterCaption.js",
+        "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/TypewriterCaption.js"
+      }
+    ],
+    "provenance": {
+      "commit": "d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43",
+      "license": "MIT",
+      "files": {
+        "TypewriterCaption.js": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/TypewriterCaption.js",
+          "sha256": "22c767ba745b9c02d90089f0ac41b2b9c4fa6cb34503e28b94b47c0017b12ace"
+        },
+        "original.gif": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/TypewriterCaption.gif",
+          "sha256": "18f583f707b4c8a3bfcb6652a9c0eb0c721cdf3f2b8aa23cbe87ad5bfc135265"
+        }
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-gif-transcoded",
+      "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/TypewriterCaption.gif",
+      "sha256": "a39a7957fa28cc678436ff952918a8afaaf37e82f27760303846ebb021f7604f"
+    },
+    "previewNote": "作者原始动图转为视频，画面与节奏保持原样。原生组件用于 Remotion；尚未转换或验证为 HyperFrames 模板。"
+  },
+  {
+    "id": "remotion-waving-caption",
+    "title": "波浪字幕",
+    "en": "WavingCaption",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ahgsql",
+    "compatibility": "Remotion 原生 · 待适配",
+    "desc": "作者提供的 WavingCaption 字幕效果预览。保留原始 React 组件，可在 Remotion 中传入文字与样式使用。",
+    "use": "短视频字幕 · 口播包装",
+    "tags": "字幕 Remotion WavingCaption 波浪字幕",
+    "type": "remotion:component",
+    "duration": 4.466667,
+    "poster": "assets/community/remotion-subtitles/WavingCaption/poster.jpg",
+    "videoPreview": "assets/community/remotion-subtitles/WavingCaption/preview.mp4",
+    "page": "https://github.com/ahgsql/remotion-subtitles#available-caption-templates",
+    "source": "https://github.com/ahgsql/remotion-subtitles/blob/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/WavingCaption.js",
+    "install": "npm install remotion-subtitle\nimport { WavingCaption } from \"remotion-subtitle\";",
+    "sources": [
+      {
+        "path": "assets/community/remotion-subtitles/WavingCaption/WavingCaption.js",
+        "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/WavingCaption.js"
+      }
+    ],
+    "provenance": {
+      "commit": "d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43",
+      "license": "MIT",
+      "files": {
+        "WavingCaption.js": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/WavingCaption.js",
+          "sha256": "b4928e32e6e35e4d6559e537dfcec5440a5a60d84616e76aac42c7533fb930d4"
+        },
+        "original.gif": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/WavingCaption.gif",
+          "sha256": "1457628719d9f5b639d550a31ba83877b97dbacf466a5c29caa7f7ae81fa0637"
+        }
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-gif-transcoded",
+      "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/WavingCaption.gif",
+      "sha256": "f753f16ba2ecc3e5bab7878a550f6572632c2d7e3aa8a4ac3f303de8cf9db57e"
+    },
+    "previewNote": "作者原始动图转为视频，画面与节奏保持原样。原生组件用于 Remotion；尚未转换或验证为 HyperFrames 模板。"
+  },
+  {
+    "id": "remotion-zoom-caption",
+    "title": "缩放字幕",
+    "en": "ZoomCaption",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ahgsql",
+    "compatibility": "Remotion 原生 · 待适配",
+    "desc": "作者提供的 ZoomCaption 字幕效果预览。保留原始 React 组件，可在 Remotion 中传入文字与样式使用。",
+    "use": "短视频字幕 · 口播包装",
+    "tags": "字幕 Remotion ZoomCaption 缩放字幕",
+    "type": "remotion:component",
+    "duration": 4.466667,
+    "poster": "assets/community/remotion-subtitles/ZoomCaption/poster.jpg",
+    "videoPreview": "assets/community/remotion-subtitles/ZoomCaption/preview.mp4",
+    "page": "https://github.com/ahgsql/remotion-subtitles#available-caption-templates",
+    "source": "https://github.com/ahgsql/remotion-subtitles/blob/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/ZoomCaption.js",
+    "install": "npm install remotion-subtitle\nimport { ZoomCaption } from \"remotion-subtitle\";",
+    "sources": [
+      {
+        "path": "assets/community/remotion-subtitles/ZoomCaption/ZoomCaption.js",
+        "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/ZoomCaption.js"
+      }
+    ],
+    "provenance": {
+      "commit": "d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43",
+      "license": "MIT",
+      "files": {
+        "ZoomCaption.js": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/src/captions/ZoomCaption.js",
+          "sha256": "cfb72c96311abce457bf4fdd6567ae8e6284b295e3348de138470f7867d68e80"
+        },
+        "original.gif": {
+          "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/ZoomCaption.gif",
+          "sha256": "3097f585af514265ef30624652c484be3b6c8ef67101556fbc3f2c188dbe84a2"
+        }
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-gif-transcoded",
+      "url": "https://raw.githubusercontent.com/ahgsql/remotion-subtitles/d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43/readme_files/ZoomCaption.gif",
+      "sha256": "d5a912e73b6a5a42e6e98db34189512d8804d071b357c6b47c5876a802a19d9b"
+    },
+    "previewNote": "作者原始动图转为视频，画面与节奏保持原样。原生组件用于 Remotion；尚未转换或验证为 HyperFrames 模板。"
+  }
+]

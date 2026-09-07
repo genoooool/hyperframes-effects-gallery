@@ -1,0 +1,8 @@
+{
+  "paramsTypes": {
+    "zoom_quickness": "float"
+  },
+  "defaultParams": {
+    "zoom_quickness": 0.8
+  }
+}

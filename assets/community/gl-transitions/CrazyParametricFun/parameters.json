@@ -1,0 +1,14 @@
+{
+  "paramsTypes": {
+    "a": "float",
+    "b": "float",
+    "amplitude": "float",
+    "smoothness": "float"
+  },
+  "defaultParams": {
+    "a": 4,
+    "b": 1,
+    "amplitude": 120,
+    "smoothness": 0.1
+  }
+}

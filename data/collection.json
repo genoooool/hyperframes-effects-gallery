@@ -1,0 +1,44 @@
+{
+  "collected_at": "2026-09-07",
+  "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+  "player_version": "0.8.30",
+  "count": 255,
+  "official_count": 74,
+  "community_count": 181,
+  "categories": [
+    "转场",
+    "字幕",
+    "镜头运动",
+    "局部强调",
+    "素材展示",
+    "节奏与情绪",
+    "信息提示",
+    "画面质感"
+  ],
+  "preview_mode": "local-video",
+  "community_hyperframes_port": "not-yet-ported",
+  "sources": {
+    "HyperFrames 官方": 74,
+    "Remotion · ahgsql": 17,
+    "Remotion · ali-abassi": 16,
+    "Remotion · vshukla7": 13,
+    "Remotion · Fats403": 5,
+    "GL Transitions": 119,
+    "Remotion · RemotionUI": 10,
+    "Rough Notation": 1
+  },
+  "category_counts": {
+    "转场": 157,
+    "字幕": 56,
+    "镜头运动": 7,
+    "局部强调": 8,
+    "素材展示": 5,
+    "节奏与情绪": 7,
+    "信息提示": 9,
+    "画面质感": 6
+  },
+  "video_mib": 80.53,
+  "poster_mib": 7.67,
+  "raw_count": 266,
+  "merged_count": 11
+}

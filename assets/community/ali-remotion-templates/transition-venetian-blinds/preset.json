@@ -1,0 +1,22 @@
+{
+  "id": "transition-venetian-blinds",
+  "title": "Venetian Depth Blinds",
+  "category": "transitions",
+  "tags": [
+    "blinds",
+    "3d",
+    "modular"
+  ],
+  "description": "Twelve alternating vertical slats rotate in three-dimensional space until Scene B locks into one image.",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 88,
+  "defaultProps": {
+    "variant": "venetian-blinds",
+    "sceneA": "One modular view",
+    "sceneB": "Another dimension",
+    "accentColor": "#8a63ff",
+    "transitionPoint": 0.51
+  }
+}

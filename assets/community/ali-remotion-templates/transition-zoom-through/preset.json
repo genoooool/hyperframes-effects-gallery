@@ -1,0 +1,22 @@
+{
+  "id": "transition-zoom-through",
+  "title": "Center Zoom Through",
+  "category": "transitions",
+  "tags": [
+    "zoom",
+    "portal",
+    "depth"
+  ],
+  "description": "Scene A accelerates past camera while Scene B grows through a centered portal with depth, blur and rim light.",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 82,
+  "defaultProps": {
+    "variant": "zoom-through",
+    "sceneA": "Approaching threshold",
+    "sceneB": "Enter the next state",
+    "accentColor": "#ff3f74",
+    "transitionPoint": 0.5
+  }
+}

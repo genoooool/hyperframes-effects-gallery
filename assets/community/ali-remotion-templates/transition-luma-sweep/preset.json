@@ -1,0 +1,22 @@
+{
+  "id": "transition-luma-sweep",
+  "title": "Luma Light Sweep",
+  "category": "transitions",
+  "tags": [
+    "luma",
+    "light",
+    "premium"
+  ],
+  "description": "A blown-out brightness band scans across the canvas, exposing the brighter second scene in its wake.",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 76,
+  "defaultProps": {
+    "variant": "luma-sweep",
+    "sceneA": "Under the surface",
+    "sceneB": "Into the light",
+    "accentColor": "#f4bf2a",
+    "transitionPoint": 0.46
+  }
+}

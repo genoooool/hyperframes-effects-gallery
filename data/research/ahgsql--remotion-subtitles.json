@@ -1,0 +1,410 @@
+{
+  "repo": "ahgsql/remotion-subtitles",
+  "branch": "main",
+  "sha": "d8ad50fd5bc94b5ec3e5388a2b535fa85553fd43",
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86a4ee55c85ab0b3e69369d6fb2cd2673b585a1b",
+      "size": 58,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/86a4ee55c85ab0b3e69369d6fb2cd2673b585a1b"
+    },
+    {
+      "path": ".npmignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36e514ad7e97499db280936565fd473fe7de0f43",
+      "size": 117,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/36e514ad7e97499db280936565fd473fe7de0f43"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "499492709b504b7b8052945666ea924b8c5efd0a",
+      "size": 1078,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/499492709b504b7b8052945666ea924b8c5efd0a"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "647c9ba5aa47b465568788644cd07d7e0b3488c4",
+      "size": 5796,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/647c9ba5aa47b465568788644cd07d7e0b3488c4"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10f5a88ee64c8437c41cd9f126dad51758d99e41",
+      "size": 113896,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/10f5a88ee64c8437c41cd9f126dad51758d99e41"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48e49014682f5bc23a7f17290d5c896c73093f9d",
+      "size": 1128,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/48e49014682f5bc23a7f17290d5c896c73093f9d"
+    },
+    {
+      "path": "readme_files",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "db9077cbdc1a8c3c71b349a65023a31113982756",
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/trees/db9077cbdc1a8c3c71b349a65023a31113982756"
+    },
+    {
+      "path": "readme_files/BounceCaption.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d982dadc8820fb798c43e1a6385eb87aa5452593",
+      "size": 593725,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/d982dadc8820fb798c43e1a6385eb87aa5452593"
+    },
+    {
+      "path": "readme_files/Caption.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4673d8fb7bf228e08a56e9961ce82323e710073",
+      "size": 84489,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/e4673d8fb7bf228e08a56e9961ce82323e710073"
+    },
+    {
+      "path": "readme_files/ColorfulCaption.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08d657175a71c57b374db17a212c01012f1b60f7",
+      "size": 180364,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/08d657175a71c57b374db17a212c01012f1b60f7"
+    },
+    {
+      "path": "readme_files/ExplosiveCaption.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0615c7ff63c1c89d4b09ede6b785e7ce93cbd74e",
+      "size": 483815,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/0615c7ff63c1c89d4b09ede6b785e7ce93cbd74e"
+    },
+    {
+      "path": "readme_files/FadeCaption.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9abac49596ad40e2fc0095e160cc68b2e3dc5fdc",
+      "size": 266018,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/9abac49596ad40e2fc0095e160cc68b2e3dc5fdc"
+    },
+    {
+      "path": "readme_files/FireCaption.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a7965dca3e55b4530884bfa1961f262f94e42d8",
+      "size": 468895,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/3a7965dca3e55b4530884bfa1961f262f94e42d8"
+    },
+    {
+      "path": "readme_files/GlitchCaption.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53e71729c5c84bcce3ab02040576bfa776a92123",
+      "size": 182408,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/53e71729c5c84bcce3ab02040576bfa776a92123"
+    },
+    {
+      "path": "readme_files/GlowingCaption.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea35b24486462e38867c207544515e4e40823e5d",
+      "size": 336011,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/ea35b24486462e38867c207544515e4e40823e5d"
+    },
+    {
+      "path": "readme_files/LightningCaption.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5884ee99f59ec11336a22b3d9e3ef08632f6bff1",
+      "size": 613783,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/5884ee99f59ec11336a22b3d9e3ef08632f6bff1"
+    },
+    {
+      "path": "readme_files/NeonCaption.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a91e9f10565df398ba5269e9e6086b962a1aaac8",
+      "size": 205395,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/a91e9f10565df398ba5269e9e6086b962a1aaac8"
+    },
+    {
+      "path": "readme_files/RotatingCaption.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e59380bc3e026f3943191e5622508e5069e54bde",
+      "size": 267371,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/e59380bc3e026f3943191e5622508e5069e54bde"
+    },
+    {
+      "path": "readme_files/ShakeCaption.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93227643928f6a525694b1c5daf3852364d366f6",
+      "size": 452417,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/93227643928f6a525694b1c5daf3852364d366f6"
+    },
+    {
+      "path": "readme_files/ThreeDishCaption.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6efb8026fa27b358301ab488e10291b8abaa7a09",
+      "size": 215832,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/6efb8026fa27b358301ab488e10291b8abaa7a09"
+    },
+    {
+      "path": "readme_files/ThreeDishCaption2.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b60c3522eef3e5de504f41e9147d97228a208b2",
+      "size": 48719,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/4b60c3522eef3e5de504f41e9147d97228a208b2"
+    },
+    {
+      "path": "readme_files/TiltShiftCaption.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2eaf4414d1ba8a48372ded13f22d4aea0573bf15",
+      "size": 82147,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/2eaf4414d1ba8a48372ded13f22d4aea0573bf15"
+    },
+    {
+      "path": "readme_files/TypewriterCaption.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5a32272c0fd43e2a9ba74e9c1d116f591ea1022",
+      "size": 251339,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/e5a32272c0fd43e2a9ba74e9c1d116f591ea1022"
+    },
+    {
+      "path": "readme_files/WavingCaption.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77c67c0a2e5cfc96bb34202bdb187059d280a71c",
+      "size": 904068,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/77c67c0a2e5cfc96bb34202bdb187059d280a71c"
+    },
+    {
+      "path": "readme_files/ZoomCaption.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26ff92a44b01d1bab542d8b8dfc12249dd9c4bbf",
+      "size": 113732,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/26ff92a44b01d1bab542d8b8dfc12249dd9c4bbf"
+    },
+    {
+      "path": "rollup.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "789b7c03edebaa4b70d33a1afe3326ac4c2409c9",
+      "size": 644,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/789b7c03edebaa4b70d33a1afe3326ac4c2409c9"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3938e64e499feb77bc047ae06ef3c7a2cc4d3f86",
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/trees/3938e64e499feb77bc047ae06ef3c7a2cc4d3f86"
+    },
+    {
+      "path": "src/captions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f60bc47cc9ed6b91715ed1c54d3ae36580810a47",
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/trees/f60bc47cc9ed6b91715ed1c54d3ae36580810a47"
+    },
+    {
+      "path": "src/captions/BounceCaption.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90bdfe48ff79371516064fddc45d5291a0f25d0d",
+      "size": 1089,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/90bdfe48ff79371516064fddc45d5291a0f25d0d"
+    },
+    {
+      "path": "src/captions/Caption.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ddd812087054a2a03c93f3b8dad82ef8f74144d",
+      "size": 695,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/5ddd812087054a2a03c93f3b8dad82ef8f74144d"
+    },
+    {
+      "path": "src/captions/ColorfulCaption.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6946f18237298cad9da311169d4af908f3087fc2",
+      "size": 811,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/6946f18237298cad9da311169d4af908f3087fc2"
+    },
+    {
+      "path": "src/captions/ExplosiveCaption.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2890b3915ef9ef4ab54f28d1f2142f46b92463fa",
+      "size": 1408,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/2890b3915ef9ef4ab54f28d1f2142f46b92463fa"
+    },
+    {
+      "path": "src/captions/FadeCaption.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c91debca81b1a0500bb135f781e2e158d894c73",
+      "size": 791,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/4c91debca81b1a0500bb135f781e2e158d894c73"
+    },
+    {
+      "path": "src/captions/FireCaption.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f88b18e3f271e53936beab69c0eea58b1c7b8e30",
+      "size": 1567,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/f88b18e3f271e53936beab69c0eea58b1c7b8e30"
+    },
+    {
+      "path": "src/captions/GlitchCaption.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29769a9b29ea3b961b880d220f40be1de5d51a76",
+      "size": 982,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/29769a9b29ea3b961b880d220f40be1de5d51a76"
+    },
+    {
+      "path": "src/captions/GlowingCaption.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "974ac62351fb22d5a6019a5e59f88e6d9a81a901",
+      "size": 1015,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/974ac62351fb22d5a6019a5e59f88e6d9a81a901"
+    },
+    {
+      "path": "src/captions/LightningCaption.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6447526ae2a8da382a48c37a095c301ec3eb16e3",
+      "size": 1478,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/6447526ae2a8da382a48c37a095c301ec3eb16e3"
+    },
+    {
+      "path": "src/captions/NeonCaption.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d501ad41d5ee8a0c421a31546a9c82b748e4f39b",
+      "size": 1068,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/d501ad41d5ee8a0c421a31546a9c82b748e4f39b"
+    },
+    {
+      "path": "src/captions/RotatingCaption.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17b896e22223eda14ab710d8d49120ed2a79185e",
+      "size": 958,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/17b896e22223eda14ab710d8d49120ed2a79185e"
+    },
+    {
+      "path": "src/captions/ShakeCaption.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec76bceedc791592d66e38078395e9ade35ceb40",
+      "size": 1474,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/ec76bceedc791592d66e38078395e9ade35ceb40"
+    },
+    {
+      "path": "src/captions/ThreeDishCaption.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "891a50a15f4a2d60bfac6ccba13536a017edc609",
+      "size": 582,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/891a50a15f4a2d60bfac6ccba13536a017edc609"
+    },
+    {
+      "path": "src/captions/TiltShiftCaption.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72f7345cdf071304d431bf8973aaef8746e86ebc",
+      "size": 846,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/72f7345cdf071304d431bf8973aaef8746e86ebc"
+    },
+    {
+      "path": "src/captions/TypewriterCaption.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "426b26e9c49603d4df1f8a2726c1d2e0e38df2b2",
+      "size": 1087,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/426b26e9c49603d4df1f8a2726c1d2e0e38df2b2"
+    },
+    {
+      "path": "src/captions/WavingCaption.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae6a9be621801a0ae0408f9e0d7c111d333bbf6e",
+      "size": 1106,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/ae6a9be621801a0ae0408f9e0d7c111d333bbf6e"
+    },
+    {
+      "path": "src/captions/ZoomCaption.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bba7abdd29529aedfd3c2b293e75b61a325e21f",
+      "size": 977,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/4bba7abdd29529aedfd3c2b293e75b61a325e21f"
+    },
+    {
+      "path": "src/captions/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "230734736e606e4f82b6af986a5d1a17aa23fe34",
+      "size": 844,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/230734736e606e4f82b6af986a5d1a17aa23fe34"
+    },
+    {
+      "path": "src/core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d6f461f865fd33e6559d979fd52717f1e500b91d",
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/trees/d6f461f865fd33e6559d979fd52717f1e500b91d"
+    },
+    {
+      "path": "src/core/SubtitleSequence.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "062693fc8a9d3490edae56ff6133915039432ae9",
+      "size": 4380,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/062693fc8a9d3490edae56ff6133915039432ae9"
+    },
+    {
+      "path": "src/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce017a029d8220dae3b8fb16a22654a74c5120a9",
+      "size": 98,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/ce017a029d8220dae3b8fb16a22654a74c5120a9"
+    },
+    {
+      "path": "yarn.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a68d20a7c726042eaf18877b7621ffb1b81943a",
+      "size": 77986,
+      "url": "https://api.github.com/repos/ahgsql/remotion-subtitles/git/blobs/1a68d20a7c726042eaf18877b7621ffb1b81943a"
+    }
+  ]
+}

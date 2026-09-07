@@ -1,0 +1,13 @@
+{
+  "paramsTypes": {
+    "squaresMin": "ivec2",
+    "steps": "int"
+  },
+  "defaultParams": {
+    "squaresMin": [
+      20,
+      20
+    ],
+    "steps": 50
+  }
+}

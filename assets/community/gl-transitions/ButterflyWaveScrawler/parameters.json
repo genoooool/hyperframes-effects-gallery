@@ -1,0 +1,12 @@
+{
+  "paramsTypes": {
+    "amplitude": "float",
+    "waves": "float",
+    "colorSeparation": "float"
+  },
+  "defaultParams": {
+    "amplitude": 1,
+    "waves": 30,
+    "colorSeparation": 0.3
+  }
+}

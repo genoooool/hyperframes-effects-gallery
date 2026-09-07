@@ -1,0 +1,13 @@
+{
+  "paramsTypes": {
+    "size": "ivec2",
+    "smoothness": "float"
+  },
+  "defaultParams": {
+    "size": [
+      10,
+      10
+    ],
+    "smoothness": 0.5
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "transition-liquid-bars",
+  "title": "Liquid Morph Bar Sweep",
+  "category": "transitions",
+  "tags": [
+    "liquid",
+    "bars",
+    "organic"
+  ],
+  "description": "Rounded horizontal ribbons surge across in a soft wave, carrying liquid droplets and the complete next scene.",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 92,
+  "defaultProps": {
+    "variant": "liquid-bars",
+    "sceneA": "Structured currents",
+    "sceneB": "Flow into form",
+    "accentColor": "#00bfa6",
+    "transitionPoint": 0.53
+  }
+}

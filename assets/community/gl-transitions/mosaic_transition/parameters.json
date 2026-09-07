@@ -1,0 +1,8 @@
+{
+  "paramsTypes": {
+    "mosaicNum": "float"
+  },
+  "defaultParams": {
+    "mosaicNum": 10
+  }
+}

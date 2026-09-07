@@ -1,0 +1,46 @@
+[
+  {
+    "id": "shimmer-sweep",
+    "title": "高光扫过",
+    "en": "Shimmer Sweep",
+    "category": "画面特效",
+    "desc": "一束高光扫过示例元素，让按钮、标题或图形短暂闪亮。",
+    "use": "产品强调 · 元素高光",
+    "tags": "光影 扫光 闪亮",
+    "duration": 6.0,
+    "type": "hyperframes:component",
+    "preview": "assets/official/shimmer-sweep/preview.json",
+    "poster": "assets/official/shimmer-sweep/poster.png",
+    "page": "https://hyperframes.heygen.com/catalog/components/shimmer-sweep",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/shimmer-sweep",
+    "install": "npx hyperframes add shimmer-sweep",
+    "sources": [
+      {
+        "path": "assets/official/shimmer-sweep/source/shimmer-sweep.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/shimmer-sweep/shimmer-sweep.html"
+      }
+    ],
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/shimmer-sweep.json",
+      "poster_url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/shimmer-sweep.png",
+      "sha256": {
+        "preview": "dea894f2808493e52df28a0652828f52cfa8c05d7ecc36564bd759fefbc00ef8",
+        "poster": "56e69df743ffc7569b05042d634201af5853f5f6f290e187d1caeaa4e360f653",
+        "shimmer-sweep.html": "0358db4e2ec9137c65771e17139741a13e2c12a37be5688fc6cfede9a718d8d6"
+      }
+    },
+    "localPreview": "assets/official/shimmer-sweep/preview-local.json",
+    "localPreviewSha256": "8d9e1aa4e136e28d4fad43d3b24981730d2d00f20a737bfbb6188ff081655b22",
+    "videoPreview": "assets/official/shimmer-sweep/preview.mp4",
+    "videoProvenance": {
+      "kind": "locally-rendered-official-preview",
+      "sha256": "1914336b84f390a481b9a34dbbbc7c9513fd217281d7242102c35251abf6c1b9",
+      "renderer": "hyperframes@0.8.30",
+      "fps": 30,
+      "duration": 6.0,
+      "bytes": 191531,
+      "officialPreviewSha256": "dea894f2808493e52df28a0652828f52cfa8c05d7ecc36564bd759fefbc00ef8"
+    }
+  }
+]

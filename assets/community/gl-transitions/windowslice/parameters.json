@@ -1,0 +1,10 @@
+{
+  "paramsTypes": {
+    "count": "float",
+    "smoothness": "float"
+  },
+  "defaultParams": {
+    "count": 10,
+    "smoothness": 0.5
+  }
+}

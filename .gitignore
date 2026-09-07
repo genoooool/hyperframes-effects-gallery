@@ -1,0 +1,20 @@
+.DS_Store
+.env
+.env.*
+node_modules/
+*.log
+
+# Generated renderer bundles and local QA evidence
+tools/community-render/bundle.js
+tools/community-render/round3-bundle.js
+tools/community-render/round3-imports.ts
+data/qa/
+
+# Upstream README snapshot contains literal conflict-marker examples.
+data/research/elrumordelaluz--csshake-README.md
+
+# Local project coordination files
+docs/ai/HANDOFF.md
+docs/ai/TASKS.md
+__pycache__/
+*.py[cod]

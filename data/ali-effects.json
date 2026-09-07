@@ -1,0 +1,928 @@
+[
+  {
+    "id": "ali-transition-horizontal-push",
+    "title": "惯性横推",
+    "en": "Horizontal Momentum Push",
+    "category": "转场",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ali-abassi",
+    "compatibility": "Remotion 家族预设 · 待适配",
+    "type": "remotion:family-preset",
+    "desc": "Two complete scenes travel together across a luminous seam for a crisp, spatial leftward handoff.",
+    "use": "镜头衔接",
+    "tags": "push directional editorial transitions",
+    "duration": 2.4,
+    "poster": "assets/community/ali-remotion-templates/transition-horizontal-push/poster.jpg",
+    "videoPreview": "assets/community/ali-remotion-templates/transition-horizontal-push/preview.mp4",
+    "previewLabel": "作者示例",
+    "page": "https://github.com/ali-abassi/remotion-templates",
+    "source": "https://github.com/ali-abassi/remotion-templates/blob/6430d423c417b360e598b64a852e7cc57ed9afbe/src/families/transitions.tsx",
+    "install": "读取原仓库 src/families/transitions.tsx、对应 registry 和 src/lib/ 依赖；使用预设 transition-horizontal-push。这不是独立 npm 包。仓库根目录未提供明确许可证，正式复用前核对作者授权与第三方来源要求。",
+    "defaultProps": {
+      "variant": "horizontal-push",
+      "sceneA": "Signals in motion",
+      "sceneB": "A new perspective",
+      "accentColor": "#ff4d8d",
+      "transitionPoint": 0.5
+    },
+    "sources": [
+      {
+        "path": "assets/community/ali-remotion-templates/src/families/transitions.tsx"
+      }
+    ],
+    "provenance": {
+      "commit": "6430d423c417b360e598b64a852e7cc57ed9afbe",
+      "license": "未声明；需核对来源授权",
+      "family": "transitions",
+      "files": {
+        "lib/primitives.tsx": "e0bad3a5dd6c624f55952ac2e03439dfff87a81a8fcac2744d2b529d18e66f2a",
+        "lib/types.ts": "bd8c30eaf82ca2cab4a77dcdad7a73ff18c4329d8a348eb85ad9c4fdb5946211",
+        "families/accessibility-captions.tsx": "39ee6d6c211d5868ccf24fd21551287256b813bb39c8cccbbeec0bdcad806b63",
+        "families/accessibility-captions.registry.json": "1038ff2ea6c197b46e99817f6c52029d040516f49e34d2f6809db22c83fcc462",
+        "families/transitions.registry.json": "400643e813c632c577061c55202bc0f46c98a8651ec6244af4b2c5f1448f1038",
+        "families/transitions.tsx": "8230cd798cf6d40aa5cc9875b414b40bf92512e19fc96b69bc3b354798cc4923"
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/6430d423c417b360e598b64a852e7cc57ed9afbe/site/previews/transition-horizontal-push.mp4",
+      "sha256": "2ca5f736351f888af1e2fbdc9fe92d956aeec8982452dc294654029f47928375"
+    },
+    "previewNote": "作者原始视频；这是共享 React 家族引擎下的一个预设，尚未转换为 HyperFrames。仓库根目录无明确 LICENSE，复用时需核对来源授权。"
+  },
+  {
+    "id": "ali-transition-circular-iris",
+    "title": "发光光圈",
+    "en": "Circular Iris Portal",
+    "category": "转场",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ali-abassi",
+    "compatibility": "Remotion 家族预设 · 待适配",
+    "type": "remotion:family-preset",
+    "desc": "Scene B blooms from a glowing central iris that expands beyond the frame like a graphic lens aperture.",
+    "use": "镜头衔接",
+    "tags": "iris circle cinematic transitions",
+    "duration": 2.6,
+    "poster": "assets/community/ali-remotion-templates/transition-circular-iris/poster.jpg",
+    "videoPreview": "assets/community/ali-remotion-templates/transition-circular-iris/preview.mp4",
+    "previewLabel": "作者示例",
+    "page": "https://github.com/ali-abassi/remotion-templates",
+    "source": "https://github.com/ali-abassi/remotion-templates/blob/6430d423c417b360e598b64a852e7cc57ed9afbe/src/families/transitions.tsx",
+    "install": "读取原仓库 src/families/transitions.tsx、对应 registry 和 src/lib/ 依赖；使用预设 transition-circular-iris。这不是独立 npm 包。仓库根目录未提供明确许可证，正式复用前核对作者授权与第三方来源要求。",
+    "defaultProps": {
+      "variant": "circular-iris",
+      "sceneA": "Inside the system",
+      "sceneB": "Beyond the frame",
+      "accentColor": "#6c5cff",
+      "transitionPoint": 0.5
+    },
+    "sources": [
+      {
+        "path": "assets/community/ali-remotion-templates/src/families/transitions.tsx"
+      }
+    ],
+    "provenance": {
+      "commit": "6430d423c417b360e598b64a852e7cc57ed9afbe",
+      "license": "未声明；需核对来源授权",
+      "family": "transitions",
+      "files": {
+        "lib/primitives.tsx": "e0bad3a5dd6c624f55952ac2e03439dfff87a81a8fcac2744d2b529d18e66f2a",
+        "lib/types.ts": "bd8c30eaf82ca2cab4a77dcdad7a73ff18c4329d8a348eb85ad9c4fdb5946211",
+        "families/accessibility-captions.tsx": "39ee6d6c211d5868ccf24fd21551287256b813bb39c8cccbbeec0bdcad806b63",
+        "families/accessibility-captions.registry.json": "1038ff2ea6c197b46e99817f6c52029d040516f49e34d2f6809db22c83fcc462",
+        "families/transitions.registry.json": "400643e813c632c577061c55202bc0f46c98a8651ec6244af4b2c5f1448f1038",
+        "families/transitions.tsx": "8230cd798cf6d40aa5cc9875b414b40bf92512e19fc96b69bc3b354798cc4923"
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/6430d423c417b360e598b64a852e7cc57ed9afbe/site/previews/transition-circular-iris.mp4",
+      "sha256": "d8b66edab676d7c3418794054be1eb40f4f0159d6adac31d67e8bdce37ecf989"
+    },
+    "previewNote": "作者原始视频；这是共享 React 家族引擎下的一个预设，尚未转换为 HyperFrames。仓库根目录无明确 LICENSE，复用时需核对来源授权。"
+  },
+  {
+    "id": "ali-transition-diagonal-slices",
+    "title": "斜向切片",
+    "en": "Diagonal Slice Cascade",
+    "category": "转场",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ali-abassi",
+    "compatibility": "Remotion 家族预设 · 待适配",
+    "type": "remotion:family-preset",
+    "desc": "Nine angled scene strips arrive in an alternating cascade, finished by a fast specular light streak.",
+    "use": "镜头衔接",
+    "tags": "slices cascade dynamic transitions",
+    "duration": 2.8,
+    "poster": "assets/community/ali-remotion-templates/transition-diagonal-slices/poster.jpg",
+    "videoPreview": "assets/community/ali-remotion-templates/transition-diagonal-slices/preview.mp4",
+    "previewLabel": "作者示例",
+    "page": "https://github.com/ali-abassi/remotion-templates",
+    "source": "https://github.com/ali-abassi/remotion-templates/blob/6430d423c417b360e598b64a852e7cc57ed9afbe/src/families/transitions.tsx",
+    "install": "读取原仓库 src/families/transitions.tsx、对应 registry 和 src/lib/ 依赖；使用预设 transition-diagonal-slices。这不是独立 npm 包。仓库根目录未提供明确许可证，正式复用前核对作者授权与第三方来源要求。",
+    "defaultProps": {
+      "variant": "diagonal-slices",
+      "sceneA": "Measured momentum",
+      "sceneB": "Cut to clarity",
+      "accentColor": "#00d9ff",
+      "transitionPoint": 0.48
+    },
+    "sources": [
+      {
+        "path": "assets/community/ali-remotion-templates/src/families/transitions.tsx"
+      }
+    ],
+    "provenance": {
+      "commit": "6430d423c417b360e598b64a852e7cc57ed9afbe",
+      "license": "未声明；需核对来源授权",
+      "family": "transitions",
+      "files": {
+        "lib/primitives.tsx": "e0bad3a5dd6c624f55952ac2e03439dfff87a81a8fcac2744d2b529d18e66f2a",
+        "lib/types.ts": "bd8c30eaf82ca2cab4a77dcdad7a73ff18c4329d8a348eb85ad9c4fdb5946211",
+        "families/accessibility-captions.tsx": "39ee6d6c211d5868ccf24fd21551287256b813bb39c8cccbbeec0bdcad806b63",
+        "families/accessibility-captions.registry.json": "1038ff2ea6c197b46e99817f6c52029d040516f49e34d2f6809db22c83fcc462",
+        "families/transitions.registry.json": "400643e813c632c577061c55202bc0f46c98a8651ec6244af4b2c5f1448f1038",
+        "families/transitions.tsx": "8230cd798cf6d40aa5cc9875b414b40bf92512e19fc96b69bc3b354798cc4923"
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/6430d423c417b360e598b64a852e7cc57ed9afbe/site/previews/transition-diagonal-slices.mp4",
+      "sha256": "31fe47a84f2227bed2eeda2ae25d6061d6772879ec065ed88739451228bb5a00"
+    },
+    "previewNote": "作者原始视频；这是共享 React 家族引擎下的一个预设，尚未转换为 HyperFrames。仓库根目录无明确 LICENSE，复用时需核对来源授权。"
+  },
+  {
+    "id": "ali-transition-pixel-dissolve",
+    "title": "像素格溶解",
+    "en": "Seeded Pixel Dissolve",
+    "category": "转场",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ali-abassi",
+    "compatibility": "Remotion 家族预设 · 待适配",
+    "type": "remotion:family-preset",
+    "desc": "A deterministic randomized tile field resolves Scene B cell by cell with a bright digital grid afterimage.",
+    "use": "镜头衔接",
+    "tags": "pixel dissolve digital transitions",
+    "duration": 3.0,
+    "poster": "assets/community/ali-remotion-templates/transition-pixel-dissolve/poster.jpg",
+    "videoPreview": "assets/community/ali-remotion-templates/transition-pixel-dissolve/preview.mp4",
+    "previewLabel": "作者示例",
+    "page": "https://github.com/ali-abassi/remotion-templates",
+    "source": "https://github.com/ali-abassi/remotion-templates/blob/6430d423c417b360e598b64a852e7cc57ed9afbe/src/families/transitions.tsx",
+    "install": "读取原仓库 src/families/transitions.tsx、对应 registry 和 src/lib/ 依赖；使用预设 transition-pixel-dissolve。这不是独立 npm 包。仓库根目录未提供明确许可证，正式复用前核对作者授权与第三方来源要求。",
+    "defaultProps": {
+      "variant": "pixel-dissolve",
+      "sceneA": "Analog patterns",
+      "sceneB": "Digital futures",
+      "accentColor": "#24e6a8",
+      "transitionPoint": 0.52
+    },
+    "sources": [
+      {
+        "path": "assets/community/ali-remotion-templates/src/families/transitions.tsx"
+      }
+    ],
+    "provenance": {
+      "commit": "6430d423c417b360e598b64a852e7cc57ed9afbe",
+      "license": "未声明；需核对来源授权",
+      "family": "transitions",
+      "files": {
+        "lib/primitives.tsx": "e0bad3a5dd6c624f55952ac2e03439dfff87a81a8fcac2744d2b529d18e66f2a",
+        "lib/types.ts": "bd8c30eaf82ca2cab4a77dcdad7a73ff18c4329d8a348eb85ad9c4fdb5946211",
+        "families/accessibility-captions.tsx": "39ee6d6c211d5868ccf24fd21551287256b813bb39c8cccbbeec0bdcad806b63",
+        "families/accessibility-captions.registry.json": "1038ff2ea6c197b46e99817f6c52029d040516f49e34d2f6809db22c83fcc462",
+        "families/transitions.registry.json": "400643e813c632c577061c55202bc0f46c98a8651ec6244af4b2c5f1448f1038",
+        "families/transitions.tsx": "8230cd798cf6d40aa5cc9875b414b40bf92512e19fc96b69bc3b354798cc4923"
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/6430d423c417b360e598b64a852e7cc57ed9afbe/site/previews/transition-pixel-dissolve.mp4",
+      "sha256": "707d66a41040c0eaa5a407fc276bd4c211d33b1b85350adb53a923665b28ab2d"
+    },
+    "previewNote": "作者原始视频；这是共享 React 家族引擎下的一个预设，尚未转换为 HyperFrames。仓库根目录无明确 LICENSE，复用时需核对来源授权。"
+  },
+  {
+    "id": "ali-transition-clock-wipe",
+    "title": "时钟扫描",
+    "en": "Precision Clock Wipe",
+    "category": "转场",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ali-abassi",
+    "compatibility": "Remotion 家族预设 · 待适配",
+    "type": "remotion:family-preset",
+    "desc": "A conic reveal sweeps clockwise from twelve, tracked by a glowing radial hand and orbiting marker.",
+    "use": "镜头衔接",
+    "tags": "clock radial precision transitions",
+    "duration": 2.666667,
+    "poster": "assets/community/ali-remotion-templates/transition-clock-wipe/poster.jpg",
+    "videoPreview": "assets/community/ali-remotion-templates/transition-clock-wipe/preview.mp4",
+    "previewLabel": "作者示例",
+    "page": "https://github.com/ali-abassi/remotion-templates",
+    "source": "https://github.com/ali-abassi/remotion-templates/blob/6430d423c417b360e598b64a852e7cc57ed9afbe/src/families/transitions.tsx",
+    "install": "读取原仓库 src/families/transitions.tsx、对应 registry 和 src/lib/ 依赖；使用预设 transition-clock-wipe。这不是独立 npm 包。仓库根目录未提供明确许可证，正式复用前核对作者授权与第三方来源要求。",
+    "defaultProps": {
+      "variant": "clock-wipe",
+      "sceneA": "Before the moment",
+      "sceneB": "Right on time",
+      "accentColor": "#ff7a36",
+      "transitionPoint": 0.5
+    },
+    "sources": [
+      {
+        "path": "assets/community/ali-remotion-templates/src/families/transitions.tsx"
+      }
+    ],
+    "provenance": {
+      "commit": "6430d423c417b360e598b64a852e7cc57ed9afbe",
+      "license": "未声明；需核对来源授权",
+      "family": "transitions",
+      "files": {
+        "lib/primitives.tsx": "e0bad3a5dd6c624f55952ac2e03439dfff87a81a8fcac2744d2b529d18e66f2a",
+        "lib/types.ts": "bd8c30eaf82ca2cab4a77dcdad7a73ff18c4329d8a348eb85ad9c4fdb5946211",
+        "families/accessibility-captions.tsx": "39ee6d6c211d5868ccf24fd21551287256b813bb39c8cccbbeec0bdcad806b63",
+        "families/accessibility-captions.registry.json": "1038ff2ea6c197b46e99817f6c52029d040516f49e34d2f6809db22c83fcc462",
+        "families/transitions.registry.json": "400643e813c632c577061c55202bc0f46c98a8651ec6244af4b2c5f1448f1038",
+        "families/transitions.tsx": "8230cd798cf6d40aa5cc9875b414b40bf92512e19fc96b69bc3b354798cc4923"
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/6430d423c417b360e598b64a852e7cc57ed9afbe/site/previews/transition-clock-wipe.mp4",
+      "sha256": "fd84d1bf2269456808b09236736d47cffa17769bd59eaf1a7279a1da78473966"
+    },
+    "previewNote": "作者原始视频；这是共享 React 家族引擎下的一个预设，尚未转换为 HyperFrames。仓库根目录无明确 LICENSE，复用时需核对来源授权。"
+  },
+  {
+    "id": "ali-transition-luma-sweep",
+    "title": "亮光扫切",
+    "en": "Luma Light Sweep",
+    "category": "转场",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ali-abassi",
+    "compatibility": "Remotion 家族预设 · 待适配",
+    "type": "remotion:family-preset",
+    "desc": "A blown-out brightness band scans across the canvas, exposing the brighter second scene in its wake.",
+    "use": "镜头衔接",
+    "tags": "luma light premium transitions",
+    "duration": 2.533333,
+    "poster": "assets/community/ali-remotion-templates/transition-luma-sweep/poster.jpg",
+    "videoPreview": "assets/community/ali-remotion-templates/transition-luma-sweep/preview.mp4",
+    "previewLabel": "作者示例",
+    "page": "https://github.com/ali-abassi/remotion-templates",
+    "source": "https://github.com/ali-abassi/remotion-templates/blob/6430d423c417b360e598b64a852e7cc57ed9afbe/src/families/transitions.tsx",
+    "install": "读取原仓库 src/families/transitions.tsx、对应 registry 和 src/lib/ 依赖；使用预设 transition-luma-sweep。这不是独立 npm 包。仓库根目录未提供明确许可证，正式复用前核对作者授权与第三方来源要求。",
+    "defaultProps": {
+      "variant": "luma-sweep",
+      "sceneA": "Under the surface",
+      "sceneB": "Into the light",
+      "accentColor": "#f4bf2a",
+      "transitionPoint": 0.46
+    },
+    "sources": [
+      {
+        "path": "assets/community/ali-remotion-templates/src/families/transitions.tsx"
+      }
+    ],
+    "provenance": {
+      "commit": "6430d423c417b360e598b64a852e7cc57ed9afbe",
+      "license": "未声明；需核对来源授权",
+      "family": "transitions",
+      "files": {
+        "lib/primitives.tsx": "e0bad3a5dd6c624f55952ac2e03439dfff87a81a8fcac2744d2b529d18e66f2a",
+        "lib/types.ts": "bd8c30eaf82ca2cab4a77dcdad7a73ff18c4329d8a348eb85ad9c4fdb5946211",
+        "families/accessibility-captions.tsx": "39ee6d6c211d5868ccf24fd21551287256b813bb39c8cccbbeec0bdcad806b63",
+        "families/accessibility-captions.registry.json": "1038ff2ea6c197b46e99817f6c52029d040516f49e34d2f6809db22c83fcc462",
+        "families/transitions.registry.json": "400643e813c632c577061c55202bc0f46c98a8651ec6244af4b2c5f1448f1038",
+        "families/transitions.tsx": "8230cd798cf6d40aa5cc9875b414b40bf92512e19fc96b69bc3b354798cc4923"
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/6430d423c417b360e598b64a852e7cc57ed9afbe/site/previews/transition-luma-sweep.mp4",
+      "sha256": "0bc28a1e19c1cca0b4f586e8272f995855c12bea265f618a9136ea98582c5058"
+    },
+    "previewNote": "作者原始视频；这是共享 React 家族引擎下的一个预设，尚未转换为 HyperFrames。仓库根目录无明确 LICENSE，复用时需核对来源授权。"
+  },
+  {
+    "id": "ali-transition-zoom-through",
+    "title": "穿越变焦",
+    "en": "Center Zoom Through",
+    "category": "转场",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ali-abassi",
+    "compatibility": "Remotion 家族预设 · 待适配",
+    "type": "remotion:family-preset",
+    "desc": "Scene A accelerates past camera while Scene B grows through a centered portal with depth, blur and rim light.",
+    "use": "镜头衔接",
+    "tags": "zoom portal depth transitions",
+    "duration": 2.733333,
+    "poster": "assets/community/ali-remotion-templates/transition-zoom-through/poster.jpg",
+    "videoPreview": "assets/community/ali-remotion-templates/transition-zoom-through/preview.mp4",
+    "previewLabel": "作者示例",
+    "page": "https://github.com/ali-abassi/remotion-templates",
+    "source": "https://github.com/ali-abassi/remotion-templates/blob/6430d423c417b360e598b64a852e7cc57ed9afbe/src/families/transitions.tsx",
+    "install": "读取原仓库 src/families/transitions.tsx、对应 registry 和 src/lib/ 依赖；使用预设 transition-zoom-through。这不是独立 npm 包。仓库根目录未提供明确许可证，正式复用前核对作者授权与第三方来源要求。",
+    "defaultProps": {
+      "variant": "zoom-through",
+      "sceneA": "Approaching threshold",
+      "sceneB": "Enter the next state",
+      "accentColor": "#ff3f74",
+      "transitionPoint": 0.5
+    },
+    "sources": [
+      {
+        "path": "assets/community/ali-remotion-templates/src/families/transitions.tsx"
+      }
+    ],
+    "provenance": {
+      "commit": "6430d423c417b360e598b64a852e7cc57ed9afbe",
+      "license": "未声明；需核对来源授权",
+      "family": "transitions",
+      "files": {
+        "lib/primitives.tsx": "e0bad3a5dd6c624f55952ac2e03439dfff87a81a8fcac2744d2b529d18e66f2a",
+        "lib/types.ts": "bd8c30eaf82ca2cab4a77dcdad7a73ff18c4329d8a348eb85ad9c4fdb5946211",
+        "families/accessibility-captions.tsx": "39ee6d6c211d5868ccf24fd21551287256b813bb39c8cccbbeec0bdcad806b63",
+        "families/accessibility-captions.registry.json": "1038ff2ea6c197b46e99817f6c52029d040516f49e34d2f6809db22c83fcc462",
+        "families/transitions.registry.json": "400643e813c632c577061c55202bc0f46c98a8651ec6244af4b2c5f1448f1038",
+        "families/transitions.tsx": "8230cd798cf6d40aa5cc9875b414b40bf92512e19fc96b69bc3b354798cc4923"
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/6430d423c417b360e598b64a852e7cc57ed9afbe/site/previews/transition-zoom-through.mp4",
+      "sha256": "bbcf22170136bcc9828ec8814cee02c9a26a7ead6e31d1f2cb9d8d3ea9c454c9"
+    },
+    "previewNote": "作者原始视频；这是共享 React 家族引擎下的一个预设，尚未转换为 HyperFrames。仓库根目录无明确 LICENSE，复用时需核对来源授权。"
+  },
+  {
+    "id": "ali-transition-venetian-blinds",
+    "title": "立体百叶",
+    "en": "Venetian Depth Blinds",
+    "category": "转场",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ali-abassi",
+    "compatibility": "Remotion 家族预设 · 待适配",
+    "type": "remotion:family-preset",
+    "desc": "Twelve alternating vertical slats rotate in three-dimensional space until Scene B locks into one image.",
+    "use": "镜头衔接",
+    "tags": "blinds 3d modular transitions",
+    "duration": 2.933333,
+    "poster": "assets/community/ali-remotion-templates/transition-venetian-blinds/poster.jpg",
+    "videoPreview": "assets/community/ali-remotion-templates/transition-venetian-blinds/preview.mp4",
+    "previewLabel": "作者示例",
+    "page": "https://github.com/ali-abassi/remotion-templates",
+    "source": "https://github.com/ali-abassi/remotion-templates/blob/6430d423c417b360e598b64a852e7cc57ed9afbe/src/families/transitions.tsx",
+    "install": "读取原仓库 src/families/transitions.tsx、对应 registry 和 src/lib/ 依赖；使用预设 transition-venetian-blinds。这不是独立 npm 包。仓库根目录未提供明确许可证，正式复用前核对作者授权与第三方来源要求。",
+    "defaultProps": {
+      "variant": "venetian-blinds",
+      "sceneA": "One modular view",
+      "sceneB": "Another dimension",
+      "accentColor": "#8a63ff",
+      "transitionPoint": 0.51
+    },
+    "sources": [
+      {
+        "path": "assets/community/ali-remotion-templates/src/families/transitions.tsx"
+      }
+    ],
+    "provenance": {
+      "commit": "6430d423c417b360e598b64a852e7cc57ed9afbe",
+      "license": "未声明；需核对来源授权",
+      "family": "transitions",
+      "files": {
+        "lib/primitives.tsx": "e0bad3a5dd6c624f55952ac2e03439dfff87a81a8fcac2744d2b529d18e66f2a",
+        "lib/types.ts": "bd8c30eaf82ca2cab4a77dcdad7a73ff18c4329d8a348eb85ad9c4fdb5946211",
+        "families/accessibility-captions.tsx": "39ee6d6c211d5868ccf24fd21551287256b813bb39c8cccbbeec0bdcad806b63",
+        "families/accessibility-captions.registry.json": "1038ff2ea6c197b46e99817f6c52029d040516f49e34d2f6809db22c83fcc462",
+        "families/transitions.registry.json": "400643e813c632c577061c55202bc0f46c98a8651ec6244af4b2c5f1448f1038",
+        "families/transitions.tsx": "8230cd798cf6d40aa5cc9875b414b40bf92512e19fc96b69bc3b354798cc4923"
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/6430d423c417b360e598b64a852e7cc57ed9afbe/site/previews/transition-venetian-blinds.mp4",
+      "sha256": "b3737b1b0749a449c392b815e8cee850eb2526f294a52192c096663c19532ba3"
+    },
+    "previewNote": "作者原始视频；这是共享 React 家族引擎下的一个预设，尚未转换为 HyperFrames。仓库根目录无明确 LICENSE，复用时需核对来源授权。"
+  },
+  {
+    "id": "ali-transition-shatter-panels",
+    "title": "碎片飞散",
+    "en": "Shatter Panel Release",
+    "category": "转场",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ali-abassi",
+    "compatibility": "Remotion 家族预设 · 待适配",
+    "type": "remotion:family-preset",
+    "desc": "Triangulated fragments of Scene A break from center and fly outward to uncover the new composition below.",
+    "use": "镜头衔接",
+    "tags": "shatter panels impact transitions",
+    "duration": 3.0,
+    "poster": "assets/community/ali-remotion-templates/transition-shatter-panels/poster.jpg",
+    "videoPreview": "assets/community/ali-remotion-templates/transition-shatter-panels/preview.mp4",
+    "previewLabel": "作者示例",
+    "page": "https://github.com/ali-abassi/remotion-templates",
+    "source": "https://github.com/ali-abassi/remotion-templates/blob/6430d423c417b360e598b64a852e7cc57ed9afbe/src/families/transitions.tsx",
+    "install": "读取原仓库 src/families/transitions.tsx、对应 registry 和 src/lib/ 依赖；使用预设 transition-shatter-panels。这不是独立 npm 包。仓库根目录未提供明确许可证，正式复用前核对作者授权与第三方来源要求。",
+    "defaultProps": {
+      "variant": "shatter-panels",
+      "sceneA": "Break the pattern",
+      "sceneB": "Reveal the outcome",
+      "accentColor": "#ff5151",
+      "transitionPoint": 0.49
+    },
+    "sources": [
+      {
+        "path": "assets/community/ali-remotion-templates/src/families/transitions.tsx"
+      }
+    ],
+    "provenance": {
+      "commit": "6430d423c417b360e598b64a852e7cc57ed9afbe",
+      "license": "未声明；需核对来源授权",
+      "family": "transitions",
+      "files": {
+        "lib/primitives.tsx": "e0bad3a5dd6c624f55952ac2e03439dfff87a81a8fcac2744d2b529d18e66f2a",
+        "lib/types.ts": "bd8c30eaf82ca2cab4a77dcdad7a73ff18c4329d8a348eb85ad9c4fdb5946211",
+        "families/accessibility-captions.tsx": "39ee6d6c211d5868ccf24fd21551287256b813bb39c8cccbbeec0bdcad806b63",
+        "families/accessibility-captions.registry.json": "1038ff2ea6c197b46e99817f6c52029d040516f49e34d2f6809db22c83fcc462",
+        "families/transitions.registry.json": "400643e813c632c577061c55202bc0f46c98a8651ec6244af4b2c5f1448f1038",
+        "families/transitions.tsx": "8230cd798cf6d40aa5cc9875b414b40bf92512e19fc96b69bc3b354798cc4923"
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/6430d423c417b360e598b64a852e7cc57ed9afbe/site/previews/transition-shatter-panels.mp4",
+      "sha256": "94f8c2bc991b16ad19a0a49a73187b759419f961ea6a244f93fe4b6a05784a43"
+    },
+    "previewNote": "作者原始视频；这是共享 React 家族引擎下的一个预设，尚未转换为 HyperFrames。仓库根目录无明确 LICENSE，复用时需核对来源授权。"
+  },
+  {
+    "id": "ali-transition-liquid-bars",
+    "title": "液态条带",
+    "en": "Liquid Morph Bar Sweep",
+    "category": "转场",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ali-abassi",
+    "compatibility": "Remotion 家族预设 · 待适配",
+    "type": "remotion:family-preset",
+    "desc": "Rounded horizontal ribbons surge across in a soft wave, carrying liquid droplets and the complete next scene.",
+    "use": "镜头衔接",
+    "tags": "liquid bars organic transitions",
+    "duration": 3.0,
+    "poster": "assets/community/ali-remotion-templates/transition-liquid-bars/poster.jpg",
+    "videoPreview": "assets/community/ali-remotion-templates/transition-liquid-bars/preview.mp4",
+    "previewLabel": "作者示例",
+    "page": "https://github.com/ali-abassi/remotion-templates",
+    "source": "https://github.com/ali-abassi/remotion-templates/blob/6430d423c417b360e598b64a852e7cc57ed9afbe/src/families/transitions.tsx",
+    "install": "读取原仓库 src/families/transitions.tsx、对应 registry 和 src/lib/ 依赖；使用预设 transition-liquid-bars。这不是独立 npm 包。仓库根目录未提供明确许可证，正式复用前核对作者授权与第三方来源要求。",
+    "defaultProps": {
+      "variant": "liquid-bars",
+      "sceneA": "Structured currents",
+      "sceneB": "Flow into form",
+      "accentColor": "#00bfa6",
+      "transitionPoint": 0.53
+    },
+    "sources": [
+      {
+        "path": "assets/community/ali-remotion-templates/src/families/transitions.tsx"
+      }
+    ],
+    "provenance": {
+      "commit": "6430d423c417b360e598b64a852e7cc57ed9afbe",
+      "license": "未声明；需核对来源授权",
+      "family": "transitions",
+      "files": {
+        "lib/primitives.tsx": "e0bad3a5dd6c624f55952ac2e03439dfff87a81a8fcac2744d2b529d18e66f2a",
+        "lib/types.ts": "bd8c30eaf82ca2cab4a77dcdad7a73ff18c4329d8a348eb85ad9c4fdb5946211",
+        "families/accessibility-captions.tsx": "39ee6d6c211d5868ccf24fd21551287256b813bb39c8cccbbeec0bdcad806b63",
+        "families/accessibility-captions.registry.json": "1038ff2ea6c197b46e99817f6c52029d040516f49e34d2f6809db22c83fcc462",
+        "families/transitions.registry.json": "400643e813c632c577061c55202bc0f46c98a8651ec6244af4b2c5f1448f1038",
+        "families/transitions.tsx": "8230cd798cf6d40aa5cc9875b414b40bf92512e19fc96b69bc3b354798cc4923"
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/6430d423c417b360e598b64a852e7cc57ed9afbe/site/previews/transition-liquid-bars.mp4",
+      "sha256": "7d969079e742070f75aa1b4771c9125f3587511a75c965cf2c7bbe59dca278c0"
+    },
+    "previewNote": "作者原始视频；这是共享 React 家族引擎下的一个预设，尚未转换为 HyperFrames。仓库根目录无明确 LICENSE，复用时需核对来源授权。"
+  },
+  {
+    "id": "ali-accessibility-captions-high-contrast-captions",
+    "title": "高对比描边字幕",
+    "en": "High Contrast Captions",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ali-abassi",
+    "compatibility": "Remotion 家族预设 · 待适配",
+    "type": "remotion:family-preset",
+    "desc": "A bold outlined caption treatment with maximum contrast, clear hierarchy, and a language marker for reliable readability.",
+    "use": "口播字幕 · 无障碍阅读",
+    "tags": "accessibility captions high-contrast readability accessibility-captions",
+    "duration": 3.0,
+    "poster": "assets/community/ali-remotion-templates/accessibility-captions-high-contrast-captions/poster.jpg",
+    "videoPreview": "assets/community/ali-remotion-templates/accessibility-captions-high-contrast-captions/preview.mp4",
+    "previewLabel": "作者示例",
+    "page": "https://github.com/ali-abassi/remotion-templates",
+    "source": "https://github.com/ali-abassi/remotion-templates/blob/6430d423c417b360e598b64a852e7cc57ed9afbe/src/families/accessibility-captions.tsx",
+    "install": "读取原仓库 src/families/accessibility-captions.tsx、对应 registry 和 src/lib/ 依赖；使用预设 accessibility-captions-high-contrast-captions。这不是独立 npm 包。仓库根目录未提供明确许可证，正式复用前核对作者授权与第三方来源要求。",
+    "defaultProps": {
+      "variant": "high-contrast-captions",
+      "transcript": "Design should be clear for everyone.",
+      "segments": [],
+      "wordTimings": [],
+      "speaker": "Avery Stone",
+      "speakerRole": "Host",
+      "description": "A presenter speaks clearly to camera.",
+      "signLanguageLabel": "Interpreter",
+      "language": "en",
+      "captionPosition": "bottom",
+      "contrastMode": "yellow",
+      "safeArea": 72,
+      "paletteName": "midnight",
+      "showProgress": true,
+      "showSpeaker": false
+    },
+    "sources": [
+      {
+        "path": "assets/community/ali-remotion-templates/src/families/accessibility-captions.tsx"
+      }
+    ],
+    "provenance": {
+      "commit": "6430d423c417b360e598b64a852e7cc57ed9afbe",
+      "license": "未声明；需核对来源授权",
+      "family": "accessibility-captions",
+      "files": {
+        "lib/primitives.tsx": "e0bad3a5dd6c624f55952ac2e03439dfff87a81a8fcac2744d2b529d18e66f2a",
+        "lib/types.ts": "bd8c30eaf82ca2cab4a77dcdad7a73ff18c4329d8a348eb85ad9c4fdb5946211",
+        "families/accessibility-captions.tsx": "39ee6d6c211d5868ccf24fd21551287256b813bb39c8cccbbeec0bdcad806b63",
+        "families/accessibility-captions.registry.json": "1038ff2ea6c197b46e99817f6c52029d040516f49e34d2f6809db22c83fcc462",
+        "families/transitions.registry.json": "400643e813c632c577061c55202bc0f46c98a8651ec6244af4b2c5f1448f1038",
+        "families/transitions.tsx": "8230cd798cf6d40aa5cc9875b414b40bf92512e19fc96b69bc3b354798cc4923"
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/6430d423c417b360e598b64a852e7cc57ed9afbe/site/previews/accessibility-captions-high-contrast-captions.mp4",
+      "sha256": "bb1b4590eef6b7b8d93ad8bd4a6b650c9890af9f1a3b5746f8b61254cc35d868"
+    },
+    "previewNote": "作者原始视频；这是共享 React 家族引擎下的一个预设，尚未转换为 HyperFrames。仓库根目录无明确 LICENSE，复用时需核对来源授权。"
+  },
+  {
+    "id": "ali-accessibility-captions-speaker-captions",
+    "title": "说话人字幕",
+    "en": "Speaker Captions",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ali-abassi",
+    "compatibility": "Remotion 家族预设 · 待适配",
+    "type": "remotion:family-preset",
+    "desc": "A speaker-labeled dialogue treatment that keeps identity and spoken content legible as separate visual layers.",
+    "use": "口播字幕 · 无障碍阅读",
+    "tags": "accessibility captions speaker dialogue accessibility-captions",
+    "duration": 3.0,
+    "poster": "assets/community/ali-remotion-templates/accessibility-captions-speaker-captions/poster.jpg",
+    "videoPreview": "assets/community/ali-remotion-templates/accessibility-captions-speaker-captions/preview.mp4",
+    "previewLabel": "作者示例",
+    "page": "https://github.com/ali-abassi/remotion-templates",
+    "source": "https://github.com/ali-abassi/remotion-templates/blob/6430d423c417b360e598b64a852e7cc57ed9afbe/src/families/accessibility-captions.tsx",
+    "install": "读取原仓库 src/families/accessibility-captions.tsx、对应 registry 和 src/lib/ 依赖；使用预设 accessibility-captions-speaker-captions。这不是独立 npm 包。仓库根目录未提供明确许可证，正式复用前核对作者授权与第三方来源要求。",
+    "defaultProps": {
+      "variant": "speaker-captions",
+      "transcript": "Every voice belongs in the frame.",
+      "segments": [
+        {
+          "text": "Welcome to the conversation.",
+          "start": 0,
+          "end": 42,
+          "speaker": "Avery Stone"
+        },
+        {
+          "text": "Every voice belongs in the frame.",
+          "start": 42,
+          "end": 88,
+          "speaker": "Avery Stone"
+        },
+        {
+          "text": "Let us make it easier to follow.",
+          "start": 88,
+          "end": 132,
+          "speaker": "Jordan Lee"
+        }
+      ],
+      "wordTimings": [],
+      "speaker": "Avery Stone",
+      "speakerRole": "Host",
+      "description": "Two speakers share a calm interview frame.",
+      "signLanguageLabel": "Interpreter",
+      "language": "en",
+      "captionPosition": "bottom",
+      "contrastMode": "dark",
+      "safeArea": 72,
+      "paletteName": "ocean",
+      "showProgress": true,
+      "showSpeaker": true
+    },
+    "sources": [
+      {
+        "path": "assets/community/ali-remotion-templates/src/families/accessibility-captions.tsx"
+      }
+    ],
+    "provenance": {
+      "commit": "6430d423c417b360e598b64a852e7cc57ed9afbe",
+      "license": "未声明；需核对来源授权",
+      "family": "accessibility-captions",
+      "files": {
+        "lib/primitives.tsx": "e0bad3a5dd6c624f55952ac2e03439dfff87a81a8fcac2744d2b529d18e66f2a",
+        "lib/types.ts": "bd8c30eaf82ca2cab4a77dcdad7a73ff18c4329d8a348eb85ad9c4fdb5946211",
+        "families/accessibility-captions.tsx": "39ee6d6c211d5868ccf24fd21551287256b813bb39c8cccbbeec0bdcad806b63",
+        "families/accessibility-captions.registry.json": "1038ff2ea6c197b46e99817f6c52029d040516f49e34d2f6809db22c83fcc462",
+        "families/transitions.registry.json": "400643e813c632c577061c55202bc0f46c98a8651ec6244af4b2c5f1448f1038",
+        "families/transitions.tsx": "8230cd798cf6d40aa5cc9875b414b40bf92512e19fc96b69bc3b354798cc4923"
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/6430d423c417b360e598b64a852e7cc57ed9afbe/site/previews/accessibility-captions-speaker-captions.mp4",
+      "sha256": "7faef2c549da01175937e34bdbb4ee5049940537fe28a758a4124744e7419670"
+    },
+    "previewNote": "作者原始视频；这是共享 React 家族引擎下的一个预设，尚未转换为 HyperFrames。仓库根目录无明确 LICENSE，复用时需核对来源授权。"
+  },
+  {
+    "id": "ali-accessibility-captions-karaoke-captions",
+    "title": "逐词填色字幕",
+    "en": "Karaoke Captions",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ali-abassi",
+    "compatibility": "Remotion 家族预设 · 待适配",
+    "type": "remotion:family-preset",
+    "desc": "Word-by-word timing with a high-contrast fill sweep that makes the current spoken word easy to track.",
+    "use": "口播字幕 · 无障碍阅读",
+    "tags": "accessibility captions word-highlight kinetic accessibility-captions",
+    "duration": 3.0,
+    "poster": "assets/community/ali-remotion-templates/accessibility-captions-karaoke-captions/poster.jpg",
+    "videoPreview": "assets/community/ali-remotion-templates/accessibility-captions-karaoke-captions/preview.mp4",
+    "previewLabel": "作者示例",
+    "page": "https://github.com/ali-abassi/remotion-templates",
+    "source": "https://github.com/ali-abassi/remotion-templates/blob/6430d423c417b360e598b64a852e7cc57ed9afbe/src/families/accessibility-captions.tsx",
+    "install": "读取原仓库 src/families/accessibility-captions.tsx、对应 registry 和 src/lib/ 依赖；使用预设 accessibility-captions-karaoke-captions。这不是独立 npm 包。仓库根目录未提供明确许可证，正式复用前核对作者授权与第三方来源要求。",
+    "defaultProps": {
+      "variant": "karaoke-captions",
+      "transcript": "Make every word easy to follow.",
+      "segments": [],
+      "wordTimings": [
+        {
+          "text": "Make",
+          "start": 0,
+          "end": 8
+        },
+        {
+          "text": "every",
+          "start": 6,
+          "end": 14
+        },
+        {
+          "text": "word",
+          "start": 12,
+          "end": 20
+        },
+        {
+          "text": "easy",
+          "start": 18,
+          "end": 26
+        },
+        {
+          "text": "to",
+          "start": 24,
+          "end": 30
+        },
+        {
+          "text": "follow.",
+          "start": 28,
+          "end": 38
+        }
+      ],
+      "speaker": "Avery Stone",
+      "speakerRole": "Narrator",
+      "description": "A narrator explains the idea one word at a time.",
+      "signLanguageLabel": "Interpreter",
+      "language": "en",
+      "captionPosition": "center",
+      "contrastMode": "dark",
+      "safeArea": 64,
+      "paletteName": "candy",
+      "showProgress": true,
+      "showSpeaker": false
+    },
+    "sources": [
+      {
+        "path": "assets/community/ali-remotion-templates/src/families/accessibility-captions.tsx"
+      }
+    ],
+    "provenance": {
+      "commit": "6430d423c417b360e598b64a852e7cc57ed9afbe",
+      "license": "未声明；需核对来源授权",
+      "family": "accessibility-captions",
+      "files": {
+        "lib/primitives.tsx": "e0bad3a5dd6c624f55952ac2e03439dfff87a81a8fcac2744d2b529d18e66f2a",
+        "lib/types.ts": "bd8c30eaf82ca2cab4a77dcdad7a73ff18c4329d8a348eb85ad9c4fdb5946211",
+        "families/accessibility-captions.tsx": "39ee6d6c211d5868ccf24fd21551287256b813bb39c8cccbbeec0bdcad806b63",
+        "families/accessibility-captions.registry.json": "1038ff2ea6c197b46e99817f6c52029d040516f49e34d2f6809db22c83fcc462",
+        "families/transitions.registry.json": "400643e813c632c577061c55202bc0f46c98a8651ec6244af4b2c5f1448f1038",
+        "families/transitions.tsx": "8230cd798cf6d40aa5cc9875b414b40bf92512e19fc96b69bc3b354798cc4923"
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/6430d423c417b360e598b64a852e7cc57ed9afbe/site/previews/accessibility-captions-karaoke-captions.mp4",
+      "sha256": "02bd9e1efdd080d8c624b73c4c3b770e16ae944651d02c814cd87e3b3a08630c"
+    },
+    "previewNote": "作者原始视频；这是共享 React 家族引擎下的一个预设，尚未转换为 HyperFrames。仓库根目录无明确 LICENSE，复用时需核对来源授权。"
+  },
+  {
+    "id": "ali-accessibility-captions-caption-box",
+    "title": "多行字幕框",
+    "en": "Caption Box",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ali-abassi",
+    "compatibility": "Remotion 家族预设 · 待适配",
+    "type": "remotion:family-preset",
+    "desc": "A stable open-caption box with generous line height, safe wrapping, and a calm production label.",
+    "use": "口播字幕 · 无障碍阅读",
+    "tags": "accessibility captions open-caption multiline accessibility-captions",
+    "duration": 3.0,
+    "poster": "assets/community/ali-remotion-templates/accessibility-captions-caption-box/poster.jpg",
+    "videoPreview": "assets/community/ali-remotion-templates/accessibility-captions-caption-box/preview.mp4",
+    "previewLabel": "作者示例",
+    "page": "https://github.com/ali-abassi/remotion-templates",
+    "source": "https://github.com/ali-abassi/remotion-templates/blob/6430d423c417b360e598b64a852e7cc57ed9afbe/src/families/accessibility-captions.tsx",
+    "install": "读取原仓库 src/families/accessibility-captions.tsx、对应 registry 和 src/lib/ 依赖；使用预设 accessibility-captions-caption-box。这不是独立 npm 包。仓库根目录未提供明确许可证，正式复用前核对作者授权与第三方来源要求。",
+    "defaultProps": {
+      "variant": "caption-box",
+      "transcript": "Readable captions make every story easier to follow.",
+      "segments": [],
+      "wordTimings": [],
+      "speaker": "Avery Stone",
+      "speakerRole": "Narrator",
+      "description": "A wide caption box stays inside the lower safe area.",
+      "signLanguageLabel": "Interpreter",
+      "language": "en",
+      "captionPosition": "bottom",
+      "contrastMode": "dark",
+      "safeArea": 78,
+      "paletteName": "forest",
+      "showProgress": true,
+      "showSpeaker": true
+    },
+    "sources": [
+      {
+        "path": "assets/community/ali-remotion-templates/src/families/accessibility-captions.tsx"
+      }
+    ],
+    "provenance": {
+      "commit": "6430d423c417b360e598b64a852e7cc57ed9afbe",
+      "license": "未声明；需核对来源授权",
+      "family": "accessibility-captions",
+      "files": {
+        "lib/primitives.tsx": "e0bad3a5dd6c624f55952ac2e03439dfff87a81a8fcac2744d2b529d18e66f2a",
+        "lib/types.ts": "bd8c30eaf82ca2cab4a77dcdad7a73ff18c4329d8a348eb85ad9c4fdb5946211",
+        "families/accessibility-captions.tsx": "39ee6d6c211d5868ccf24fd21551287256b813bb39c8cccbbeec0bdcad806b63",
+        "families/accessibility-captions.registry.json": "1038ff2ea6c197b46e99817f6c52029d040516f49e34d2f6809db22c83fcc462",
+        "families/transitions.registry.json": "400643e813c632c577061c55202bc0f46c98a8651ec6244af4b2c5f1448f1038",
+        "families/transitions.tsx": "8230cd798cf6d40aa5cc9875b414b40bf92512e19fc96b69bc3b354798cc4923"
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/6430d423c417b360e598b64a852e7cc57ed9afbe/site/previews/accessibility-captions-caption-box.mp4",
+      "sha256": "74101ecee8915505fac69b57e044feade0bc239aca557acc92f0c81ddda04520"
+    },
+    "previewNote": "作者原始视频；这是共享 React 家族引擎下的一个预设，尚未转换为 HyperFrames。仓库根目录无明确 LICENSE，复用时需核对来源授权。"
+  },
+  {
+    "id": "ali-accessibility-captions-caption-highlight",
+    "title": "词块高亮字幕",
+    "en": "Caption Highlight",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ali-abassi",
+    "compatibility": "Remotion 家族预设 · 待适配",
+    "type": "remotion:family-preset",
+    "desc": "Spoken words resolve into individually highlighted chips, preserving context while making timing unmistakable.",
+    "use": "口播字幕 · 无障碍阅读",
+    "tags": "accessibility captions highlight timing accessibility-captions",
+    "duration": 3.0,
+    "poster": "assets/community/ali-remotion-templates/accessibility-captions-caption-highlight/poster.jpg",
+    "videoPreview": "assets/community/ali-remotion-templates/accessibility-captions-caption-highlight/preview.mp4",
+    "previewLabel": "作者示例",
+    "page": "https://github.com/ali-abassi/remotion-templates",
+    "source": "https://github.com/ali-abassi/remotion-templates/blob/6430d423c417b360e598b64a852e7cc57ed9afbe/src/families/accessibility-captions.tsx",
+    "install": "读取原仓库 src/families/accessibility-captions.tsx、对应 registry 和 src/lib/ 依赖；使用预设 accessibility-captions-caption-highlight。这不是独立 npm 包。仓库根目录未提供明确许可证，正式复用前核对作者授权与第三方来源要求。",
+    "defaultProps": {
+      "variant": "caption-highlight",
+      "transcript": "One spoken thought at a time.",
+      "segments": [],
+      "wordTimings": [],
+      "speaker": "Avery Stone",
+      "speakerRole": "Host",
+      "description": "Words highlight in sequence as the sentence is spoken.",
+      "signLanguageLabel": "Interpreter",
+      "language": "en",
+      "captionPosition": "center",
+      "contrastMode": "dark",
+      "safeArea": 64,
+      "paletteName": "sunset",
+      "showProgress": true,
+      "showSpeaker": false
+    },
+    "sources": [
+      {
+        "path": "assets/community/ali-remotion-templates/src/families/accessibility-captions.tsx"
+      }
+    ],
+    "provenance": {
+      "commit": "6430d423c417b360e598b64a852e7cc57ed9afbe",
+      "license": "未声明；需核对来源授权",
+      "family": "accessibility-captions",
+      "files": {
+        "lib/primitives.tsx": "e0bad3a5dd6c624f55952ac2e03439dfff87a81a8fcac2744d2b529d18e66f2a",
+        "lib/types.ts": "bd8c30eaf82ca2cab4a77dcdad7a73ff18c4329d8a348eb85ad9c4fdb5946211",
+        "families/accessibility-captions.tsx": "39ee6d6c211d5868ccf24fd21551287256b813bb39c8cccbbeec0bdcad806b63",
+        "families/accessibility-captions.registry.json": "1038ff2ea6c197b46e99817f6c52029d040516f49e34d2f6809db22c83fcc462",
+        "families/transitions.registry.json": "400643e813c632c577061c55202bc0f46c98a8651ec6244af4b2c5f1448f1038",
+        "families/transitions.tsx": "8230cd798cf6d40aa5cc9875b414b40bf92512e19fc96b69bc3b354798cc4923"
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/6430d423c417b360e598b64a852e7cc57ed9afbe/site/previews/accessibility-captions-caption-highlight.mp4",
+      "sha256": "78e4eca6a31d40822641db2f7affb65d72a9144d0a040d5534024326808a324e"
+    },
+    "previewNote": "作者原始视频；这是共享 React 家族引擎下的一个预设，尚未转换为 HyperFrames。仓库根目录无明确 LICENSE，复用时需核对来源授权。"
+  },
+  {
+    "id": "ali-accessibility-captions-large-type-captions",
+    "title": "大字易读字幕",
+    "en": "Large Type Captions",
+    "category": "字幕",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · ali-abassi",
+    "compatibility": "Remotion 家族预设 · 待适配",
+    "type": "remotion:family-preset",
+    "desc": "Oversized captions use short lines, strong weight, and a quiet background for viewers watching from a distance.",
+    "use": "口播字幕 · 无障碍阅读",
+    "tags": "accessibility captions large-type distance accessibility-captions",
+    "duration": 3.0,
+    "poster": "assets/community/ali-remotion-templates/accessibility-captions-large-type-captions/poster.jpg",
+    "videoPreview": "assets/community/ali-remotion-templates/accessibility-captions-large-type-captions/preview.mp4",
+    "previewLabel": "作者示例",
+    "page": "https://github.com/ali-abassi/remotion-templates",
+    "source": "https://github.com/ali-abassi/remotion-templates/blob/6430d423c417b360e598b64a852e7cc57ed9afbe/src/families/accessibility-captions.tsx",
+    "install": "读取原仓库 src/families/accessibility-captions.tsx、对应 registry 和 src/lib/ 依赖；使用预设 accessibility-captions-large-type-captions。这不是独立 npm 包。仓库根目录未提供明确许可证，正式复用前核对作者授权与第三方来源要求。",
+    "defaultProps": {
+      "variant": "large-type-captions",
+      "transcript": "Readable from a distance.",
+      "segments": [],
+      "wordTimings": [],
+      "speaker": "Avery Stone",
+      "speakerRole": "Narrator",
+      "description": "Large type remains legible on a phone, screen, or presentation wall.",
+      "signLanguageLabel": "Interpreter",
+      "language": "en",
+      "captionPosition": "center",
+      "contrastMode": "light",
+      "safeArea": 70,
+      "paletteName": "paper",
+      "showProgress": true,
+      "showSpeaker": false
+    },
+    "sources": [
+      {
+        "path": "assets/community/ali-remotion-templates/src/families/accessibility-captions.tsx"
+      }
+    ],
+    "provenance": {
+      "commit": "6430d423c417b360e598b64a852e7cc57ed9afbe",
+      "license": "未声明；需核对来源授权",
+      "family": "accessibility-captions",
+      "files": {
+        "lib/primitives.tsx": "e0bad3a5dd6c624f55952ac2e03439dfff87a81a8fcac2744d2b529d18e66f2a",
+        "lib/types.ts": "bd8c30eaf82ca2cab4a77dcdad7a73ff18c4329d8a348eb85ad9c4fdb5946211",
+        "families/accessibility-captions.tsx": "39ee6d6c211d5868ccf24fd21551287256b813bb39c8cccbbeec0bdcad806b63",
+        "families/accessibility-captions.registry.json": "1038ff2ea6c197b46e99817f6c52029d040516f49e34d2f6809db22c83fcc462",
+        "families/transitions.registry.json": "400643e813c632c577061c55202bc0f46c98a8651ec6244af4b2c5f1448f1038",
+        "families/transitions.tsx": "8230cd798cf6d40aa5cc9875b414b40bf92512e19fc96b69bc3b354798cc4923"
+      }
+    },
+    "videoProvenance": {
+      "kind": "author-video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/6430d423c417b360e598b64a852e7cc57ed9afbe/site/previews/accessibility-captions-large-type-captions.mp4",
+      "sha256": "fb432fad4cd8e61ddbe2aba15597d157078f53e37281e126df76a195fdc1dd09"
+    },
+    "previewNote": "作者原始视频；这是共享 React 家族引擎下的一个预设，尚未转换为 HyperFrames。仓库根目录无明确 LICENSE，复用时需核对来源授权。"
+  }
+]

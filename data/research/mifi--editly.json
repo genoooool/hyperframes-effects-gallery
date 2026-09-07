@@ -1,0 +1,898 @@
+{
+  "repo": "mifi/editly",
+  "branch": "master",
+  "sha": "dc46674052eacd15ef6e0f563a58eb378b3804ad",
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "tree": [
+    {
+      "path": ".dockerignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3b34b6d504889582e92020157b1b56e3c5fafd7",
+      "size": 29,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/d3b34b6d504889582e92020157b1b56e3c5fafd7"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2435a53f2a980222c4c102028753ab0142fa2b59",
+      "url": "https://api.github.com/repos/mifi/editly/git/trees/2435a53f2a980222c4c102028753ab0142fa2b59"
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73bd926d37208b4a52eda00250f8e66154599064",
+      "size": 44,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/73bd926d37208b4a52eda00250f8e66154599064"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "551e3cdadfccd12e8992600cb48efcd071bcbd10",
+      "size": 187,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/551e3cdadfccd12e8992600cb48efcd071bcbd10"
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1118a7c2b9512a9ac975129483bd2a917f92daa2",
+      "size": 273,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/1118a7c2b9512a9ac975129483bd2a917f92daa2"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9fc8b1ba1914798b5eb706a50dd2da80856013cf",
+      "url": "https://api.github.com/repos/mifi/editly/git/trees/9fc8b1ba1914798b5eb706a50dd2da80856013cf"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f489fa0db4d4ab25df9479968e208f9ef88dadf",
+      "size": 2865,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/1f489fa0db4d4ab25df9479968e208f9ef88dadf"
+    },
+    {
+      "path": ".github/workflows/examples.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82b5067add697b267a059e4b826bbee071aa91ff",
+      "size": 1756,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/82b5067add697b267a059e4b826bbee071aa91ff"
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e6b038589f634b8d5e6e8f3fcf96ef130479b2d",
+      "size": 1434,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/6e6b038589f634b8d5e6e8f3fcf96ef130479b2d"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8498279db8a2e442f67ae1c069684fc5e61e6432",
+      "size": 1761,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/8498279db8a2e442f67ae1c069684fc5e61e6432"
+    },
+    {
+      "path": ".husky",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0ebd40652be4585810e310f9870e6c349b79cf42",
+      "url": "https://api.github.com/repos/mifi/editly/git/trees/0ebd40652be4585810e310f9870e6c349b79cf42"
+    },
+    {
+      "path": ".husky/pre-commit",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2312dc587f61186ccf0d627d678d851b9eef7b82",
+      "size": 16,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/2312dc587f61186ccf0d627d678d851b9eef7b82"
+    },
+    {
+      "path": ".npmignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e77ac79d5143aeb0d802e49f73bb2c047a876e2c",
+      "size": 187,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/e77ac79d5143aeb0d802e49f73bb2c047a876e2c"
+    },
+    {
+      "path": ".prettierignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab308b55ebb6b4505956c9cfdd3d49cc77c65215",
+      "size": 43,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/ab308b55ebb6b4505956c9cfdd3d49cc77c65215"
+    },
+    {
+      "path": ".prettierrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7cc412ae77e8393128e6cf54432dcff5da96371",
+      "size": 131,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/a7cc412ae77e8393128e6cf54432dcff5da96371"
+    },
+    {
+      "path": "Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "258bc1a33fa948fc50274984a3cb79855ff22f3b",
+      "size": 1417,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/258bc1a33fa948fc50274984a3cb79855ff22f3b"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1abed255ada97fc94bb18f3fc81aecfa2f524683",
+      "size": 1071,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/1abed255ada97fc94bb18f3fc81aecfa2f524683"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b133c8050e45cdf5339f1852966bbfa6a5398c21",
+      "size": 29472,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/b133c8050e45cdf5339f1852966bbfa6a5398c21"
+    },
+    {
+      "path": "docker-compose.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "709df07bf59cef60bf9f3c2f4563cb66ac378c45",
+      "size": 246,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/709df07bf59cef60bf9f3c2f4563cb66ac378c45"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "584570fb7c730e5f5d08496ead1ebcbadc357209",
+      "size": 296,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/584570fb7c730e5f5d08496ead1ebcbadc357209"
+    },
+    {
+      "path": "examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "846817b135e4f5d95301cf5503a725b82bf05184",
+      "url": "https://api.github.com/repos/mifi/editly/git/trees/846817b135e4f5d95301cf5503a725b82bf05184"
+    },
+    {
+      "path": "examples/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc035af110b255f7b2f7542f06f1687d351f5d9f",
+      "size": 2620,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/dc035af110b255f7b2f7542f06f1687d351f5d9f"
+    },
+    {
+      "path": "examples/alpha.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dccf47411123fad0f85df8f68dfa6e139d406b1e",
+      "size": 574,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/dccf47411123fad0f85df8f68dfa6e139d406b1e"
+    },
+    {
+      "path": "examples/audio-transition.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64265c2722bb588b0d93f3eda27e9d9d6ee26452",
+      "size": 1966,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/64265c2722bb588b0d93f3eda27e9d9d6ee26452"
+    },
+    {
+      "path": "examples/audio-volume.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61288a54a535598768f13abee4979f5b48a8c60d",
+      "size": 329,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/61288a54a535598768f13abee4979f5b48a8c60d"
+    },
+    {
+      "path": "examples/audio1.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f97ada2c3ce23c15a253ffe6dee03d835b794fd4",
+      "size": 1363,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/f97ada2c3ce23c15a253ffe6dee03d835b794fd4"
+    },
+    {
+      "path": "examples/audio2.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f61fae2423c0bb5be0b7039f344a2a600e4d8d6e",
+      "size": 745,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/f61fae2423c0bb5be0b7039f344a2a600e4d8d6e"
+    },
+    {
+      "path": "examples/audio3.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1269439766b5787fa79de4b10e9e355378941a7",
+      "size": 1221,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/d1269439766b5787fa79de4b10e9e355378941a7"
+    },
+    {
+      "path": "examples/audioLoop.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7bd4a982cfcd869ee1ccac1bfebae21397b8ced",
+      "size": 447,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/d7bd4a982cfcd869ee1ccac1bfebae21397b8ced"
+    },
+    {
+      "path": "examples/commonFeatures.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "382f341be2180ecfa8e2c62efbda6dda8984e883",
+      "size": 4936,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/382f341be2180ecfa8e2c62efbda6dda8984e883"
+    },
+    {
+      "path": "examples/contain-blur.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c4ed10ff6ec2fd03dc4b3102d1ef1bddac9746c",
+      "size": 379,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/6c4ed10ff6ec2fd03dc4b3102d1ef1bddac9746c"
+    },
+    {
+      "path": "examples/customCanvas.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b83a030d893bbde007d47d9ce6a1ae47b2c76c2a",
+      "size": 986,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/b83a030d893bbde007d47d9ce6a1ae47b2c76c2a"
+    },
+    {
+      "path": "examples/customFabric.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b01117f3fda62197636c5a1f7f80b17462e45625",
+      "size": 1063,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/b01117f3fda62197636c5a1f7f80b17462e45625"
+    },
+    {
+      "path": "examples/customOutputArgs.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04efd51fe67369157919169b9cc55c49d0bddd99",
+      "size": 226,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/04efd51fe67369157919169b9cc55c49d0bddd99"
+    },
+    {
+      "path": "examples/fabricImagePostProcessing.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22f0aa0f08a17c73445a5e7f9df42a40f5c25c47",
+      "size": 1263,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/22f0aa0f08a17c73445a5e7f9df42a40f5c25c47"
+    },
+    {
+      "path": "examples/gl.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cee1543c06f1a0e624beedf39d6d95862b24e18",
+      "size": 643,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/6cee1543c06f1a0e624beedf39d6d95862b24e18"
+    },
+    {
+      "path": "examples/gradients.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00d5f3ae2118cdec39147c699cd90da9ae15deca",
+      "size": 428,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/00d5f3ae2118cdec39147c699cd90da9ae15deca"
+    },
+    {
+      "path": "examples/image.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44097b98a790c6db0c13bdc6c980f34ed2145fce",
+      "size": 949,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/44097b98a790c6db0c13bdc6c980f34ed2145fce"
+    },
+    {
+      "path": "examples/imageOverlay.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0cccb3939c01024ea1fedb909cbec677dab01b8",
+      "size": 802,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/c0cccb3939c01024ea1fedb909cbec677dab01b8"
+    },
+    {
+      "path": "examples/kenBurns.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4402744bf74b3d444782fb2618a727fda80bab05",
+      "size": 397,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/4402744bf74b3d444782fb2618a727fda80bab05"
+    },
+    {
+      "path": "examples/mosaic.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c795bd701339e34ce500450bd44771e6613587e2",
+      "size": 1450,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/c795bd701339e34ce500450bd44771e6613587e2"
+    },
+    {
+      "path": "examples/newsTitle.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cc535abe0c205db38daddbb2c9599ece04c76fa",
+      "size": 825,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/9cc535abe0c205db38daddbb2c9599ece04c76fa"
+    },
+    {
+      "path": "examples/ph.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "244051af7c24d1b3e036845014c279a910efdda5",
+      "size": 990,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/244051af7c24d1b3e036845014c279a910efdda5"
+    },
+    {
+      "path": "examples/pip.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8820d9b650bc0a9d06c9c08e03ccfa5af143e7a1",
+      "size": 865,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/8820d9b650bc0a9d06c9c08e03ccfa5af143e7a1"
+    },
+    {
+      "path": "examples/position.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6039252a867cc53fa22d9d1e3fcb14a1e44da0a",
+      "size": 1180,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/a6039252a867cc53fa22d9d1e3fcb14a1e44da0a"
+    },
+    {
+      "path": "examples/remote.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6e55bcfae23afb5316dd1db9ff18010b073c813",
+      "size": 396,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/f6e55bcfae23afb5316dd1db9ff18010b073c813"
+    },
+    {
+      "path": "examples/renderSingleFrame.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4bf2893ae12fd555d0245096d0c744ce5db90f8",
+      "size": 258,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/e4bf2893ae12fd555d0245096d0c744ce5db90f8"
+    },
+    {
+      "path": "examples/run",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "50e9b1033438afe224019ee169eef0eb3c9804ab",
+      "size": 427,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/50e9b1033438afe224019ee169eef0eb3c9804ab"
+    },
+    {
+      "path": "examples/single.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86987b2d19a768eefb568bb42a09d702c935363e",
+      "size": 216,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/86987b2d19a768eefb568bb42a09d702c935363e"
+    },
+    {
+      "path": "examples/slideInText.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94c8ec3bd867032b64692a59a04e2b6611efb88b",
+      "size": 474,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/94c8ec3bd867032b64692a59a04e2b6611efb88b"
+    },
+    {
+      "path": "examples/smartFit.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3abfde3889a997a8e9567dbcea96a1826544f5d2",
+      "size": 649,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/3abfde3889a997a8e9567dbcea96a1826544f5d2"
+    },
+    {
+      "path": "examples/speedTest.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8e1efb774bc9026c10e0ad34d42575f246db225",
+      "size": 903,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/c8e1efb774bc9026c10e0ad34d42575f246db225"
+    },
+    {
+      "path": "examples/subtitle.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8c77b34e3d2d1d9599345cbf26326faa0db8654",
+      "size": 1054,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/c8c77b34e3d2d1d9599345cbf26326faa0db8654"
+    },
+    {
+      "path": "examples/timeoutTest.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d82c7ba8f0eb0919517ce4a9727b61553a8c92dd",
+      "size": 371,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/d82c7ba8f0eb0919517ce4a9727b61553a8c92dd"
+    },
+    {
+      "path": "examples/transitionEasing.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "658fb64041891e4ff6660eda9a0bc0354d81f7c1",
+      "size": 620,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/658fb64041891e4ff6660eda9a0bc0354d81f7c1"
+    },
+    {
+      "path": "examples/transitions.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0f0471005538817626e596d9dd8afb9f161c1ec",
+      "size": 8411,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/b0f0471005538817626e596d9dd8afb9f161c1ec"
+    },
+    {
+      "path": "examples/transparentGradient.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "309c2af1b8305b1f18bb02a599997a8b2107eac1",
+      "size": 257,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/309c2af1b8305b1f18bb02a599997a8b2107eac1"
+    },
+    {
+      "path": "examples/videos.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1e86ab65df5e69cef974b58d83e874538604501",
+      "size": 1628,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/e1e86ab65df5e69cef974b58d83e874538604501"
+    },
+    {
+      "path": "examples/videos2.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9550d313f8a771ff3b1db3ccc4dd8478260c4162",
+      "size": 483,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/9550d313f8a771ff3b1db3ccc4dd8478260c4162"
+    },
+    {
+      "path": "examples/vignette.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d210daa051236126b55fa8e8e3e30e9c50bc2c2",
+      "size": 309,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/6d210daa051236126b55fa8e8e3e30e9c50bc2c2"
+    },
+    {
+      "path": "examples/visibleFromUntil.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf3da30ef95beccaf696924f9e0b6237a782ed68",
+      "size": 933,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/bf3da30ef95beccaf696924f9e0b6237a782ed68"
+    },
+    {
+      "path": "logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cd6756289c1ed2d4fd337d51de8525611e5411b",
+      "size": 11164,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/0cd6756289c1ed2d4fd337d51de8525611e5411b"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aec59194dcb7ef028526fab8aa4f747b00a6ed4b",
+      "size": 2019,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/aec59194dcb7ef028526fab8aa4f747b00a6ed4b"
+    },
+    {
+      "path": "shaders",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "89e1190de57224f31563244571d65a07220a62fe",
+      "url": "https://api.github.com/repos/mifi/editly/git/trees/89e1190de57224f31563244571d65a07220a62fe"
+    },
+    {
+      "path": "shaders/rainbow-colors.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4be5aa74c47cff5c71b89c0a70452e940474135",
+      "size": 301,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/a4be5aa74c47cff5c71b89c0a70452e940474135"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dda5df953358498f7bac1cea5100d4f4e1421f08",
+      "url": "https://api.github.com/repos/mifi/editly/git/trees/dda5df953358498f7bac1cea5100d4f4e1421f08"
+    },
+    {
+      "path": "src/BoxBlur.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4aef70839e357c6f4a544bc14f9834733991975",
+      "size": 232,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/c4aef70839e357c6f4a544bc14f9834733991975"
+    },
+    {
+      "path": "src/BoxBlur.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ffc8cb5d2fa62302c9ff5f11fb8c4fadc8d26d9",
+      "size": 9530,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/4ffc8cb5d2fa62302c9ff5f11fb8c4fadc8d26d9"
+    },
+    {
+      "path": "src/api",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "297fe00212f60952871e48024c3819bbd5dff7ee",
+      "url": "https://api.github.com/repos/mifi/editly/git/trees/297fe00212f60952871e48024c3819bbd5dff7ee"
+    },
+    {
+      "path": "src/api/defineFrameSource.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e708e39ee53bb461b4fc417d64c7ad81f420678",
+      "size": 2096,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/1e708e39ee53bb461b4fc417d64c7ad81f420678"
+    },
+    {
+      "path": "src/api/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07d0dabda4a60c0b62e351812bee604c71425ea5",
+      "size": 105,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/07d0dabda4a60c0b62e351812bee604c71425ea5"
+    },
+    {
+      "path": "src/audio.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4793b4f355444d3297c4496827f318b0644dc2e8",
+      "size": 10365,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/4793b4f355444d3297c4496827f318b0644dc2e8"
+    },
+    {
+      "path": "src/cli.ts",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "41db0639f67cbd46112acecfa0ab2192dc0f556e",
+      "size": 5343,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/41db0639f67cbd46112acecfa0ab2192dc0f556e"
+    },
+    {
+      "path": "src/colors.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e16257efaef6a21bca095dcac2d7b199d067b6eb",
+      "size": 2326,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/e16257efaef6a21bca095dcac2d7b199d067b6eb"
+    },
+    {
+      "path": "src/configuration.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b94e2196cdbae77bd752a4bf67b5bc81d0bd2d62",
+      "size": 6695,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/b94e2196cdbae77bd752a4bf67b5bc81d0bd2d62"
+    },
+    {
+      "path": "src/easings.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c38f0c58702fe65bea40f02a16370d5578bd58b",
+      "size": 351,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/6c38f0c58702fe65bea40f02a16370d5578bd58b"
+    },
+    {
+      "path": "src/ffmpeg.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5197e588384edd7c2358b16c7bdcd4e9ad4a6855",
+      "size": 3958,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/5197e588384edd7c2358b16c7bdcd4e9ad4a6855"
+    },
+    {
+      "path": "src/frameSource.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90c395422d1c30a757ee1e522da0bd4509aa18fb",
+      "size": 2618,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/90c395422d1c30a757ee1e522da0bd4509aa18fb"
+    },
+    {
+      "path": "src/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87f2725c212b5eba3905d08cea1ad80e59fcc705",
+      "size": 16195,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/87f2725c212b5eba3905d08cea1ad80e59fcc705"
+    },
+    {
+      "path": "src/parseConfig.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe8cfbecb98063cddadbc8bb971e96a9f7e8bc6b",
+      "size": 10068,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/fe8cfbecb98063cddadbc8bb971e96a9f7e8bc6b"
+    },
+    {
+      "path": "src/sources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "48e7953c79b35f37fe93238712b48a2c719dc455",
+      "url": "https://api.github.com/repos/mifi/editly/git/trees/48e7953c79b35f37fe93238712b48a2c719dc455"
+    },
+    {
+      "path": "src/sources/canvas.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f9c32e52e17e527bb9ee2222323cedc20b8e060",
+      "size": 1017,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/9f9c32e52e17e527bb9ee2222323cedc20b8e060"
+    },
+    {
+      "path": "src/sources/fabric.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3351fb554b734434fa4699e0b78e5aba89cabfa4",
+      "size": 3617,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/3351fb554b734434fa4699e0b78e5aba89cabfa4"
+    },
+    {
+      "path": "src/sources/fill-color.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "604bff57bd1ce2483e385c2bdc8c6cb8912a1c80",
+      "size": 633,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/604bff57bd1ce2483e385c2bdc8c6cb8912a1c80"
+    },
+    {
+      "path": "src/sources/gl.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44feb5de308e6e981287f4798932321acbd1ecf2",
+      "size": 2162,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/44feb5de308e6e981287f4798932321acbd1ecf2"
+    },
+    {
+      "path": "src/sources/image-overlay.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88e61b221788f1dc69792dd0869e34855134ff9e",
+      "size": 1296,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/88e61b221788f1dc69792dd0869e34855134ff9e"
+    },
+    {
+      "path": "src/sources/image.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "109f60542fc779d681a67fa1a8dfc57026efb869",
+      "size": 2351,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/109f60542fc779d681a67fa1a8dfc57026efb869"
+    },
+    {
+      "path": "src/sources/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9837f4f119fae7c2a5047f8f8dc15a5d43ce26d",
+      "size": 2426,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/b9837f4f119fae7c2a5047f8f8dc15a5d43ce26d"
+    },
+    {
+      "path": "src/sources/linear-gradient.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65650f32b2612e9712bff597272ccd25e31f1531",
+      "size": 1027,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/65650f32b2612e9712bff597272ccd25e31f1531"
+    },
+    {
+      "path": "src/sources/news-title.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f0534f3ef433dae722cea89381d143fb64bac8f",
+      "size": 1835,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/0f0534f3ef433dae722cea89381d143fb64bac8f"
+    },
+    {
+      "path": "src/sources/radial-gradient.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bfd36b73fa9e5078f48ace5d1af06e0e84a4fd3",
+      "size": 1295,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/1bfd36b73fa9e5078f48ace5d1af06e0e84a4fd3"
+    },
+    {
+      "path": "src/sources/slide-in-text.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "596b03896b9204e43e823ea2eeea079a22c2d984",
+      "size": 2669,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/596b03896b9204e43e823ea2eeea079a22c2d984"
+    },
+    {
+      "path": "src/sources/subtitle.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9d3d0a39330cf72df51bc584d065fe74e7bc153",
+      "size": 1401,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/a9d3d0a39330cf72df51bc584d065fe74e7bc153"
+    },
+    {
+      "path": "src/sources/title.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d629841329a0daf40ca770687655d9fa5505f7c8",
+      "size": 1384,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/d629841329a0daf40ca770687655d9fa5505f7c8"
+    },
+    {
+      "path": "src/sources/video.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7f3c447fe2a34c65cda2dc7a9472ad9149159d5",
+      "size": 6331,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/a7f3c447fe2a34c65cda2dc7a9472ad9149159d5"
+    },
+    {
+      "path": "src/transforms",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "80aa339239dc78741cc5645840fe2175d36f2ccf",
+      "url": "https://api.github.com/repos/mifi/editly/git/trees/80aa339239dc78741cc5645840fe2175d36f2ccf"
+    },
+    {
+      "path": "src/transforms/rawVideoToFrames.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55552ce0dca441c29bda3999ff86e5f689adad2c",
+      "size": 1308,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/55552ce0dca441c29bda3999ff86e5f689adad2c"
+    },
+    {
+      "path": "src/transition.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e399a8f9bc5fc7d101e296afbe99ab5cbbd936f8",
+      "size": 6819,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/e399a8f9bc5fc7d101e296afbe99ab5cbbd936f8"
+    },
+    {
+      "path": "src/types.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51e3cc2b40bb5df115e9513607b8e46156398bd5",
+      "size": 15928,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/51e3cc2b40bb5df115e9513607b8e46156398bd5"
+    },
+    {
+      "path": "src/types",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f2b6c31591fdc0dbb3be3f6c32c66e1800a0f83f",
+      "url": "https://api.github.com/repos/mifi/editly/git/trees/f2b6c31591fdc0dbb3be3f6c32c66e1800a0f83f"
+    },
+    {
+      "path": "src/types/gl-buffer.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f72ad897a84784c008f87ed7157de50ca0be50fe",
+      "size": 179,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/f72ad897a84784c008f87ed7157de50ca0be50fe"
+    },
+    {
+      "path": "src/types/gl-texture2d.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffb90d83a57962a5e37bf3dca5b28e674b7e60e6",
+      "size": 274,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/ffb90d83a57962a5e37bf3dca5b28e674b7e60e6"
+    },
+    {
+      "path": "src/types/gl-transition.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8153244cc1e4204fdd3790f2cf093626a8f14735",
+      "size": 1553,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/8153244cc1e4204fdd3790f2cf093626a8f14735"
+    },
+    {
+      "path": "src/types/gl-transitions.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "817809c4a04b97750199d200fc180d60689a507c",
+      "size": 354,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/817809c4a04b97750199d200fc180d60689a507c"
+    },
+    {
+      "path": "src/util.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9aa542475a2f103bc55c329e6c2a9225198d70dd",
+      "size": 5249,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/9aa542475a2f103bc55c329e6c2a9225198d70dd"
+    },
+    {
+      "path": "test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4ac18a2c707de0039f8d778e6d79c6b86e212d12",
+      "url": "https://api.github.com/repos/mifi/editly/git/trees/4ac18a2c707de0039f8d778e6d79c6b86e212d12"
+    },
+    {
+      "path": "test/configuration.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec00bebfa601b7792f6073968bf50af062a276a7",
+      "size": 2758,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/ec00bebfa601b7792f6073968bf50af062a276a7"
+    },
+    {
+      "path": "test/integration.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6d0f1f14d25893efaa09511639bf1bab84aaf57",
+      "size": 572,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/f6d0f1f14d25893efaa09511639bf1bab84aaf57"
+    },
+    {
+      "path": "test/transforms",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5f1d90dd720a861ddfbe7b62918f89db80b0bfbb",
+      "url": "https://api.github.com/repos/mifi/editly/git/trees/5f1d90dd720a861ddfbe7b62918f89db80b0bfbb"
+    },
+    {
+      "path": "test/transforms/rawVideoToFrames.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c1d5a702fdd94e70ebc62625c65e715ee70daca",
+      "size": 1000,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/5c1d5a702fdd94e70ebc62625c65e715ee70daca"
+    },
+    {
+      "path": "test/transition.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c1bf1f4b80da7a180faf36cadade8853ef7bd93",
+      "size": 1545,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/8c1bf1f4b80da7a180faf36cadade8853ef7bd93"
+    },
+    {
+      "path": "tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2f61b7d6ed9278928f7cd0598f16cac7e6a308d",
+      "size": 260,
+      "url": "https://api.github.com/repos/mifi/editly/git/blobs/d2f61b7d6ed9278928f7cd0598f16cac7e6a308d"
+    }
+  ]
+}

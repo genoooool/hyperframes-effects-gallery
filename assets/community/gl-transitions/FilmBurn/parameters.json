@@ -1,0 +1,8 @@
+{
+  "paramsTypes": {
+    "Seed": "float"
+  },
+  "defaultParams": {
+    "Seed": 2.31
+  }
+}

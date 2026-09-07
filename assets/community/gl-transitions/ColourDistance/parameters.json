@@ -1,0 +1,8 @@
+{
+  "paramsTypes": {
+    "power": "float"
+  },
+  "defaultParams": {
+    "power": 5
+  }
+}

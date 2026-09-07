@@ -1,0 +1,24 @@
+{
+  "paramsTypes": {
+    "strength": "float",
+    "horizontalBars": "float",
+    "verticalSlits": "float",
+    "tear": "float",
+    "chroma": "float",
+    "residue": "float",
+    "noiseAmount": "float",
+    "scanAmount": "float",
+    "flashAmount": "float"
+  },
+  "defaultParams": {
+    "strength": 1,
+    "horizontalBars": 42,
+    "verticalSlits": 18,
+    "tear": 0.18,
+    "chroma": 0.032,
+    "residue": 0.62,
+    "noiseAmount": 0.16,
+    "scanAmount": 0.13,
+    "flashAmount": 0.2
+  }
+}

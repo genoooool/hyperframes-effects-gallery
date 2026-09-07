@@ -1,0 +1,12 @@
+{
+  "paramsTypes": {
+    "FadeInSecond": "bool",
+    "ReverseEffect": "bool",
+    "ReverseRotation": "bool"
+  },
+  "defaultParams": {
+    "FadeInSecond": true,
+    "ReverseEffect": false,
+    "ReverseRotation": false
+  }
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101110">
+  <title>Hyperframe Atelier · 动效灵感库</title>
+  <link rel="stylesheet" href="styles.css?v=community-dedup-1">
+</head>
+<body>
+  <header class="header wrap">
+    <a class="brand" href="#" aria-label="Hyperframe Atelier 首页"><span class="brand-mark">h<span>f</span></span><span>hyperframe<span class="brand-sub">ATELIER</span></span></a>
+    <nav aria-label="主导航"><button class="nav-link active" id="exploreNav">探索效果</button><button class="nav-link" id="savedNav">我的收藏 <span id="savedCount">0</span></button></nav>
+    <button class="quiet-button" id="globalPlay" aria-pressed="true" aria-label="切换悬停预览"><span class="play-symbol">▶</span><span class="label">悬停预览</span></button>
+  </header>
+  <main class="wrap">
+    <section class="hero">
+      <div class="hero-copy"><div class="eyebrow">SOCIAL VIDEO EFFECTS</div><h1>让想象，<br>有迹可<span class="accent">循。</span></h1><p>让镜头有节奏，让重点被看见。<br>精选短视频效果，先看画面，再拿源码。</p><a class="primary-button" href="#library">探索动效库 <span>↗</span></a></div>
+      <button class="hero-art" id="heroOpen" aria-label="放大预览：RGB 故障字幕" data-preview="caption-glitch-rgb"><img class="poster" src="assets/official/caption-glitch-rgb/poster.png" alt="官方 RGB 故障字幕预览封面" width="1920" height="1080"><span class="preview-mount"></span><span class="preview-status" aria-live="polite"></span><span class="hero-art-footer"><span>OFFICIAL / HYPERFRAMES</span><span>RGB 故障字幕 <span class="round-arrow">↗</span></span></span></button>
+    </section>
+    <section class="library" id="library" aria-labelledby="libraryTitle">
+      <div class="section-top"><div class="title-line"><h2 id="libraryTitle">挑一个，让画面动起来</h2><span class="count" id="resultCount"></span></div><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索效果、风格或用途" aria-label="搜索效果"><kbd>/</kbd></label></div>
+      <div class="library-toolbar">
+        <div class="filter-row"><div class="filters" id="filters" role="group" aria-label="效果分类"></div><div class="source-filters" id="sourceFilters" role="group" aria-label="效果来源"><button data-origin="all" class="selected" aria-pressed="true">全部来源</button><button data-origin="official" aria-pressed="false">HyperFrames</button><button data-origin="remotion" aria-pressed="false">Remotion</button><button data-origin="glsl" aria-pressed="false">GL Transitions</button><button data-origin="web" aria-pressed="false">Web 动效</button></div></div>
+        <p class="library-note">悬停试看，点击查看用法。<span>同组效果优先 HyperFrames，其他版本收在详情里。</span></p>
+      </div>
+      <div class="grid" id="grid" aria-busy="true"><p class="catalog-loading">正在读取效果库…</p></div>
+      <div class="empty" id="empty" hidden><h3>这里还没有效果</h3><p id="emptyCopy">换个关键词，或试试其他分类。</p><button class="quiet-button" id="resetFilters">查看全部效果 ↗</button></div>
+    </section>
+    <section class="closing"><div><span class="accent">下一帧，</span>可以很不一样。</div><p>官方与社区原始示例，每个效果都可追溯。<br>先收藏灵感，再把它变成你的作品。</p></section>
+  </main>
+  <footer class="wrap"><span>hyperframe atelier</span><span id="collectionCount"></span><a href="https://hyperframes.heygen.com/catalog" target="_blank" rel="noopener noreferrer">官方 Catalog ↗</a></footer>
+  <dialog id="previewDialog" aria-labelledby="detailTitle">
+    <div class="dialog-header"><span id="detailCategory"></span><button class="close" id="closeDialog" aria-label="关闭预览">×</button></div>
+    <div class="detail-layout"><div class="player"><div id="detailStage" class="detail-stage"><img class="poster" alt="官方效果封面" width="1920" height="1080"><div class="preview-mount"></div><span class="preview-status" role="status"></span><button class="retry-preview quiet-button" id="retryPreview" hidden>重新加载预览</button></div><div class="controls"><button id="detailPlay" aria-label="暂停" disabled>Ⅱ</button><input type="range" id="scrub" min="0" max="1000" value="0" aria-label="播放进度" disabled><span id="timeLabel">加载中</span><select id="speed" aria-label="播放速度" disabled><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="1.5">1.5×</option><option value="2">2×</option></select><button id="replay" aria-label="从头播放" disabled>↺</button></div></div><div class="detail-info"><span class="detail-en" id="detailEnglish"></span><h2 id="detailTitle"></h2><p id="detailDesc"></p><div class="usage"><span>适合用在</span><p id="detailUse"></p></div><div class="detail-actions"><button id="saveDetail" class="primary-button">收藏效果</button><button id="copyBrief" class="quiet-button">复制使用指令 ↗</button></div><div class="source-links"><a id="officialLink" target="_blank" rel="noopener noreferrer">官方效果页 ↗</a><a id="sourceLink" target="_blank" rel="noopener noreferrer">模板源码 ↗</a></div><p class="demo-note" id="sourceNote"></p></div></div>
+  </dialog>
+  <div class="toast" role="status" id="toast"></div>
+  <script src="official-gallery.js?v=community-dedup-1"></script>
+</body>
+</html>

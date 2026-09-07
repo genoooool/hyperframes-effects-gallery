@@ -1,0 +1,12 @@
+{
+  "paramsTypes": {
+    "scale": "float",
+    "z": "float",
+    "speed": "float"
+  },
+  "defaultParams": {
+    "scale": 2,
+    "z": 1.5,
+    "speed": 5
+  }
+}

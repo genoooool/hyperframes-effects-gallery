@@ -1,0 +1,22 @@
+{
+  "id": "transition-horizontal-push",
+  "title": "Horizontal Momentum Push",
+  "category": "transitions",
+  "tags": [
+    "push",
+    "directional",
+    "editorial"
+  ],
+  "description": "Two complete scenes travel together across a luminous seam for a crisp, spatial leftward handoff.",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 72,
+  "defaultProps": {
+    "variant": "horizontal-push",
+    "sceneA": "Signals in motion",
+    "sceneB": "A new perspective",
+    "accentColor": "#ff4d8d",
+    "transitionPoint": 0.5
+  }
+}

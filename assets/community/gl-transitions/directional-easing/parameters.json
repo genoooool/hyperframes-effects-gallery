@@ -1,0 +1,11 @@
+{
+  "paramsTypes": {
+    "direction": "vec2"
+  },
+  "defaultParams": {
+    "direction": [
+      0,
+      1
+    ]
+  }
+}

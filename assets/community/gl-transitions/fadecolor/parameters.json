@@ -1,0 +1,14 @@
+{
+  "paramsTypes": {
+    "color": "vec3",
+    "colorPhase": "float"
+  },
+  "defaultParams": {
+    "color": [
+      0,
+      0,
+      0
+    ],
+    "colorPhase": 0.4
+  }
+}

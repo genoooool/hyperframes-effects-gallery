@@ -1,0 +1,8 @@
+{
+  "paramsTypes": {
+    "pixelSize": "float"
+  },
+  "defaultParams": {
+    "pixelSize": 50
+  }
+}

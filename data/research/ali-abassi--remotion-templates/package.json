@@ -1,0 +1,26 @@
+{
+  "name": "remotion-template-library",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "gate": "node scripts/gate.mjs",
+    "previews": "node scripts/render-previews.mjs",
+    "catalog": "node scripts/build-agent-catalog.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.514",
+    "@remotion/renderer": "4.0.514",
+    "@remotion/bundler": "4.0.514",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.514"
+  },
+  "devDependencies": {
+    "@types/node": "26.2.0",
+    "@types/react": "18.3.31",
+    "@types/react-dom": "18.3.7",
+    "typescript": "5.9.3"
+  }
+}

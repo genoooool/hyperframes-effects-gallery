@@ -1,0 +1,33 @@
+{
+  "id": "accessibility-captions-caption-box",
+  "title": "Caption Box",
+  "category": "accessibility-production",
+  "tags": [
+    "accessibility",
+    "captions",
+    "open-caption",
+    "multiline"
+  ],
+  "description": "A stable open-caption box with generous line height, safe wrapping, and a calm production label.",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 132,
+  "defaultProps": {
+    "variant": "caption-box",
+    "transcript": "Readable captions make every story easier to follow.",
+    "segments": [],
+    "wordTimings": [],
+    "speaker": "Avery Stone",
+    "speakerRole": "Narrator",
+    "description": "A wide caption box stays inside the lower safe area.",
+    "signLanguageLabel": "Interpreter",
+    "language": "en",
+    "captionPosition": "bottom",
+    "contrastMode": "dark",
+    "safeArea": 78,
+    "paletteName": "forest",
+    "showProgress": true,
+    "showSpeaker": true
+  }
+}

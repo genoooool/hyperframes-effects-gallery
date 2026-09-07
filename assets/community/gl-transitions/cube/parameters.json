@@ -1,0 +1,14 @@
+{
+  "paramsTypes": {
+    "persp": "float",
+    "unzoom": "float",
+    "reflection": "float",
+    "floating": "float"
+  },
+  "defaultParams": {
+    "persp": 0.7,
+    "unzoom": 0.3,
+    "reflection": 0.4,
+    "floating": 3
+  }
+}

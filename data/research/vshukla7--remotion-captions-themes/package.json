@@ -1,0 +1,16 @@
+{
+  "name": "remotion-captions-themes",
+  "version": "1.0.8",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}

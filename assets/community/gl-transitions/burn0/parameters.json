@@ -1,0 +1,12 @@
+{
+  "paramsTypes": {
+    "burnColor": "vec3"
+  },
+  "defaultParams": {
+    "burnColor": [
+      1,
+      0.5,
+      0
+    ]
+  }
+}

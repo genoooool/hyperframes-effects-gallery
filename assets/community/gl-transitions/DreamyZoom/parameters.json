@@ -1,0 +1,10 @@
+{
+  "paramsTypes": {
+    "rotation": "float",
+    "scale": "float"
+  },
+  "defaultParams": {
+    "rotation": 6,
+    "scale": 1.2
+  }
+}

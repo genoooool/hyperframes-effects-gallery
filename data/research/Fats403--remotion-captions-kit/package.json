@@ -1,0 +1,60 @@
+{
+  "name": "remotion-captions-kit",
+  "version": "0.2.0",
+  "description": "Animated caption presets and headless caption primitives for Remotion, built on @remotion/captions",
+  "license": "MIT",
+  "author": "Brayden Blackwell",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fats403/remotion-captions-kit.git"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts",
+    "typecheck": "tsc --noEmit",
+    "studio": "remotion studio demo/index.ts",
+    "still": "remotion still demo/index.ts",
+    "test": "vitest run",
+    "prepublishOnly": "pnpm typecheck && pnpm test && pnpm build"
+  },
+  "peerDependencies": {
+    "@remotion/captions": ">=4.0.0",
+    "react": ">=18",
+    "remotion": ">=4.0.0"
+  },
+  "devDependencies": {
+    "@remotion/captions": "4.0.441",
+    "@remotion/cli": "4.0.441",
+    "@types/react": "^19.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "4.0.441",
+    "tsup": "^8.0.0",
+    "typescript": "^5.5.0",
+    "vitest": "^4.1.10"
+  },
+  "keywords": [
+    "remotion",
+    "captions",
+    "subtitles",
+    "karaoke",
+    "kinetic-typography",
+    "tiktok"
+  ],
+  "homepage": "https://github.com/Fats403/remotion-captions-kit#readme",
+  "bugs": {
+    "url": "https://github.com/Fats403/remotion-captions-kit/issues"
+  }
+}

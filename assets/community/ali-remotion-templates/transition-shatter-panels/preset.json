@@ -1,0 +1,22 @@
+{
+  "id": "transition-shatter-panels",
+  "title": "Shatter Panel Release",
+  "category": "transitions",
+  "tags": [
+    "shatter",
+    "panels",
+    "impact"
+  ],
+  "description": "Triangulated fragments of Scene A break from center and fly outward to uncover the new composition below.",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 96,
+  "defaultProps": {
+    "variant": "shatter-panels",
+    "sceneA": "Break the pattern",
+    "sceneB": "Reveal the outcome",
+    "accentColor": "#ff5151",
+    "transitionPoint": 0.49
+  }
+}

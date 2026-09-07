@@ -1,0 +1,10 @@
+{
+  "paramsTypes": {
+    "u_transitionUpToDown": "bool",
+    "u_max_static_span": "float"
+  },
+  "defaultParams": {
+    "u_transitionUpToDown": true,
+    "u_max_static_span": 0.5
+  }
+}

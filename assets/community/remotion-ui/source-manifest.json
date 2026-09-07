@@ -1,0 +1,93 @@
+{
+  "commit": "2fadcce50badf4ab726b2fb889ed8871acfa4348",
+  "files": [
+    {
+      "path": "assets/community/remotion-ui/LICENSE",
+      "sha256": "97d885d1d43e787f2855b1084625fce1480d9789792bc209e8b2b2c08464ec9a"
+    },
+    {
+      "path": "assets/community/remotion-ui/package.json",
+      "sha256": "8e940e3339fa264138b352593a553792fe0aec30f66bae067b6841d1631ef5bd"
+    },
+    {
+      "path": "assets/community/remotion-ui/apps/web/registry/bases/default/primitives/confetti-burst.tsx",
+      "sha256": "3214a49cf17645aca767ee4a44f9446174cbc49f920a85abae29b209434a22c4"
+    },
+    {
+      "path": "assets/community/remotion-ui/apps/web/registry/bases/default/lib/motion-tokens.ts",
+      "sha256": "3d7f6f57a50006183aebdb62b923f5e4411a2327a60dcc653eb6c0f1047cb6af"
+    },
+    {
+      "path": "assets/community/remotion-ui/apps/web/registry/bases/default/lib/timing.ts",
+      "sha256": "54b974faf4eafe45cd9195e362e602c81044286791815e0554b50bf15f2c6ae2"
+    },
+    {
+      "path": "assets/community/remotion-ui/apps/web/registry/bases/default/primitives/squash-stretch.tsx",
+      "sha256": "761a3a75b7574aade9cae2fb11d883ef85f3b78338be6756d2021cf9811ec804"
+    },
+    {
+      "path": "assets/community/remotion-ui/apps/web/registry/bases/default/lib/motion-wrapper.tsx",
+      "sha256": "59e5ce054d682214c25696e7b66c4615073c9e53a345353d45de51e4a9760cc6"
+    },
+    {
+      "path": "assets/community/remotion-ui/apps/web/registry/bases/default/scenes/reaction-burst/index.tsx",
+      "sha256": "b10ab83d1727eb45a6128fd332a6fd5ef6228539b70836096686edbe238ccf6b"
+    },
+    {
+      "path": "assets/community/remotion-ui/apps/web/registry/bases/default/lib/layout.ts",
+      "sha256": "344c03c20506938f69d914e76e177e439066f73c6342c35d0b844c5b4406baae"
+    },
+    {
+      "path": "assets/community/remotion-ui/apps/web/registry/bases/default/primitives/scanline-crt.tsx",
+      "sha256": "48fb631d96c783a37770eca7370f29a5e8167b208c9db5d4fdebffb81604dba3"
+    },
+    {
+      "path": "assets/community/remotion-ui/apps/web/registry/bases/default/primitives/depth-of-field-blur.tsx",
+      "sha256": "78b091c96250d8785e09af427aedaa81bd9ecaf8d5f1ba4c87875fb263731a41"
+    },
+    {
+      "path": "assets/community/remotion-ui/apps/web/registry/bases/default/primitives/caustics-bg.tsx",
+      "sha256": "54f5e8b2c8fc916d6f67330f4949e254bf7e96ecd0b3048ae85fd3df677d9440"
+    },
+    {
+      "path": "assets/community/remotion-ui/apps/web/registry/bases/default/primitives/orbit-motion.tsx",
+      "sha256": "4f1c65d37431326036e6f08cdeea3edd82218d191f70e21290d23036878a4367"
+    },
+    {
+      "path": "assets/community/remotion-ui/apps/web/registry/bases/default/primitives/progress-bar.tsx",
+      "sha256": "239918168d486ca1b6d863ae461087cd4e1c4d8063ba9465de6ca4566d09c0ee"
+    },
+    {
+      "path": "assets/community/remotion-ui/apps/web/registry/bases/default/lib/motion-primitive.ts",
+      "sha256": "3fe78a20aab67028db42d256c8713c8f3d25b322404876461e37002154233bff"
+    },
+    {
+      "path": "assets/community/remotion-ui/apps/web/registry/bases/default/lib/springs.ts",
+      "sha256": "1649db23e929abdf505b98d90c09d862bb3be82d401401ee586351bf82ae38bc"
+    },
+    {
+      "path": "assets/community/remotion-ui/apps/web/registry/bases/default/scenes/countdown-timer/index.tsx",
+      "sha256": "fd506abe5e636e023868acb92ea2fa23a1b9f395defa1d0c24606e22fb39cab2"
+    },
+    {
+      "path": "assets/community/remotion-ui/apps/web/registry/bases/default/lib/code-syntax.tsx",
+      "sha256": "78b8e973d606d0c147d13ac432c66fddb73720c029f101eab6210923c2c52ca8"
+    },
+    {
+      "path": "assets/community/remotion-ui/apps/web/registry/bases/default/scenes/comment-callout/index.tsx",
+      "sha256": "7daa9702302bfabd2750fe98db6ccac0537c59347c5697f30c0f8c991317e9dc"
+    },
+    {
+      "path": "assets/community/remotion-ui/apps/web/registry/bases/default/lib/ai-composer-utils.tsx",
+      "sha256": "d44c79c682b292ef1063fef2f9a36f19fd201c5b36b850de2e4eb34817fa9adc"
+    },
+    {
+      "path": "assets/community/remotion-ui/apps/web/registry/bases/default/lib/text-emphasis.ts",
+      "sha256": "25bb162e85d1af969b6180b44086b27d7d9b9ada065a97ea364305fae364e633"
+    },
+    {
+      "path": "assets/community/remotion-ui/apps/web/registry/bases/default/scenes/poll-overlay/index.tsx",
+      "sha256": "59938b76e65898761f32e5ffd75f6b495cdcf7dc891de6e9b129d0c7fb1ceb75"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "paramsTypes": {
+    "type": "int",
+    "RotDown": "bool"
+  },
+  "defaultParams": {
+    "type": 0,
+    "RotDown": false
+  }
+}

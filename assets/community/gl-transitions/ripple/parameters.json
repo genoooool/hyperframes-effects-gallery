@@ -1,0 +1,10 @@
+{
+  "paramsTypes": {
+    "amplitude": "float",
+    "speed": "float"
+  },
+  "defaultParams": {
+    "amplitude": 100,
+    "speed": 50
+  }
+}

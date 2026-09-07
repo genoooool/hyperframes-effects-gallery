@@ -1,0 +1,747 @@
+[
+  {
+    "id": "rui-confetti-burst",
+    "en": "ConfettiBurst",
+    "title": "纸屑庆祝",
+    "category": "节奏与情绪",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · RemotionUI",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "彩色纸屑向上喷出，在重力与空气阻力作用下飘落。",
+    "use": "节奏与情绪 · 社交短视频",
+    "tags": "confetti-burst 纸屑庆祝",
+    "duration": 4,
+    "poster": "assets/community/remotion-ui/previews/confetti-burst/poster.jpg",
+    "videoPreview": "assets/community/remotion-ui/previews/confetti-burst/preview.mp4",
+    "page": "https://remotionui.com/docs/components/confetti-burst",
+    "source": "https://github.com/riaz37/remotion-ui/blob/2fadcce50badf4ab726b2fb889ed8871acfa4348/apps/web/registry/bases/default/primitives/confetti-burst.tsx",
+    "install": "在 Remotion 项目中执行 npx remotion-ui add confetti-burst，或读取固定版本源码及 @/remotion/lib/ 依赖。组件导出名：ConfettiBurst。",
+    "previewLabel": "源码实渲",
+    "sources": [
+      {
+        "path": "assets/community/remotion-ui/apps/web/registry/bases/default/primitives/confetti-burst.tsx",
+        "sha256": "3214a49cf17645aca767ee4a44f9446174cbc49f920a85abae29b209434a22c4"
+      }
+    ],
+    "provenance": {
+      "commit": "2fadcce50badf4ab726b2fb889ed8871acfa4348",
+      "license": "MIT"
+    },
+    "videoProvenance": {
+      "kind": "original-react-render",
+      "renderer": "Remotion Player 4.0.441",
+      "fps": 24,
+      "sha256": "bf1834a39084f6f1440ed4f1aa524861723cc0e164a2a819ef58b2048438ee93"
+    },
+    "renderProps": {
+      "library": "remotion-ui",
+      "variant": "confetti-burst",
+      "export": "ConfettiBurst",
+      "file": "assets/community/remotion-ui/apps/web/registry/bases/default/primitives/confetti-burst.tsx"
+    },
+    "previewNote": "使用作者原始 React 组件实渲，背景、示例内容和参数由本库提供；未移植到 HyperFrames。Inter 使用本地同款字体。"
+  },
+  {
+    "id": "rui-squash-stretch",
+    "en": "SquashStretch",
+    "title": "挤压回弹",
+    "category": "节奏与情绪",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · RemotionUI",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "元素在落定时挤压、拉伸再回弹，增强动作重量感。",
+    "use": "节奏与情绪 · 社交短视频",
+    "tags": "squash-stretch 挤压回弹",
+    "duration": 4,
+    "poster": "assets/community/remotion-ui/previews/squash-stretch/poster.jpg",
+    "videoPreview": "assets/community/remotion-ui/previews/squash-stretch/preview.mp4",
+    "page": "https://remotionui.com/docs/components/squash-stretch",
+    "source": "https://github.com/riaz37/remotion-ui/blob/2fadcce50badf4ab726b2fb889ed8871acfa4348/apps/web/registry/bases/default/primitives/squash-stretch.tsx",
+    "install": "在 Remotion 项目中执行 npx remotion-ui add squash-stretch，或读取固定版本源码及 @/remotion/lib/ 依赖。组件导出名：SquashStretch。",
+    "previewLabel": "源码实渲",
+    "sources": [
+      {
+        "path": "assets/community/remotion-ui/apps/web/registry/bases/default/primitives/squash-stretch.tsx",
+        "sha256": "761a3a75b7574aade9cae2fb11d883ef85f3b78338be6756d2021cf9811ec804"
+      }
+    ],
+    "provenance": {
+      "commit": "2fadcce50badf4ab726b2fb889ed8871acfa4348",
+      "license": "MIT"
+    },
+    "videoProvenance": {
+      "kind": "original-react-render",
+      "renderer": "Remotion Player 4.0.441",
+      "fps": 24,
+      "sha256": "a582514e46d253d54d4dec517002d7cf22e76563bb97f3c59184d69269517187"
+    },
+    "renderProps": {
+      "library": "remotion-ui",
+      "variant": "squash-stretch",
+      "export": "SquashStretch",
+      "file": "assets/community/remotion-ui/apps/web/registry/bases/default/primitives/squash-stretch.tsx"
+    },
+    "previewNote": "使用作者原始 React 组件实渲，背景、示例内容和参数由本库提供；未移植到 HyperFrames。Inter 使用本地同款字体。"
+  },
+  {
+    "id": "rui-reaction-burst",
+    "en": "ReactionBurst",
+    "title": "表情反应喷发",
+    "category": "节奏与情绪",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · RemotionUI",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "点赞与表情沿画面侧边持续上浮、摇摆并淡出，用于情绪回应。",
+    "use": "节奏与情绪 · 社交短视频",
+    "tags": "reaction-burst 表情反应喷发",
+    "duration": 4,
+    "poster": "assets/community/remotion-ui/previews/reaction-burst/poster.jpg",
+    "videoPreview": "assets/community/remotion-ui/previews/reaction-burst/preview.mp4",
+    "page": "https://remotionui.com/docs/components/reaction-burst",
+    "source": "https://github.com/riaz37/remotion-ui/blob/2fadcce50badf4ab726b2fb889ed8871acfa4348/apps/web/registry/bases/default/scenes/reaction-burst/index.tsx",
+    "install": "在 Remotion 项目中执行 npx remotion-ui add reaction-burst，或读取固定版本源码及 @/remotion/lib/ 依赖。组件导出名：ReactionBurst。",
+    "previewLabel": "源码实渲",
+    "sources": [
+      {
+        "path": "assets/community/remotion-ui/apps/web/registry/bases/default/scenes/reaction-burst/index.tsx",
+        "sha256": "b10ab83d1727eb45a6128fd332a6fd5ef6228539b70836096686edbe238ccf6b"
+      }
+    ],
+    "provenance": {
+      "commit": "2fadcce50badf4ab726b2fb889ed8871acfa4348",
+      "license": "MIT"
+    },
+    "videoProvenance": {
+      "kind": "original-react-render",
+      "renderer": "Remotion Player 4.0.441",
+      "fps": 24,
+      "sha256": "8c9d3783cc8c13f2d8e8bfcb3440a878dd035edc0e0e6974a06b2da2090fb561"
+    },
+    "renderProps": {
+      "library": "remotion-ui",
+      "variant": "reaction-burst",
+      "export": "ReactionBurst",
+      "file": "assets/community/remotion-ui/apps/web/registry/bases/default/scenes/reaction-burst/index.tsx"
+    },
+    "previewNote": "使用作者原始 React 组件实渲，背景、示例内容和参数由本库提供；未移植到 HyperFrames。Inter 使用本地同款字体。 表情按原组件允许的后备字体使用本机 Apple Color Emoji。"
+  },
+  {
+    "id": "rui-scanline-crt",
+    "en": "ScanlineCrt",
+    "title": "CRT 显像管",
+    "category": "画面质感",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · RemotionUI",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "在原画面上叠加扫描线、RGB 点阵与轻微闪烁。",
+    "use": "画面质感 · 社交短视频",
+    "tags": "scanline-crt CRT 显像管",
+    "duration": 4,
+    "poster": "assets/community/remotion-ui/previews/scanline-crt/poster.jpg",
+    "videoPreview": "assets/community/remotion-ui/previews/scanline-crt/preview.mp4",
+    "page": "https://remotionui.com/docs/components/scanline-crt",
+    "source": "https://github.com/riaz37/remotion-ui/blob/2fadcce50badf4ab726b2fb889ed8871acfa4348/apps/web/registry/bases/default/primitives/scanline-crt.tsx",
+    "install": "在 Remotion 项目中执行 npx remotion-ui add scanline-crt，或读取固定版本源码及 @/remotion/lib/ 依赖。组件导出名：ScanlineCrt。",
+    "previewLabel": "源码实渲",
+    "sources": [
+      {
+        "path": "assets/community/remotion-ui/apps/web/registry/bases/default/primitives/scanline-crt.tsx",
+        "sha256": "48fb631d96c783a37770eca7370f29a5e8167b208c9db5d4fdebffb81604dba3"
+      }
+    ],
+    "provenance": {
+      "commit": "2fadcce50badf4ab726b2fb889ed8871acfa4348",
+      "license": "MIT"
+    },
+    "videoProvenance": {
+      "kind": "original-react-render",
+      "renderer": "Remotion Player 4.0.441",
+      "fps": 24,
+      "sha256": "52f4f74e1d480a9fb978243a43c15b5ddaa614aaaea2711cfeb73a60539fa648"
+    },
+    "renderProps": {
+      "library": "remotion-ui",
+      "variant": "scanline-crt",
+      "export": "ScanlineCrt",
+      "file": "assets/community/remotion-ui/apps/web/registry/bases/default/primitives/scanline-crt.tsx"
+    },
+    "previewNote": "使用作者原始 React 组件实渲，背景、示例内容和参数由本库提供；未移植到 HyperFrames。Inter 使用本地同款字体。"
+  },
+  {
+    "id": "rui-depth-of-field-blur",
+    "en": "DepthOfFieldBlur",
+    "title": "景深移焦",
+    "category": "镜头运动",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · RemotionUI",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "在前后景之间转移清晰区域，用景深变化引导注意。",
+    "use": "镜头运动 · 社交短视频",
+    "tags": "depth-of-field-blur 景深移焦",
+    "duration": 4,
+    "poster": "assets/community/remotion-ui/previews/depth-of-field-blur/poster.jpg",
+    "videoPreview": "assets/community/remotion-ui/previews/depth-of-field-blur/preview.mp4",
+    "page": "https://remotionui.com/docs/components/depth-of-field-blur",
+    "source": "https://github.com/riaz37/remotion-ui/blob/2fadcce50badf4ab726b2fb889ed8871acfa4348/apps/web/registry/bases/default/primitives/depth-of-field-blur.tsx",
+    "install": "在 Remotion 项目中执行 npx remotion-ui add depth-of-field-blur，或读取固定版本源码及 @/remotion/lib/ 依赖。组件导出名：DepthOfFieldBlur。",
+    "previewLabel": "源码实渲",
+    "sources": [
+      {
+        "path": "assets/community/remotion-ui/apps/web/registry/bases/default/primitives/depth-of-field-blur.tsx",
+        "sha256": "78b091c96250d8785e09af427aedaa81bd9ecaf8d5f1ba4c87875fb263731a41"
+      }
+    ],
+    "provenance": {
+      "commit": "2fadcce50badf4ab726b2fb889ed8871acfa4348",
+      "license": "MIT"
+    },
+    "videoProvenance": {
+      "kind": "original-react-render",
+      "renderer": "Remotion Player 4.0.441",
+      "fps": 24,
+      "sha256": "481ffcdca39ce1834c13978f61acd90d2fc7f88c564f6aba94339ac8bb7a2402"
+    },
+    "renderProps": {
+      "library": "remotion-ui",
+      "variant": "depth-of-field-blur",
+      "export": "DepthOfFieldBlur",
+      "file": "assets/community/remotion-ui/apps/web/registry/bases/default/primitives/depth-of-field-blur.tsx"
+    },
+    "previewNote": "使用作者原始 React 组件实渲，背景、示例内容和参数由本库提供；未移植到 HyperFrames。Inter 使用本地同款字体。"
+  },
+  {
+    "id": "rui-caustics-bg",
+    "en": "CausticsBg",
+    "title": "水面焦散光",
+    "category": "画面质感",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · RemotionUI",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "模拟水面折射形成的流动亮纹，作为氛围背景。",
+    "use": "画面质感 · 社交短视频",
+    "tags": "caustics-bg 水面焦散光",
+    "duration": 4,
+    "poster": "assets/community/remotion-ui/previews/caustics-bg/poster.jpg",
+    "videoPreview": "assets/community/remotion-ui/previews/caustics-bg/preview.mp4",
+    "page": "https://remotionui.com/docs/components/caustics-bg",
+    "source": "https://github.com/riaz37/remotion-ui/blob/2fadcce50badf4ab726b2fb889ed8871acfa4348/apps/web/registry/bases/default/primitives/caustics-bg.tsx",
+    "install": "在 Remotion 项目中执行 npx remotion-ui add caustics-bg，或读取固定版本源码及 @/remotion/lib/ 依赖。组件导出名：CausticsBg。",
+    "previewLabel": "源码实渲",
+    "sources": [
+      {
+        "path": "assets/community/remotion-ui/apps/web/registry/bases/default/primitives/caustics-bg.tsx",
+        "sha256": "54f5e8b2c8fc916d6f67330f4949e254bf7e96ecd0b3048ae85fd3df677d9440"
+      }
+    ],
+    "provenance": {
+      "commit": "2fadcce50badf4ab726b2fb889ed8871acfa4348",
+      "license": "MIT"
+    },
+    "videoProvenance": {
+      "kind": "original-react-render",
+      "renderer": "Remotion Player 4.0.441",
+      "fps": 24,
+      "sha256": "02505bc8b76beb97baf4b1f95339edc8e3c2ce21ce92e414f5c3605c1f62b7a3"
+    },
+    "renderProps": {
+      "library": "remotion-ui",
+      "variant": "caustics-bg",
+      "export": "CausticsBg",
+      "file": "assets/community/remotion-ui/apps/web/registry/bases/default/primitives/caustics-bg.tsx"
+    },
+    "previewNote": "使用作者原始 React 组件实渲，背景、示例内容和参数由本库提供；未移植到 HyperFrames。Inter 使用本地同款字体。"
+  },
+  {
+    "id": "rui-orbit-motion",
+    "en": "OrbitMotion",
+    "title": "环绕运动",
+    "category": "镜头运动",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · RemotionUI",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "元素沿可设定的椭圆轨道环绕，支持朝向随路径旋转。",
+    "use": "镜头运动 · 社交短视频",
+    "tags": "orbit-motion 环绕运动",
+    "duration": 4,
+    "poster": "assets/community/remotion-ui/previews/orbit-motion/poster.jpg",
+    "videoPreview": "assets/community/remotion-ui/previews/orbit-motion/preview.mp4",
+    "page": "https://remotionui.com/docs/components/orbit-motion",
+    "source": "https://github.com/riaz37/remotion-ui/blob/2fadcce50badf4ab726b2fb889ed8871acfa4348/apps/web/registry/bases/default/primitives/orbit-motion.tsx",
+    "install": "在 Remotion 项目中执行 npx remotion-ui add orbit-motion，或读取固定版本源码及 @/remotion/lib/ 依赖。组件导出名：OrbitMotion。",
+    "previewLabel": "源码实渲",
+    "sources": [
+      {
+        "path": "assets/community/remotion-ui/apps/web/registry/bases/default/primitives/orbit-motion.tsx",
+        "sha256": "4f1c65d37431326036e6f08cdeea3edd82218d191f70e21290d23036878a4367"
+      }
+    ],
+    "provenance": {
+      "commit": "2fadcce50badf4ab726b2fb889ed8871acfa4348",
+      "license": "MIT"
+    },
+    "videoProvenance": {
+      "kind": "original-react-render",
+      "renderer": "Remotion Player 4.0.441",
+      "fps": 24,
+      "sha256": "80e225f81fb318b7f6fecb1eeb50e57e1887141b40884c680431f9616ec63d1c"
+    },
+    "renderProps": {
+      "library": "remotion-ui",
+      "variant": "orbit-motion",
+      "export": "OrbitMotion",
+      "file": "assets/community/remotion-ui/apps/web/registry/bases/default/primitives/orbit-motion.tsx"
+    },
+    "previewNote": "使用作者原始 React 组件实渲，背景、示例内容和参数由本库提供；未移植到 HyperFrames。Inter 使用本地同款字体。"
+  },
+  {
+    "id": "rui-progress-bar",
+    "en": "ProgressBar",
+    "title": "线性进度",
+    "category": "信息提示",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · RemotionUI",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "进度条从起点增长至目标，支持分段、标记和数值。",
+    "use": "信息提示 · 社交短视频",
+    "tags": "progress-bar 线性进度",
+    "duration": 4,
+    "poster": "assets/community/remotion-ui/previews/progress-bar/poster.jpg",
+    "videoPreview": "assets/community/remotion-ui/previews/progress-bar/preview.mp4",
+    "page": "https://remotionui.com/docs/components/progress-bar",
+    "source": "https://github.com/riaz37/remotion-ui/blob/2fadcce50badf4ab726b2fb889ed8871acfa4348/apps/web/registry/bases/default/primitives/progress-bar.tsx",
+    "install": "在 Remotion 项目中执行 npx remotion-ui add progress-bar，或读取固定版本源码及 @/remotion/lib/ 依赖。组件导出名：ProgressBar。",
+    "previewLabel": "源码实渲",
+    "sources": [
+      {
+        "path": "assets/community/remotion-ui/apps/web/registry/bases/default/primitives/progress-bar.tsx",
+        "sha256": "239918168d486ca1b6d863ae461087cd4e1c4d8063ba9465de6ca4566d09c0ee"
+      }
+    ],
+    "provenance": {
+      "commit": "2fadcce50badf4ab726b2fb889ed8871acfa4348",
+      "license": "MIT"
+    },
+    "videoProvenance": {
+      "kind": "original-react-render",
+      "renderer": "Remotion Player 4.0.441",
+      "fps": 24,
+      "sha256": "38f831ceda97f418ef4e8bc1a75844afc22bd71f44950c401555afa39d261895"
+    },
+    "renderProps": {
+      "library": "remotion-ui",
+      "variant": "progress-bar",
+      "export": "ProgressBar",
+      "file": "assets/community/remotion-ui/apps/web/registry/bases/default/primitives/progress-bar.tsx"
+    },
+    "previewNote": "使用作者原始 React 组件实渲，背景、示例内容和参数由本库提供；未移植到 HyperFrames。Inter 使用本地同款字体。"
+  },
+  {
+    "id": "rui-countdown-timer",
+    "en": "CountdownTimer",
+    "title": "倒计时提示",
+    "category": "信息提示",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · RemotionUI",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "倒计时数字与环形剩余进度同步变化，最后触发完成状态。",
+    "use": "信息提示 · 社交短视频",
+    "tags": "countdown-timer 倒计时提示",
+    "duration": 6,
+    "poster": "assets/community/remotion-ui/previews/countdown-timer/poster.jpg",
+    "videoPreview": "assets/community/remotion-ui/previews/countdown-timer/preview.mp4",
+    "page": "https://remotionui.com/docs/components/countdown-timer",
+    "source": "https://github.com/riaz37/remotion-ui/blob/2fadcce50badf4ab726b2fb889ed8871acfa4348/apps/web/registry/bases/default/scenes/countdown-timer/index.tsx",
+    "install": "在 Remotion 项目中执行 npx remotion-ui add countdown-timer，或读取固定版本源码及 @/remotion/lib/ 依赖。组件导出名：CountdownTimer。",
+    "previewLabel": "源码实渲",
+    "sources": [
+      {
+        "path": "assets/community/remotion-ui/apps/web/registry/bases/default/scenes/countdown-timer/index.tsx",
+        "sha256": "fd506abe5e636e023868acb92ea2fa23a1b9f395defa1d0c24606e22fb39cab2"
+      }
+    ],
+    "provenance": {
+      "commit": "2fadcce50badf4ab726b2fb889ed8871acfa4348",
+      "license": "MIT"
+    },
+    "videoProvenance": {
+      "kind": "original-react-render",
+      "renderer": "Remotion Player 4.0.441",
+      "fps": 24,
+      "sha256": "7e16b2a670c8f03540146e51bbc613e6b9d87c608729f473d81850dd244872ff"
+    },
+    "renderProps": {
+      "library": "remotion-ui",
+      "variant": "countdown-timer",
+      "export": "CountdownTimer",
+      "file": "assets/community/remotion-ui/apps/web/registry/bases/default/scenes/countdown-timer/index.tsx"
+    },
+    "previewNote": "使用作者原始 React 组件实渲，背景、示例内容和参数由本库提供；未移植到 HyperFrames。Inter 使用本地同款字体。"
+  },
+  {
+    "id": "rui-comment-callout",
+    "en": "CommentCallout",
+    "title": "评论回复浮层",
+    "category": "信息提示",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · RemotionUI",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "评论卡进入，圈出关注内容、点赞，再逐字显示回复。演示身份与数据仅为占位。",
+    "use": "信息提示 · 社交短视频",
+    "tags": "comment-callout 评论回复浮层",
+    "duration": 6,
+    "poster": "assets/community/remotion-ui/previews/comment-callout/poster.jpg",
+    "videoPreview": "assets/community/remotion-ui/previews/comment-callout/preview.mp4",
+    "page": "https://remotionui.com/docs/components/comment-callout",
+    "source": "https://github.com/riaz37/remotion-ui/blob/2fadcce50badf4ab726b2fb889ed8871acfa4348/apps/web/registry/bases/default/scenes/comment-callout/index.tsx",
+    "install": "在 Remotion 项目中执行 npx remotion-ui add comment-callout，或读取固定版本源码及 @/remotion/lib/ 依赖。组件导出名：CommentCallout。",
+    "previewLabel": "源码实渲",
+    "sources": [
+      {
+        "path": "assets/community/remotion-ui/apps/web/registry/bases/default/scenes/comment-callout/index.tsx",
+        "sha256": "7daa9702302bfabd2750fe98db6ccac0537c59347c5697f30c0f8c991317e9dc"
+      }
+    ],
+    "provenance": {
+      "commit": "2fadcce50badf4ab726b2fb889ed8871acfa4348",
+      "license": "MIT"
+    },
+    "videoProvenance": {
+      "kind": "original-react-render",
+      "renderer": "Remotion Player 4.0.441",
+      "fps": 24,
+      "sha256": "9ce45c31d72a8a7fcb5432442b7fac9cddc638f24921d66fa88acf43a8ff614a"
+    },
+    "renderProps": {
+      "library": "remotion-ui",
+      "variant": "comment-callout",
+      "export": "CommentCallout",
+      "file": "assets/community/remotion-ui/apps/web/registry/bases/default/scenes/comment-callout/index.tsx"
+    },
+    "previewNote": "使用作者原始 React 组件实渲，背景、示例内容和参数由本库提供；未移植到 HyperFrames。Inter 使用本地同款字体。"
+  },
+  {
+    "id": "rui-poll-overlay",
+    "en": "PollOverlay",
+    "title": "投票结果浮层",
+    "category": "信息提示",
+    "origin": "remotion",
+    "sourceLabel": "Remotion · RemotionUI",
+    "compatibility": "Remotion 原生 · 待适配",
+    "type": "remotion:component",
+    "desc": "投票选项与结果条逐项展开，突出选中答案。预览比例仅为演示。",
+    "use": "信息提示 · 社交短视频",
+    "tags": "poll-overlay 投票结果浮层",
+    "duration": 6,
+    "poster": "assets/community/remotion-ui/previews/poll-overlay/poster.jpg",
+    "videoPreview": "assets/community/remotion-ui/previews/poll-overlay/preview.mp4",
+    "page": "https://remotionui.com/docs/components/poll-overlay",
+    "source": "https://github.com/riaz37/remotion-ui/blob/2fadcce50badf4ab726b2fb889ed8871acfa4348/apps/web/registry/bases/default/scenes/poll-overlay/index.tsx",
+    "install": "在 Remotion 项目中执行 npx remotion-ui add poll-overlay，或读取固定版本源码及 @/remotion/lib/ 依赖。组件导出名：PollOverlay。",
+    "previewLabel": "源码实渲",
+    "sources": [
+      {
+        "path": "assets/community/remotion-ui/apps/web/registry/bases/default/scenes/poll-overlay/index.tsx",
+        "sha256": "59938b76e65898761f32e5ffd75f6b495cdcf7dc891de6e9b129d0c7fb1ceb75"
+      }
+    ],
+    "provenance": {
+      "commit": "2fadcce50badf4ab726b2fb889ed8871acfa4348",
+      "license": "MIT"
+    },
+    "videoProvenance": {
+      "kind": "original-react-render",
+      "renderer": "Remotion Player 4.0.441",
+      "fps": 24,
+      "sha256": "12c1299986b7b4247c374e360a150b456dd77257b749f4ebdc58329d0c083593"
+    },
+    "renderProps": {
+      "library": "remotion-ui",
+      "variant": "poll-overlay",
+      "export": "PollOverlay",
+      "file": "assets/community/remotion-ui/apps/web/registry/bases/default/scenes/poll-overlay/index.tsx"
+    },
+    "previewNote": "使用作者原始 React 组件实渲，背景、示例内容和参数由本库提供；未移植到 HyperFrames。Inter 使用本地同款字体。"
+  },
+  {
+    "id": "rough-underline",
+    "en": "underline",
+    "title": "手绘下划线",
+    "category": "局部强调",
+    "origin": "web",
+    "sourceLabel": "Rough Notation",
+    "compatibility": "Web SVG 原生 · 待适配",
+    "type": "web:annotation",
+    "desc": "手绘下划线沿笔画逐步画出，标注目标文字或区域，不是独立标题动画。",
+    "use": "讲解标注 · 局部强调",
+    "tags": "underline 手绘 标注",
+    "duration": 3,
+    "poster": "assets/community/rough-notation/previews/underline/poster.jpg",
+    "videoPreview": "assets/community/rough-notation/previews/underline/preview.mp4",
+    "page": "https://roughnotation.com/",
+    "source": "https://github.com/rough-stuff/rough-notation/tree/668ba82ac89c903d6f59c9351b9b85855da9882c/src",
+    "install": "npm install rough-notation@0.5.1\n使用 annotate(element, {type: \"underline\"}) 创建标注。",
+    "previewLabel": "源码实渲",
+    "sources": [
+      {
+        "path": "assets/community/rough-notation/LICENSE",
+        "sha256": "e9754a00aebde654e80f40bcf41dab667d6a41dfbbd2912bcf14fb07d468bf71"
+      },
+      {
+        "path": "assets/community/rough-notation/README.md",
+        "sha256": "c8e5cd7573af0181b0242cceb0e8018da0effc7ad486a0cd8f8309eeef43d5fd"
+      },
+      {
+        "path": "assets/community/rough-notation/package.json",
+        "sha256": "926b5037674a3cd1aa9bc0e73ac52a51574d8dcfd74672af8a921b8e7720d4b3"
+      },
+      {
+        "path": "assets/community/rough-notation/src/keyframes.ts",
+        "sha256": "1964117bd316ce455850427b9f7a51e7576397d0a09c11f066e86a2e11bfd7d1"
+      },
+      {
+        "path": "assets/community/rough-notation/src/model.ts",
+        "sha256": "70bc9fad5d6ada6284e4251228ff612ecf31041aa623cc9ccae1e3454a58b3cb"
+      },
+      {
+        "path": "assets/community/rough-notation/src/render.ts",
+        "sha256": "189e7d8de635686f6e65de0c6191a57e5f3ab384f432ddc8172cae80d7117a3b"
+      },
+      {
+        "path": "assets/community/rough-notation/src/rough-notation.ts",
+        "sha256": "fa0ee55f550d4fa4f4c72e99c306b836b984af4e348a99b4a499e9edec9b41d5"
+      }
+    ],
+    "provenance": {
+      "commit": "668ba82ac89c903d6f59c9351b9b85855da9882c",
+      "license": "MIT",
+      "version": "0.5.1"
+    },
+    "videoProvenance": {
+      "kind": "original-web-library-render",
+      "bundle_url": "https://cdn.jsdelivr.net/npm/rough-notation@0.5.1/lib/rough-notation.iife.js",
+      "bundle_sha256": "f90aa0090e361ff48694b74e0319e109856decb3e757c280dfe25e3607f35fac",
+      "fps": 24,
+      "sha256": "5ad7a7828beeb27a0b28029645039d68803562b3b7ee341f2c76c9dedfbc4697"
+    },
+    "renderProps": {
+      "library": "rough",
+      "variant": "underline"
+    },
+    "usageCaveat": "原库由浏览器 CSS 动画驱动；接入 HyperFrames 时需要将笔画进度绑定到可定位的时间轴，并固定随机种子，检查跳转及导出一致性。",
+    "previewNote": "调用作者原版 Rough Notation 绘制 SVG，示例内容由本库提供。预览逐帧定位原生 CSS 动画；未封装为 HyperFrames 模板。"
+  },
+  {
+    "id": "rough-highlight",
+    "en": "highlight",
+    "title": "荧光笔划重点",
+    "category": "局部强调",
+    "origin": "web",
+    "sourceLabel": "Rough Notation",
+    "compatibility": "Web SVG 原生 · 待适配",
+    "type": "web:annotation",
+    "desc": "荧光笔划重点沿笔画逐步画出，标注目标文字或区域，不是独立标题动画。",
+    "use": "讲解标注 · 局部强调",
+    "tags": "highlight 手绘 标注",
+    "duration": 3,
+    "poster": "assets/community/rough-notation/previews/highlight/poster.jpg",
+    "videoPreview": "assets/community/rough-notation/previews/highlight/preview.mp4",
+    "page": "https://roughnotation.com/",
+    "source": "https://github.com/rough-stuff/rough-notation/tree/668ba82ac89c903d6f59c9351b9b85855da9882c/src",
+    "install": "npm install rough-notation@0.5.1\n使用 annotate(element, {type: \"highlight\"}) 创建标注。",
+    "previewLabel": "源码实渲",
+    "sources": [
+      {
+        "path": "assets/community/rough-notation/LICENSE",
+        "sha256": "e9754a00aebde654e80f40bcf41dab667d6a41dfbbd2912bcf14fb07d468bf71"
+      },
+      {
+        "path": "assets/community/rough-notation/README.md",
+        "sha256": "c8e5cd7573af0181b0242cceb0e8018da0effc7ad486a0cd8f8309eeef43d5fd"
+      },
+      {
+        "path": "assets/community/rough-notation/package.json",
+        "sha256": "926b5037674a3cd1aa9bc0e73ac52a51574d8dcfd74672af8a921b8e7720d4b3"
+      },
+      {
+        "path": "assets/community/rough-notation/src/keyframes.ts",
+        "sha256": "1964117bd316ce455850427b9f7a51e7576397d0a09c11f066e86a2e11bfd7d1"
+      },
+      {
+        "path": "assets/community/rough-notation/src/model.ts",
+        "sha256": "70bc9fad5d6ada6284e4251228ff612ecf31041aa623cc9ccae1e3454a58b3cb"
+      },
+      {
+        "path": "assets/community/rough-notation/src/render.ts",
+        "sha256": "189e7d8de635686f6e65de0c6191a57e5f3ab384f432ddc8172cae80d7117a3b"
+      },
+      {
+        "path": "assets/community/rough-notation/src/rough-notation.ts",
+        "sha256": "fa0ee55f550d4fa4f4c72e99c306b836b984af4e348a99b4a499e9edec9b41d5"
+      }
+    ],
+    "provenance": {
+      "commit": "668ba82ac89c903d6f59c9351b9b85855da9882c",
+      "license": "MIT",
+      "version": "0.5.1"
+    },
+    "videoProvenance": {
+      "kind": "original-web-library-render",
+      "bundle_url": "https://cdn.jsdelivr.net/npm/rough-notation@0.5.1/lib/rough-notation.iife.js",
+      "bundle_sha256": "f90aa0090e361ff48694b74e0319e109856decb3e757c280dfe25e3607f35fac",
+      "fps": 24,
+      "sha256": "5b36b6b596a0ce635bb766ab5e1f3305d0de7779bffe0b24657b350676d980af"
+    },
+    "renderProps": {
+      "library": "rough",
+      "variant": "highlight"
+    },
+    "usageCaveat": "原库由浏览器 CSS 动画驱动；接入 HyperFrames 时需要将笔画进度绑定到可定位的时间轴，并固定随机种子，检查跳转及导出一致性。",
+    "previewNote": "调用作者原版 Rough Notation 绘制 SVG，示例内容由本库提供。预览逐帧定位原生 CSS 动画；未封装为 HyperFrames 模板。"
+  },
+  {
+    "id": "rough-crossed-off",
+    "en": "crossed-off",
+    "title": "手绘叉除",
+    "category": "局部强调",
+    "origin": "web",
+    "sourceLabel": "Rough Notation",
+    "compatibility": "Web SVG 原生 · 待适配",
+    "type": "web:annotation",
+    "desc": "手绘叉除沿笔画逐步画出，标注目标文字或区域，不是独立标题动画。",
+    "use": "讲解标注 · 局部强调",
+    "tags": "crossed-off 手绘 标注",
+    "duration": 3,
+    "poster": "assets/community/rough-notation/previews/crossed-off/poster.jpg",
+    "videoPreview": "assets/community/rough-notation/previews/crossed-off/preview.mp4",
+    "page": "https://roughnotation.com/",
+    "source": "https://github.com/rough-stuff/rough-notation/tree/668ba82ac89c903d6f59c9351b9b85855da9882c/src",
+    "install": "npm install rough-notation@0.5.1\n使用 annotate(element, {type: \"crossed-off\"}) 创建标注。",
+    "previewLabel": "源码实渲",
+    "sources": [
+      {
+        "path": "assets/community/rough-notation/LICENSE",
+        "sha256": "e9754a00aebde654e80f40bcf41dab667d6a41dfbbd2912bcf14fb07d468bf71"
+      },
+      {
+        "path": "assets/community/rough-notation/README.md",
+        "sha256": "c8e5cd7573af0181b0242cceb0e8018da0effc7ad486a0cd8f8309eeef43d5fd"
+      },
+      {
+        "path": "assets/community/rough-notation/package.json",
+        "sha256": "926b5037674a3cd1aa9bc0e73ac52a51574d8dcfd74672af8a921b8e7720d4b3"
+      },
+      {
+        "path": "assets/community/rough-notation/src/keyframes.ts",
+        "sha256": "1964117bd316ce455850427b9f7a51e7576397d0a09c11f066e86a2e11bfd7d1"
+      },
+      {
+        "path": "assets/community/rough-notation/src/model.ts",
+        "sha256": "70bc9fad5d6ada6284e4251228ff612ecf31041aa623cc9ccae1e3454a58b3cb"
+      },
+      {
+        "path": "assets/community/rough-notation/src/render.ts",
+        "sha256": "189e7d8de635686f6e65de0c6191a57e5f3ab384f432ddc8172cae80d7117a3b"
+      },
+      {
+        "path": "assets/community/rough-notation/src/rough-notation.ts",
+        "sha256": "fa0ee55f550d4fa4f4c72e99c306b836b984af4e348a99b4a499e9edec9b41d5"
+      }
+    ],
+    "provenance": {
+      "commit": "668ba82ac89c903d6f59c9351b9b85855da9882c",
+      "license": "MIT",
+      "version": "0.5.1"
+    },
+    "videoProvenance": {
+      "kind": "original-web-library-render",
+      "bundle_url": "https://cdn.jsdelivr.net/npm/rough-notation@0.5.1/lib/rough-notation.iife.js",
+      "bundle_sha256": "f90aa0090e361ff48694b74e0319e109856decb3e757c280dfe25e3607f35fac",
+      "fps": 24,
+      "sha256": "82ac84e90afa39c2dd853978c25df8bebc3fb6416d39f83cc3e4890967ee2ddb"
+    },
+    "renderProps": {
+      "library": "rough",
+      "variant": "crossed-off"
+    },
+    "usageCaveat": "原库由浏览器 CSS 动画驱动；接入 HyperFrames 时需要将笔画进度绑定到可定位的时间轴，并固定随机种子，检查跳转及导出一致性。",
+    "previewNote": "调用作者原版 Rough Notation 绘制 SVG，示例内容由本库提供。预览逐帧定位原生 CSS 动画；未封装为 HyperFrames 模板。"
+  },
+  {
+    "id": "rough-bracket",
+    "en": "bracket",
+    "title": "段落括号标注",
+    "category": "局部强调",
+    "origin": "web",
+    "sourceLabel": "Rough Notation",
+    "compatibility": "Web SVG 原生 · 待适配",
+    "type": "web:annotation",
+    "desc": "段落括号标注沿笔画逐步画出，标注目标文字或区域，不是独立标题动画。",
+    "use": "讲解标注 · 局部强调",
+    "tags": "bracket 手绘 标注",
+    "duration": 3,
+    "poster": "assets/community/rough-notation/previews/bracket/poster.jpg",
+    "videoPreview": "assets/community/rough-notation/previews/bracket/preview.mp4",
+    "page": "https://roughnotation.com/",
+    "source": "https://github.com/rough-stuff/rough-notation/tree/668ba82ac89c903d6f59c9351b9b85855da9882c/src",
+    "install": "npm install rough-notation@0.5.1\n使用 annotate(element, {type: \"bracket\"}) 创建标注。",
+    "previewLabel": "源码实渲",
+    "sources": [
+      {
+        "path": "assets/community/rough-notation/LICENSE",
+        "sha256": "e9754a00aebde654e80f40bcf41dab667d6a41dfbbd2912bcf14fb07d468bf71"
+      },
+      {
+        "path": "assets/community/rough-notation/README.md",
+        "sha256": "c8e5cd7573af0181b0242cceb0e8018da0effc7ad486a0cd8f8309eeef43d5fd"
+      },
+      {
+        "path": "assets/community/rough-notation/package.json",
+        "sha256": "926b5037674a3cd1aa9bc0e73ac52a51574d8dcfd74672af8a921b8e7720d4b3"
+      },
+      {
+        "path": "assets/community/rough-notation/src/keyframes.ts",
+        "sha256": "1964117bd316ce455850427b9f7a51e7576397d0a09c11f066e86a2e11bfd7d1"
+      },
+      {
+        "path": "assets/community/rough-notation/src/model.ts",
+        "sha256": "70bc9fad5d6ada6284e4251228ff612ecf31041aa623cc9ccae1e3454a58b3cb"
+      },
+      {
+        "path": "assets/community/rough-notation/src/render.ts",
+        "sha256": "189e7d8de635686f6e65de0c6191a57e5f3ab384f432ddc8172cae80d7117a3b"
+      },
+      {
+        "path": "assets/community/rough-notation/src/rough-notation.ts",
+        "sha256": "fa0ee55f550d4fa4f4c72e99c306b836b984af4e348a99b4a499e9edec9b41d5"
+      }
+    ],
+    "provenance": {
+      "commit": "668ba82ac89c903d6f59c9351b9b85855da9882c",
+      "license": "MIT",
+      "version": "0.5.1"
+    },
+    "videoProvenance": {
+      "kind": "original-web-library-render",
+      "bundle_url": "https://cdn.jsdelivr.net/npm/rough-notation@0.5.1/lib/rough-notation.iife.js",
+      "bundle_sha256": "f90aa0090e361ff48694b74e0319e109856decb3e757c280dfe25e3607f35fac",
+      "fps": 24,
+      "sha256": "a6f2a7e651e7a5797dee3c40035daaff359a4ee9fd4f7490e116814dac7dc25d"
+    },
+    "renderProps": {
+      "library": "rough",
+      "variant": "bracket"
+    },
+    "usageCaveat": "原库由浏览器 CSS 动画驱动；接入 HyperFrames 时需要将笔画进度绑定到可定位的时间轴，并固定随机种子，检查跳转及导出一致性。",
+    "previewNote": "调用作者原版 Rough Notation 绘制 SVG，示例内容由本库提供。预览逐帧定位原生 CSS 动画；未封装为 HyperFrames 模板。"
+  }
+]

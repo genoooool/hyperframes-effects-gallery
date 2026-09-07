@@ -1,0 +1,12 @@
+{
+  "paramsTypes": {
+    "reflection": "float",
+    "perspective": "float",
+    "depth": "float"
+  },
+  "defaultParams": {
+    "reflection": 0.4,
+    "perspective": 0.4,
+    "depth": 3
+  }
+}

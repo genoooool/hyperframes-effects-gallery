@@ -1,0 +1,10 @@
+{
+  "paramsTypes": {
+    "steps": "int",
+    "horizontalHexagons": "float"
+  },
+  "defaultParams": {
+    "steps": 50,
+    "horizontalHexagons": 20
+  }
+}

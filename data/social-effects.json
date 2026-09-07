@@ -1,0 +1,1173 @@
+[
+  {
+    "id": "yt-camera-move",
+    "title": "镜头推近与平移",
+    "en": "Camera Punch-In",
+    "category": "镜头运动",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "desc": "对视频、图片或卡片容器做推进、平移与倾斜，重点时刻配合边缘失焦。",
+    "sourceDescription": "Dynamic zoom, slide, and 3D tilt-pan helpers for any wrapper (video, include, card) with cubic-easing defaults and an edge-defocus pulse overlay",
+    "use": "镜头运动 · 社交短视频",
+    "tags": "camera zoom effect creator 镜头推近与平移",
+    "duration": 4.0,
+    "poster": "assets/official/yt-camera-move/poster.jpg",
+    "videoPreview": "assets/official/yt-camera-move/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/components/yt-camera-move",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/yt-camera-move",
+    "install": "npx hyperframes add yt-camera-move",
+    "sources": [
+      {
+        "path": "assets/official/yt-camera-move/source/yt-camera-move.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/yt-camera-move/yt-camera-move.html",
+        "sha256": "f58d4c2fc7165cf49a701f55f80fcd88eccab5c582cf8c2ae00259523810d58a"
+      }
+    ],
+    "preview": "assets/official/yt-camera-move/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/yt-camera-move.json",
+      "preview_sha256": "ef4ee04d98c98e44663871df42b701ae76006ccc4e4bf02767f77f590d46b499"
+    },
+    "previewLabel": "官方示例",
+    "videoProvenance": {
+      "kind": "official-catalog-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/yt-camera-move.mp4",
+      "discovery": "Official catalog asset URL; not declared in pinned registry metadata",
+      "sha256": "98f620c79a4026fb31acd4f3672ed42ce28fc24ca67a390cb832967522993fcf"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。"
+  },
+  {
+    "id": "pan-stations",
+    "title": "横移逐站展示",
+    "en": "Pan Stations",
+    "category": "镜头运动",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "desc": "镜头沿连续排列的内容横向移动，在每一站短暂停留。",
+    "sourceDescription": "A lateral camera move across a continuous row of labeled feature stations, with a steady dwell at each stop before the next pan.",
+    "use": "镜头运动 · 社交短视频",
+    "tags": "camera pan stations features exhibit agitate cross-shelved 横移逐站展示",
+    "duration": 5.0,
+    "poster": "assets/official/pan-stations/poster.jpg",
+    "videoPreview": "assets/official/pan-stations/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/components/pan-stations",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/pan-stations",
+    "install": "npx hyperframes add pan-stations",
+    "sources": [
+      {
+        "path": "assets/official/pan-stations/source/pan-stations.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/pan-stations/pan-stations.html",
+        "sha256": "3d3b32584a7b969025e13a5586a6f7f66cadca311758ce6f735e523a170d6ed3"
+      }
+    ],
+    "preview": "assets/official/pan-stations/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/pan-stations.json",
+      "preview_sha256": "4a92232c88f16a97343e59800fa81c2795a57e37b30f6478910b49a449cf7704"
+    },
+    "previewLabel": "官方源码实渲",
+    "videoProvenance": {
+      "kind": "locally-rendered-official-preview",
+      "url": null,
+      "renderer": "hyperframes@0.8.30",
+      "sha256": "fc6291b990eda1db10d5d20642cb610de64fc8b251bcff1c46e966af1202da95"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。"
+  },
+  {
+    "id": "parallax-zoom",
+    "title": "视差推进",
+    "en": "Parallax Zoom",
+    "category": "镜头运动",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "desc": "中心卡片放大占据画面，周围卡片向外移动，形成空间层次。",
+    "sourceDescription": "Center card scales up to fill the frame while siblings parallax outward — inspired by the eBay Playbook hero transition",
+    "use": "镜头运动 · 社交短视频",
+    "tags": "transition zoom parallax grid hero 视差推进",
+    "duration": 6.0,
+    "poster": "assets/official/parallax-zoom/poster.jpg",
+    "videoPreview": "assets/official/parallax-zoom/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/components/parallax-zoom",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/parallax-zoom",
+    "install": "npx hyperframes add parallax-zoom",
+    "sources": [
+      {
+        "path": "assets/official/parallax-zoom/source/parallax-zoom.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/parallax-zoom/parallax-zoom.html",
+        "sha256": "330c37d5acc6bac8c48dc8e38d2dde7d8804a8dc2353bbe0fd6b66b13db65656"
+      }
+    ],
+    "preview": "assets/official/parallax-zoom/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/parallax-zoom.json",
+      "preview_sha256": "a3e89eabaf83e6eb85c87aa6a2ae2251a1456c6410180e14513df246d71d154d"
+    },
+    "previewLabel": "官方示例",
+    "videoProvenance": {
+      "kind": "official-catalog-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/parallax-zoom.mp4",
+      "discovery": "Official catalog asset URL; not declared in pinned registry metadata",
+      "sha256": "07e26a663ec18d08440187f67433d88eda89be65767cf2f03e7ff495e0791eb5"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。"
+  },
+  {
+    "id": "parallax-unzoom",
+    "title": "视差拉远",
+    "en": "Parallax Unzoom",
+    "category": "镜头运动",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "desc": "从一张近景卡片拉远，显露周围卡片组成的完整布局。",
+    "sourceDescription": "Reveal transition — focus card scales down from full frame as siblings parallax in to form a grid (reverse of parallax-zoom)",
+    "use": "镜头运动 · 社交短视频",
+    "tags": "transition reveal unzoom parallax grid hero 视差拉远",
+    "duration": 6.0,
+    "poster": "assets/official/parallax-unzoom/poster.jpg",
+    "videoPreview": "assets/official/parallax-unzoom/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/components/parallax-unzoom",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/parallax-unzoom",
+    "install": "npx hyperframes add parallax-unzoom",
+    "sources": [
+      {
+        "path": "assets/official/parallax-unzoom/source/parallax-unzoom.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/parallax-unzoom/parallax-unzoom.html",
+        "sha256": "0b98917fe6b89bcc054a6f3d33f42d837323e023b87cd2cd6fb15b8ab8284a20"
+      }
+    ],
+    "preview": "assets/official/parallax-unzoom/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/parallax-unzoom.json",
+      "preview_sha256": "f0314dabfe147ce1c2b41bf2e60b82e9606bb0e38a3329d61a9ee9129809c286"
+    },
+    "previewLabel": "官方示例",
+    "videoProvenance": {
+      "kind": "official-catalog-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/parallax-unzoom.mp4",
+      "discovery": "Official catalog asset URL; not declared in pinned registry metadata",
+      "sha256": "77dc7f8a685c49b06cfca9cb66d33797cb492dda79fc068ecc24e2775470a291"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。"
+  },
+  {
+    "id": "camera-dolly-zoom",
+    "title": "滑动变焦",
+    "en": "Dolly Zoom (Vertigo Shot)",
+    "category": "镜头运动",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:block",
+    "desc": "主体大小基本不变，背景随镜头与视角反向变化而压缩或展开；需要多层深度素材。",
+    "sourceDescription": "Camera tracks toward or away from the subject while the field of view changes the opposite way, so the subject holds its frame size while the background collapses behind it or rushes in. Focal length is solved from dolly distance every frame against d * tan(FOV/2) = const, not keyframed beside it. Requires depth: the subject sits on the z = 0 plane and the content behind it must be layered or genuinely 3D (translateZ at two or more distinct depths) -- a flat element gains nothing from this move.",
+    "use": "镜头运动 · 社交短视频",
+    "tags": "camera depth 3d cinematic 滑动变焦",
+    "duration": 4.0,
+    "poster": "assets/official/camera-dolly-zoom/poster.jpg",
+    "videoPreview": "assets/official/camera-dolly-zoom/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/blocks/camera-dolly-zoom",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/camera-dolly-zoom",
+    "install": "npx hyperframes add camera-dolly-zoom",
+    "sources": [
+      {
+        "path": "assets/official/camera-dolly-zoom/source/camera-dolly-zoom.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/camera-dolly-zoom/camera-dolly-zoom.html",
+        "sha256": "5e101fbb8bad0181cc498013fd8805099c1f3fcc409e74f97ec62e88af61fff7"
+      }
+    ],
+    "preview": "assets/official/camera-dolly-zoom/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/camera-dolly-zoom.json",
+      "preview_sha256": "d1197c485e914e4fc7a85bb670b04b5fdab029a4a48dd6b77d72600957436fe1"
+    },
+    "previewLabel": "官方源码实渲",
+    "videoProvenance": {
+      "kind": "locally-rendered-official-preview",
+      "url": null,
+      "renderer": "hyperframes@0.8.30",
+      "sha256": "f18fb52b15e26747457eb65185125a553caad0c74d0828b9ddc62d95a1c0edd0"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。",
+    "usageCaveat": "该效果需要主体与背景位于不同深度；单张平面素材无法直接产生真实的滑动变焦。先检查项目是否有分层素材。"
+  },
+  {
+    "id": "hw-arrow",
+    "title": "手绘箭头",
+    "en": "Hand-Drawn Arrow",
+    "category": "局部强调",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "desc": "箭头沿路径画出，带轻微手绘抖动，用来指示画面中的目标。",
+    "sourceDescription": "Wobbled draw-on arrow with straight, gentle, and swoop curve poses, a four-way stroke texture matrix (plain/soft/sharp/spray), and a travel-aligned head-arrival stretch pulse with spring recovery; boils while on screen",
+    "use": "局部强调 · 社交短视频",
+    "tags": "handwritten annotation arrow overlay 手绘箭头",
+    "duration": 4.0,
+    "poster": "assets/official/hw-arrow/poster.jpg",
+    "videoPreview": "assets/official/hw-arrow/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/components/hw-arrow",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/hw-arrow",
+    "install": "npx hyperframes add hw-arrow",
+    "sources": [
+      {
+        "path": "assets/official/hw-arrow/source/hw-arrow.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/hw-arrow/hw-arrow.html",
+        "sha256": "73585adc010db9ec60568eabeb1afb544601e6deef19ac22e2db3a1a380f0dad"
+      },
+      {
+        "path": "assets/official/hw-arrow/source/assets/fonts/Caveat-700-latin.woff2",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/hw-arrow/assets/fonts/Caveat-700-latin.woff2",
+        "sha256": "891951df5e8b5b0f0bc760d31375405e795c666b5add70437de12d4a6482b33f"
+      }
+    ],
+    "preview": "assets/official/hw-arrow/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/hw-arrow.json",
+      "preview_sha256": "46bb7fbf479dcbd57fc775191d0ffb8f52086a30ef5f635f876cce5e16bebdf1"
+    },
+    "previewLabel": "官方示例",
+    "videoProvenance": {
+      "kind": "official-catalog-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/hw-arrow.mp4",
+      "discovery": "Official catalog asset URL; not declared in pinned registry metadata",
+      "sha256": "f4ba024ec78c14770c3a6632120d616b0f0229aa28e588f0c52458a0e5d179f2"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。"
+  },
+  {
+    "id": "hw-callout-circle",
+    "title": "手绘圈选标注",
+    "en": "Scribble Callout Circle",
+    "category": "局部强调",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "desc": "用手绘圆圈、连接线与标签圈出要说明的细节。",
+    "sourceDescription": "Wobbled ellipse draws around a target with optional scribble fill and curved connector; the handwritten label pops in WITH momentum and the drawn shapes absorb the arrival with a volume-preserving contact squash; outline and connector take the family stroke matrix (plain/soft/sharp/spray); boils",
+    "use": "局部强调 · 社交短视频",
+    "tags": "handwritten annotation callout overlay 手绘圈选标注",
+    "duration": 5.0,
+    "poster": "assets/official/hw-callout-circle/poster.jpg",
+    "videoPreview": "assets/official/hw-callout-circle/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/components/hw-callout-circle",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/hw-callout-circle",
+    "install": "npx hyperframes add hw-callout-circle",
+    "sources": [
+      {
+        "path": "assets/official/hw-callout-circle/source/hw-callout-circle.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/hw-callout-circle/hw-callout-circle.html",
+        "sha256": "598205b4750217c4009854d1beb6f7118d013ec507d45cad1bfe2e4eacecc106"
+      },
+      {
+        "path": "assets/official/hw-callout-circle/source/assets/fonts/Caveat-700-latin.woff2",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/hw-callout-circle/assets/fonts/Caveat-700-latin.woff2",
+        "sha256": "891951df5e8b5b0f0bc760d31375405e795c666b5add70437de12d4a6482b33f"
+      }
+    ],
+    "preview": "assets/official/hw-callout-circle/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/hw-callout-circle.json",
+      "preview_sha256": "409e97d5ff34003f6f0305be7a2c5b05022f9e0848300541d9cc82059bd8b651"
+    },
+    "previewLabel": "官方示例",
+    "videoProvenance": {
+      "kind": "official-catalog-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/hw-callout-circle.mp4",
+      "discovery": "Official catalog asset URL; not declared in pinned registry metadata",
+      "sha256": "5931bdcc96ccf0f90c396fa2df61e78e3c470770f8e0b9856201d3c00a863f21"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。"
+  },
+  {
+    "id": "yt-feather-highlight",
+    "title": "柔边聚光",
+    "en": "Feathered Spotlight",
+    "category": "局部强调",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "desc": "压暗周围画面，留下可移动、可缩放的柔边椭圆亮区。",
+    "sourceDescription": "Dims the frame except a feathered ellipse; the hole's position and size are CSS variables, so helpers glide the spotlight between targets",
+    "use": "局部强调 · 社交短视频",
+    "tags": "highlight spotlight effect overlay 柔边聚光",
+    "duration": 5.0,
+    "poster": "assets/official/yt-feather-highlight/poster.jpg",
+    "videoPreview": "assets/official/yt-feather-highlight/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/components/yt-feather-highlight",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/yt-feather-highlight",
+    "install": "npx hyperframes add yt-feather-highlight",
+    "sources": [
+      {
+        "path": "assets/official/yt-feather-highlight/source/yt-feather-highlight.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/yt-feather-highlight/yt-feather-highlight.html",
+        "sha256": "86be68363f9fc91a37cdf34736593acf5890e71a327a80de585671a7b9168d96"
+      }
+    ],
+    "preview": "assets/official/yt-feather-highlight/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/yt-feather-highlight.json",
+      "preview_sha256": "cd82b9fb057831398c5e84721e70e65d332a206e25582823bccb2758def2f6ff"
+    },
+    "previewLabel": "官方示例",
+    "videoProvenance": {
+      "kind": "official-catalog-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/yt-feather-highlight.mp4",
+      "discovery": "Official catalog asset URL; not declared in pinned registry metadata",
+      "sha256": "a8e38a4254ff0fec4b555aaf7ec434846cd1b6053b424879eab083d32c2b1ade"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。"
+  },
+  {
+    "id": "ui-focus-zoom",
+    "title": "界面局部放大",
+    "en": "UI Focus Zoom",
+    "category": "局部强调",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "desc": "先展示完整界面，再推近指定区域并保持，适合截图和操作讲解。",
+    "sourceDescription": "A full app surface establishes with one settle, then the camera zooms and pans to an anchored region on its cue and holds the zoomed state, with an optional soft focus halo at the anchor. The surface is a slot with a token-styled skeleton default.",
+    "use": "局部强调 · 社交短视频",
+    "tags": "camera product-demo zoom focus pan slot servo 界面局部放大",
+    "duration": 5.0,
+    "poster": "assets/official/ui-focus-zoom/poster.jpg",
+    "videoPreview": "assets/official/ui-focus-zoom/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/components/ui-focus-zoom",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/ui-focus-zoom",
+    "install": "npx hyperframes add ui-focus-zoom",
+    "sources": [
+      {
+        "path": "assets/official/ui-focus-zoom/source/ui-focus-zoom.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/ui-focus-zoom/ui-focus-zoom.html",
+        "sha256": "137fca93541c222f37026c8636111a1fe0d79e459546f25050d04c35638d9981"
+      }
+    ],
+    "preview": "assets/official/ui-focus-zoom/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/ui-focus-zoom.json",
+      "preview_sha256": "25217ee7c1bb68aba05fa0f536e9e9cc9c8e60d94bb2e03c8601ffe9c5e446da"
+    },
+    "previewLabel": "官方源码实渲",
+    "videoProvenance": {
+      "kind": "locally-rendered-official-preview",
+      "url": null,
+      "renderer": "hyperframes@0.8.30",
+      "sha256": "a30a251ecd3880d65b9043ca51d32d767ea8c438b0ac9a183573860133b6cfe9"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。"
+  },
+  {
+    "id": "outline-draw",
+    "title": "描边圈重点",
+    "en": "Outline Draw",
+    "category": "局部强调",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "desc": "圆角轮廓沿边缘顺时针描画，强调指定的卡片或区域。",
+    "sourceDescription": "A rounded outline that proves a callout by drawing clockwise as a hollow conic-gradient border with a clean closure.",
+    "use": "局部强调 · 社交短视频",
+    "tags": "motion-primitive effects outline border mask proof 描边圈重点",
+    "duration": 5.0,
+    "poster": "assets/official/outline-draw/poster.jpg",
+    "videoPreview": "assets/official/outline-draw/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/components/outline-draw",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/outline-draw",
+    "install": "npx hyperframes add outline-draw",
+    "sources": [
+      {
+        "path": "assets/official/outline-draw/source/outline-draw.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/outline-draw/outline-draw.html",
+        "sha256": "30674e59672253a2b1596addbc3200a012a8a88c0382158d3db2612c44efa76f"
+      }
+    ],
+    "preview": "assets/official/outline-draw/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/outline-draw.json",
+      "preview_sha256": "07bfecaf220f2196f0e251b3983b7eb90d8e5612e4a5a51e9208adfc1be471c9"
+    },
+    "previewLabel": "官方源码实渲",
+    "videoProvenance": {
+      "kind": "locally-rendered-official-preview",
+      "url": null,
+      "renderer": "hyperframes@0.8.30",
+      "sha256": "d4c82bb5034df28084bd9280eafc245aea6082d5a0629557611ffbea664d935b"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。"
+  },
+  {
+    "id": "before-after-wipe",
+    "title": "前后对比擦看",
+    "en": "Before After Wipe",
+    "category": "素材展示",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "desc": "前后两份素材由分割线擦开，最后停留在指定对比位置。",
+    "sourceDescription": "Two full-bleed content slots compare before and after states as a persistent divider wipes the after layer over the before layer and rests at a configurable split. Callers fill the named before/after slot panels; token-styled defaults render when a slot is left empty.",
+    "use": "素材展示 · 社交短视频",
+    "tags": "prop ui-props compare holdable before-after wipe slots 前后对比擦看",
+    "duration": 5.0,
+    "poster": "assets/official/before-after-wipe/poster.jpg",
+    "videoPreview": "assets/official/before-after-wipe/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/components/before-after-wipe",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/before-after-wipe",
+    "install": "npx hyperframes add before-after-wipe",
+    "sources": [
+      {
+        "path": "assets/official/before-after-wipe/source/before-after-wipe.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/before-after-wipe/before-after-wipe.html",
+        "sha256": "c04e8bf1bfbcec71d0921a03a786cc09e660732428aa04bf79036a30b7755e09"
+      }
+    ],
+    "preview": "assets/official/before-after-wipe/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/before-after-wipe.json",
+      "preview_sha256": "a9a0cd885a006967cf0f274d39aeb6f70d6933361d2fe7856394488378f4ec03"
+    },
+    "previewLabel": "官方源码实渲",
+    "videoProvenance": {
+      "kind": "locally-rendered-official-preview",
+      "url": null,
+      "renderer": "hyperframes@0.8.30",
+      "sha256": "ed9837bbce7a254ab639572f1518a3c4f04c16710a538dfdc15523c61cc59d40"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。"
+  },
+  {
+    "id": "split-tilt-cards",
+    "title": "双卡片对照",
+    "en": "Split Tilt Cards",
+    "category": "素材展示",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "desc": "左右卡片从两侧翻入，在统一透视下并排展示内容。",
+    "sourceDescription": "Two equal-weight cards arrive from opposite wings with mirrored rotateY book-open tilts under one shared perspective, pill badges spring-pop at each inner edge, and the pair holds with a barely-there phase-opposed idle float. Card bodies are content slots with token skeleton defaults.",
+    "use": "素材展示 · 社交短视频",
+    "tags": "motion-primitive layout compare holdable book-open tilt slots 双卡片对照",
+    "duration": 5.0,
+    "poster": "assets/official/split-tilt-cards/poster.jpg",
+    "videoPreview": "assets/official/split-tilt-cards/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/components/split-tilt-cards",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/split-tilt-cards",
+    "install": "npx hyperframes add split-tilt-cards",
+    "sources": [
+      {
+        "path": "assets/official/split-tilt-cards/source/split-tilt-cards.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/split-tilt-cards/split-tilt-cards.html",
+        "sha256": "93a753ab8250a3ab9c47d12894ab7677b3007492529e426aba36b4cef8126e32"
+      }
+    ],
+    "preview": "assets/official/split-tilt-cards/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/split-tilt-cards.json",
+      "preview_sha256": "9a6cb15e0a3ef9c5912f35bb808f412f3c690137d679d2a1201a98c5afe072ae"
+    },
+    "previewLabel": "官方源码实渲",
+    "videoProvenance": {
+      "kind": "locally-rendered-official-preview",
+      "url": null,
+      "renderer": "hyperframes@0.8.30",
+      "sha256": "5990e10499f79fa488923fae8635b209ac1fa9ab44c1426e026d349b01b8ebc0"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。"
+  },
+  {
+    "id": "browser-device-stage",
+    "title": "屏幕展示框",
+    "en": "Browser Device Stage",
+    "category": "素材展示",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "desc": "把截图、视频或 HTML 放入浏览器、窗口或手机外框，进入后稳定展示。",
+    "sourceDescription": "A generic app surface in token-native device chrome (browser, window, or phone). The screen is a slot for caller img/video/HTML with a token-styled skeleton default; one settle entrance, a readable hold, and an optional screen swap.",
+    "use": "素材展示 · 社交短视频",
+    "tags": "stage product-demo device browser phone slot chrome 屏幕展示框",
+    "duration": 5.0,
+    "poster": "assets/official/browser-device-stage/poster.jpg",
+    "videoPreview": "assets/official/browser-device-stage/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/components/browser-device-stage",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/browser-device-stage",
+    "install": "npx hyperframes add browser-device-stage",
+    "sources": [
+      {
+        "path": "assets/official/browser-device-stage/source/browser-device-stage.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/browser-device-stage/browser-device-stage.html",
+        "sha256": "59b20814d38bf58ec1c6c7727ed954e89e9f38a7392eddf6d266ce586bad6764"
+      }
+    ],
+    "preview": "assets/official/browser-device-stage/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/browser-device-stage.json",
+      "preview_sha256": "8d895fdeb85865237bd296e5abacba405900d5448cd6e075e6287bd290c79c52"
+    },
+    "previewLabel": "官方源码实渲",
+    "videoProvenance": {
+      "kind": "locally-rendered-official-preview",
+      "url": null,
+      "renderer": "hyperframes@0.8.30",
+      "sha256": "85838041e79491d7bc0154e6ccf9dd34444add1f1d8db7b1e2d6af7f3a605dd1"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。"
+  },
+  {
+    "id": "screen-flow-carousel",
+    "title": "多屏轮播",
+    "en": "Screen Flow Carousel",
+    "category": "素材展示",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "desc": "两到五张画面在横向轨道上切换，中心放大、两侧退后。",
+    "sourceDescription": "Two to five app screens ride a horizontal rail: one primary at center, neighbors receded, advancing on cues with a velocity-matched throw and a smooth long-tail catch while a mono caption swaps with each advance. Screens are slots with token skeleton defaults.",
+    "use": "素材展示 · 社交短视频",
+    "tags": "product-demo feature-tour carousel rail slot screens 多屏轮播",
+    "duration": 5.0,
+    "poster": "assets/official/screen-flow-carousel/poster.jpg",
+    "videoPreview": "assets/official/screen-flow-carousel/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/components/screen-flow-carousel",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/screen-flow-carousel",
+    "install": "npx hyperframes add screen-flow-carousel",
+    "sources": [
+      {
+        "path": "assets/official/screen-flow-carousel/source/screen-flow-carousel.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/screen-flow-carousel/screen-flow-carousel.html",
+        "sha256": "db49f679a66fb4505e07d395bff8188ae568fbfac36a50c94f1e58fcd925e11a"
+      }
+    ],
+    "preview": "assets/official/screen-flow-carousel/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/screen-flow-carousel.json",
+      "preview_sha256": "ffcda208870b5841fb08711fa27d0ac3939c086c90b30ad35188ff6ed26310da"
+    },
+    "previewLabel": "官方源码实渲",
+    "videoProvenance": {
+      "kind": "locally-rendered-official-preview",
+      "url": null,
+      "renderer": "hyperframes@0.8.30",
+      "sha256": "84a71888f11c4bf77f6f7416c2464d0f991ad4568976a2d66857af21fcad88f8"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。"
+  },
+  {
+    "id": "multi-device-splay",
+    "title": "多设备展开",
+    "en": "Multi Device Splay",
+    "category": "素材展示",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "desc": "手机、平板与电脑模型从一叠展开，展示同一产品的不同画面。",
+    "sourceDescription": "Phone, tablet, and desktop product mockups fan from a centered stack into a proud splayed arrangement with a subtle idle float.",
+    "use": "素材展示 · 社交短视频",
+    "tags": "motion-primitive device phone tablet desktop splay 多设备展开",
+    "duration": 5.0,
+    "poster": "assets/official/multi-device-splay/poster.jpg",
+    "videoPreview": "assets/official/multi-device-splay/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/components/multi-device-splay",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/multi-device-splay",
+    "install": "npx hyperframes add multi-device-splay",
+    "sources": [
+      {
+        "path": "assets/official/multi-device-splay/source/multi-device-splay.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/multi-device-splay/multi-device-splay.html",
+        "sha256": "9b9f7081592f2d750b5bae5d19cefe39ea40c881f68e0da5863ac8b75e0e2ca1"
+      }
+    ],
+    "preview": "assets/official/multi-device-splay/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/multi-device-splay.json",
+      "preview_sha256": "96d1e0bcac3472196318e692e2a59ebc806dfc919b0daa10d89ac0dd0862c624"
+    },
+    "previewLabel": "官方源码实渲",
+    "videoProvenance": {
+      "kind": "locally-rendered-official-preview",
+      "url": null,
+      "renderer": "hyperframes@0.8.30",
+      "sha256": "8dc7cf5d85d0cf4e1b3c39c8ea01acd73a40bedea8cae7dd2342221b372555cf"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。"
+  },
+  {
+    "id": "camera-shake",
+    "title": "镜头震动",
+    "en": "Camera Shake",
+    "category": "节奏与情绪",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "desc": "可定位时间的程序化震动，包含手持、长焦等多种镜头风格。",
+    "sourceDescription": "Procedural handheld, telephoto and rig camera shake for any wrapper: nine measured profiles with per-lens projection, closed-form and seek-safe",
+    "use": "节奏与情绪 · 社交短视频",
+    "tags": "camera shake handheld effect cinematic 镜头震动",
+    "duration": 6.0,
+    "poster": "assets/official/camera-shake/poster.jpg",
+    "videoPreview": "assets/official/camera-shake/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/components/camera-shake",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/camera-shake",
+    "install": "npx hyperframes add camera-shake",
+    "sources": [
+      {
+        "path": "assets/official/camera-shake/source/camera-shake.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/camera-shake/camera-shake.html",
+        "sha256": "3f64f5da225acb5b408847fef9c388f889b1bf1e8d85ec95f0f4316839a60db4"
+      }
+    ],
+    "preview": "assets/official/camera-shake/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/camera-shake.json",
+      "preview_sha256": "6a73a008a0153b063d228caf74f822a923a4f2a05fbaeb0cf611df0300aeaaea"
+    },
+    "previewLabel": "官方源码实渲",
+    "videoProvenance": {
+      "kind": "locally-rendered-official-preview",
+      "url": null,
+      "renderer": "hyperframes@0.8.30",
+      "sha256": "48b099b9134a31ddeff74f399d581764b1c33c7cfd335f8cf8b2f8aadfcf7528"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。"
+  },
+  {
+    "id": "beat-accent",
+    "title": "节拍冲击",
+    "en": "Beat Accent",
+    "category": "节奏与情绪",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "desc": "在指定节拍短暂闪光并轻微放大主体，迅速回落。",
+    "sourceDescription": "A single music-hit sting: impact flash, micro scale-pulse on the subject, immediate decay.",
+    "use": "节奏与情绪 · 社交短视频",
+    "tags": "motion-primitive effects burst sting emphasize impact 节拍冲击",
+    "duration": 5.0,
+    "poster": "assets/official/beat-accent/poster.jpg",
+    "videoPreview": "assets/official/beat-accent/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/components/beat-accent",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/beat-accent",
+    "install": "npx hyperframes add beat-accent",
+    "sources": [
+      {
+        "path": "assets/official/beat-accent/source/beat-accent.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/beat-accent/beat-accent.html",
+        "sha256": "e72f8d23d81459b88e841b5ab9cb3eaf9b4a1a3047f1ab830bf48f769897dfdc"
+      }
+    ],
+    "preview": "assets/official/beat-accent/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/beat-accent.json",
+      "preview_sha256": "06ea10fcc6f65a36bfc7476ab4fd66cacbabd45ea67c5d2fddbae24dfe676b2a"
+    },
+    "previewLabel": "官方源码实渲",
+    "videoProvenance": {
+      "kind": "locally-rendered-official-preview",
+      "url": null,
+      "renderer": "hyperframes@0.8.30",
+      "sha256": "634699590fb6267468f47c5042be6e33848939ada95d3f7d171d2fca6c607c29"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。"
+  },
+  {
+    "id": "freeze-frame-dressing",
+    "title": "定格剪贴包装",
+    "en": "Freeze-Frame Dressing",
+    "category": "节奏与情绪",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:block",
+    "desc": "用纸张、胶带和闪光包装定格或抠出的主体；需先提供定格画面。",
+    "sourceDescription": "Timeline-driven paper, tape, and flash dressing for a freeze-frame or background-removed subject",
+    "use": "节奏与情绪 · 社交短视频",
+    "tags": "freeze-frame cutout scrapbook paper social overlay media-treatment-overlay 定格剪贴包装",
+    "duration": 4.0,
+    "poster": "assets/official/freeze-frame-dressing/poster.jpg",
+    "videoPreview": "assets/official/freeze-frame-dressing/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/blocks/freeze-frame-dressing",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/freeze-frame-dressing",
+    "install": "npx hyperframes add freeze-frame-dressing",
+    "sources": [
+      {
+        "path": "assets/official/freeze-frame-dressing/source/freeze-frame-dressing.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/freeze-frame-dressing/freeze-frame-dressing.html",
+        "sha256": "8175acc1768cf941b9b6b5694aa10f11216823f43a57c74c4c9bcf9a581ec87a"
+      }
+    ],
+    "preview": "assets/official/freeze-frame-dressing/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/freeze-frame-dressing.json",
+      "preview_sha256": "0768fb10f40623f28710ad04dfd19208414eaccc7493d4bddd9af6c56bf03c04"
+    },
+    "previewLabel": "官方示例",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/freeze-frame-dressing.mp4",
+      "sha256": "2cdad4b96609b00dd90855fb463fbf4dc5b656c57db652e967ef6964abcf28ae"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。",
+    "usageCaveat": "模板提供的是定格画面的剪贴包装，不会自动从视频生成定格或抠像。先准备指定时刻的静帧或透明主体。"
+  },
+  {
+    "id": "echo-trail",
+    "title": "动作残影",
+    "en": "Echo Trail",
+    "category": "节奏与情绪",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "desc": "运动元素带出多个延迟残影，停下后残影逐步归拢。",
+    "sourceDescription": "A moving element renders with N ghosted copies of itself at t minus i times delta, opacity stepped down per ghost; one traversal, echoes collapsing into the settled element at rest.",
+    "use": "节奏与情绪 · 社交短视频",
+    "tags": "motion-primitive demonstrate trail onion-skin ghosts deterministic 动作残影",
+    "duration": 5.0,
+    "poster": "assets/official/echo-trail/poster.jpg",
+    "videoPreview": "assets/official/echo-trail/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/components/echo-trail",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/echo-trail",
+    "install": "npx hyperframes add echo-trail",
+    "sources": [
+      {
+        "path": "assets/official/echo-trail/source/echo-trail.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/echo-trail/echo-trail.html",
+        "sha256": "fefc245f4fa503d5a5494334e17c41b7ee07cd10083c258c17836b77d637942d"
+      }
+    ],
+    "preview": "assets/official/echo-trail/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/echo-trail.json",
+      "preview_sha256": "a4e8f936a626fac0f5bd1370b74a9bee37b9284195e4ecf29cdb66848d2567bb"
+    },
+    "previewLabel": "官方源码实渲",
+    "videoProvenance": {
+      "kind": "locally-rendered-official-preview",
+      "url": null,
+      "renderer": "hyperframes@0.8.30",
+      "sha256": "711f6055584fb93e90d890cd3214e0d35676ded3ec1d07c2457e526d3a8bd39f"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。"
+  },
+  {
+    "id": "count-up",
+    "title": "数字递增",
+    "en": "Count Up",
+    "category": "信息提示",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "desc": "数值从起点平滑增长到目标，落定时轻微放大强调。",
+    "sourceDescription": "A token-native stat counter that eases between values and lands with a restrained scale pulse.",
+    "use": "信息提示 · 社交短视频",
+    "tags": "motion-primitive proof stats counter number deterministic 数字递增",
+    "duration": 5.0,
+    "poster": "assets/official/count-up/poster.jpg",
+    "videoPreview": "assets/official/count-up/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/components/count-up",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/count-up",
+    "install": "npx hyperframes add count-up",
+    "sources": [
+      {
+        "path": "assets/official/count-up/source/count-up.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/count-up/count-up.html",
+        "sha256": "6b34b9873a243fedb060d23f4eb5cef1b61a5b169ec1ae064030b70b48beea66"
+      }
+    ],
+    "preview": "assets/official/count-up/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/count-up.json",
+      "preview_sha256": "0223f116bd601729cf8b23694a91510e21aa468764f935075be90ea43a02014c"
+    },
+    "previewLabel": "官方源码实渲",
+    "videoProvenance": {
+      "kind": "locally-rendered-official-preview",
+      "url": null,
+      "renderer": "hyperframes@0.8.30",
+      "sha256": "df31ba61620b4e349d3009de8771a6ca4256a5078fa9a8f5697a2709b29ff4f8"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。"
+  },
+  {
+    "id": "number-wheel",
+    "title": "滚轮数字",
+    "en": "Number Wheel",
+    "category": "信息提示",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "desc": "每位数字像滚轮一样切换，适合价格、计数与分数。",
+    "sourceDescription": "A rolling digit counter primitive for metrics, prices, counts, and scoreboards",
+    "use": "信息提示 · 社交短视频",
+    "tags": "video-primitive motion-primitive number counter data 滚轮数字",
+    "duration": 5.0,
+    "poster": "assets/official/number-wheel/poster.jpg",
+    "videoPreview": "assets/official/number-wheel/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/components/number-wheel",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/number-wheel",
+    "install": "npx hyperframes add number-wheel",
+    "sources": [
+      {
+        "path": "assets/official/number-wheel/source/number-wheel.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/number-wheel/number-wheel.html",
+        "sha256": "04e3b1d13a044f9e8ad88b701b27315fc69eded6e951ab99b046ab760dc91110"
+      }
+    ],
+    "preview": "assets/official/number-wheel/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/number-wheel.json",
+      "preview_sha256": "d43786486d405f9a4048ef412dab664fa8f2c0a1dd85d2d7290c4842b9051215"
+    },
+    "previewLabel": "官方源码实渲",
+    "videoProvenance": {
+      "kind": "locally-rendered-official-preview",
+      "url": null,
+      "renderer": "hyperframes@0.8.30",
+      "sha256": "ea88b1ae4bb471c5377a14187ad7ab6a93adb0865b1c61202c42213897040c1e"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。"
+  },
+  {
+    "id": "conic-progress-ring",
+    "title": "环形进度",
+    "en": "Conic Progress Ring",
+    "category": "信息提示",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "desc": "圆环填充角度与中心数字同步增长到指定百分比。",
+    "sourceDescription": "A token-driven conic progress ring whose angular fill and center count settle together from one registered percentage.",
+    "use": "信息提示 · 社交短视频",
+    "tags": "data progress ring conic-gradient prove demonstrate 环形进度",
+    "duration": 5.0,
+    "poster": "assets/official/conic-progress-ring/poster.jpg",
+    "videoPreview": "assets/official/conic-progress-ring/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/components/conic-progress-ring",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/conic-progress-ring",
+    "install": "npx hyperframes add conic-progress-ring",
+    "sources": [
+      {
+        "path": "assets/official/conic-progress-ring/source/conic-progress-ring.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/conic-progress-ring/conic-progress-ring.html",
+        "sha256": "a01beeb774006a3317d123983b85586adb3bc81b94e435e3f65116ba9dabb93a"
+      }
+    ],
+    "preview": "assets/official/conic-progress-ring/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/conic-progress-ring.json",
+      "preview_sha256": "3aa440623cc38abc8d63bc53a2a83b59c3352d58f2a152d26ec49b47c09c9064"
+    },
+    "previewLabel": "官方源码实渲",
+    "videoProvenance": {
+      "kind": "locally-rendered-official-preview",
+      "url": null,
+      "renderer": "hyperframes@0.8.30",
+      "sha256": "ca0841c1610dc885d654efdb00beefd5e05737315d87ce9ff20cd54fa52a783d"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。"
+  },
+  {
+    "id": "success-check",
+    "title": "完成勾选",
+    "en": "Success Check",
+    "category": "信息提示",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "desc": "圆环弹入后画出对勾，提示完成或正确结果。",
+    "sourceDescription": "A success check primitive with ring pop, path draw, and subtle rotate blur",
+    "use": "信息提示 · 社交短视频",
+    "tags": "video-primitive transition-primitive transitions-dev-port success check 完成勾选",
+    "duration": 5.0,
+    "poster": "assets/official/success-check/poster.jpg",
+    "videoPreview": "assets/official/success-check/preview-detail.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/components/success-check",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/success-check",
+    "install": "npx hyperframes add success-check",
+    "sources": [
+      {
+        "path": "assets/official/success-check/source/success-check.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/success-check/success-check.html",
+        "sha256": "49f306892b85ecdbe9510593b8dc8d76b2e3c7becfff06726d967407ff01c393"
+      }
+    ],
+    "preview": "assets/official/success-check/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/success-check.json",
+      "preview_sha256": "3a26025c18f998fd3603ec8a8fcaf30d6babe81bf671482442cde718fd8d8cc3"
+    },
+    "previewLabel": "官方源码实渲",
+    "videoProvenance": {
+      "kind": "locally-rendered-official-preview",
+      "url": null,
+      "renderer": "hyperframes@0.8.30",
+      "sha256": "988378c68cb0158ac77d92f6b727a47ccdadeefe89b392ba163dfb97cc0700b0",
+      "originalVideo": "assets/official/success-check/preview.mp4",
+      "originalSha256": "e3a66c59cd1fc0cb6852849fd92c82e68f738307c7c890b3ec1143f27f22bab3",
+      "presentationCrop": "Center 384x216 scaled to 640x360; original animation unchanged"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。 为便于观察，预览放大了原始演示的中心区域，动画未改写，完整原片保留在本地。"
+  },
+  {
+    "id": "marker-checklist-card",
+    "title": "手写步骤清单",
+    "en": "Marker Checklist Card",
+    "category": "信息提示",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "desc": "纸面清单逐行出现并画出勾选，用手绘圈线突出其中的信息。",
+    "sourceDescription": "A hand-lettered paper card: marker headline with an underline and a drawn ellipse around one word, then three checklist rows whose checks draw themselves on - typewriter labels, marker values. The paper-and-marker sibling of mk-specs-list's clean professional rows",
+    "use": "信息提示 · 社交短视频",
+    "tags": "motion-primitive handwritten checklist paper marker 手写步骤清单",
+    "duration": 5.0,
+    "poster": "assets/official/marker-checklist-card/poster.jpg",
+    "videoPreview": "assets/official/marker-checklist-card/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/components/marker-checklist-card",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/marker-checklist-card",
+    "install": "npx hyperframes add marker-checklist-card",
+    "sources": [
+      {
+        "path": "assets/official/marker-checklist-card/source/marker-checklist-card.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/marker-checklist-card/marker-checklist-card.html",
+        "sha256": "c99d951e0f361447109f50b5301cbbd8bcfed621cd7a66d92d9c5a65ec1614f0"
+      },
+      {
+        "path": "assets/official/marker-checklist-card/source/assets/fonts/permanent-marker-400.woff2",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/marker-checklist-card/assets/fonts/permanent-marker-400.woff2",
+        "sha256": "8963f64fa28dc4aea162405d784baa23ff6499df554d9b4cdee898e28d19cca4"
+      },
+      {
+        "path": "assets/official/marker-checklist-card/source/assets/fonts/courier-prime-700.woff2",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/marker-checklist-card/assets/fonts/courier-prime-700.woff2",
+        "sha256": "654a1d16c0b027ead89781bd3a4360d7f0af17a3ddf78c287d0e1843c6bca8d7"
+      }
+    ],
+    "preview": "assets/official/marker-checklist-card/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/marker-checklist-card.json",
+      "preview_sha256": "a6c254555991fbc9de12776775b2c38d433ad63faa204506a64e4537b3f67b8b"
+    },
+    "previewLabel": "官方源码实渲",
+    "videoProvenance": {
+      "kind": "locally-rendered-official-preview",
+      "url": null,
+      "renderer": "hyperframes@0.8.30",
+      "sha256": "ecf7355b782baba31db449ebe4a8c40bb953f9a1c372ec49189951e540c04363"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。"
+  },
+  {
+    "id": "grain-overlay",
+    "title": "胶片颗粒",
+    "en": "Grain Overlay",
+    "category": "画面质感",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "desc": "为原画面叠加活动胶片颗粒，增加模拟胶片的纹理。",
+    "sourceDescription": "Animated film grain texture overlay using CSS keyframes — adds warmth and analog character to any composition",
+    "use": "画面质感 · 社交短视频",
+    "tags": "texture grain overlay film 胶片颗粒",
+    "duration": 5.0,
+    "poster": "assets/official/grain-overlay/poster.jpg",
+    "videoPreview": "assets/official/grain-overlay/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/components/grain-overlay",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/grain-overlay",
+    "install": "npx hyperframes add grain-overlay",
+    "sources": [
+      {
+        "path": "assets/official/grain-overlay/source/grain-overlay.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/grain-overlay/grain-overlay.html",
+        "sha256": "97a0da8f26feca9574abcf08b8186cef10ea4819b2aeabc30547ae16ed9ae80d"
+      }
+    ],
+    "preview": "assets/official/grain-overlay/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/grain-overlay.json",
+      "preview_sha256": "20260074c8af0bbf67af0d2ef906a7a3fceed07b848099d5beff3481cda3007c"
+    },
+    "previewLabel": "官方源码实渲",
+    "videoProvenance": {
+      "kind": "locally-rendered-official-preview",
+      "url": null,
+      "sha256": "d26fdf65f85ce3254abd3e2d5937a805d6ec42e6af06d77dd09e1917725f02cd"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。"
+  },
+  {
+    "id": "vignette",
+    "title": "柔和暗角",
+    "en": "Vignette",
+    "category": "画面质感",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "desc": "在边缘叠加渐变暗角，把注意力引向中心；这是静态画面处理。",
+    "sourceDescription": "Cinematic radial vignette overlay using a pure-CSS gradient — darkens the edges to pull focus toward the center",
+    "use": "画面质感 · 社交短视频",
+    "tags": "vignette overlay cinematic effect 柔和暗角",
+    "duration": 5.0,
+    "poster": "assets/official/vignette/poster.jpg",
+    "videoPreview": "assets/official/vignette/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/components/vignette",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/vignette",
+    "install": "npx hyperframes add vignette",
+    "sources": [
+      {
+        "path": "assets/official/vignette/source/vignette.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/vignette/vignette.html",
+        "sha256": "b825476ca7bb89c0afbd6f1157b9813ac6a1ac82e9aa13a7cecd7ae305ebb2d5"
+      }
+    ],
+    "preview": "assets/official/vignette/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/vignette.json",
+      "preview_sha256": "64894d04a202188a1c29d330a0588c9cc409a6a24bacd48d7a22034b6aa77958"
+    },
+    "previewLabel": "官方示例",
+    "videoProvenance": {
+      "kind": "official-catalog-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/vignette.mp4",
+      "discovery": "Official catalog asset URL; not declared in pinned registry metadata",
+      "sha256": "de168699f5209170e5005dc5b8481103664cb6528869302fc612be1a9ecb79e1"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。"
+  },
+  {
+    "id": "grain-field",
+    "title": "漂移颗粒场",
+    "en": "Grain Field",
+    "category": "画面质感",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:component",
+    "desc": "带轻微明暗变化的有色颗粒场循环漂移，作为画面纹理背景。",
+    "sourceDescription": "A clearly visible accent-tinted dot field drifts over a subtle luminance gradient in an exact ambient loop.",
+    "use": "画面质感 · 社交短视频",
+    "tags": "motion-primitive background grain dots texture ambient loopable 漂移颗粒场",
+    "duration": 5.0,
+    "poster": "assets/official/grain-field/poster.jpg",
+    "videoPreview": "assets/official/grain-field/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/components/grain-field",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/grain-field",
+    "install": "npx hyperframes add grain-field",
+    "sources": [
+      {
+        "path": "assets/official/grain-field/source/grain-field.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/components/grain-field/grain-field.html",
+        "sha256": "2e2e06e1164a413d5625ffb4de2d4aa0e2bfc3175c8c342be735d28b884e451f"
+      }
+    ],
+    "preview": "assets/official/grain-field/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/components/grain-field.json",
+      "preview_sha256": "516deffe612ee22fdafc067dc4855f4aa720cba3585f47a5625b16941d075f02"
+    },
+    "previewLabel": "官方源码实渲",
+    "videoProvenance": {
+      "kind": "locally-rendered-official-preview",
+      "url": null,
+      "renderer": "hyperframes@0.8.30",
+      "sha256": "00bcdf74b7ab041465be12b326128a836d03ab514921249530c39b3f997e4f9c"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。",
+    "usageCaveat": "这是独立颗粒背景；如果用于实拍素材上方，需先处理透明度或混合方式并检查主体是否被遮挡。"
+  },
+  {
+    "id": "organic-light-leak-overlay",
+    "title": "自然漏光",
+    "en": "Organic Light Leak Overlay",
+    "category": "画面质感",
+    "origin": "official",
+    "sourceLabel": "HyperFrames 官方",
+    "compatibility": "HyperFrames 原生",
+    "type": "hyperframes:block",
+    "desc": "有限时长的柔和彩色漏光，用来烘托回忆或情绪片段。",
+    "sourceDescription": "Finite CSS light-leak overlay for memory beats and motivated transitions",
+    "use": "画面质感 · 社交短视频",
+    "tags": "light-leak film memory transition overlay media-treatment-overlay 自然漏光",
+    "duration": 4.0,
+    "poster": "assets/official/organic-light-leak-overlay/poster.jpg",
+    "videoPreview": "assets/official/organic-light-leak-overlay/preview.mp4",
+    "page": "https://hyperframes.heygen.com/catalog/blocks/organic-light-leak-overlay",
+    "source": "https://github.com/heygen-com/hyperframes/tree/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/organic-light-leak-overlay",
+    "install": "npx hyperframes add organic-light-leak-overlay",
+    "sources": [
+      {
+        "path": "assets/official/organic-light-leak-overlay/source/organic-light-leak-overlay.html",
+        "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/registry/blocks/organic-light-leak-overlay/organic-light-leak-overlay.html",
+        "sha256": "bcc5a58c8964317e7c335705449b1ab961e2ba5492f28b6f8a0406b24e45ff7e"
+      }
+    ],
+    "preview": "assets/official/organic-light-leak-overlay/preview.json",
+    "provenance": {
+      "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
+      "preview_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd/docs/public/catalog/blocks/organic-light-leak-overlay.json",
+      "preview_sha256": "11bb7b9e68a0e0eb727436592eadef7ceebe988de04585d253c1aff91330f6fa"
+    },
+    "previewLabel": "官方示例",
+    "videoProvenance": {
+      "kind": "official-video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/organic-light-leak-overlay.mp4",
+      "sha256": "03386f058e45cd743f2f2cb52ac5b4abb6a6582fbb154d45a0bea733ec4a0ffd"
+    },
+    "previewNote": "官方示例，保留原始模板和演示素材。分类由本库按实际用途整理，不代表官方原有分类。"
+  }
+]

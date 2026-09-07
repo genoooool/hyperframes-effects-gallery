@@ -1,0 +1,8 @@
+{
+  "paramsTypes": {
+    "smoothness": "float"
+  },
+  "defaultParams": {
+    "smoothness": 1
+  }
+}

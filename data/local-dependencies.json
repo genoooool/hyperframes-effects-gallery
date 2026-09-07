@@ -1,0 +1,26 @@
+{
+  "gsap-3.14.2.min.js": {
+    "source": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js",
+    "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+  },
+  "hyperframe.runtime-0.8.30.iife.js": {
+    "source": "https://cdn.jsdelivr.net/npm/@hyperframes/core@0.8.30/dist/hyperframe.runtime.iife.js",
+    "sha256": "c6f9f9b8e15360a20409842f97d8630ce7b433adc9714c55ef190036475bd740"
+  },
+  "anton.css": {
+    "source": "https://fonts.googleapis.com/css2?family=Anton&display=swap",
+    "sha256": "190374373bfdaa7b192ba63079d2d5199a64112115d9fd9808a5e0304c36ee28"
+  },
+  "space-grotesk.css": {
+    "source": "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap",
+    "sha256": "46444ef7c86f93090508ced503ab60ad3da415fb35d975bf0853adbabea1d8f3"
+  },
+  "anton-0.ttf": {
+    "source": "https://fonts.gstatic.com/s/anton/v27/1Ptgg87LROyAm0K0.ttf",
+    "sha256": "fd9301f2837c99df2be07cc7f0be66e9470f5354d8fcf1606027c67fcd637a53"
+  },
+  "space-grotesk-0.ttf": {
+    "source": "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj4PVksj.ttf",
+    "sha256": "3e756954468ff1cb302dae0414262e72f76a67d87bef3fa1f3226cd0fb9b2d85"
+  }
+}

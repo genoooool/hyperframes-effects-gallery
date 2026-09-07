@@ -1,0 +1,10 @@
+{
+  "paramsTypes": {
+    "ampx": "float",
+    "ampy": "float"
+  },
+  "defaultParams": {
+    "ampx": 1,
+    "ampy": 1
+  }
+}
