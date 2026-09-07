@@ -1,6 +1,6 @@
 # Third-party notices
 
-Awesome HyperFrames Gallery is an independent index and preview gallery. It is not affiliated with HeyGen, HyperFrames, Remotion, or the authors of the indexed projects.
+HyperFrames Effects Gallery is an independent index and preview gallery. It is not affiliated with HeyGen, HyperFrames, Remotion, or the authors of the indexed projects.
 
 The gallery preserves the source URL, pinned revision, license label, and adaptation status for each effect in `data/gallery-effects.json`. Bundled upstream source files and media remain subject to their original licenses and authors' terms.
 

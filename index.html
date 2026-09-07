@@ -3,12 +3,49 @@
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#101110">
-  <title>Hyperframe Atelier · 动效灵感库</title>
+  <title>HyperFrames Effects Gallery · 转场、字幕与短视频动效</title>
+  <meta name="description" content="Explore 255 HyperFrames, Remotion, WebGL and browser-based video effects: transitions, animated captions, camera motion and social-video overlays with real previews and pinned source links.">
+  <meta name="keywords" content="HyperFrames effects, HyperFrames transitions, animated captions, Remotion effects, GLSL transitions, short video effects, video motion graphics">
+  <link rel="canonical" href="https://77654321.xyz/">
+  <link rel="describedby" href="/llms.txt" type="text/markdown">
+  <link rel="alternate" href="/llms.txt" type="text/markdown" title="LLM-readable project summary">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="HyperFrames Effects Gallery">
+  <meta property="og:title" content="HyperFrames Effects & Captions Gallery">
+  <meta property="og:description" content="Preview 255 source-traceable transitions, animated captions, camera moves and short-video effects.">
+  <meta property="og:url" content="https://77654321.xyz/">
+  <meta property="og:image" content="https://77654321.xyz/docs/images/gallery-overview.jpg">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="HyperFrames Effects & Captions Gallery">
+  <meta name="twitter:description" content="255 real previews with pinned sources and honest integration status.">
+  <meta name="twitter:image" content="https://77654321.xyz/docs/images/gallery-overview.jpg">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "HyperFrames Effects & Captions Gallery",
+      "url": "https://77654321.xyz/",
+      "description": "A source-traceable gallery of HyperFrames effects, video transitions, animated captions, camera motion, WebGL shaders and social-video UI effects.",
+      "inLanguage": ["en", "zh-CN"],
+      "mainEntity": {
+        "@type": "ItemList",
+        "name": "Curated video effects catalog",
+        "numberOfItems": 255
+      },
+      "isBasedOn": [
+        "https://hyperframes.heygen.com/catalog",
+        "https://github.com/gl-transitions/gl-transitions",
+        "https://www.remotion.dev/"
+      ]
+    }
+  </script>
   <link rel="stylesheet" href="styles.css?v=community-dedup-1">
 </head>
 <body>
   <header class="header wrap">
-    <a class="brand" href="#" aria-label="Hyperframe Atelier 首页"><span class="brand-mark">h<span>f</span></span><span>hyperframe<span class="brand-sub">ATELIER</span></span></a>
+    <a class="brand" href="#" aria-label="HyperFrames Effects Gallery 首页"><span class="brand-mark">h<span>f</span></span><span>hyperframes<span class="brand-sub">EFFECTS GALLERY</span></span></a>
     <nav aria-label="主导航"><button class="nav-link active" id="exploreNav">探索效果</button><button class="nav-link" id="savedNav">我的收藏 <span id="savedCount">0</span></button></nav>
     <button class="quiet-button" id="globalPlay" aria-pressed="true" aria-label="切换悬停预览"><span class="play-symbol">▶</span><span class="label">悬停预览</span></button>
   </header>
@@ -28,7 +65,7 @@
     </section>
     <section class="closing"><div><span class="accent">下一帧，</span>可以很不一样。</div><p>官方与社区原始示例，每个效果都可追溯。<br>先收藏灵感，再把它变成你的作品。</p></section>
   </main>
-  <footer class="wrap"><span>hyperframe atelier</span><span id="collectionCount"></span><a href="https://hyperframes.heygen.com/catalog" target="_blank" rel="noopener noreferrer">官方 Catalog ↗</a></footer>
+  <footer class="wrap"><span>hyperframes effects gallery</span><span id="collectionCount"></span><a href="https://hyperframes.heygen.com/catalog" target="_blank" rel="noopener noreferrer">官方 Catalog ↗</a></footer>
   <dialog id="previewDialog" aria-labelledby="detailTitle">
     <div class="dialog-header"><span id="detailCategory"></span><button class="close" id="closeDialog" aria-label="关闭预览">×</button></div>
     <div class="detail-layout"><div class="player"><div id="detailStage" class="detail-stage"><img class="poster" alt="官方效果封面" width="1920" height="1080"><div class="preview-mount"></div><span class="preview-status" role="status"></span><button class="retry-preview quiet-button" id="retryPreview" hidden>重新加载预览</button></div><div class="controls"><button id="detailPlay" aria-label="暂停" disabled>Ⅱ</button><input type="range" id="scrub" min="0" max="1000" value="0" aria-label="播放进度" disabled><span id="timeLabel">加载中</span><select id="speed" aria-label="播放速度" disabled><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="1.5">1.5×</option><option value="2">2×</option></select><button id="replay" aria-label="从头播放" disabled>↺</button></div></div><div class="detail-info"><span class="detail-en" id="detailEnglish"></span><h2 id="detailTitle"></h2><p id="detailDesc"></p><div class="usage"><span>适合用在</span><p id="detailUse"></p></div><div class="detail-actions"><button id="saveDetail" class="primary-button">收藏效果</button><button id="copyBrief" class="quiet-button">复制使用指令 ↗</button></div><div class="source-links"><a id="officialLink" target="_blank" rel="noopener noreferrer">官方效果页 ↗</a><a id="sourceLink" target="_blank" rel="noopener noreferrer">模板源码 ↗</a></div><p class="demo-note" id="sourceNote"></p></div></div>

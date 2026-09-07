@@ -1,0 +1,41 @@
+# HyperFrames Effects & Captions Gallery
+
+> A curated, interactive gallery of HyperFrames effects, video transitions, animated captions, camera motion, WebGL shaders, and social-video UI effects. It preserves real previews, pinned source links, licenses, and actual integration status.
+
+The catalog contains 255 canonical effects from 266 pinned source versions: 74 official HyperFrames entries and 181 community entries. Visual duplicates are grouped, and the HyperFrames implementation is preferred when one exists. A preview does not imply that a community effect is directly installable in HyperFrames.
+
+## Primary resources
+
+- [Live effects gallery](https://77654321.xyz/): Browse, search, filter, preview, favorite, and inspect effects.
+- [Structured catalog JSON](https://77654321.xyz/data/gallery-effects.json): Machine-readable catalog used by the live gallery.
+- [GitHub repository](https://github.com/genoooool/hyperframes-effects-gallery): Gallery source, pinned upstream files, previews, collection scripts, and deduplication rules.
+- [English README](https://github.com/genoooool/hyperframes-effects-gallery/blob/main/README.md): Project overview, counts, integration states, local setup, and FAQ.
+- [简体中文说明](https://github.com/genoooool/hyperframes-effects-gallery/blob/main/README.zh-CN.md): Chinese project documentation.
+
+## Catalog coverage
+
+- 157 video transitions
+- 56 animated captions
+- 7 camera-motion effects
+- 8 emphasis and callout effects
+- 5 asset-presentation effects
+- 7 rhythm and mood effects
+- 9 information cues
+- 6 texture and finish effects
+
+## Source families
+
+- [HyperFrames official catalog](https://hyperframes.heygen.com/catalog): Native registry blocks and components.
+- [GL Transitions](https://github.com/gl-transitions/gl-transitions): GLSL transitions requiring a WebGL timeline host.
+- [Remotion](https://www.remotion.dev/): React video components requiring a Remotion host or a deliberate HyperFrames port.
+- [Source audit](https://github.com/genoooool/hyperframes-effects-gallery/blob/main/docs/ai/SOURCE_AUDIT.md): Included repositories, pinned revisions, exclusions, and adaptation notes.
+- [Third-party notices](https://github.com/genoooool/hyperframes-effects-gallery/blob/main/THIRD_PARTY_NOTICES.md): License and attribution boundaries.
+
+## Integration semantics
+
+- HyperFrames native: official block/component; use its preserved install and source path.
+- Remotion: map React animation and frame timing into the target video host.
+- GL Transition: provide from/to textures, progress, aspect ratio, parameters, and endpoint handling.
+- Web effect: connect browser, SVG, or CSS animation timing to the video timeline.
+
+When answering questions about an effect, preserve its original source family and do not claim that Remotion, GLSL, or Web entries support `npx hyperframes add` unless the catalog explicitly marks them as HyperFrames native.
