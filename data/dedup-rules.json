@@ -2,18 +2,199 @@
   "version": 1,
   "policy": "按已核对的视觉行为分组，优先 HyperFrames；方向、配色和缓动作为同组变体保留。名称、同一个共享源码文件或相同封面都不足以自动判重。",
   "groups": [
-    {"key":"crossfade","members":["transitions-dissolve","gl-fade"],"reason":"普通交叉淡化已由官方组合中的 Crossfade 覆盖；保留 GLSL 独立实现。","evidence":["assets/official/transitions-dissolve/source/transitions-dissolve.html","assets/community/gl-transitions/fade/fade.glsl"],"officialVariant":"Crossfade"},
-    {"key":"push-slide","members":["transitions-push","gl-directional","gl-directional-easing"],"reason":"前后画面共同平移；差异为方向和缓动，归入官方 Push Slide / Vertical Push 家族。","evidence":["assets/official/transitions-push/source/transitions-push.html","assets/community/gl-transitions/Directional/Directional.glsl","assets/community/gl-transitions/directional-easing/directional-easing.glsl"],"officialVariant":"Push Slide / Vertical Push"},
-    {"key":"pill-karaoke","members":["caption-pill-karaoke","kit-pill-karaoke"],"reason":"整行浅色胶囊内逐词点亮；Remotion 原组件明确注释为 HeyGen Pill Karaoke 风格。","evidence":["assets/official/caption-pill-karaoke/source/caption-pill-karaoke.html","assets/community/remotion-captions-kit/src/presets/pill-karaoke.tsx"]},
-    {"key":"directional-wipe","members":["gl-wipeleft","gl-wiperight","gl-wipeup","gl-wipedown"],"reason":"同一硬边擦除，仅扫描方向不同；在同一卡片下保留四个方向的原始预览与源码。","evidence":["assets/community/gl-transitions/wipeLeft/wipeLeft.glsl","assets/community/gl-transitions/wipeRight/wipeRight.glsl","assets/community/gl-transitions/wipeUp/wipeUp.glsl","assets/community/gl-transitions/wipeDown/wipeDown.glsl"],"title":"定向擦除（四方向）"},
-    {"key":"drawn-marks","members":["hw-underline","rough-underline","rough-bracket"],"reason":"官方 Squiggle Marks 已含 underline / strike / bracket；社区下划线与括号归入对应子效果，笔触形态保留为来源变体。","evidence":["assets/official/hw-underline/source/hw-underline.html","assets/community/rough-notation/src/render.ts"],"title":"手绘重点标记","officialVariant":"underline / strike / bracket"},
-    {"key":"marker-highlight","members":["marker-highlight","rough-highlight"],"reason":"荧光笔色块沿文字扫过；配色和手绘边缘作为同组变体保留。","evidence":["assets/official/marker-highlight/source/marker-highlight.html","assets/community/rough-notation/src/render.ts"]},
-    {"key":"confetti-celebration","members":["confetti","rui-confetti-burst"],"reason":"庆祝用彩纸喷发并飘落，官方为主卡；不同粒子轨迹保留为可查看的来源变体。","evidence":["assets/official/confetti/source/confetti.html","assets/community/remotion-ui/apps/web/registry/bases/default/primitives/confetti-burst.tsx"]}
+    {
+      "key": "crossfade",
+      "members": [
+        "transitions-dissolve",
+        "gl-fade"
+      ],
+      "reason": "普通交叉淡化已由官方组合中的 Crossfade 覆盖；保留 GLSL 独立实现。",
+      "evidence": [
+        "assets/official/transitions-dissolve/source/transitions-dissolve.html",
+        "assets/community/gl-transitions/fade/fade.glsl"
+      ],
+      "officialVariant": "Crossfade"
+    },
+    {
+      "key": "push-slide",
+      "members": [
+        "transitions-push",
+        "gl-directional",
+        "gl-directional-easing",
+        "shotcraft-bottom-push-stack-wipe"
+      ],
+      "reason": "前后画面共同平移；差异为方向和缓动，归入官方 Push Slide / Vertical Push 家族。 Shotcraft 的对应运动采用相同视觉机制，保留其配色、时序和示例素材作为来源变体。",
+      "evidence": [
+        "assets/official/transitions-push/source/transitions-push.html",
+        "assets/community/gl-transitions/Directional/Directional.glsl",
+        "assets/community/gl-transitions/directional-easing/directional-easing.glsl",
+        "assets/community/video-shotcraft/demos/transition/bottom-push-stack-wipe/BottomPushStackWipe.tsx"
+      ],
+      "officialVariant": "Push Slide / Vertical Push"
+    },
+    {
+      "key": "pill-karaoke",
+      "members": [
+        "caption-pill-karaoke",
+        "kit-pill-karaoke"
+      ],
+      "reason": "整行浅色胶囊内逐词点亮；Remotion 原组件明确注释为 HeyGen Pill Karaoke 风格。",
+      "evidence": [
+        "assets/official/caption-pill-karaoke/source/caption-pill-karaoke.html",
+        "assets/community/remotion-captions-kit/src/presets/pill-karaoke.tsx"
+      ]
+    },
+    {
+      "key": "directional-wipe",
+      "members": [
+        "gl-wipeleft",
+        "gl-wiperight",
+        "gl-wipeup",
+        "gl-wipedown"
+      ],
+      "reason": "同一硬边擦除，仅扫描方向不同；在同一卡片下保留四个方向的原始预览与源码。",
+      "evidence": [
+        "assets/community/gl-transitions/wipeLeft/wipeLeft.glsl",
+        "assets/community/gl-transitions/wipeRight/wipeRight.glsl",
+        "assets/community/gl-transitions/wipeUp/wipeUp.glsl",
+        "assets/community/gl-transitions/wipeDown/wipeDown.glsl"
+      ],
+      "title": "定向擦除（四方向）"
+    },
+    {
+      "key": "drawn-marks",
+      "members": [
+        "hw-underline",
+        "rough-underline",
+        "rough-bracket"
+      ],
+      "reason": "官方 Squiggle Marks 已含 underline / strike / bracket；社区下划线与括号归入对应子效果，笔触形态保留为来源变体。",
+      "evidence": [
+        "assets/official/hw-underline/source/hw-underline.html",
+        "assets/community/rough-notation/src/render.ts"
+      ],
+      "title": "手绘重点标记",
+      "officialVariant": "underline / strike / bracket"
+    },
+    {
+      "key": "marker-highlight",
+      "members": [
+        "marker-highlight",
+        "rough-highlight"
+      ],
+      "reason": "荧光笔色块沿文字扫过；配色和手绘边缘作为同组变体保留。",
+      "evidence": [
+        "assets/official/marker-highlight/source/marker-highlight.html",
+        "assets/community/rough-notation/src/render.ts"
+      ]
+    },
+    {
+      "key": "confetti-celebration",
+      "members": [
+        "confetti",
+        "rui-confetti-burst",
+        "shotcraft-confetti-crossfire"
+      ],
+      "reason": "庆祝用彩纸喷发并飘落，官方为主卡；不同粒子轨迹保留为可查看的来源变体。 Shotcraft 的对应运动采用相同视觉机制，保留其配色、时序和示例素材作为来源变体。",
+      "evidence": [
+        "assets/official/confetti/source/confetti.html",
+        "assets/community/remotion-ui/apps/web/registry/bases/default/primitives/confetti-burst.tsx",
+        "assets/community/video-shotcraft/demos/data/particle-celebrate-hits/ConfettiCrossfire.tsx"
+      ]
+    },
+    {
+      "key": "before-after-slider",
+      "members": [
+        "before-after-wipe",
+        "shotcraft-before-after-slider-scrub"
+      ],
+      "reason": "分割杆控制两份素材的裁剪边界；快速甩动与慢扫属于时序变体，保留原始预览。",
+      "evidence": [
+        "assets/official/before-after-wipe/source/before-after-wipe.html",
+        "assets/community/video-shotcraft/demos/data/before-after-slider-scrub/BeforeAfterSliderScrub.tsx"
+      ]
+    },
+    {
+      "key": "rolling-digits",
+      "members": [
+        "number-wheel",
+        "shotcraft-odometer-digit-roll"
+      ],
+      "reason": "每位数字在独立裁剪窗口内纵向滚动后停在目标值；错峰、残影、过冲和终值脉冲作为同组变体保留。",
+      "evidence": [
+        "assets/official/number-wheel/source/number-wheel.html",
+        "assets/community/video-shotcraft/demos/data/odometer-digit-roll/OdometerDigitRoll.tsx"
+      ]
+    },
+    {
+      "key": "whip-pan",
+      "members": [
+        "whip-pan",
+        "shotcraft-whip-pan"
+      ],
+      "reason": "通过快速横向甩动及运动模糊衔接两景；GLSL 与 Remotion 相机实现不同，原始预览和接入依赖分别保留。",
+      "evidence": [
+        "assets/official/whip-pan/source/whip-pan.html",
+        "assets/community/video-shotcraft/demos/transition/shot-transitions/WhipPanReal.tsx"
+      ]
+    }
   ],
   "keepSeparate": [
-    {"ids":["caption-kinetic-slam","kit-kinetic-slam"],"reason":"官方逐个词居中交替切入，社区多个词累积成句，布局与动作不同。"},
-    {"ids":["caption-weight-shift","kit-weight-shift"],"reason":"官方真实切换字重，社区固定字宽并以描边、缩放和透明度强调，保留两个实际表现。"},
-    {"ids":["gl-burn","gl-fade"],"reason":"原 npm 索引遗漏 burn 的颜色参数，造成同视频；显式采用源码默认色后属于不同效果，不合并。"},
-    {"ids":["ali-transition-horizontal-push","ali-transition-liquid-bars"],"reason":"共享家族源码不代表同一效果，预设及执行分支不同。"}
+    {
+      "ids": [
+        "caption-kinetic-slam",
+        "kit-kinetic-slam"
+      ],
+      "reason": "官方逐个词居中交替切入，社区多个词累积成句，布局与动作不同。"
+    },
+    {
+      "ids": [
+        "caption-weight-shift",
+        "kit-weight-shift"
+      ],
+      "reason": "官方真实切换字重，社区固定字宽并以描边、缩放和透明度强调，保留两个实际表现。"
+    },
+    {
+      "ids": [
+        "gl-burn",
+        "gl-fade"
+      ],
+      "reason": "原 npm 索引遗漏 burn 的颜色参数，造成同视频；显式采用源码默认色后属于不同效果，不合并。"
+    },
+    {
+      "ids": [
+        "ali-transition-horizontal-push",
+        "ali-transition-liquid-bars"
+      ],
+      "reason": "共享家族源码不代表同一效果，预设及执行分支不同。"
+    },
+    {
+      "ids": [
+        "camera-dolly-zoom",
+        "shotcraft-dolly-zoom"
+      ],
+      "reason": "官方通过三维透视补偿焦距与距离；Shotcraft 固定主体，仅缩放和模糊背景，缺少真实纵深压缩，保留两种实际画面与素材要求。"
+    },
+    {
+      "ids": [
+        "confetti",
+        "shotcraft-counter-confetti"
+      ],
+      "reason": "后者包含快速计数、过冲放大与纸屑错峰配合，属于组合信息揭示，不能当作单纯纸屑喷射重复项。"
+    },
+    {
+      "ids": [
+        "flash-through-white",
+        "shotcraft-flash-cut"
+      ],
+      "reason": "官方为闪白切换；Shotcraft 源组件是未全遮蔽的暖白径向光晕，并与推进镜头结合，保留组合镜头的实际边界。"
+    },
+    {
+      "ids": [
+        "caption-weight-shift",
+        "shotcraft-font-weight-pump"
+      ],
+      "reason": "前者沿字幕时间轴逐词强调；后者全词组随节拍脉冲，表现节奏和作用范围不同。"
+    }
   ]
 }

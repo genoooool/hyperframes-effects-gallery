@@ -1,5 +1,13 @@
 # HyperFrames Effects Gallery：收集与渲染记录
 
+## Video Shotcraft 补充（2026-09-08）
+
+运行 `python3 scripts/collect_shotcraft.py`，再运行 `python3 scripts/publish_gallery.py`。前者固定源码到 `5f047c7`，保留作者 MP4、封面、源码/媒体独立校验记录和逐卡排除理由；后者沿用官方优先的去重规则。重复采集复用哈希一致且已完整解码的媒体，不重新渲染。只收录现有八类用途，纯标题和品牌片头片尾排除。
+
+本批 178 个预览来自 127 张卡，新增 173 张主卡和 5 个来源变体；本地合计 428/444。发布到公共站点仍需要单独生成仅含公开运行文件的发布包，不能上传整个项目目录。
+
+验证：`python3 scripts/test_dedup.py` 和 `node scripts/check_gallery_shotcraft.mjs`。后者使用已有 `tools/community-render/node_modules/puppeteer-core` 与本机 Chrome，自行启动并关闭 4187 测试服务，不操作用户收藏。结果在 `data/qa/shotcraft/`。
+
 可交互的 HyperFrames、Remotion、GLSL 与 Web 动效展厅，收集适合社交短视频的转场、字幕、镜头运动和常用视觉效果。原生 HTML/CSS/JS，播放作者示例或原始源码实渲预览。
 
 **在线浏览：[77654321.xyz](https://77654321.xyz/#library)**

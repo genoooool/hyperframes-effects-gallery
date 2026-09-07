@@ -1,0 +1,2960 @@
+{
+  "repo": "Vincentwei1021/video-shotcraft",
+  "commit": "5f047c7cfe10d6616fe59160a750fcfaea510b2e",
+  "files": [
+    {
+      "path": "assets/community/video-shotcraft/LICENSE",
+      "upstreamPath": "LICENSE",
+      "gitBlob": "71ffb8bd20fc152507c1b3dd48f2890bef493ca6",
+      "sha256": "b2ce9877a55547ada9b870150664d1468ff777e67cc9888806a73927d31c5771",
+      "bytes": 11340
+    },
+    {
+      "path": "assets/community/video-shotcraft/README.md",
+      "upstreamPath": "README.md",
+      "gitBlob": "13a944036cb3df158175d2c6fbab87c14fee1ce6",
+      "sha256": "e8a664dfe2536971e02accbee6c0fb7a3dacb33ee67e9a023d9f0e554b5adad6",
+      "bytes": 15103
+    },
+    {
+      "path": "assets/community/video-shotcraft/assets/audio/ATTRIBUTION.md",
+      "upstreamPath": "assets/audio/ATTRIBUTION.md",
+      "gitBlob": "071142335ef1e2a09e45d0079e9b982eeb5fbfb9",
+      "sha256": "7fdc7fdc9bee66fee43e045f799202b08a45455b480ebbf751a1faf59ffe66d2",
+      "bytes": 22401
+    },
+    {
+      "path": "assets/community/video-shotcraft/assets/lib/Caption.tsx",
+      "upstreamPath": "assets/lib/Caption.tsx",
+      "gitBlob": "34d9131fc2850416388cbb32d71e62f4ce303efa",
+      "sha256": "e5be094d9c4321296da5078e51a83147aa39e4d95c95dccc2bf53b9f7d280d04",
+      "bytes": 1801
+    },
+    {
+      "path": "assets/community/video-shotcraft/assets/lib/ClipCard.tsx",
+      "upstreamPath": "assets/lib/ClipCard.tsx",
+      "gitBlob": "6827f5eb112c7c5239d6b9a1a82a6fa32dd00d48",
+      "sha256": "3532788285cfe52fef4e836979832054c41885b238f4055fd84b40c8de44670b",
+      "bytes": 6815
+    },
+    {
+      "path": "assets/community/video-shotcraft/assets/lib/DigitRoll.tsx",
+      "upstreamPath": "assets/lib/DigitRoll.tsx",
+      "gitBlob": "65537ce91a2714e8d1f2a382d1edecd06d4c2c2d",
+      "sha256": "aeb03c74d481a238dcd413af3054c264f9b4f91d5c745620e10a361fa4cbc20b",
+      "bytes": 1708
+    },
+    {
+      "path": "assets/community/video-shotcraft/assets/lib/FlashCut.tsx",
+      "upstreamPath": "assets/lib/FlashCut.tsx",
+      "gitBlob": "b12c1200f802dade23498726dd0e5bd81ef88857",
+      "sha256": "2e8d9e6319f99970be839f05bc869467b3d580aaa40809efb04b5dc02dd84c7f",
+      "bytes": 726
+    },
+    {
+      "path": "assets/community/video-shotcraft/assets/lib/FlatPanel.tsx",
+      "upstreamPath": "assets/lib/FlatPanel.tsx",
+      "gitBlob": "cf60035bb45f10877240d33e7309a9e7441b8e9d",
+      "sha256": "e5dff9388d24376db383873ce8ce32e3264ab5ef35c959733fbc568efef6acdd",
+      "bytes": 2129
+    },
+    {
+      "path": "assets/community/video-shotcraft/assets/lib/PageCam.tsx",
+      "upstreamPath": "assets/lib/PageCam.tsx",
+      "gitBlob": "847e5ca1ef48706ae5eb3569df1ce35250851134",
+      "sha256": "1679bfc0c15973d5a51f6b600ae17d4d8c06c2fa3f8513e5110f9d0b9b3271de",
+      "bytes": 6878
+    },
+    {
+      "path": "assets/community/video-shotcraft/assets/lib/VerticalTicker.tsx",
+      "upstreamPath": "assets/lib/VerticalTicker.tsx",
+      "gitBlob": "fe859dd53dca3998a59b6760e71380abb92a9135",
+      "sha256": "e4f90b838559beae465c6bb08736c00097bb0107d6dd4a378f64308e2acf1bae",
+      "bytes": 4082
+    },
+    {
+      "path": "assets/community/video-shotcraft/assets/lib/helpers/__tests__/helpers.test.ts",
+      "upstreamPath": "assets/lib/helpers/__tests__/helpers.test.ts",
+      "gitBlob": "8f8b46c3a6d2f9bc99c07a8cefe6ac51e336d758",
+      "sha256": "65617872abe7a728cd19f12707fb456225d27ca0bab30863277d3b47e0a834ee",
+      "bytes": 6276
+    },
+    {
+      "path": "assets/community/video-shotcraft/assets/lib/helpers/camera.tsx",
+      "upstreamPath": "assets/lib/helpers/camera.tsx",
+      "gitBlob": "f33b204d6d2d03f973812cb7f4144498a6de68ba",
+      "sha256": "8e5fc4e0ccfaa258fcbcc362761803d2c3e548cbf2e461d157cb42a134caf22d",
+      "bytes": 2080
+    },
+    {
+      "path": "assets/community/video-shotcraft/assets/lib/helpers/motion.ts",
+      "upstreamPath": "assets/lib/helpers/motion.ts",
+      "gitBlob": "1b18f9bbea86144f618a780572c8fc2964659144",
+      "sha256": "9123bacf8078982a903bb565923974902212f93ebe265e24d188e4362a8e251f",
+      "bytes": 1708
+    },
+    {
+      "path": "assets/community/video-shotcraft/assets/lib/helpers/rand.ts",
+      "upstreamPath": "assets/lib/helpers/rand.ts",
+      "gitBlob": "bd3ef48bc5996e9c89adbce526dedf49cb7f9fcd",
+      "sha256": "0c64fcd062f1fcd7547e3da96cfa8430c2502eaf2e3f09fb2323392f8a5493ef",
+      "bytes": 380
+    },
+    {
+      "path": "assets/community/video-shotcraft/assets/lib/helpers/shake.ts",
+      "upstreamPath": "assets/lib/helpers/shake.ts",
+      "gitBlob": "188b987f0bb6ec713520faf57151ddb62c232e99",
+      "sha256": "bbee393468a944df5ae85261e9ffee3c78fd78de0087e057cf96ee36e569054e",
+      "bytes": 423
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/README.md",
+      "upstreamPath": "demos/README.md",
+      "gitBlob": "998303c86f9dc798f7fd5e7b13b5b2e92641b44e",
+      "sha256": "a29c9e0d70410852565026802e218371f300904bc7e17d73d6a12a467a432809",
+      "bytes": 7276
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/_fixtures/Fixtures.tsx",
+      "upstreamPath": "demos/_fixtures/Fixtures.tsx",
+      "gitBlob": "bfad82bc41d550b8cff293dacd549654989255aa",
+      "sha256": "e06a6edce67ba854c46b897c11575d487ab265a2b3edf2b480be85dbe29bb5a0",
+      "bytes": 4275
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/_fixtures/Motion.tsx",
+      "upstreamPath": "demos/_fixtures/Motion.tsx",
+      "gitBlob": "f0cb3ce8156d616a213e5622ff80be2bbc597499",
+      "sha256": "961a9ce2401e38b5fe22fce7f44d84fc656d76aad0b178082e447feb01494421",
+      "bytes": 3582
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/_fixtures/PageCam2D.tsx",
+      "upstreamPath": "demos/_fixtures/PageCam2D.tsx",
+      "gitBlob": "631a7cb1fc8d887296f0997ef80f059307990d3d",
+      "sha256": "36b3b90680df7e99f0ced02f135181d7037f74c33a4f425cc01f7a110d20f69a",
+      "bytes": 3953
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/_textures/card1.png",
+      "upstreamPath": "demos/_textures/card1.png",
+      "gitBlob": "e954f8680dc5d7d0a80a7c8bc2e64df33139616f",
+      "sha256": "91e5ff3d3a786eea1ac42f2cb3c6083fae6c3ddf214b80dfa9a7e70d250948f9",
+      "bytes": 49799
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/_textures/card10.png",
+      "upstreamPath": "demos/_textures/card10.png",
+      "gitBlob": "b6ebcb5655b75aabb99c2bfd39740be4200d4614",
+      "sha256": "615736608714f4d4162fa2bd1abd557252c933bec5d32ca0975079bdac593f63",
+      "bytes": 51587
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/_textures/card2.png",
+      "upstreamPath": "demos/_textures/card2.png",
+      "gitBlob": "99683e216fddc3edfa816403707b20d154c8632d",
+      "sha256": "ea6f1bc6b774bbd81be54ea63d8c15a0025f47adfeeedd8529b002832ff70e49",
+      "bytes": 52017
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/_textures/card3.png",
+      "upstreamPath": "demos/_textures/card3.png",
+      "gitBlob": "d5c94c6ed312b423d17147acd0b64b99498370eb",
+      "sha256": "e8e7331f7b7aaf592f4db54eb28d248ba17cd12fbfa237cd3a959b13b0da92fd",
+      "bytes": 58896
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/_textures/card4-hires.png",
+      "upstreamPath": "demos/_textures/card4-hires.png",
+      "gitBlob": "fc1f82e4b5b8977eff8617f31d90590d3116da9b",
+      "sha256": "2d31a711702e7c4a4aea939717338141dbc81c490facea9691705f003e904b26",
+      "bytes": 123105
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/_textures/card4.png",
+      "upstreamPath": "demos/_textures/card4.png",
+      "gitBlob": "3394227226c74cb078a8fb6456dc91c22e643b14",
+      "sha256": "26dff0fc4e4efe529c4002ef9703b827ba9d9a00d05cbcc9136bc88d385134ad",
+      "bytes": 59011
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/_textures/card5.png",
+      "upstreamPath": "demos/_textures/card5.png",
+      "gitBlob": "258abd4dc72f0821903b9a388b2a75c4e12e6828",
+      "sha256": "7e548f79350cbc9a8a4f53db550401bacd85b2221112d175378bf46c5090feb1",
+      "bytes": 59166
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/_textures/card6.png",
+      "upstreamPath": "demos/_textures/card6.png",
+      "gitBlob": "b3865505914584cb9b75587fec992df419554bcf",
+      "sha256": "c7718be0c1238cd6b66d704e76cf403d92e11182faa6a56901b221066ed4c081",
+      "bytes": 55584
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/_textures/card7.png",
+      "upstreamPath": "demos/_textures/card7.png",
+      "gitBlob": "8918de98afcd446b287c9d0e4a0903c56341bc4b",
+      "sha256": "a0820ad18551c1503a9c4bfb75c74b65381ba428e085b288856cd418f605a233",
+      "bytes": 62350
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/_textures/card8.png",
+      "upstreamPath": "demos/_textures/card8.png",
+      "gitBlob": "0e0a52bb32db03de1c10e2eaff1365c689eee1d9",
+      "sha256": "fcec883f6fb03ff2313d91f7b647af20fa59451580af387a34d0a1f5088d1b45",
+      "bytes": 54202
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/_textures/card9.png",
+      "upstreamPath": "demos/_textures/card9.png",
+      "gitBlob": "faa311f2542597f3d9744d067bfbe873686e4569",
+      "sha256": "bb508ce0058265fa7175cffe512c10e371121b4548eebdb69ba6ab2b83d6c613",
+      "bytes": 59505
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/_textures/detail-full.png",
+      "upstreamPath": "demos/_textures/detail-full.png",
+      "gitBlob": "6f9e6912c4520d973137bfdf2855690e5b8d8e97",
+      "sha256": "44168775d500ad1b833b56d892812784012dcd1a7393a65bb9905a867ccfc347",
+      "bytes": 380073
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/_textures/float-search.png",
+      "upstreamPath": "demos/_textures/float-search.png",
+      "gitBlob": "0bc288999171bc4de9a1e94efa074e3fed2ebef5",
+      "sha256": "53839d02801f6bc2b2b6e7c801cd73ea0edb20b748d248f3ba845dfba835f222",
+      "bytes": 11667
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/_textures/float-stats.png",
+      "upstreamPath": "demos/_textures/float-stats.png",
+      "gitBlob": "7f559378ef67889864d6f7164ecb3095d7482b04",
+      "sha256": "8a100bd4419c3711dcd2e590a0e122d6c91930670d5bfef1e8c48b979a798cdd",
+      "bytes": 11497
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/_textures/live-layout.json",
+      "upstreamPath": "demos/_textures/live-layout.json",
+      "gitBlob": "47d0b563d4cdcebab822b712ba0d4b7fc96ed3c9",
+      "sha256": "dd99140e7806f0de58c91f98a4a5c2ef0b3e793817b46529e4f9e23b57186869",
+      "bytes": 5601
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/_textures/nav.png",
+      "upstreamPath": "demos/_textures/nav.png",
+      "gitBlob": "350122a44cbb665ddaef498db9f2692113333676",
+      "sha256": "e30335c4fd5e425503b73086546ec14ff90915f01e780a0f23e2e7d5d09cba8c",
+      "bytes": 10329
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/_textures/paper1.png",
+      "upstreamPath": "demos/_textures/paper1.png",
+      "gitBlob": "4fadaf1c23f90bd7d5febd23b6a2ca184528b196",
+      "sha256": "50e288d82440174bae60d8ed1c4fbc5c87d24025e06b5c4061d6bb523eb1a906",
+      "bytes": 98212
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/_textures/paper2.png",
+      "upstreamPath": "demos/_textures/paper2.png",
+      "gitBlob": "31a5ce31168a3b148cbfbf71aec447ebae214849",
+      "sha256": "059a8b6b012ff449f935a50034171cd5298971eb90f6258156f602dcc51ed804",
+      "bytes": 95517
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/_textures/paper3.png",
+      "upstreamPath": "demos/_textures/paper3.png",
+      "gitBlob": "32c5510ac703ad33dacbb611da98c7b12c2b6190",
+      "sha256": "2f410e9871033a16caeee984a1bacc250727a86c96fde39e9fcc0981e87a2a16",
+      "bytes": 95131
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/_textures/paper4.png",
+      "upstreamPath": "demos/_textures/paper4.png",
+      "gitBlob": "66dd3cf69f719dddfb23948d1d4c9bc8b14d8813",
+      "sha256": "5595f9d544467d220a6c9db5c1a28e430df4401976a1c261bc7633216fa326fb",
+      "bytes": 87621
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/_textures/paper5.png",
+      "upstreamPath": "demos/_textures/paper5.png",
+      "gitBlob": "8eb688dfd1baae1c42faff6c398d04f4df37314b",
+      "sha256": "50f8797cc13871808c1105b46c9cbc81e7c08c6564d22cbde5255d9589593167",
+      "bytes": 90661
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/_textures/papers-full.png",
+      "upstreamPath": "demos/_textures/papers-full.png",
+      "gitBlob": "355b264e771615b5e45cdece23c2c4e2f96f5f46",
+      "sha256": "82b26e7b397806e630303c7b98d5b411c842b70b3aef6b1b318f8aa23bd761f0",
+      "bytes": 594891
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/_textures/projects-empty.png",
+      "upstreamPath": "demos/_textures/projects-empty.png",
+      "gitBlob": "f20e289f6d761b7be6bfa7a3540a8b223517bae8",
+      "sha256": "7015d06c81c76560cb77e31e54ed730ed2882c222e933aa5a343a81dc0423e47",
+      "bytes": 102067
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/_textures/projects-full.png",
+      "upstreamPath": "demos/_textures/projects-full.png",
+      "gitBlob": "51ea0ded0cf1181fb097076faeef35b8e4776f6a",
+      "sha256": "65ef35b439b0d00bc35d8b2cfce837a6431288ca67575bc80df37162e3dcdd3a",
+      "bytes": 615341
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/_textures/wbr-full.png",
+      "upstreamPath": "demos/_textures/wbr-full.png",
+      "gitBlob": "02c930b615135622890389b89e4adf77e974bee0",
+      "sha256": "81dff5de3e90ffd8759d77716c189b90d0b88290070a5e0e137ffa3b47ef4189",
+      "bytes": 487943
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/camera/basic-3d-scene/Basic3DScene.tsx",
+      "upstreamPath": "demos/camera/basic-3d-scene/Basic3DScene.tsx",
+      "gitBlob": "1df0c2718e8f2c7e99ee6e6a6677292e8c8a9eb2",
+      "sha256": "9e853848e3db1dd1415c49f42a243c916c750ff6058367edd98826a8e5f67705",
+      "bytes": 4822
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/camera/crash-zoom-punch/CrashImpactReal.tsx",
+      "upstreamPath": "demos/camera/crash-zoom-punch/CrashImpactReal.tsx",
+      "gitBlob": "22fecb9fd3051a1beefd332f2de939f6d5b37605",
+      "sha256": "6150253befeb22cff49492dcf3a5b56c01d667e3df6136466e480d7b3b92789d",
+      "bytes": 2480
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/camera/crash-zoom-punch/CrashZoomReal.tsx",
+      "upstreamPath": "demos/camera/crash-zoom-punch/CrashZoomReal.tsx",
+      "gitBlob": "4c17f05e8325d86d384a86605df764e2b9247691",
+      "sha256": "495a5afc91a4c93424d15edf35c8767d1ff90f4d9515bb9194f68d7f355a181f",
+      "bytes": 2443
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/camera/cursor-flyover/CursorFlyover.tsx",
+      "upstreamPath": "demos/camera/cursor-flyover/CursorFlyover.tsx",
+      "gitBlob": "3d8265062edc81065150e19c56beff50be5fafa8",
+      "sha256": "911e6f6a541c6aed41eb311fbc25af1f0d096591283f2bcf70e1f907ae87e78f",
+      "bytes": 9608
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/camera/depth-layer-moves/DollyZoomReal.tsx",
+      "upstreamPath": "demos/camera/depth-layer-moves/DollyZoomReal.tsx",
+      "gitBlob": "361e21503b6f2a0b5fc27027c42f64e3567b488e",
+      "sha256": "47d44cad258e8a3c7b7bfd7c5e5b3535360b486f21621e6fb25d210c7e4797b0",
+      "bytes": 2281
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/camera/depth-layer-moves/MultiplaneReal.tsx",
+      "upstreamPath": "demos/camera/depth-layer-moves/MultiplaneReal.tsx",
+      "gitBlob": "75e5b4189a7598fc07c34abbeff0ba6a8f38f0d3",
+      "sha256": "b67c6ab37f02f1df6033b54fdb08d1fa0aa85300404578be50715285d16d2124",
+      "bytes": 2437
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/camera/graze-face-tour/GrazeFaceTour.tsx",
+      "upstreamPath": "demos/camera/graze-face-tour/GrazeFaceTour.tsx",
+      "gitBlob": "7a50984ac0bc2b7069945007fed81f9e280abb3a",
+      "sha256": "67a92ec45709381b23e79b669a154c9fab2d4ce4997d95226c97c297fd038165",
+      "bytes": 22352
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/camera/overhead-camera-moves/OverheadTabletopDrop.tsx",
+      "upstreamPath": "demos/camera/overhead-camera-moves/OverheadTabletopDrop.tsx",
+      "gitBlob": "8abdbe1dac2f7bcbc8a91d0966f4c4b9a71c6784",
+      "sha256": "a73f96609940cef8a5436126310af3487c685dde9833ae3ffbedc2a48785a29e",
+      "bytes": 4624
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/camera/overhead-camera-moves/TiltReveal.tsx",
+      "upstreamPath": "demos/camera/overhead-camera-moves/TiltReveal.tsx",
+      "gitBlob": "3b18482740bf1bffe1d303ca6d10af8e2a37af57",
+      "sha256": "a981ba2bbe4c78e042e11bb6db9efcc63519564acaf5a60caf02237c435db20a",
+      "bytes": 1815
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/camera/space-camera-moves/DroneDiveLanding.tsx",
+      "upstreamPath": "demos/camera/space-camera-moves/DroneDiveLanding.tsx",
+      "gitBlob": "077757d219a8a9e4946ced0c62cc0dc94de24e13",
+      "sha256": "531389b779782c6b8bb4728d11ca1fead05ce98f1ef7d5259061ebde28c95597",
+      "bytes": 3845
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/camera/space-camera-moves/ExplodedView.tsx",
+      "upstreamPath": "demos/camera/space-camera-moves/ExplodedView.tsx",
+      "gitBlob": "5c98f533c8ccb03954ebb025b4bdea6393ea92ed",
+      "sha256": "75ff3c91f4c0c254db89d3f060a34e23d306c6fa4fb38bccbc5049795d1eed09",
+      "bytes": 7097
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/camera/steep-tilt-glide/SteepTiltGlide.tsx",
+      "upstreamPath": "demos/camera/steep-tilt-glide/SteepTiltGlide.tsx",
+      "gitBlob": "80a80701f611961c5928da9f0c4187afe86c904c",
+      "sha256": "184740415dfcaf34311e42fe63b82a69ff987fbb4633f5a8bfb4318ec20e179c",
+      "bytes": 16482
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/camera/tension-camera-moves/BulletTimeFreezeOrbit.tsx",
+      "upstreamPath": "demos/camera/tension-camera-moves/BulletTimeFreezeOrbit.tsx",
+      "gitBlob": "382ba7dcc46b1a252cba2eac6278fba77e6373a0",
+      "sha256": "975f02697f579905a6d83461727f7e258f285fa4738d783ac96b3e6f997413bb",
+      "bytes": 6872
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/camera/tension-camera-moves/DutchRollToLevel.tsx",
+      "upstreamPath": "demos/camera/tension-camera-moves/DutchRollToLevel.tsx",
+      "gitBlob": "a9b49b05ac9fc148871a1eddd078bcb962f37c91",
+      "sha256": "de3f0848a382c77d5f1d7824041fce6a371cef804be592845fba981dd83564d0",
+      "bytes": 3923
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/camera/tension-camera-moves/PullBackIsolation.tsx",
+      "upstreamPath": "demos/camera/tension-camera-moves/PullBackIsolation.tsx",
+      "gitBlob": "337744c2a77da66b0da2d7de643d9c1f69d41d19",
+      "sha256": "93e36a2f42e96497627fb6aac92854d914f70037239a772e5cb3830e7f1a9844",
+      "bytes": 4407
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/camera/tension-camera-moves/SlowPushIn.tsx",
+      "upstreamPath": "demos/camera/tension-camera-moves/SlowPushIn.tsx",
+      "gitBlob": "857aa96cd357f393d6da584bbf6b559f4188384c",
+      "sha256": "db43d1d0d52b27cba3a97f17bf2999bcbb8750f5c4aee460889285d7c2647446",
+      "bytes": 2837
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/camera/terminal-3d/Terminal3D.tsx",
+      "upstreamPath": "demos/camera/terminal-3d/Terminal3D.tsx",
+      "gitBlob": "6d2d121ff0d2efb8e91093b282d15d8b64820ebf",
+      "sha256": "810807a14ff6a7f813fe2ef999a40364734043428d34d9e272b24e7df18280d4",
+      "bytes": 8873
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/data/avatar-grid-radial-build-colorize/AvatarGridRadialBuildColorize.tsx",
+      "upstreamPath": "demos/data/avatar-grid-radial-build-colorize/AvatarGridRadialBuildColorize.tsx",
+      "gitBlob": "0f99567f5f994cd03f1b1d69eba4537badc781f5",
+      "sha256": "ae2e10a5b3c39c65409dd9e5e417d63729419d468e1e598f323efc8b5435cb0c",
+      "bytes": 8450
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/data/before-after-slider-scrub/BeforeAfterSliderScrub.tsx",
+      "upstreamPath": "demos/data/before-after-slider-scrub/BeforeAfterSliderScrub.tsx",
+      "gitBlob": "21ae2002c3c6770051338317a53829d33378c6dd",
+      "sha256": "69096e8839be16b7818d3ac375ad170828cb08fa7fcd4fd826d4cc1b4cdf7f69",
+      "bytes": 4377
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/data/chart-live-moves/AxisRescaleShockV2.tsx",
+      "upstreamPath": "demos/data/chart-live-moves/AxisRescaleShockV2.tsx",
+      "gitBlob": "dbc11fa5e1b3090d97708b64cc637e6909c5e0ae",
+      "sha256": "13ad5232884e4ad2a3439c4949f7237136ef98d98de17efd7fd261852ebb7313",
+      "bytes": 11053
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/data/chart-live-moves/OscilloscopeStreamV2.tsx",
+      "upstreamPath": "demos/data/chart-live-moves/OscilloscopeStreamV2.tsx",
+      "gitBlob": "85468d87372003cdbe0a2593b6a418acde99555a",
+      "sha256": "ef59ae09fda561c104995ad0f080024fb0f1c3a7016ca911f3a68454c4b2675c",
+      "bytes": 8604
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/data/chart-live-moves/UnitDotSwarmRegroupV2.tsx",
+      "upstreamPath": "demos/data/chart-live-moves/UnitDotSwarmRegroupV2.tsx",
+      "gitBlob": "acd25f3016bbc7f6d5c9ad071e1844dd6e8844f5",
+      "sha256": "8d5527f02869a91cf13b5fe091c347f672c8fab02105d948678b09a86be4e043",
+      "bytes": 8522
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/data/counter-confetti/CounterConfetti.tsx",
+      "upstreamPath": "demos/data/counter-confetti/CounterConfetti.tsx",
+      "gitBlob": "e3ffe95a0ebc5ee234e8c8c63bd778c399cf9693",
+      "sha256": "eb10f603abc5ae1167cc1d289b81ec7b078b1e0947e8f9e5265a836b1f06ee94",
+      "bytes": 5622
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/data/cycle-glass-node-morph/CycleGlassNodeMorph.tsx",
+      "upstreamPath": "demos/data/cycle-glass-node-morph/CycleGlassNodeMorph.tsx",
+      "gitBlob": "bfe7e66f3930bdb78fb953530b2d36198762a3fd",
+      "sha256": "9fde3566b29e6ca7af2339611a3ee84b674eea69c8318b5a45bccf3b6e6f3f86",
+      "bytes": 11863
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/data/gauge-readout-moves/NeedleSweepSelftest.tsx",
+      "upstreamPath": "demos/data/gauge-readout-moves/NeedleSweepSelftest.tsx",
+      "gitBlob": "c270485ca4c0409f6d1498f094b87b820248c46e",
+      "sha256": "609d771627b254fe7481664248604da72f4331eb565d87cf998336127603f80f",
+      "bytes": 5561
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/data/gauge-readout-moves/TapeScrollFixedPointer.tsx",
+      "upstreamPath": "demos/data/gauge-readout-moves/TapeScrollFixedPointer.tsx",
+      "gitBlob": "bea8859208af4904596aaaefcca9e26c683e4a8f",
+      "sha256": "dd9c6b97788c86fc96de6cf1711da5d9048b6e9c8ba824e18e0d92efc8d49941",
+      "bytes": 4838
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/data/hatch-depth/HatchDepth.tsx",
+      "upstreamPath": "demos/data/hatch-depth/HatchDepth.tsx",
+      "gitBlob": "5a83aacd93dbfb9b34ba369171f6bced6f38fa2c",
+      "sha256": "a6e3050ac9b86590a6c74fc9aae3f764e5a4664c891957a98a421303bc8e6b49",
+      "bytes": 5195
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/data/odometer-digit-roll/OdometerDigitRoll.tsx",
+      "upstreamPath": "demos/data/odometer-digit-roll/OdometerDigitRoll.tsx",
+      "gitBlob": "2b0bd055ce9596ce56d7bb23ec05719e37f41f43",
+      "sha256": "e91c46c1c80f68f83fbed2c1c39e5ad22d6be5799f3541978f56b9e61ee73af2",
+      "bytes": 6103
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/data/particle-celebrate-hits/ConfettiCrossfire.tsx",
+      "upstreamPath": "demos/data/particle-celebrate-hits/ConfettiCrossfire.tsx",
+      "gitBlob": "081855646e00ee3d373cb336d61fe43f4bd1d6f6",
+      "sha256": "4944a90332df7129abb3c037c5bc9a0982f141b1cd2fa6c40cb12692242494dc",
+      "bytes": 5361
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/data/particle-celebrate-hits/CounterTickSparks.tsx",
+      "upstreamPath": "demos/data/particle-celebrate-hits/CounterTickSparks.tsx",
+      "gitBlob": "be23d3f26ebab0ebcc0594e3c1d3d9d2ee3e2ef7",
+      "sha256": "c03d41ef49c1d0c919834c037b59d1aed772a555847631bf56a5b3b8736b9aca",
+      "bytes": 4397
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/data/particle-sand-fill/ParticleSandFill.tsx",
+      "upstreamPath": "demos/data/particle-sand-fill/ParticleSandFill.tsx",
+      "gitBlob": "ebc091db092da7183e9604e9d27b70bbfef82816",
+      "sha256": "f0094421646b5c68af5a57592d4e7f554daeb94d8892aa4bbf40bf381ca97617",
+      "bytes": 5907
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/data/ring-diagram-annotation-reveal/RingDiagramAnnotationReveal.tsx",
+      "upstreamPath": "demos/data/ring-diagram-annotation-reveal/RingDiagramAnnotationReveal.tsx",
+      "gitBlob": "4188bdd7820a1adf116f96cf973c786ad3129f5c",
+      "sha256": "183c1a472675d8d31fecffbb8f7a6b75ece56b94e3cdd4a3f2325d536db6a47b",
+      "bytes": 7538
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/data/scroll-brake-moves/BrakeReticleLock.tsx",
+      "upstreamPath": "demos/data/scroll-brake-moves/BrakeReticleLock.tsx",
+      "gitBlob": "90cf1848e4604259fd573e0f9c83e8b5096f2072",
+      "sha256": "a46716c0f5bac8e2967c7c094b71fbe1e46746e42a7c4b871acfe8402cec5be9",
+      "bytes": 7289
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/data/scroll-brake-moves/ChangelogScrollBrake.tsx",
+      "upstreamPath": "demos/data/scroll-brake-moves/ChangelogScrollBrake.tsx",
+      "gitBlob": "d8bf86fb13d919b207dd241f56bc75a7da266330",
+      "sha256": "d7a6d95511cde7b5d39fbcce7b4b75c1acd118da1ca0020b8bb33bc9c72f528e",
+      "bytes": 3739
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/data/timeline-travel/TimelineTravel.tsx",
+      "upstreamPath": "demos/data/timeline-travel/TimelineTravel.tsx",
+      "gitBlob": "ad5a69cc7d16bb2351c3a71ea68df234998272eb",
+      "sha256": "be4399cdbf8ea9b4e27d61471328d508c725158b75ad75124f194e3d83b4a8fc",
+      "bytes": 5036
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/effects/assemble-then-type-flyin/AssembleThenTypeFlyin.tsx",
+      "upstreamPath": "demos/effects/assemble-then-type-flyin/AssembleThenTypeFlyin.tsx",
+      "gitBlob": "632179b068e45dd84e4b4b87839f7ce6ad8367d0",
+      "sha256": "2e5996b09bbef56ef4a8316a60f78cafcc2161d6d034be31a8d281d45100e4f2",
+      "bytes": 9438
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/effects/aurora-bloom-bg-flip/AuroraBloomBgFlip.tsx",
+      "upstreamPath": "demos/effects/aurora-bloom-bg-flip/AuroraBloomBgFlip.tsx",
+      "gitBlob": "7e0840c71257b93a63dc344e3a767d5e0e3b836a",
+      "sha256": "0fc90fd03f153065cea48ff973c175c6c66653bb1a035e40c7ac33bbb356fa21",
+      "bytes": 5049
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/effects/brand-frame-snap/BrandFrameSnap.tsx",
+      "upstreamPath": "demos/effects/brand-frame-snap/BrandFrameSnap.tsx",
+      "gitBlob": "8480c5275f212c71224e3cc660867f65cb32d8ea",
+      "sha256": "4a90782092ade6c63ec05dc7e509096c03793242c60ceb836d6b491c34fbf94b",
+      "bytes": 5006
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/effects/dashboard-glow-highlight-pill/DashboardGlowHighlightPill.tsx",
+      "upstreamPath": "demos/effects/dashboard-glow-highlight-pill/DashboardGlowHighlightPill.tsx",
+      "gitBlob": "2597df87fd109a996c66cf1741e435ae32b273bc",
+      "sha256": "84d2f989f506e1bb9059d00468e82daf16c0e38f73984fec98638037583b32bd",
+      "bytes": 22457
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/effects/fui-hud-moves/LineUnfoldPanel.tsx",
+      "upstreamPath": "demos/effects/fui-hud-moves/LineUnfoldPanel.tsx",
+      "gitBlob": "2474b69fc911310699c94d52ea642915d69906e6",
+      "sha256": "87329b62b3dfe20b6c08c9f3a559b2f77ee4841b4860cc2be1a00ddf2d5d0122",
+      "bytes": 4461
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/effects/fui-hud-moves/ReticleLockOn.tsx",
+      "upstreamPath": "demos/effects/fui-hud-moves/ReticleLockOn.tsx",
+      "gitBlob": "9ec0815412d598110dd0ceeb46c5065aa82a22da",
+      "sha256": "46bf287a5de1fde17d34e3725ed6cf66d443a90cff63ebcc907293cf0c31fdf5",
+      "bytes": 5138
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/effects/glow-flyline-moves/FlylineArc.tsx",
+      "upstreamPath": "demos/effects/glow-flyline-moves/FlylineArc.tsx",
+      "gitBlob": "b6ab5933d8f33ce8bcd2ba0f0fa5dd217d4b0465",
+      "sha256": "6c2f3a636d343474dcb489393ad7c71d6f454c1962113c9c90988bfa5f48ae4c",
+      "bytes": 6302
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/effects/glow-flyline-moves/GlowOrbAmbient.tsx",
+      "upstreamPath": "demos/effects/glow-flyline-moves/GlowOrbAmbient.tsx",
+      "gitBlob": "88782889d4122c200d25d8a243b489e603413bfe",
+      "sha256": "ae443fcbf79de1fd63b1219c2073830b47115c168d03aea2ef501154fd09fa60",
+      "bytes": 4784
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/effects/glow-flyline-moves/OrbFlylineRelay.tsx",
+      "upstreamPath": "demos/effects/glow-flyline-moves/OrbFlylineRelay.tsx",
+      "gitBlob": "6e31a49eacf27e0d87449461a1331260cc515b5e",
+      "sha256": "d554a49d5bef9064c29d5b9b1bb704ca29798486f44b287d56da43acdc246c20",
+      "bytes": 10765
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/effects/icon-performance-moves/AttentionBounce.tsx",
+      "upstreamPath": "demos/effects/icon-performance-moves/AttentionBounce.tsx",
+      "gitBlob": "6dd13dabde25cd87349372a7d7fabd2fdbd6d840",
+      "sha256": "c467057383f91a4433be617db40d92d03f5f53f47e4cbcedb66091492f50cb87",
+      "bytes": 6825
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/effects/icon-performance-moves/PopBurstConfirm.tsx",
+      "upstreamPath": "demos/effects/icon-performance-moves/PopBurstConfirm.tsx",
+      "gitBlob": "7c3580c880a175e87dff2001f5868c32f459ae4a",
+      "sha256": "cca22774f4d75754795f96e0060f727a8b062c3005b7bab5cf45fce86f02b80f",
+      "bytes": 5384
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/effects/impact-feedback/AnimeImpact.tsx",
+      "upstreamPath": "demos/effects/impact-feedback/AnimeImpact.tsx",
+      "gitBlob": "a5ceb0425db45df3fabeb6c8b3294f26f6fc627a",
+      "sha256": "8a513f31e9899de5eae15962e4a3884f3640c352111dd0ba231e6221a9fef2dc",
+      "bytes": 5692
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/effects/impact-feedback/HitCounter.tsx",
+      "upstreamPath": "demos/effects/impact-feedback/HitCounter.tsx",
+      "gitBlob": "caa0d4f0ab6b93d290711c2d61c5095e1e7dadff",
+      "sha256": "dd83270319aca314ee45a08b53fea9737aba88a1b401b1aa3561b5ab9e63a4da",
+      "bytes": 5332
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/effects/light-play-moves/HalationBloom.tsx",
+      "upstreamPath": "demos/effects/light-play-moves/HalationBloom.tsx",
+      "gitBlob": "0fbad51ee2bfea6b2fd721c3caafde7276209024",
+      "sha256": "515567c881a3b18c8ae92d001b0b656b506f3bbadea32d75a82a476c6ea47096",
+      "bytes": 4353
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/effects/light-play-moves/SheenSweepRetry.tsx",
+      "upstreamPath": "demos/effects/light-play-moves/SheenSweepRetry.tsx",
+      "gitBlob": "6a0ea23c0690c531390cfa639401b325688b9d4b",
+      "sha256": "c411aedec951a84afcf1722c93e8d9bec2864752610c652cc8a7d9e862f5e799",
+      "bytes": 2620
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/effects/light-play-moves/SpotlightSweepReveal.tsx",
+      "upstreamPath": "demos/effects/light-play-moves/SpotlightSweepReveal.tsx",
+      "gitBlob": "a8a93073cb75426c508a04b395865b36202a3447",
+      "sha256": "2abd85f00e8221f6a6b67c89d0be24fea3dc661a1f00d68e3dc954567cb4b438",
+      "bytes": 3438
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/effects/line-boil/LineBoil.tsx",
+      "upstreamPath": "demos/effects/line-boil/LineBoil.tsx",
+      "gitBlob": "03be09528ccbf7bbb92f095d70162e8c92e77bde",
+      "sha256": "063d193e15fe3f742779ebe8c6e9a95339e9d718050c261a96f069e7f213bf25",
+      "bytes": 5346
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/effects/radial-ripple-phone-chips/RadialRipplePhoneChips.tsx",
+      "upstreamPath": "demos/effects/radial-ripple-phone-chips/RadialRipplePhoneChips.tsx",
+      "gitBlob": "8bb5b033172adb773f0a651ae758c480a99e01b2",
+      "sha256": "c1157c36434d884d015c3056b44bbf4fd94a3cad616385f53af7a54b1d4104db",
+      "bytes": 4948
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/effects/riso-print-hits/RisoBeatPump.tsx",
+      "upstreamPath": "demos/effects/riso-print-hits/RisoBeatPump.tsx",
+      "gitBlob": "579164acd7e90c6ac529540ae8922fe5f8d6b2d6",
+      "sha256": "430f71b64bb4791eb2b6d492c8ca298d48dc795395f188eecbb4a83dd15bdafc",
+      "bytes": 4997
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/effects/riso-print-hits/RisoMisregistrationHit.tsx",
+      "upstreamPath": "demos/effects/riso-print-hits/RisoMisregistrationHit.tsx",
+      "gitBlob": "df79bb93ad7e529599d68345b27a8dd61b6a6e9b",
+      "sha256": "55b63608168db7c56b2e4abbe4b8dd7252a61447dd46c364deaaa325d86641df",
+      "bytes": 4171
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/effects/scan-bracket-sweep/ScanBracketSweep.tsx",
+      "upstreamPath": "demos/effects/scan-bracket-sweep/ScanBracketSweep.tsx",
+      "gitBlob": "437d88241a3f01b36ea15cb9d0350b7bdd8d1ada",
+      "sha256": "e96046d8b393545fc17a5b6c5d0158aae95d2f2285b6d2a997232a6595e6686e",
+      "bytes": 8132
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/effects/scanline-annotate-focus/ScanlineAnnotateFocus.tsx",
+      "upstreamPath": "demos/effects/scanline-annotate-focus/ScanlineAnnotateFocus.tsx",
+      "gitBlob": "261b6e9c8eae13379227d5d97a1117cfa6bc5de5",
+      "sha256": "c0bff214f004465455400f468847b0ed73f672a6d75b05d6ee8b3704b9d82fd7",
+      "bytes": 11364
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/effects/scanline-assemble-flyin/ScanlineAssembleFlyin.tsx",
+      "upstreamPath": "demos/effects/scanline-assemble-flyin/ScanlineAssembleFlyin.tsx",
+      "gitBlob": "f11ca6961dbef6a436ae2fb218e358f7498f99bf",
+      "sha256": "e088c86069806039e0affbaad44af6af2dcda1c32ae1a37dfed05acb7d5e92eb",
+      "bytes": 10496
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/effects/slam-entrance-moves/ImpactBurstKit.tsx",
+      "upstreamPath": "demos/effects/slam-entrance-moves/ImpactBurstKit.tsx",
+      "gitBlob": "1d2e8f1384d0994f5f8a371fe881023aa4817571",
+      "sha256": "ae207afed57e5a634528e908da438a58d6734845424f6a96ce0d94b80751aba7",
+      "bytes": 6732
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/effects/slam-entrance-moves/KanadaPerspectiveSnap.tsx",
+      "upstreamPath": "demos/effects/slam-entrance-moves/KanadaPerspectiveSnap.tsx",
+      "gitBlob": "f072c5a3d7f6df7df9a1b454636696487ef6e739",
+      "sha256": "1c768591eb775d4daab8f7f956547df26cf937f920cf0904809793fbdcade026",
+      "bytes": 4350
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/effects/slam-entrance-moves/ScoreSlam.tsx",
+      "upstreamPath": "demos/effects/slam-entrance-moves/ScoreSlam.tsx",
+      "gitBlob": "9fe17454f02f027d4be523b82fbd6beab3cab297",
+      "sha256": "e2ce99bd4e387e0ff03ffc22948d787fc1e7696f72ffe482f50daabd9336e878",
+      "bytes": 7491
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/effects/spotlight-sweep-moves/CornerSpotlightReveal.tsx",
+      "upstreamPath": "demos/effects/spotlight-sweep-moves/CornerSpotlightReveal.tsx",
+      "gitBlob": "07015e20f432c192373dbdc813b3063386fb54e3",
+      "sha256": "bc5919cf33b701f1080b265ab3f1f3ff9046fe5b2c50355cff2d0c920a8db33d",
+      "bytes": 4958
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/effects/spotlight-sweep-moves/GlowWakeSleepPanel.tsx",
+      "upstreamPath": "demos/effects/spotlight-sweep-moves/GlowWakeSleepPanel.tsx",
+      "gitBlob": "18274d96084fda08d44f2c78e0481b24eb1b8767",
+      "sha256": "4ef113f4562992102cc5ffa05fc9f796a840ae9d2fb7cc40bc923b76257277b5",
+      "bytes": 9870
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/effects/spotlight-sweep-moves/SlideSpotlightPan.tsx",
+      "upstreamPath": "demos/effects/spotlight-sweep-moves/SlideSpotlightPan.tsx",
+      "gitBlob": "76540767761eaf85e9cfb35154989b9237e9854e",
+      "sha256": "4ed15797a085a5526a8c075217413d6b49ceb20d65fcd1b5f2a1c472fd6c4755",
+      "bytes": 8748
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/interaction/ai-stream-response/StreamResponse.tsx",
+      "upstreamPath": "demos/interaction/ai-stream-response/StreamResponse.tsx",
+      "gitBlob": "a1ac5fd02d6a42956bbbd1f6eb2aa8925905cf8b",
+      "sha256": "017726ea7fd92256de50a1c5018391b88efc9920abb7d0cf42dce0e2c0db3df5",
+      "bytes": 7500
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/interaction/ai-stream-response/agent-stream.jpg",
+      "upstreamPath": "demos/interaction/ai-stream-response/agent-stream.jpg",
+      "gitBlob": "daa45c9ad9542f6f562bac0db5af81a1cc5bca8c",
+      "sha256": "8a6683ac0348347f941aaf5f396d48e70086e61ef0667626cb77e74b48d076f2",
+      "bytes": 74016
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/interaction/autolayout-gap-dial/AutolayoutGapDial.tsx",
+      "upstreamPath": "demos/interaction/autolayout-gap-dial/AutolayoutGapDial.tsx",
+      "gitBlob": "5f49b254b1ea1b2db73bdcf900c2c85b7739fda4",
+      "sha256": "80766040683f84e3a2465b0dd3d800a4ecacd672c58f9ea4db0a63318e9c1f9c",
+      "bytes": 6344
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/interaction/canvas-materialize-moves/DiagramCascadeBuild.tsx",
+      "upstreamPath": "demos/interaction/canvas-materialize-moves/DiagramCascadeBuild.tsx",
+      "gitBlob": "992402db8aacc1dd21818b5f4d3bec48e54c11a7",
+      "sha256": "c22146209dc68542d3ac630c8816d713d92786501c9cc9e592d1637852fbb548",
+      "bytes": 6251
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/interaction/canvas-materialize-moves/PanelToCanvasMaterialize.tsx",
+      "upstreamPath": "demos/interaction/canvas-materialize-moves/PanelToCanvasMaterialize.tsx",
+      "gitBlob": "2a6d49e24dfcc9d561a52ca486dc4770b037bba9",
+      "sha256": "1db5d71355732e59394aaade156e7c9c588bdc1fa7f901b1bdcdaf641f52b595",
+      "bytes": 9170
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/interaction/chip-grid-single-select-blackout/ChipGridSingleSelectBlackout.tsx",
+      "upstreamPath": "demos/interaction/chip-grid-single-select-blackout/ChipGridSingleSelectBlackout.tsx",
+      "gitBlob": "d52311fd81b06e5fa8794a2c600948a71ac25f9a",
+      "sha256": "64edeef21295812d0754a0cc5c1f9652d677db3350eb53b0efe1d82bca793338",
+      "bytes": 8212
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/interaction/chip-lift-to-user-pill/ChipLiftToUserPill.tsx",
+      "upstreamPath": "demos/interaction/chip-lift-to-user-pill/ChipLiftToUserPill.tsx",
+      "gitBlob": "1e1e5eb7018fedc119a2d0c5f1bed5bba51f70c8",
+      "sha256": "afceecb6c9fa57520df71bd7973471b5e4b5c980537ae7045e6560014fe517bb",
+      "bytes": 10553
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/interaction/collab-cursor-moves/CursorCastEnsemble.tsx",
+      "upstreamPath": "demos/interaction/collab-cursor-moves/CursorCastEnsemble.tsx",
+      "gitBlob": "d30daf4219278e0448ca55cabfad3231526f8b49",
+      "sha256": "9ee65f171a355e99bb6faf6f38effd19c65c9a194b43520b20067d73e264033e",
+      "bytes": 6446
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/interaction/collab-cursor-moves/CursorDialogueDuet.tsx",
+      "upstreamPath": "demos/interaction/collab-cursor-moves/CursorDialogueDuet.tsx",
+      "gitBlob": "eafac29b051aef3aa23f26f50217ba1f3c3c4807",
+      "sha256": "d7fd896d41d0ecbe0f538c241f80b1775ea575323d538cd6e69f263880e0f538",
+      "bytes": 5808
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/interaction/command-palette-summon/CommandPaletteSummon.tsx",
+      "upstreamPath": "demos/interaction/command-palette-summon/CommandPaletteSummon.tsx",
+      "gitBlob": "1952d76422c880232fc4f5c1f6d95016fb7ea5a9",
+      "sha256": "b66b2e5945b72ae36df532a9da0a95cd064515fd837688b1fd666c9e5566f848",
+      "bytes": 6108
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/interaction/glass-pill-dictation-typing/GlassPillDictationTyping.tsx",
+      "upstreamPath": "demos/interaction/glass-pill-dictation-typing/GlassPillDictationTyping.tsx",
+      "gitBlob": "80b1135735803a3fd2fde8dee89352cfed1cc2f7",
+      "sha256": "b3d70491d046eb645ea594e5e2a5f9d24d40dd0cf3860d7e65496e528e47f688",
+      "bytes": 6445
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/interaction/hashtag-to-pill-materialize/HashtagToPillMaterialize.tsx",
+      "upstreamPath": "demos/interaction/hashtag-to-pill-materialize/HashtagToPillMaterialize.tsx",
+      "gitBlob": "061d8f6d8ff9fb68c3f9b4fe7c6e2924db4720e1",
+      "sha256": "e94a48600e18d53f41e2c3caee1ebfb3456a39e5e2681eb63e51ad71df1ddc46",
+      "bytes": 7359
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/interaction/input-trigger-moves/CursorPerformancePunchIn.tsx",
+      "upstreamPath": "demos/interaction/input-trigger-moves/CursorPerformancePunchIn.tsx",
+      "gitBlob": "68a8126ae66fb211bb88c201e67e8eb770e7e231",
+      "sha256": "a2970990b385856cd9e176757eebdcd778fca864f7bf979c976b8fd4cfab53d3",
+      "bytes": 6043
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/interaction/input-trigger-moves/KeycapSmashCut.tsx",
+      "upstreamPath": "demos/interaction/input-trigger-moves/KeycapSmashCut.tsx",
+      "gitBlob": "67a89444c9cbf288a749da8919d49cd490bb239e",
+      "sha256": "cd995c264dd139a0e6c161d59bb9b5cff17d92fc2ac4efba2e7003e329d53904",
+      "bytes": 9164
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/interaction/picker-carousel-feature-cycle/PickerCarouselFeatureCycle.tsx",
+      "upstreamPath": "demos/interaction/picker-carousel-feature-cycle/PickerCarouselFeatureCycle.tsx",
+      "gitBlob": "f409a6ee7ff348d932ffa89a81b29eda2b13d8ef",
+      "sha256": "123381f36cd03fa6480704b3abd406e09772196a035fcee12d540f3078af69c3",
+      "bytes": 5886
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/interaction/segmented-thumb-hero/SegmentedThumbHero.tsx",
+      "upstreamPath": "demos/interaction/segmented-thumb-hero/SegmentedThumbHero.tsx",
+      "gitBlob": "3f5f3d91d7f0ddd46378a8ad735317e997178922",
+      "sha256": "c55e1f2662eba198ccb0fbfba55e6ce37b5bf4cee2b310f33cfe06d44e1d3e41",
+      "bytes": 7027
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/interaction/theme-switch-moves/PaletteThemeRipple.tsx",
+      "upstreamPath": "demos/interaction/theme-switch-moves/PaletteThemeRipple.tsx",
+      "gitBlob": "df3a7a45d7cec15b2a2b2e06f80760624e4fc5f8",
+      "sha256": "66aa7cd97905c876cda8c0e736efe53a8b19fb1546a2f9b65aa9dea82f6d189f",
+      "bytes": 9632
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/interaction/theme-switch-moves/ThemeSweepToggle.tsx",
+      "upstreamPath": "demos/interaction/theme-switch-moves/ThemeSweepToggle.tsx",
+      "gitBlob": "bdb83b41270c73199d72b12e22492733d85e933c",
+      "sha256": "2bc27f7ca7c358bfd3fd8e6591b1e3a5f18c48cbd842134aacaefd747598dd39",
+      "bytes": 5553
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/interaction/type-and-filter/TypeAndFilter.tsx",
+      "upstreamPath": "demos/interaction/type-and-filter/TypeAndFilter.tsx",
+      "gitBlob": "f6e39cb6828de4b3a81b83ebf7e666217397cc4d",
+      "sha256": "95ab942c3e7f0416fbab7563ff326724123cc2a4ddc9fea478aebc8901cdf3b8",
+      "bytes": 7801
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/interaction/voice-waveform-live/VoiceWaveformLive.tsx",
+      "upstreamPath": "demos/interaction/voice-waveform-live/VoiceWaveformLive.tsx",
+      "gitBlob": "79d586935045dd05ee232999563ba54282fb52dd",
+      "sha256": "77ab5983344687d7d591e2101febe8f80bd72fcef2043b470fa24fb95ee9f833",
+      "bytes": 6604
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/opening/crane-rise-reveal/CraneRiseReveal.tsx",
+      "upstreamPath": "demos/opening/crane-rise-reveal/CraneRiseReveal.tsx",
+      "gitBlob": "8ca2259e8281140a34a7c61950e1800e019ad704",
+      "sha256": "50035f51d88795b4a47e322f86f2efbdd41e2755356857668f555832ed66bbd0",
+      "bytes": 3147
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/opening/dataviz-landscape-open/DatavizLandscapeOpen.tsx",
+      "upstreamPath": "demos/opening/dataviz-landscape-open/DatavizLandscapeOpen.tsx",
+      "gitBlob": "cea4090e8f899706dfc8f8b380d46a8bc234ef94",
+      "sha256": "f575d1387ed5fe5bd1172ab50cdda20fe0562d44bfb469ec6d199b97bacd024a",
+      "bytes": 15007
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/opening/fracture/Fracture.tsx",
+      "upstreamPath": "demos/opening/fracture/Fracture.tsx",
+      "gitBlob": "2d0d0915fa172325362f7fba0b20d199defc16a6",
+      "sha256": "0f413346a2f34863ae7cde0e000f3ee5527edb8650099e07e27001c45bc9e544",
+      "bytes": 4089
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/opening/icon-field-colorize/IconFieldColorize.tsx",
+      "upstreamPath": "demos/opening/icon-field-colorize/IconFieldColorize.tsx",
+      "gitBlob": "49b2c12dafe52292a5c84eb6b9c5c9b4e2a95e4d",
+      "sha256": "d80a950a762bddc1b1b26e6459aabdc47145316f2c873f00845bcba7a6ed6590",
+      "bytes": 5435
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/opening/letterspace-materialize/LetterspaceMaterialize.tsx",
+      "upstreamPath": "demos/opening/letterspace-materialize/LetterspaceMaterialize.tsx",
+      "gitBlob": "6055e4b70f6a178612a0046394cadd8252ecfa29",
+      "sha256": "c66c6a726608e8de3584afd8ff25406eecd387edcf313c701a14d577cf7c9341",
+      "bytes": 3816
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/opening/magician-card-flourish/MagicianCardFlourish.tsx",
+      "upstreamPath": "demos/opening/magician-card-flourish/MagicianCardFlourish.tsx",
+      "gitBlob": "db785700922e60b461e8f188c448d5e78d5065a5",
+      "sha256": "b4ce830665fa3db4e82e314efd94bbac1b7777e2fab6e77a914e749244dd63de",
+      "bytes": 15356
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/opening/orbit-ring-title-open/OrbitRingTitleOpen.tsx",
+      "upstreamPath": "demos/opening/orbit-ring-title-open/OrbitRingTitleOpen.tsx",
+      "gitBlob": "0f0d59bfff829df811cc22a3374740a193c19845",
+      "sha256": "54b9528497e2ba43f9726becd862ca51a715fb56d0e7f5b07918d3bcc8f2cd33",
+      "bytes": 17342
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/opening/spotlight-hero-card/SpotlightHeroCard.tsx",
+      "upstreamPath": "demos/opening/spotlight-hero-card/SpotlightHeroCard.tsx",
+      "gitBlob": "f53b1d68dbabebe6188e8891a88d9e4fa5d34bbf",
+      "sha256": "9dcc839d8953ff930ade91c82a7da178a31afdaa1e81b1b7ff59820e4b6cb04c",
+      "bytes": 14491
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/opening/stroke-segment-build/StrokeSegmentBuild.tsx",
+      "upstreamPath": "demos/opening/stroke-segment-build/StrokeSegmentBuild.tsx",
+      "gitBlob": "94778b8c8b5de52d69fa38ab5dad6dbe19f6e128",
+      "sha256": "56847499d68a79584b039701ed4236194b5c2ebcdf322364e75c1e21ebce73dc",
+      "bytes": 5061
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/opening/text-as-mask/TextAsMask.tsx",
+      "upstreamPath": "demos/opening/text-as-mask/TextAsMask.tsx",
+      "gitBlob": "bd019541468eaf93a7452b93c0a6523978c00a25",
+      "sha256": "68a6ae67c43cc5b9df63280f3cc0bcf8e212cbe8c86d1c90eeafb935abf61864",
+      "bytes": 3780
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/outro/edit-hook-moves/LogoStingButton.tsx",
+      "upstreamPath": "demos/outro/edit-hook-moves/LogoStingButton.tsx",
+      "gitBlob": "722146cfd9ca292b65acc1b820c1fc05271f8533",
+      "sha256": "b693cbed3ca283502684e3585fb58844e2f707733cec9675c8376143b4cf5d43",
+      "bytes": 4424
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/outro/grain-dissolve/GrainDissolve.tsx",
+      "upstreamPath": "demos/outro/grain-dissolve/GrainDissolve.tsx",
+      "gitBlob": "9d7651952da69fad0c021f444cd0250fd8d66ddf",
+      "sha256": "3c5700bf5902266481c891f95028fa016d986f8be380485fc6d0471daf067ca0",
+      "bytes": 5729
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/outro/logo-shrink-wordmark-lockup/LogoShrinkWordmarkLockup.tsx",
+      "upstreamPath": "demos/outro/logo-shrink-wordmark-lockup/LogoShrinkWordmarkLockup.tsx",
+      "gitBlob": "596996ab005d00953bf90f030cb0f7c6d83abffa",
+      "sha256": "d8581f081b037f36954214276aefed9039ebe8d76aadbe91ffdf7c6ff3d4a4df",
+      "bytes": 5460
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/outro/neon-triple-marquee/NeonTripleMarquee.tsx",
+      "upstreamPath": "demos/outro/neon-triple-marquee/NeonTripleMarquee.tsx",
+      "gitBlob": "7efe9867672ea9c8c95ead91a2f06c1a852a5b32",
+      "sha256": "990ff41bf447308d6dab8b0d9d84320ed1515df6c71ab848830c173c45847df5",
+      "bytes": 3627
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/outro/outro-group-photo-launch/OutroGroupPhotoLaunch.tsx",
+      "upstreamPath": "demos/outro/outro-group-photo-launch/OutroGroupPhotoLaunch.tsx",
+      "gitBlob": "ec325a0aab450f666c6e7f920d8f925e959820e4",
+      "sha256": "af4bbbf21570b65bc8e33b6ed679700089315bd17dffaf17864e4a8ac1e39830",
+      "bytes": 14905
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/outro/ui-strip-away-outro/UiStripAwayOutro.tsx",
+      "upstreamPath": "demos/outro/ui-strip-away-outro/UiStripAwayOutro.tsx",
+      "gitBlob": "5c68007750bf196a8f3048f6b9b168425f80992a",
+      "sha256": "68bc9a8437b2c8f3f4a1980dc8b4e5a3fa4e40127615270140042e5b93a866e3",
+      "bytes": 9726
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/outro/ui-to-brand-morph/IconFlipBloomLogo.tsx",
+      "upstreamPath": "demos/outro/ui-to-brand-morph/IconFlipBloomLogo.tsx",
+      "gitBlob": "68c7913e826b547d3005ef4395c646689d2de3b7",
+      "sha256": "a4ed4cd2e998df90bb16b4ae958635d14d6bdd48bcd54e2291e8780093664bc9",
+      "bytes": 7167
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/outro/ui-to-brand-morph/InputMorphsIntoLogo.tsx",
+      "upstreamPath": "demos/outro/ui-to-brand-morph/InputMorphsIntoLogo.tsx",
+      "gitBlob": "5635e906d91aed1b80c03f92cd4d408c2c181a75",
+      "sha256": "8822a5505d06a24bcde526ac47904278b4ebdb2d730504b83dfff46f62cff930",
+      "bytes": 7794
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/rhythm/beat-cut-moves/BeatCutAccelerando.tsx",
+      "upstreamPath": "demos/rhythm/beat-cut-moves/BeatCutAccelerando.tsx",
+      "gitBlob": "4e1c3ab8e493eb57d77e5385cd523221d6e16462",
+      "sha256": "e84aa85acb422b851c1a65182538a6e23501878a0d64f143a611174832a25b1b",
+      "bytes": 3035
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/rhythm/beat-cut-moves/PaparazziFlash.tsx",
+      "upstreamPath": "demos/rhythm/beat-cut-moves/PaparazziFlash.tsx",
+      "gitBlob": "05941d6e298dcf32b74493758c1c86d848daeedc",
+      "sha256": "a3f622be9af943c752f7ac2ae293a7fac762c51a29d6e9812e8896cd706888f3",
+      "bytes": 4011
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/rhythm/beat-step-list-theme-cycle/BeatStepListThemeCycle.tsx",
+      "upstreamPath": "demos/rhythm/beat-step-list-theme-cycle/BeatStepListThemeCycle.tsx",
+      "gitBlob": "57504b7668a5956042880ef9380ef39fd516c0ce",
+      "sha256": "6dfe335735c21865303c3f817489b3c81578a855a2aef4f5f9e678b56e6ac434",
+      "bytes": 4351
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/rhythm/montage-rhythm-moves/DominoCascade.tsx",
+      "upstreamPath": "demos/rhythm/montage-rhythm-moves/DominoCascade.tsx",
+      "gitBlob": "ea0a69e76525d2754d1a7eaa56113f1db4c0b1d9",
+      "sha256": "9f9bb2d3bda0766bab3f8c19c82c2c7bd7588d2b2d61e53461e74c436dd00323",
+      "bytes": 5118
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/rhythm/montage-rhythm-moves/DropBlackoutSlam.tsx",
+      "upstreamPath": "demos/rhythm/montage-rhythm-moves/DropBlackoutSlam.tsx",
+      "gitBlob": "394405cc8cd91c678f600608be79ed9a6e38efb2",
+      "sha256": "da2f4b7a3ed1767525e33ca44551e2ca7ad02dc5104fae14f6fb2eba51ec8529",
+      "bytes": 4518
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/rhythm/montage-rhythm-moves/WrightTripleCut.tsx",
+      "upstreamPath": "demos/rhythm/montage-rhythm-moves/WrightTripleCut.tsx",
+      "gitBlob": "46983cd72f3d6e52c7b9adf69e55afcd16c7c558",
+      "sha256": "ed71ad7e2081a78876b043601a14b793c0b2637ff33cc1034e2ba93f820a76cf",
+      "bytes": 7569
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/rhythm/panel-grid-moves/ComicPanelSplit.tsx",
+      "upstreamPath": "demos/rhythm/panel-grid-moves/ComicPanelSplit.tsx",
+      "gitBlob": "cc0b1daa915f575d6247f6a4a40f34356e26a2ab",
+      "sha256": "12f6f3e7cb1039720f4f756aa13b7ba732bdca166467bfca416858e0d2cd2919",
+      "bytes": 7483
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/rhythm/panel-grid-moves/FlipGridReflow.tsx",
+      "upstreamPath": "demos/rhythm/panel-grid-moves/FlipGridReflow.tsx",
+      "gitBlob": "0c963cef1478cc425d30d9e71452fd9a976ad808",
+      "sha256": "b6b4edd123fadc47fa948590f4589dbe19f70b168115222dc48f52f3669aef91",
+      "bytes": 4315
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/rhythm/panel-grid-moves/GridFlashMosaic.tsx",
+      "upstreamPath": "demos/rhythm/panel-grid-moves/GridFlashMosaic.tsx",
+      "gitBlob": "21d7e80305b34d91f4ee4aba85061a312a786627",
+      "sha256": "33188969b8e40ee8bf3a9bac2b794184a8884037021df774bacc06ff7ae7766e",
+      "bytes": 5762
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/rhythm/quad-split-parallel-scenes/QuadSplitParallelScenes.tsx",
+      "upstreamPath": "demos/rhythm/quad-split-parallel-scenes/QuadSplitParallelScenes.tsx",
+      "gitBlob": "48244802bf516b8edea6ad799eda846422df3e2e",
+      "sha256": "0ef89104610b5a00fc7bb89367957fa8b42df0b616a6c98ed535af6984f07c8e",
+      "bytes": 10008
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/rhythm/rhythm-interrupt-moves/JumpCutPunchIn.tsx",
+      "upstreamPath": "demos/rhythm/rhythm-interrupt-moves/JumpCutPunchIn.tsx",
+      "gitBlob": "ac6a4c3ec041d9c006cc7361dd3f9ced1a386e5c",
+      "sha256": "8af8c4161f1c66d15e956d1ff1d3a3e87d69bfed35733edd3086efa9bb7732b8",
+      "bytes": 2595
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/rhythm/rhythm-interrupt-moves/StrobeBlackFrames.tsx",
+      "upstreamPath": "demos/rhythm/rhythm-interrupt-moves/StrobeBlackFrames.tsx",
+      "gitBlob": "6a13df44a73984b09b5b139e28418bf0799a7413",
+      "sha256": "0b8da8214c0c3741cfd5a848cfc264e47d71c6a1d62e8ff7bc3b559c58f01f85",
+      "bytes": 3589
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/rhythm/sakuga-timing-shift/SakugaTimingShift.tsx",
+      "upstreamPath": "demos/rhythm/sakuga-timing-shift/SakugaTimingShift.tsx",
+      "gitBlob": "61eb56a9130e0f083d925586066cf375c90fa8e9",
+      "sha256": "bc514f8b217c102c2ebbce24a546c30e444bd8f7102efa32d22a2792da8cda50",
+      "bytes": 5936
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/rhythm/smear-multiples/SmearMultiples.tsx",
+      "upstreamPath": "demos/rhythm/smear-multiples/SmearMultiples.tsx",
+      "gitBlob": "b2db3f0e167d8153d118b7cc81758d9aa01dedb0",
+      "sha256": "ce3d900cb4ad5cf964997a0f5d2170a5a9749ddee3962c76cdb6e7894ce4ae49",
+      "bytes": 3381
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/rhythm/spectrum-morph-ui/SpectrumMorphUi.tsx",
+      "upstreamPath": "demos/rhythm/spectrum-morph-ui/SpectrumMorphUi.tsx",
+      "gitBlob": "46e583487e7052bc616aec9e83f1bf04efd18f4c",
+      "sha256": "b161d9ae5240869fffb75a921d2d68a506d8cb0eec7e9fe9056ec65f91146669",
+      "bytes": 4451
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/rhythm/speed-ramp-freeze/FreezeAnnotateReal.tsx",
+      "upstreamPath": "demos/rhythm/speed-ramp-freeze/FreezeAnnotateReal.tsx",
+      "gitBlob": "0c870f707c7fa80f4078f783fd7a9a2e301e73f3",
+      "sha256": "5ea9848eb760ed76123ab152d4e2b60bb3b1df9472c3b0ca12e6723fb64f35c7",
+      "bytes": 3377
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/rhythm/speed-ramp-freeze/SpeedRampReal.tsx",
+      "upstreamPath": "demos/rhythm/speed-ramp-freeze/SpeedRampReal.tsx",
+      "gitBlob": "81c6ea579204167808f3e1d34a6e6b4cdd8fe84c",
+      "sha256": "f3f9e54385f0920aad4071d6f85bf9c878946ddb7908894d5802ab2ecd5f11b8",
+      "bytes": 2178
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/rhythm/trailer-grammar-moves/CardFootageCadence.tsx",
+      "upstreamPath": "demos/rhythm/trailer-grammar-moves/CardFootageCadence.tsx",
+      "gitBlob": "f33607f1b7e803575f8bf72b394438df40ed7436",
+      "sha256": "ef68729c0fc3152f4b1fda48c3bf7ef8757522c830c77069cef638d301ec8a9b",
+      "bytes": 4123
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/rhythm/trailer-grammar-moves/SmashCut.tsx",
+      "upstreamPath": "demos/rhythm/trailer-grammar-moves/SmashCut.tsx",
+      "gitBlob": "a046db57b302a2d55f3edb54ff8ef956a7b392e1",
+      "sha256": "f4ceb69ef80212c21ad14fa9857d31bdb68970812764625da05be6dfecc889ee",
+      "bytes": 4246
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/rhythm/trailer-grammar-moves/TrailerBumper.tsx",
+      "upstreamPath": "demos/rhythm/trailer-grammar-moves/TrailerBumper.tsx",
+      "gitBlob": "7a654e724be1e18ca717993eaf7a085bc95861ba",
+      "sha256": "b91f352e150d02ee286e8ed1169496503d50fed911c34381fc84195757d9b31d",
+      "bytes": 3442
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/bottom-push-stack-wipe/BottomPushStackWipe.tsx",
+      "upstreamPath": "demos/transition/bottom-push-stack-wipe/BottomPushStackWipe.tsx",
+      "gitBlob": "aa536741b2189277756a22388097133ac08786d3",
+      "sha256": "a4c70143ab37ac55a233cf73c5c00b1fd90730e842b2d48ae24410cca134c457",
+      "bytes": 3827
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/bubble-swarm-takeover/BubbleSwarmTakeover.tsx",
+      "upstreamPath": "demos/transition/bubble-swarm-takeover/BubbleSwarmTakeover.tsx",
+      "gitBlob": "3fa0c24abb80934996df872daaaae41f43742005",
+      "sha256": "c30ff2b341f8777f13040c850d78695e5aaa29f71642c8beda33a192721a1724",
+      "bytes": 7858
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/card-flip-reveal/CardFlipReveal.tsx",
+      "upstreamPath": "demos/transition/card-flip-reveal/CardFlipReveal.tsx",
+      "gitBlob": "52d253aac5c051056c3f241e39e7e2fe264b4f50",
+      "sha256": "fcce7bee9de5a7e6ce1ac74d4a122c0b2147c1c2b3da4db0f5c92103d6e084b9",
+      "bytes": 4620
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/card-flock-tumble/CardFlockTumble.tsx",
+      "upstreamPath": "demos/transition/card-flock-tumble/CardFlockTumble.tsx",
+      "gitBlob": "17982a1d162aea25c4f6cf7251d6b815cfa1874c",
+      "sha256": "d89cce89a15012180a3461ee6539ab974fc8f347e3ece9ee62270d1c166cd5c0",
+      "bytes": 17571
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/circle-match-iris/CircleMatchIris.tsx",
+      "upstreamPath": "demos/transition/circle-match-iris/CircleMatchIris.tsx",
+      "gitBlob": "d43bd33a5fd8906e562526d6fba092ea69fb83f8",
+      "sha256": "0c2afbb49d65aa15241396fb2343ba3cb046d0958cd80a9eac1925e4f93efd20",
+      "bytes": 6275
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/color-block-step-wipe/ColorBlockStepWipe.tsx",
+      "upstreamPath": "demos/transition/color-block-step-wipe/ColorBlockStepWipe.tsx",
+      "gitBlob": "e28b149e6b37a38c0954f85b65ca4162045b00a8",
+      "sha256": "b20b9a7065356705e27f836e2ea89c9f474e23165a4a9d383b79d5a0fd838677",
+      "bytes": 4824
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/cube-navigation/CubeNavigation.tsx",
+      "upstreamPath": "demos/transition/cube-navigation/CubeNavigation.tsx",
+      "gitBlob": "20d73cd932ccd60158decce5629c3fd341e6709b",
+      "sha256": "83cc2966e85698bb4c9837c896989993d3eb2ec1b32612712a69af746961d905",
+      "bytes": 7235
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/gradient-transition/GradientTransition.tsx",
+      "upstreamPath": "demos/transition/gradient-transition/GradientTransition.tsx",
+      "gitBlob": "0117e01e9bec5805d2f3bc2aba3f6ce99d09f899",
+      "sha256": "a0dfd2721778d9786b99be67b74da846725fadedcdac0a8a08b7ed3e2bb90cc3",
+      "bytes": 3089
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/line-carry-transition/LineCarryTransition.tsx",
+      "upstreamPath": "demos/transition/line-carry-transition/LineCarryTransition.tsx",
+      "gitBlob": "12b58168da73053ad570110b76136b85e380ffa3",
+      "sha256": "e3cf0eafab68e3fced8705adedadcd685033af84595d3c738e92af782687ac95",
+      "bytes": 6062
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/mosaic-reframe/MosaicReframe.tsx",
+      "upstreamPath": "demos/transition/mosaic-reframe/MosaicReframe.tsx",
+      "gitBlob": "58150a918b3afb26010045c7ce11b615d2073dee",
+      "sha256": "78487db1769be4203165835c823c663b676223ee8ad84f3da6e04a7740e89766",
+      "bytes": 4669
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/page-turn-transitions/BarnDoorSplit.tsx",
+      "upstreamPath": "demos/transition/page-turn-transitions/BarnDoorSplit.tsx",
+      "gitBlob": "388420dc3f43805d8cb5a117263ee56695c390f6",
+      "sha256": "5d1d04f5685e9d270a68beea2c02b6ab90f208f4e3d7ded1722fe260608cfc14",
+      "bytes": 4159
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/page-turn-transitions/CubeRotate.tsx",
+      "upstreamPath": "demos/transition/page-turn-transitions/CubeRotate.tsx",
+      "gitBlob": "4f7fc507fef898b77f2c5b49ac88dca2bef749f5",
+      "sha256": "5270e37dd065f5646254ea7c3607ec93e623636486815079b6a5e23157a91f1f",
+      "bytes": 4227
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/paper-plane-messenger/PaperPlaneMessenger.tsx",
+      "upstreamPath": "demos/transition/paper-plane-messenger/PaperPlaneMessenger.tsx",
+      "gitBlob": "70b681b6e3a1498502a63904922ea23b0c92c11c",
+      "sha256": "9355c2bd64750b2d2ca0e7789d61029d10b6554689ce7eb4ea90ab109cee1d37",
+      "bytes": 9283
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/print-texture-transitions/InkBleedReveal.tsx",
+      "upstreamPath": "demos/transition/print-texture-transitions/InkBleedReveal.tsx",
+      "gitBlob": "aff073f62b26cba837e2cac22b9b46ea8a0ee6ed",
+      "sha256": "3f951b09da1fb2a8e1e618661c90a5e944649fa4be49118b536da3a8f39840f8",
+      "bytes": 3901
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/shot-transitions/BlackCardTransition.tsx",
+      "upstreamPath": "demos/transition/shot-transitions/BlackCardTransition.tsx",
+      "gitBlob": "d25146b01c3a4129301afd904f02fb3175ee8fa0",
+      "sha256": "4e4698247bb6bdd489ff34b46db292da07e616e575681eb13624b4f21d883561",
+      "bytes": 5738
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/shot-transitions/DarkTunnelTransition.tsx",
+      "upstreamPath": "demos/transition/shot-transitions/DarkTunnelTransition.tsx",
+      "gitBlob": "54a1691915343aa2cf55e552349004167d39901f",
+      "sha256": "526fd36c73b2aebbf01164900bc30e953bfa1361e76835d4efbfe47f7980ca67",
+      "bytes": 5041
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/shot-transitions/FocusHandoffTransition.tsx",
+      "upstreamPath": "demos/transition/shot-transitions/FocusHandoffTransition.tsx",
+      "gitBlob": "e0c0cf2eeafb4149806bea67dee8768cc71df79e",
+      "sha256": "00662137985de0d86b86cb882544189e6cf69276e8d849f45c7b2c23a84b679f",
+      "bytes": 3053
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/shot-transitions/MaskWipeReal.tsx",
+      "upstreamPath": "demos/transition/shot-transitions/MaskWipeReal.tsx",
+      "gitBlob": "c9ade69df85605cc896bea450a01e66b59069611",
+      "sha256": "92eb6e2a34f4f075b286e03fa4ee000fda8369ff5f3b2bd3a02964e2efff3713",
+      "bytes": 2830
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/shot-transitions/PortalWipeV2.tsx",
+      "upstreamPath": "demos/transition/shot-transitions/PortalWipeV2.tsx",
+      "gitBlob": "918d90cfce9e5c5f7341ffe9cead4fd31a092641",
+      "sha256": "037b4f5bdd9b5c3d73a11d2932acddc471127e7051c122aee0f6423b77f511c1",
+      "bytes": 4743
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/shot-transitions/WhipBrakeReal.tsx",
+      "upstreamPath": "demos/transition/shot-transitions/WhipBrakeReal.tsx",
+      "gitBlob": "094bc1067bcea2f5d0dfaa0fb523fcc4010558ef",
+      "sha256": "87c84d66f0675d921ca4cfd55a9fd9c5a5ba9a7717870d4b44c4c391c81ad063",
+      "bytes": 2418
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/shot-transitions/WhipPanReal.tsx",
+      "upstreamPath": "demos/transition/shot-transitions/WhipPanReal.tsx",
+      "gitBlob": "f8f47f5994310f1dc0ca103c4ce7bd020a4cbd96",
+      "sha256": "eda7132e8c2e142be87995b50a30e48c60c925872a9047c6bb8f54a8406be37f",
+      "bytes": 1942
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/tear-streak-transitions/GlitchDisplace.tsx",
+      "upstreamPath": "demos/transition/tear-streak-transitions/GlitchDisplace.tsx",
+      "gitBlob": "2d1cba23551a3da7876d0e46ef763efa31cb1d04",
+      "sha256": "4115ff91755da2c21f58962141dbbce3f6318a71d21b9cea8dc67be5f7cc93c6",
+      "bytes": 3654
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/transition-hidden-cut/InvisibleCut.tsx",
+      "upstreamPath": "demos/transition/transition-hidden-cut/InvisibleCut.tsx",
+      "gitBlob": "40a23a1e6adaa736fafb1f93cda1ed14dff82c76",
+      "sha256": "41e68ca391f37c1ca10288407283c38f71844ab7f796b36a37056d7c56f43ad5",
+      "bytes": 3598
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/transition-hidden-cut/LightLeakBurn.tsx",
+      "upstreamPath": "demos/transition/transition-hidden-cut/LightLeakBurn.tsx",
+      "gitBlob": "4c4557ab004274133e61a60a433dcc4588958255",
+      "sha256": "31e4be432a84e13d6fa233ef3aff4a40646d67b949e16e9a5bea2a8f7b62b5fb",
+      "bytes": 4656
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/transition-hidden-cut/VersusSlam.tsx",
+      "upstreamPath": "demos/transition/transition-hidden-cut/VersusSlam.tsx",
+      "gitBlob": "9d6a0adf41df5361eae42ee22cb0ca4752712d32",
+      "sha256": "ec0f28e508e4c3706a642798ed8516d90ef1b39c7350e1af15e0f5e9f4cb481a",
+      "bytes": 4291
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/transition-travel/LetterformZoom.tsx",
+      "upstreamPath": "demos/transition/transition-travel/LetterformZoom.tsx",
+      "gitBlob": "77f50d94d11f5f1780e50a5a95605d2f97f58782",
+      "sha256": "272b01d64d73252aab1b70b8f6214656d046704266ca06e5306edb66fc75da13",
+      "bytes": 5295
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/transition-travel/SharedElementMorph.tsx",
+      "upstreamPath": "demos/transition/transition-travel/SharedElementMorph.tsx",
+      "gitBlob": "8fdd60fbdfd8a28c9b5184d40622fadfe0aab50c",
+      "sha256": "fe5d3a1071e71cce96470939bb6f4b4e7dc52e61058697ffa010c3e17e3521f3",
+      "bytes": 3743
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/white-flash-logo-simplify-cut/WhiteFlashLogoSimplifyCut.tsx",
+      "upstreamPath": "demos/transition/white-flash-logo-simplify-cut/WhiteFlashLogoSimplifyCut.tsx",
+      "gitBlob": "9c5a3d29d001064b0a1f18229b315e71702e257c",
+      "sha256": "3799ba945628b14b28232b7be2a193ef0669faf47f3f62686a8cd4af58eb29d3",
+      "bytes": 3868
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/wipe-transitions/BlindsSlice.tsx",
+      "upstreamPath": "demos/transition/wipe-transitions/BlindsSlice.tsx",
+      "gitBlob": "175f8d075a3dd6281cbbed55cb65fab2ee005790",
+      "sha256": "9b650fc5e84c438a016f16f14afb2509f73ccf33eb3ec5b3d2d49cc9a637dd0e",
+      "bytes": 4339
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/transition/wipe-transitions/ClockWipe.tsx",
+      "upstreamPath": "demos/transition/wipe-transitions/ClockWipe.tsx",
+      "gitBlob": "ea3b9e281d9772170aaf737ea09418e968bbd282",
+      "sha256": "44a9acb719879eb491d20aa52119cda5d0517e9799d2d0c8ac996c6fd3689ad7",
+      "bytes": 3393
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/blur-slide/BlurSlide.tsx",
+      "upstreamPath": "demos/typography/blur-slide/BlurSlide.tsx",
+      "gitBlob": "e143dff3a9d38c180797a78832139547a4f74dfd",
+      "sha256": "1ad15a7dd560d43fe4a6f40a823d69d6f87ac4f5fc31196f556b31342fd8932f",
+      "bytes": 2681
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/brace-expand/BraceExpand.tsx",
+      "upstreamPath": "demos/typography/brace-expand/BraceExpand.tsx",
+      "gitBlob": "9c44eb34131e6b0d1016421e467c5ec2c01ad4c7",
+      "sha256": "ef6f5f379c7c785d9b6d9129095920b683a380b0e6eae14d12cb703dcc6c8cb8",
+      "bytes": 2721
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/brand-ink-open/BrandInkOpen.tsx",
+      "upstreamPath": "demos/typography/brand-ink-open/BrandInkOpen.tsx",
+      "gitBlob": "6b74cbe5a1f2465931a3d79fa20117844d2d81eb",
+      "sha256": "87896a0e2a0fdf78f07c49759031ed680318b951fb1ca75e2aab4dc503bc0937",
+      "bytes": 6035
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/cel-flash-stomp/CelFlashStomp.tsx",
+      "upstreamPath": "demos/typography/cel-flash-stomp/CelFlashStomp.tsx",
+      "gitBlob": "726edba9069a417019cd3dcefb9dffb763c63ca6",
+      "sha256": "f165ca8da06930e0211e34ad52c269023b3303f89dbb08495e5ebf092d7ed6a6",
+      "bytes": 4314
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/countdown-arc-scatter/CountdownArcScatter.tsx",
+      "upstreamPath": "demos/typography/countdown-arc-scatter/CountdownArcScatter.tsx",
+      "gitBlob": "6f705f704eb1efa59f3a7a1289c797a66a358a31",
+      "sha256": "ab1c55fff0b9122fa06d7ec87f3e21b3c1cbc716e50d8bab0f910ffb3cb7c571",
+      "bytes": 5400
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/flying-words/FlyingWords.tsx",
+      "upstreamPath": "demos/typography/flying-words/FlyingWords.tsx",
+      "gitBlob": "f89faff8ba6ef76c37f6608436ba9d2ee17c48ca",
+      "sha256": "d82f4a34b0b14538cf6404c1dcfa5468a185eb5fa2bd5000595365356387c0b3",
+      "bytes": 4608
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/glitch-cycle/GlitchCycle.tsx",
+      "upstreamPath": "demos/typography/glitch-cycle/GlitchCycle.tsx",
+      "gitBlob": "3b9c26e5bbfd4bb6f9ef7126ed71e19c2845c9fb",
+      "sha256": "ee7489eb08b840a1989aedc2aa10d3f008e95d256f336ae89cb287230528be1a",
+      "bytes": 3954
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/gradient-word-sweep/GradientWordSweep.tsx",
+      "upstreamPath": "demos/typography/gradient-word-sweep/GradientWordSweep.tsx",
+      "gitBlob": "1979f8cf530129ee3107bf2f4e9c16d3170fb6df",
+      "sha256": "36f6c2deadea09748bc3894c9d8e1960dfce42996fed370f8e193cc0dacc6799",
+      "bytes": 10635
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/lead-word-zoom-assemble/LeadWordZoomAssemble.tsx",
+      "upstreamPath": "demos/typography/lead-word-zoom-assemble/LeadWordZoomAssemble.tsx",
+      "gitBlob": "2dc511a609740d280a98bf09ae4a02c55a7a5eb5",
+      "sha256": "6b6faf14bf6d00fbd81bf0a6085ea7ea979c9ff473d81c3bb6c0bf479ab3b3a5",
+      "bytes": 9314
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/marker-underline-title/MarkerUnderlineTitle.tsx",
+      "upstreamPath": "demos/typography/marker-underline-title/MarkerUnderlineTitle.tsx",
+      "gitBlob": "ab2ab90bfe952d90bc8d8cd365c2d85aaa8c4a73",
+      "sha256": "5881cb0b5e38b53eec9dae5093b9dfdb4c69d5b6cf76cf587bc9b123d0e38477",
+      "bytes": 3788
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/outline-word-fill/OutlineWordFill.tsx",
+      "upstreamPath": "demos/typography/outline-word-fill/OutlineWordFill.tsx",
+      "gitBlob": "1c431552115d799b4f1243bb1dfe95df4c5eb159",
+      "sha256": "66f522bf6e6f1034f5386d516d20ff36fcc23fc0bf1e418f83d1fd432846c9bf",
+      "bytes": 4901
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/paper-title-card/PaperTitleCard.tsx",
+      "upstreamPath": "demos/typography/paper-title-card/PaperTitleCard.tsx",
+      "gitBlob": "f2df06e72692e81d9cc3bdeaaf89d2674895ba3b",
+      "sha256": "5ab4b473e631c2863d6033be22231a07afce2b29d08322d5ba821607c2642a16",
+      "bytes": 5901
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/pill-chip-slot-cycle-handled/PillChipSlotCycleHandled.tsx",
+      "upstreamPath": "demos/typography/pill-chip-slot-cycle-handled/PillChipSlotCycleHandled.tsx",
+      "gitBlob": "759e94c2636128aedb0c41a94acc6b941eacf179",
+      "sha256": "0daa028b6476a5d43cc0c8ccf5d45203b161d3f0b99d7dc24e01b4b37cad3bad",
+      "bytes": 5152
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/pill-slot-cycle/PillSlotCycle.tsx",
+      "upstreamPath": "demos/typography/pill-slot-cycle/PillSlotCycle.tsx",
+      "gitBlob": "08c5363f724527016c5b95657b326a0170b457af",
+      "sha256": "a8db19162d267d107904fd8e46573e9b74854bcbf871dd604fac56ff58b87f2f",
+      "bytes": 6369
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/scramble/Scramble.tsx",
+      "upstreamPath": "demos/typography/scramble/Scramble.tsx",
+      "gitBlob": "d430d04a7974c0648d91d9e2fa15d240e4e768b1",
+      "sha256": "5ca76d50731f228fb46076706c9442acc03d9afaed903f6ca8cfff8c36787081",
+      "bytes": 2368
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/split-flap-title/SplitFlapFlip.tsx",
+      "upstreamPath": "demos/typography/split-flap-title/SplitFlapFlip.tsx",
+      "gitBlob": "ea6a0a163a2ed6d5b1fe1fa47bf1d12791d0304b",
+      "sha256": "bbd82fe1d80cffa5a79a1018ac160a240cca38fe242cfbc8c950ab7e3470fa05",
+      "bytes": 5807
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/text-column-converge/TextColumnConverge.tsx",
+      "upstreamPath": "demos/typography/text-column-converge/TextColumnConverge.tsx",
+      "gitBlob": "4f4a231498facfc1b2553908b613950052b3e20d",
+      "sha256": "786fbf0226ab8e8e4c38f2635a4e9a3368adcf04c0fe00195f54a018486fdf23",
+      "bytes": 4724
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/title-demote-to-label/TitleDemoteToLabel.tsx",
+      "upstreamPath": "demos/typography/title-demote-to-label/TitleDemoteToLabel.tsx",
+      "gitBlob": "292b751f2209766cb9d1398f67c4217c45fae538",
+      "sha256": "ffcfee81a30bfef2ad6b579710824e0ea6086dd5dc644a42f760987011ea0b97",
+      "bytes": 5560
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/type-assembly-moves/LetterformDriftAssembly.tsx",
+      "upstreamPath": "demos/typography/type-assembly-moves/LetterformDriftAssembly.tsx",
+      "gitBlob": "9f66652b23bd5ba58cdd67066ae370c505271a17",
+      "sha256": "dcf5a649fff38bb56b5147b8eb8b70240421ee7b6a82e193efe6b8843c829075",
+      "bytes": 4145
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/type-assembly-moves/SplitTextStagger.tsx",
+      "upstreamPath": "demos/typography/type-assembly-moves/SplitTextStagger.tsx",
+      "gitBlob": "a0595544ef39fe41ad177f80bf1aaf325720bed1",
+      "sha256": "314fae39b2cd73d031ebfb58fc65d850c9cce01924e5c926155ccfc0f84b5bd5",
+      "bytes": 3779
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/type-assembly-moves/TextOnPath.tsx",
+      "upstreamPath": "demos/typography/type-assembly-moves/TextOnPath.tsx",
+      "gitBlob": "368f81f7e8172fc0750b9299e6d1e38d0bbce148",
+      "sha256": "98f06f0adb9cd5a479fe2a55ac16f1f589bfae707f29163454e7da71dbc8618b",
+      "bytes": 3994
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/type-assembly-moves/TrackingExpandReveal.tsx",
+      "upstreamPath": "demos/typography/type-assembly-moves/TrackingExpandReveal.tsx",
+      "gitBlob": "4d820c13e5773fe92cff8cee647f92fca0bc51ab",
+      "sha256": "86880648f010b1b39a0500152d3ac0bfb10622f17c0dbf6dd243af64dbe11732",
+      "bytes": 3970
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/type-entrance-moves/LetterDropPhysics.tsx",
+      "upstreamPath": "demos/typography/type-entrance-moves/LetterDropPhysics.tsx",
+      "gitBlob": "dc657f3441a05b095cbd553af6764fa4a115f3a1",
+      "sha256": "1aefaaba267e4b7084b094c18c35a818da2ba91d4260412ed9ee0e8197e9b442",
+      "bytes": 3824
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/type-entrance-moves/ScrambleDecode.tsx",
+      "upstreamPath": "demos/typography/type-entrance-moves/ScrambleDecode.tsx",
+      "gitBlob": "854997f7b76869c259be1756b8a631c7a8496f84",
+      "sha256": "73a045306c38a5fd2b08bf505bf0226a25c3bb520bb77d5e9158d9a2c49660eb",
+      "bytes": 3195
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/type-rhythm-sync/FontWeightPump.tsx",
+      "upstreamPath": "demos/typography/type-rhythm-sync/FontWeightPump.tsx",
+      "gitBlob": "1d454f59798fa77072c302d9fed1d75ccc528f91",
+      "sha256": "a79557ac62b13fce83f2477ba15dadebb641006acd1d20f1b2d941f465e7671c",
+      "bytes": 3859
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/type-rhythm-sync/KaraokeFillSync.tsx",
+      "upstreamPath": "demos/typography/type-rhythm-sync/KaraokeFillSync.tsx",
+      "gitBlob": "09dbf8cebe83ece20c4c7f6d43c3a2e3ece9085e",
+      "sha256": "eddd5a37905bbc7be54066a349dec2c48ebc1e856b30b9f6de906b6c6a374579",
+      "bytes": 3023
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/typewriter-moves/TerminalTypewriter.tsx",
+      "upstreamPath": "demos/typography/typewriter-moves/TerminalTypewriter.tsx",
+      "gitBlob": "08511a7cd4dcc1b4e9dde486d1cdc8760a8ce400",
+      "sha256": "e589839ebf66e85c8710ddaf16f7eca4b8d994d16851345038f6cadcf6456f72",
+      "bytes": 4784
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/typewriter-moves/TypewriterErrorRetype.tsx",
+      "upstreamPath": "demos/typography/typewriter-moves/TypewriterErrorRetype.tsx",
+      "gitBlob": "5c85f703e85d6535b7143f71bb86e11c2f679d84",
+      "sha256": "5af87340386005641592173da47d049a53b965db7bb7c2bc8a9a0f77d3821560",
+      "bytes": 3876
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/typing-code-block/TypingCodeBlock.tsx",
+      "upstreamPath": "demos/typography/typing-code-block/TypingCodeBlock.tsx",
+      "gitBlob": "ccc2dd30e4d42e74106e71fe998144fd9c7424a4",
+      "sha256": "2dafbfe43455a645865ffed317f414fc1855342e98375a56da5a76ce61b10724",
+      "bytes": 3680
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/vertical-word-roll-blur-cycle/VerticalWordRollBlurCycle.tsx",
+      "upstreamPath": "demos/typography/vertical-word-roll-blur-cycle/VerticalWordRollBlurCycle.tsx",
+      "gitBlob": "bc33a044b5aa115c61a3aa9ecfb8269d644e4ecb",
+      "sha256": "b5f5adb87fdd07730759926e765bc4ce81ee97e47cc4379bd98b4c7a5e14b634",
+      "bytes": 3898
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/word-relay-filmstrip/WordRelayFilmstrip.tsx",
+      "upstreamPath": "demos/typography/word-relay-filmstrip/WordRelayFilmstrip.tsx",
+      "gitBlob": "c326c92f400dc173ae09613c8d6e91c5e4d988eb",
+      "sha256": "683f51fb630b93d1dddc4918e8a9e3d694e509f420df1645936590ce8e551f5a",
+      "bytes": 15462
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/typography/word-relay-geometry/WordRelayGeometry.tsx",
+      "upstreamPath": "demos/typography/word-relay-geometry/WordRelayGeometry.tsx",
+      "gitBlob": "69cc9565ee1208133696eacfb536ab28c828083b",
+      "sha256": "02d2a038ab576b6743bf417572694e09833fed49319174c3005712e6fd0ffc7b",
+      "bytes": 7079
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/avatar-bracket-carousel/AvatarBracketCarousel.tsx",
+      "upstreamPath": "demos/ui-entrance/avatar-bracket-carousel/AvatarBracketCarousel.tsx",
+      "gitBlob": "c5745442f229c497ad7fc9f7fcebd3d917fec6f4",
+      "sha256": "b9f125b0f4f1f9ff6a41a05147a7111e85e89015e73e0223b843a87523715efc",
+      "bytes": 4591
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/bezier-source-converge-merge/BezierSourceConvergeMerge.tsx",
+      "upstreamPath": "demos/ui-entrance/bezier-source-converge-merge/BezierSourceConvergeMerge.tsx",
+      "gitBlob": "9305eda680dec913e86cff8aac752d3c9d45b15d",
+      "sha256": "a58bdab4308a4f6d92282b969c494359547445b4f8ac92d3742798d31a6adf07",
+      "bytes": 11031
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/card-stack/CardStack.tsx",
+      "upstreamPath": "demos/ui-entrance/card-stack/CardStack.tsx",
+      "gitBlob": "e3b0db6ed69bb14a2afe0d8204d10be98293cbf4",
+      "sha256": "52d1175ca2e1cbe3cc8cd9eb60d723dfef392b500ee3c22d8dc87b47ec8c4f2d",
+      "bytes": 3837
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/carousel-3d/Carousel3D.tsx",
+      "upstreamPath": "demos/ui-entrance/carousel-3d/Carousel3D.tsx",
+      "gitBlob": "860468a7bfa4339994cd1f71947bddda71f93a60",
+      "sha256": "1cd70294e4f695a576c92c2db27d697f2f5b28a7b63788a8f406965a83470006",
+      "bytes": 5032
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/clipcard-looping/ClipCardLooping.tsx",
+      "upstreamPath": "demos/ui-entrance/clipcard-looping/ClipCardLooping.tsx",
+      "gitBlob": "7784c8427fe1db30f2802d4dcb3419fa208ae702",
+      "sha256": "7cb55dade7c7d38b5678e7d84979c49a3ff3ca7a5a2683fdf49b13979477bc40",
+      "bytes": 2967
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/cloner-depth-echo/ClonerDepthEcho.tsx",
+      "upstreamPath": "demos/ui-entrance/cloner-depth-echo/ClonerDepthEcho.tsx",
+      "gitBlob": "6baa7a41313a74426a207f54ca3a1c0b9ef72a84",
+      "sha256": "de76c070fe29cff792e4b49602d4934fcc3ac55f8ec0786713311a26b407a3cb",
+      "bytes": 3447
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/deck-deal-flyin/DeckDealFlyin.tsx",
+      "upstreamPath": "demos/ui-entrance/deck-deal-flyin/DeckDealFlyin.tsx",
+      "gitBlob": "6cac1614fc0acd66ee3688ac833e11c3d1ba8d37",
+      "sha256": "4738e54d707a82847d1a5081af88876a872465eb3ead94f1c7682acf8e5a251a",
+      "bytes": 9182
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/doc-park-left-pill-deal/DocParkLeftPillDeal.tsx",
+      "upstreamPath": "demos/ui-entrance/doc-park-left-pill-deal/DocParkLeftPillDeal.tsx",
+      "gitBlob": "5389ea1efc154d4eb90a81bf09926c8ce9c32649",
+      "sha256": "852b32b59cc3a894d789ba5e18029bc1e67b70757775488c6fb0b83ce4cb100a",
+      "bytes": 9854
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/document-typewriter-reveal/DocumentTypewriterReveal.tsx",
+      "upstreamPath": "demos/ui-entrance/document-typewriter-reveal/DocumentTypewriterReveal.tsx",
+      "gitBlob": "1c38c6a2181d89fbbeb168d6ffa2fb54d4af9a6e",
+      "sha256": "ba67561fb578558ce70504bd6f84e826220fdaacdf9329023d3fd33004843493",
+      "bytes": 9477
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/draw-svg-trace/DrawSvgTrace.tsx",
+      "upstreamPath": "demos/ui-entrance/draw-svg-trace/DrawSvgTrace.tsx",
+      "gitBlob": "7db25fadc0b57e62c859503f3e52d36301fbfc1c",
+      "sha256": "654e26eef7357c64a828a6cbbd790331f9865e0e9c18768de15de46c281aacf5",
+      "bytes": 6787
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/element-body-moves/AxialStretch.tsx",
+      "upstreamPath": "demos/ui-entrance/element-body-moves/AxialStretch.tsx",
+      "gitBlob": "eeba2ec773145ca3f2c3d31ec2fdec5c4ec6be36",
+      "sha256": "90979985198b44c1fc620e2a8eaad86c09b2d013533d6528ef8892919c86c259",
+      "bytes": 3945
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/element-body-moves/ContactShadowLift.tsx",
+      "upstreamPath": "demos/ui-entrance/element-body-moves/ContactShadowLift.tsx",
+      "gitBlob": "d583df4e7838fe8417d9dad030871bb5ad7586e0",
+      "sha256": "f29a6d77b407b9c6ad8caa8fe9e5c12cfa2d51202d6ea8258cae5015a736843c",
+      "bytes": 4513
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/floating-glossy-label-pills/FloatingGlossyLabelPills.tsx",
+      "upstreamPath": "demos/ui-entrance/floating-glossy-label-pills/FloatingGlossyLabelPills.tsx",
+      "gitBlob": "913076b0264d6a4655eb019f27a8b02dc1736d02",
+      "sha256": "4bb7d460ac6201e58b8df4a1f5c6feea06f1f860cd3605b926a5ae138681a0e1",
+      "bytes": 15894
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/integration-hub-map/IntegrationHubMap.tsx",
+      "upstreamPath": "demos/ui-entrance/integration-hub-map/IntegrationHubMap.tsx",
+      "gitBlob": "34f658cf3b1aebe5afd9708dff779ab2ccb2a076",
+      "sha256": "fcd9ed29f4f0ca41a05377f31459c2dba664784ea7f5c900abefabc2dc59f3c9",
+      "bytes": 22466
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/list-reveal/ListReveal.tsx",
+      "upstreamPath": "demos/ui-entrance/list-reveal/ListReveal.tsx",
+      "gitBlob": "e6f00b15edfe22b2f87287ed246c7ae71920c66b",
+      "sha256": "ac1eb531a625376e355b1970e6a7774e726b7752914544f36ae7ce096f237792",
+      "bytes": 3087
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/list-stack-press/ListStackPress.tsx",
+      "upstreamPath": "demos/ui-entrance/list-stack-press/ListStackPress.tsx",
+      "gitBlob": "39cb0b7275a1df2eb90d0bf31ec2ac8cf29159dd",
+      "sha256": "6649fa6321663c6b54c9ca326147917d89a2dfd61d582954b996c7dd83c878db",
+      "bytes": 8794
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/morph-from-primitive/MorphFromPrimitive.tsx",
+      "upstreamPath": "demos/ui-entrance/morph-from-primitive/MorphFromPrimitive.tsx",
+      "gitBlob": "4ad1177bcca6037b8712e137176aa1503f19da7a",
+      "sha256": "f18d82ce6675be5c0b097969285a973c122633f2844fd1c4a81cc1c6a97a0d5e",
+      "bytes": 6303
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/neon-frame-forerun/NeonFrameForerun.tsx",
+      "upstreamPath": "demos/ui-entrance/neon-frame-forerun/NeonFrameForerun.tsx",
+      "gitBlob": "d47a6aed8db6d09173ae044e77d2b99b2db2b1b7",
+      "sha256": "008a3b01017c88bb445e7faf916ad4857949c91e9603373edfdb92c23bb4b9a0",
+      "bytes": 14086
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/neon-frame-orbit-drop/NeonFrameForerunOrbit.tsx",
+      "upstreamPath": "demos/ui-entrance/neon-frame-orbit-drop/NeonFrameForerunOrbit.tsx",
+      "gitBlob": "360ca28b7caa00d1b571bf596d4e7f4ddbf0b1c4",
+      "sha256": "5005f06992ef674174dc09979bde3314419dd4dead19cf3e4580b248cdca8521",
+      "bytes": 13670
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/page-waterfall-wall/PageWaterfallWall.tsx",
+      "upstreamPath": "demos/ui-entrance/page-waterfall-wall/PageWaterfallWall.tsx",
+      "gitBlob": "37925464792de3f733a62ba6634ca32f91f72d4d",
+      "sha256": "b3e2de8674a22c0d1f523db4bf40443447e143b35b7d3ecd81ff3ea8db4f9f79",
+      "bytes": 2050
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/page-waterfall-wall/VerticalTicker.tsx",
+      "upstreamPath": "demos/ui-entrance/page-waterfall-wall/VerticalTicker.tsx",
+      "gitBlob": "fe859dd53dca3998a59b6760e71380abb92a9135",
+      "sha256": "e4f90b838559beae465c6bb08736c00097bb0107d6dd4a378f64308e2acf1bae",
+      "bytes": 4082
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/paper-craft-moves/MaskingTapeSlap.tsx",
+      "upstreamPath": "demos/ui-entrance/paper-craft-moves/MaskingTapeSlap.tsx",
+      "gitBlob": "2a2a1b588bb3003f0adb64e7ffd51aac00488608",
+      "sha256": "5d36af725cbc9268cc23b039208a7cd21b2237d6e73f7929e20beddb1a481340",
+      "bytes": 5951
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/paper-craft-moves/PopupBookRise.tsx",
+      "upstreamPath": "demos/ui-entrance/paper-craft-moves/PopupBookRise.tsx",
+      "gitBlob": "b6b33955a8a3bae1b7575909df10fb06a70020a7",
+      "sha256": "f1baa230ff76c80de5a60ed52e7c667b7f24acca0ac5971c7ed90a8da3cbbf11",
+      "bytes": 5586
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/platform-hinge-rise/PlatformHingeRise.tsx",
+      "upstreamPath": "demos/ui-entrance/platform-hinge-rise/PlatformHingeRise.tsx",
+      "gitBlob": "26b22e7920f0beadfe07a1f8eaca4756df560318",
+      "sha256": "858dafe77b967512ad42f0a579ad6042944b5f9201198bd2e11139298e0f2557",
+      "bytes": 5076
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/product-card-progressive-assemble/ProductCardProgressiveAssemble.tsx",
+      "upstreamPath": "demos/ui-entrance/product-card-progressive-assemble/ProductCardProgressiveAssemble.tsx",
+      "gitBlob": "10a030b55769aeb4f362e6d3ed73b87d48241c9b",
+      "sha256": "e0586d6b7869c5fee3828272be21cf68d4e93bc13d190732b46be365c77f998c",
+      "bytes": 7055
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/radial-wave/RadialWave.tsx",
+      "upstreamPath": "demos/ui-entrance/radial-wave/RadialWave.tsx",
+      "gitBlob": "b437db042edd13e6166d95759d53dc1fb861ab23",
+      "sha256": "e0c954b2c9d400f68933e7f58c1edd2120493271f46a768fe638b3c8cba6809c",
+      "bytes": 2010
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/research-card-stack-scroll/ResearchCardStackScroll.tsx",
+      "upstreamPath": "demos/ui-entrance/research-card-stack-scroll/ResearchCardStackScroll.tsx",
+      "gitBlob": "7818b1e602dea7253c241d697972de438d0b4812",
+      "sha256": "a9747d38a761cb499d9b7c1c41eecbc151fae9bf767edc0818b11a57a92d7983",
+      "bytes": 6067
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/row-embed/RowEmbed.tsx",
+      "upstreamPath": "demos/ui-entrance/row-embed/RowEmbed.tsx",
+      "gitBlob": "c6e8e2ec01eeac706a7530e059f334549a7cb9ce",
+      "sha256": "e1fc03102ca9164a3d6fc81133996f10fc1e075820d7800f7554745a68b37b37",
+      "bytes": 5032
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/runway-ground-skim/RunwayGroundSkim.tsx",
+      "upstreamPath": "demos/ui-entrance/runway-ground-skim/RunwayGroundSkim.tsx",
+      "gitBlob": "7e7454fa3c936678b678bfe3d94e04ab2bf325a2",
+      "sha256": "e2197acf61a4fbfd29faa912ef7354a1d13c8f2662256aa9757ab7c1f1415a8d",
+      "bytes": 13458
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/skeleton-reveal/SkeletonReveal.tsx",
+      "upstreamPath": "demos/ui-entrance/skeleton-reveal/SkeletonReveal.tsx",
+      "gitBlob": "430bf921d3a3f887426cd00c1c8212534d15bfa9",
+      "sha256": "a2338fd7daf9988805794b69ed1c75f2a035dae1336a7cca65ee3eb3534d5c47",
+      "bytes": 10984
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/svg-shape-morph/SvgShapeMorph.tsx",
+      "upstreamPath": "demos/ui-entrance/svg-shape-morph/SvgShapeMorph.tsx",
+      "gitBlob": "74ecb5139d3597de9360b710b68c99a24a84cbbf",
+      "sha256": "9e6bfaca697bd36837b3c31163d607863942570daaa0b5abda0c0c5f131172ed",
+      "bytes": 2918
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/value-stagger-gradient/ValueStaggerGradient.tsx",
+      "upstreamPath": "demos/ui-entrance/value-stagger-gradient/ValueStaggerGradient.tsx",
+      "gitBlob": "2b3d70add15420f3189e6b4cfebaa4d15b9823dc",
+      "sha256": "bff99f80839ed7e323cc38c85f61bbf4ce0e609e75a9e89645718e3e1ab053f7",
+      "bytes": 3928
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/wall-reveal-moves/BentoLightUp.tsx",
+      "upstreamPath": "demos/ui-entrance/wall-reveal-moves/BentoLightUp.tsx",
+      "gitBlob": "c542f1ef73319adf43a24f1d1e1361def44ae824",
+      "sha256": "eccb4c2211af30cb26b391ea734c326599958906411e9a3c019acfeceb87fd69",
+      "bytes": 4787
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/wall-reveal-moves/GridWaveFlip.tsx",
+      "upstreamPath": "demos/ui-entrance/wall-reveal-moves/GridWaveFlip.tsx",
+      "gitBlob": "285f183b4983ea944b7b4e0bfd55026e35218ba1",
+      "sha256": "c39a5cabdca00167d3354667442b4de477b76a36576815abc483609f1198f481",
+      "bytes": 5958
+    },
+    {
+      "path": "assets/community/video-shotcraft/demos/ui-entrance/wall-reveal-moves/WireframeDrawOn.tsx",
+      "upstreamPath": "demos/ui-entrance/wall-reveal-moves/WireframeDrawOn.tsx",
+      "gitBlob": "d64f2a7ac78e3706858d2fed2f23edb29d98910b",
+      "sha256": "18d2fc4192a67dbfdcfca390d753eb52f6bcb50be316b71480e54ed32208558f",
+      "bytes": 5453
+    },
+    {
+      "path": "assets/community/video-shotcraft/package.json",
+      "upstreamPath": "package.json",
+      "gitBlob": "df65c697c24a3e9829b4139a5ee024addcc2fd9e",
+      "sha256": "10d5f1239f420ded5bd544034d97dd22d8172ec01afab3f3e39481d74cf4e36d",
+      "bytes": 250
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/ATTRIBUTION.md",
+      "upstreamPath": "references/shots/ATTRIBUTION.md",
+      "gitBlob": "ed4ddc101df31b424a4de4feda198a34cbf45277",
+      "sha256": "3853b1a686e1ce3ad52884af392167c1e659a48da5b0d435f031386c738f1f0c",
+      "bytes": 5575
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/camera/basic-3d-scene.md",
+      "upstreamPath": "references/shots/camera/basic-3d-scene.md",
+      "gitBlob": "ce3367e26d517f7918cf9860dc1a3d24acceb194",
+      "sha256": "5783a05d2081d94e7d4b382615d6d7c369e700bdd0947dc02dfded61661af298",
+      "bytes": 3028
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/camera/crash-zoom-punch.md",
+      "upstreamPath": "references/shots/camera/crash-zoom-punch.md",
+      "gitBlob": "f641bf9ac3171cae8de35db5ab0d69bb7816e938",
+      "sha256": "7ff7214d17dc305718683ae15b308ab6704a2cc82ee82a6afe9db5cbe7a417f4",
+      "bytes": 2044
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/camera/cursor-flyover.md",
+      "upstreamPath": "references/shots/camera/cursor-flyover.md",
+      "gitBlob": "5690432d27467a483ac7d6bec606b5a039be2de8",
+      "sha256": "811e8864bc9ab325ec2699d3945edadf9b5a07191356e14b35d92d7adf5783f5",
+      "bytes": 2925
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/camera/depth-layer-moves.md",
+      "upstreamPath": "references/shots/camera/depth-layer-moves.md",
+      "gitBlob": "fc0155d338c8825e86d5e0c1c36d2d5dec555b45",
+      "sha256": "3caa8ebc9c5ae5af8dfe3932f43bc88c1f1bd5d4e6980a0c0461be121bcf1acc",
+      "bytes": 2254
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/camera/graze-face-tour.md",
+      "upstreamPath": "references/shots/camera/graze-face-tour.md",
+      "gitBlob": "392c9ac0ba57afff07e2ae5c05c93c361ba8ec48",
+      "sha256": "5ce46610dee7fbdd5d07679353d71c464ba8797273351bc8dbaac5182db5b9a3",
+      "bytes": 3630
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/camera/overhead-camera-moves.md",
+      "upstreamPath": "references/shots/camera/overhead-camera-moves.md",
+      "gitBlob": "429cab3b09742c0137d47a0d65ca827160dce51b",
+      "sha256": "3ae9c44dbaae7ff0bef4e6d3ea5357985e88f9813f8720f62127900d0bd4d7ce",
+      "bytes": 3435
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/camera/space-camera-moves.md",
+      "upstreamPath": "references/shots/camera/space-camera-moves.md",
+      "gitBlob": "501965c754b475c727246d2e83229cfbee18e3b9",
+      "sha256": "0ae6452bf1fefca34b7dc6b7761e98ff4347b3654873c046183b1a8e07ed26f9",
+      "bytes": 3192
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/camera/steep-tilt-glide.md",
+      "upstreamPath": "references/shots/camera/steep-tilt-glide.md",
+      "gitBlob": "0d35b7f2df77d958ae8bf97f860a9e5d8e78ae2e",
+      "sha256": "6dfdc1e8f114dfbe75f2eb6a7c0824930fbf77d83a2368818088f0cc05881703",
+      "bytes": 3218
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/camera/tension-camera-moves.md",
+      "upstreamPath": "references/shots/camera/tension-camera-moves.md",
+      "gitBlob": "61d7c3cae8d01c2cf8c4ad43a22f23d096fa30a0",
+      "sha256": "6612ba598559261d2bb556bd536eeb1659490102a48b57e034fe053e10774631",
+      "bytes": 4763
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/camera/terminal-3d.md",
+      "upstreamPath": "references/shots/camera/terminal-3d.md",
+      "gitBlob": "92fc28436b8f8a3b99314529c4be75dca839b657",
+      "sha256": "956b483a20e9bf49c192b53ed060fa9690cc5eee771e0d3ca29758768836bb4c",
+      "bytes": 2962
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/data/avatar-grid-radial-build-colorize.md",
+      "upstreamPath": "references/shots/data/avatar-grid-radial-build-colorize.md",
+      "gitBlob": "7218541c577201e5df5cfae5dc4a9abbbc04a8c5",
+      "sha256": "d63d83204608f29f8798726efa3e97800bc04fb15e98a23a2abe14a04d0ed033",
+      "bytes": 3305
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/data/before-after-slider-scrub.md",
+      "upstreamPath": "references/shots/data/before-after-slider-scrub.md",
+      "gitBlob": "2c30538c520c4d950a0787ac0ee7a4b84d9cb916",
+      "sha256": "32b23cedd2529e9b51ea2061f1eecfbee391bb4dc56bcd420fc48426af54d278",
+      "bytes": 2390
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/data/chart-live-moves.md",
+      "upstreamPath": "references/shots/data/chart-live-moves.md",
+      "gitBlob": "cc9c8aea4de2072c753d520aec7c108b5f2bd7fb",
+      "sha256": "a24e5d3711e75d00670d0cb7595f684cf02fd7ddebadafd2fc12974e273359b9",
+      "bytes": 3375
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/data/counter-confetti.md",
+      "upstreamPath": "references/shots/data/counter-confetti.md",
+      "gitBlob": "51c843b0bd3ed47ba1029ce66f21efe9e2b1a8f9",
+      "sha256": "9a05ad8cb6b0c43b5457b5dc6012b44103fde5094ac016f61dd5bfe1c13e74fa",
+      "bytes": 2888
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/data/cycle-glass-node-morph.md",
+      "upstreamPath": "references/shots/data/cycle-glass-node-morph.md",
+      "gitBlob": "779de6c8842000b0449e16057062f21f6f790355",
+      "sha256": "3844ed591b51daa5957c98c86bfe25f3007a9dfcbdc4c8c60aae19ec8349cd67",
+      "bytes": 4440
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/data/gauge-readout-moves.md",
+      "upstreamPath": "references/shots/data/gauge-readout-moves.md",
+      "gitBlob": "512c96b51e886d6dc6e7260eeccea73fcaa08735",
+      "sha256": "dbd2801aa6ce647725230216e8d4bc593e6ad91f097ad3e4d3555211d7966698",
+      "bytes": 2755
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/data/hatch-depth.md",
+      "upstreamPath": "references/shots/data/hatch-depth.md",
+      "gitBlob": "9ffa17463d54808fc910f2d9d4877d9a00186651",
+      "sha256": "92d1b1a213ee077a7fb9c4615da26d90543d2e22c26888c61f7a15f51ff534ca",
+      "bytes": 2982
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/data/odometer-digit-roll.md",
+      "upstreamPath": "references/shots/data/odometer-digit-roll.md",
+      "gitBlob": "b0dd008c93284d8d14ae459c5279ec386ea923b6",
+      "sha256": "8f8b356fc57d914d4b324244fe437b232fe10030d212482a31b19a932c56513c",
+      "bytes": 3317
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/data/particle-celebrate-hits.md",
+      "upstreamPath": "references/shots/data/particle-celebrate-hits.md",
+      "gitBlob": "20a89b7c83aa22820d38951654395d276423990f",
+      "sha256": "8b26015c0ca9cd1f4a4ea43534ce7e4e5931795ee57357f228aac0d9fd7613cb",
+      "bytes": 2715
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/data/particle-sand-fill.md",
+      "upstreamPath": "references/shots/data/particle-sand-fill.md",
+      "gitBlob": "5626c388760aef43e397752e84312a593e7e4bb5",
+      "sha256": "cff599b6d2ee509dc0aa393a1ed26f62806e1c589f08c4c6f20ba32fc19ae237",
+      "bytes": 2192
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/data/ring-diagram-annotation-reveal.md",
+      "upstreamPath": "references/shots/data/ring-diagram-annotation-reveal.md",
+      "gitBlob": "8e3bb7dd2db9d5dc78d5f6fa143d7109be6ef3cc",
+      "sha256": "bb43f7de5e3e699bd5298b3d11a245d292bde96d5db21b84a4698705d7e77dd1",
+      "bytes": 3951
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/data/scroll-brake-moves.md",
+      "upstreamPath": "references/shots/data/scroll-brake-moves.md",
+      "gitBlob": "19d6ac9cb2f4f7bd2f9f1aef749ddb47f7fdfb78",
+      "sha256": "7ee15612aaa1539653a144939f571ef5e0d71252f46610ce6bb6b9a872c8f0c6",
+      "bytes": 2964
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/data/timeline-travel.md",
+      "upstreamPath": "references/shots/data/timeline-travel.md",
+      "gitBlob": "44832e1819a50e8f88b94ae37919ea2d1d6bea84",
+      "sha256": "724840cde4d7bd72374da2a943ac94aee0255a4d1bef055dda6ddf4a6764e227",
+      "bytes": 2513
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/effects/assemble-then-type-flyin.md",
+      "upstreamPath": "references/shots/effects/assemble-then-type-flyin.md",
+      "gitBlob": "c1ed26eb46d7b9bc11dde433a0f88a94396ef435",
+      "sha256": "9595dc6c901098dc40863346b38c452eb79db316fb78f2b50da7edbc59bb9c55",
+      "bytes": 3955
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/effects/aurora-bloom-bg-flip.md",
+      "upstreamPath": "references/shots/effects/aurora-bloom-bg-flip.md",
+      "gitBlob": "cfa0946392ddaf31695cb2818f0cfacd5dfcab2f",
+      "sha256": "1f07bb3cf98476d7703be50ae78e8949a47fa8d745972b1a38c064cb8f7ee365",
+      "bytes": 3513
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/effects/brand-frame-snap.md",
+      "upstreamPath": "references/shots/effects/brand-frame-snap.md",
+      "gitBlob": "4c85a9e3cf5f4cf87a151c41c943c3f4308f1a41",
+      "sha256": "76df6e490212f838a2c613b4ba28a32ae3149d9c5fec3cd3a51a64768e65b3c0",
+      "bytes": 3557
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/effects/dashboard-glow-highlight-pill.md",
+      "upstreamPath": "references/shots/effects/dashboard-glow-highlight-pill.md",
+      "gitBlob": "8a8b96504238fe545650e21cf9170e8b4dd6167d",
+      "sha256": "1c67ede74198d0eced8ffe7e14cc929f803d0a05a8102cd7d1762c1991675176",
+      "bytes": 4280
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/effects/fui-hud-moves.md",
+      "upstreamPath": "references/shots/effects/fui-hud-moves.md",
+      "gitBlob": "b935717f0854cc80ddc0050f4c8fee1d2a1af5a9",
+      "sha256": "480e920e376e8f18529142d06c4de84544406b0e5f2dd37062dfe274b3f51305",
+      "bytes": 2663
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/effects/glow-flyline-moves.md",
+      "upstreamPath": "references/shots/effects/glow-flyline-moves.md",
+      "gitBlob": "f761b8d081014f9c83ff53acd23ff7dcfaf0e0c1",
+      "sha256": "e6e11ac3659debfc8918c956c4a3c5ccb202c76f89d5d3b09717fb240be6f8be",
+      "bytes": 3631
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/effects/icon-performance-moves.md",
+      "upstreamPath": "references/shots/effects/icon-performance-moves.md",
+      "gitBlob": "7dcb27dc74220826cb90349ee740110b0d9cc46a",
+      "sha256": "e643217134fe454c5049a4bf02ece3a2c0d066a4bf7f2c92e3d2c17daed351fe",
+      "bytes": 2904
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/effects/impact-feedback.md",
+      "upstreamPath": "references/shots/effects/impact-feedback.md",
+      "gitBlob": "07da2d2d6e9e33430ff93362cae10ea114f60dfe",
+      "sha256": "823876ebd6b955693ce6665db33cbb9fb07f6c5ab5ca6f2da9212b0bb16b94d6",
+      "bytes": 3443
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/effects/light-play-moves.md",
+      "upstreamPath": "references/shots/effects/light-play-moves.md",
+      "gitBlob": "9f243af2a56a8d3410d273841e07614ca1bc075f",
+      "sha256": "e45f10c67bca8d9bf20af879f60328182ba71a67fa0f90c082f8c8feedb42328",
+      "bytes": 3353
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/effects/line-boil.md",
+      "upstreamPath": "references/shots/effects/line-boil.md",
+      "gitBlob": "e3cc81e03dcef21500010c99d802f386e09cf5ec",
+      "sha256": "751b96babc027ee5e8f3c45267e0374fbc2c94386c7d57a2eed1b918092bc734",
+      "bytes": 3159
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/effects/radial-ripple-phone-chips.md",
+      "upstreamPath": "references/shots/effects/radial-ripple-phone-chips.md",
+      "gitBlob": "0d089b64009591830c3a794558b2fb18ad9c4c4a",
+      "sha256": "46b805ee36f58cf3f0277c44fa053f463b48861a70d15dc4b2f3ee387fa76bf2",
+      "bytes": 3150
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/effects/riso-print-hits.md",
+      "upstreamPath": "references/shots/effects/riso-print-hits.md",
+      "gitBlob": "2f95ecd2f99b7c3d3f730a4d8785d21d0df81692",
+      "sha256": "aa97fa4a3d0c097563bd409c80c37e714fea534b88bfe66dd6eccd375200a227",
+      "bytes": 3947
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/effects/scan-bracket-sweep.md",
+      "upstreamPath": "references/shots/effects/scan-bracket-sweep.md",
+      "gitBlob": "5e5a0f49d5ef6e7ec2b982d6fa8b8a76be5653f1",
+      "sha256": "e80d67b51792b6355baca5f0547d8b9255675ec3fc6b935b43b57f44917cc686",
+      "bytes": 3117
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/effects/scanline-annotate-focus.md",
+      "upstreamPath": "references/shots/effects/scanline-annotate-focus.md",
+      "gitBlob": "29f6f0f00de3636d041f0ae5fbbc7044d4953d79",
+      "sha256": "227490e2ce85ae5b011f81bc4b8c62cfe844edf716373adad8af41324d1dc54d",
+      "bytes": 3534
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/effects/scanline-assemble-flyin.md",
+      "upstreamPath": "references/shots/effects/scanline-assemble-flyin.md",
+      "gitBlob": "695849832de4a80cffaba757c25529e3dfb21b80",
+      "sha256": "1a829af9a6dba139d48f21bd85f27fdfbf34beeb843bbec8ac1e289c5c2fd96a",
+      "bytes": 3767
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/effects/slam-entrance-moves.md",
+      "upstreamPath": "references/shots/effects/slam-entrance-moves.md",
+      "gitBlob": "9c388a7edb910cd863b613a8763e9622632411d9",
+      "sha256": "69ae6548395c30d1fe45266da594af8e241655914f7395a361c73772a5092cb7",
+      "bytes": 3816
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/effects/spotlight-sweep-moves.md",
+      "upstreamPath": "references/shots/effects/spotlight-sweep-moves.md",
+      "gitBlob": "718d5d054466ae928fcbfe4c77a9b1906f9e513c",
+      "sha256": "35b5a5bde17662af0e303315c5a34f9d79bce89b4779e0c74f0452a80c99af94",
+      "bytes": 3562
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/interaction/ai-stream-response.md",
+      "upstreamPath": "references/shots/interaction/ai-stream-response.md",
+      "gitBlob": "338bdf5a81e4391dc505f5944ec2aca053af4d21",
+      "sha256": "a44dc2f57dcc3e367e21ecd71669f6550262e5746be0af87e95309ed40308e65",
+      "bytes": 3440
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/interaction/autolayout-gap-dial.md",
+      "upstreamPath": "references/shots/interaction/autolayout-gap-dial.md",
+      "gitBlob": "4d642502712f15a99406ac05916ee092677f918e",
+      "sha256": "35a594da44e545d2b265433f97c43541e96ed1a97409edcd6acae0f574fd4b88",
+      "bytes": 3729
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/interaction/canvas-materialize-moves.md",
+      "upstreamPath": "references/shots/interaction/canvas-materialize-moves.md",
+      "gitBlob": "794595fe8259c26baff76b7eb8a6f1d45811e80a",
+      "sha256": "8f62da7fc1ffcfa904f35c42ca68464632e62cd0178878868cf53926d3346045",
+      "bytes": 4493
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/interaction/chip-grid-single-select-blackout.md",
+      "upstreamPath": "references/shots/interaction/chip-grid-single-select-blackout.md",
+      "gitBlob": "4bac3e3fc1d4c02358548958088a72d736fbbbfb",
+      "sha256": "566389d19c29cd07713470b0fa2fe66c6a0480d567248abd5e3aa342a06282ac",
+      "bytes": 3977
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/interaction/chip-lift-to-user-pill.md",
+      "upstreamPath": "references/shots/interaction/chip-lift-to-user-pill.md",
+      "gitBlob": "d3e7e53588cba662e9b1a405ff43a77b56c80882",
+      "sha256": "70877c76fb0fbf049eefbcc9dc2cea4265c00219847b93fab34e7f3b31825a0c",
+      "bytes": 4039
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/interaction/collab-cursor-moves.md",
+      "upstreamPath": "references/shots/interaction/collab-cursor-moves.md",
+      "gitBlob": "eb4f90d0b0e88bdea7b480f33a261167cbf07a2d",
+      "sha256": "5573e13795e0f0080c9a7e56d217c508d0b12d3474095f6069763e9a92338305",
+      "bytes": 4510
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/interaction/command-palette-summon.md",
+      "upstreamPath": "references/shots/interaction/command-palette-summon.md",
+      "gitBlob": "c1bddd16219f4bfa5594c6dd1d4a70a609c27369",
+      "sha256": "5ddb0ab973fba05682f66b0fe1c873a24e274de465a20ace30311b6830d9957d",
+      "bytes": 2420
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/interaction/glass-pill-dictation-typing.md",
+      "upstreamPath": "references/shots/interaction/glass-pill-dictation-typing.md",
+      "gitBlob": "c9627ed41b3d0850fb173a4ff7466bfe7ea2fded",
+      "sha256": "fd41dce82df9de936d958fee0640d0b411f13a5e0f71711280076a848e639036",
+      "bytes": 3845
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/interaction/hashtag-to-pill-materialize.md",
+      "upstreamPath": "references/shots/interaction/hashtag-to-pill-materialize.md",
+      "gitBlob": "9eb5267caeac1bc504734e9e11f1e15b16926feb",
+      "sha256": "c2376c04e432f54f7b24c9975d3d69741a38ed14be382582cef6f040351dff80",
+      "bytes": 4009
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/interaction/input-trigger-moves.md",
+      "upstreamPath": "references/shots/interaction/input-trigger-moves.md",
+      "gitBlob": "603c7555808833ed5b5fb75cb2b0ecefaeb20a22",
+      "sha256": "4ad36f963da66a7b1c9315da7f80ff75fe3e44d687036c876aebdc1b7484a992",
+      "bytes": 3384
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/interaction/picker-carousel-feature-cycle.md",
+      "upstreamPath": "references/shots/interaction/picker-carousel-feature-cycle.md",
+      "gitBlob": "7c9469e8b65b1a47c80983943cb9cfa23519c28e",
+      "sha256": "0c904f96ec259632dc058e4457ff40d6dbcb0458cf88cd0cbe132fe6956afe0c",
+      "bytes": 3802
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/interaction/segmented-thumb-hero.md",
+      "upstreamPath": "references/shots/interaction/segmented-thumb-hero.md",
+      "gitBlob": "0485afd547d9604c69bd965af7fa546416f77400",
+      "sha256": "709e292c24992dee4527b81e7233f2020ce391a52930c4bbb70b2cf667434a1e",
+      "bytes": 3757
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/interaction/theme-switch-moves.md",
+      "upstreamPath": "references/shots/interaction/theme-switch-moves.md",
+      "gitBlob": "e634115945f2aadeb67d17e1ed89cbe59a5305d8",
+      "sha256": "9f6265079d04714f3636c6d1e1a58f38ca1fc0d52858b3f9add64aa84561ce47",
+      "bytes": 2760
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/interaction/type-and-filter.md",
+      "upstreamPath": "references/shots/interaction/type-and-filter.md",
+      "gitBlob": "93eeeea483a06e400b9cb847432d0260aa711424",
+      "sha256": "05da1b7e16fe652d2f5868485e913d08caaf87febb5512bd27b71d6b6c964fef",
+      "bytes": 2891
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/interaction/voice-waveform-live.md",
+      "upstreamPath": "references/shots/interaction/voice-waveform-live.md",
+      "gitBlob": "f137c34345b404aee83127b46e583663b845b842",
+      "sha256": "d5835944532b621f55fef1894bbf6e7ade6c453402a8a9a01133626b81708d98",
+      "bytes": 3740
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/opening/brand-ink-open.md",
+      "upstreamPath": "references/shots/opening/brand-ink-open.md",
+      "gitBlob": "c57de0354deaceb66ea511fc422de719a95e511a",
+      "sha256": "3fce12ba7ff5c8dcdf59f8c4a7add5ae52f9f29e38c82a6c95ffe34626458de8",
+      "bytes": 2462
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/opening/crane-rise-reveal.md",
+      "upstreamPath": "references/shots/opening/crane-rise-reveal.md",
+      "gitBlob": "888b271b136a256e9b45a84f442d6fab012378de",
+      "sha256": "4d3b7e5b49d12034d511e4cc9035861b9e7a8b46a605d8e6c5483a6de8a6f4f5",
+      "bytes": 2920
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/opening/dataviz-landscape-open.md",
+      "upstreamPath": "references/shots/opening/dataviz-landscape-open.md",
+      "gitBlob": "a117d65b1709e7e540d909b6d791bc59ca9d7d98",
+      "sha256": "40318d4903ce1aecf1b39a0beb7738e7ec9b41f35ce49978eafe875efa402439",
+      "bytes": 4822
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/opening/fracture.md",
+      "upstreamPath": "references/shots/opening/fracture.md",
+      "gitBlob": "934a57d78c610b1a22c30ac1eee554c891626439",
+      "sha256": "4d0b2a76c2bd4a65eec3dd8e586e8ce841d3887ba8eeaffdca9d44fc64a1413b",
+      "bytes": 3184
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/opening/icon-field-colorize.md",
+      "upstreamPath": "references/shots/opening/icon-field-colorize.md",
+      "gitBlob": "13779ae671c63bcbca989addd669470776b23c22",
+      "sha256": "987a9354ef9f933965c5bea27c6aa9b8e22b9150114b2c7dd85052f2c692b6a4",
+      "bytes": 3339
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/opening/letterspace-materialize.md",
+      "upstreamPath": "references/shots/opening/letterspace-materialize.md",
+      "gitBlob": "c2c1f7553dd3f71a09124762e2e91bb807a2d98e",
+      "sha256": "f6632e8da2ab2bef13248514617e3e636c79d9140de4605997312b01060ddd4a",
+      "bytes": 3206
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/opening/magician-card-flourish.md",
+      "upstreamPath": "references/shots/opening/magician-card-flourish.md",
+      "gitBlob": "62fc8db81063ba22aeaf8c3312f64a9afd1ffc43",
+      "sha256": "9a92ef4e4c2b1256abbec0e0ec9b6dd94d46131d4b83f2e0937c10af2e3c27fd",
+      "bytes": 4375
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/opening/orbit-ring-title-open.md",
+      "upstreamPath": "references/shots/opening/orbit-ring-title-open.md",
+      "gitBlob": "4ee02c4dec22d69f0506c63806caa9efd28cc996",
+      "sha256": "c38909e6c19ee107ca1a2ef2940b8140e33b1cf0aece816670140dd8f2f42edb",
+      "bytes": 7599
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/opening/spotlight-hero-card.md",
+      "upstreamPath": "references/shots/opening/spotlight-hero-card.md",
+      "gitBlob": "a9875a354cbfb95e816f4fbcc8a0b0077913ea0c",
+      "sha256": "fbbd603a71ff0a472f37d4ea5647506da2c06dcef2f2d4687d3bc20c2484d989",
+      "bytes": 3785
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/opening/stroke-segment-build.md",
+      "upstreamPath": "references/shots/opening/stroke-segment-build.md",
+      "gitBlob": "aab8f3bc59f672e522cb32b3169b431174cb14b2",
+      "sha256": "05cbabf125c1ff573d2f5f7b3899fa98cfb5cb880fa9683ab3180f2e0f7e5b9b",
+      "bytes": 2499
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/opening/text-as-mask.md",
+      "upstreamPath": "references/shots/opening/text-as-mask.md",
+      "gitBlob": "ff750c36b4feb6970ef69f8d3c9c900173d6f000",
+      "sha256": "2fed719c299185b875d086b0027f38a3d64cc4707f9e8a0856cde854db3c7b35",
+      "bytes": 3100
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/outro/edit-hook-moves.md",
+      "upstreamPath": "references/shots/outro/edit-hook-moves.md",
+      "gitBlob": "292fa2f91e0dc1798a87fcd8fc6fe0d1a3c4955d",
+      "sha256": "1baf040246f537057fa7ef22a3fcb1607a6d297c1495e1808d071e6564720263",
+      "bytes": 1926
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/outro/grain-dissolve.md",
+      "upstreamPath": "references/shots/outro/grain-dissolve.md",
+      "gitBlob": "cb000f9772900eb00ce1bf96318ec39036d6c080",
+      "sha256": "62eb469fe414c08e5807e2d13b481e84b39f043904744668a0ed9594114fe89b",
+      "bytes": 3070
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/outro/logo-shrink-wordmark-lockup.md",
+      "upstreamPath": "references/shots/outro/logo-shrink-wordmark-lockup.md",
+      "gitBlob": "a70c731aeb229f6f10e96b1613098136123de92c",
+      "sha256": "1f76c5434a85bf2e5b8867142419577348adfe265fb215e460ec2b7e239b189b",
+      "bytes": 3108
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/outro/neon-triple-marquee.md",
+      "upstreamPath": "references/shots/outro/neon-triple-marquee.md",
+      "gitBlob": "302517a13d5deb3dc8ef1d65eace92ef21b3edd3",
+      "sha256": "5e15f43be56a4f3dc9e784c9cc45e42823a859c45a0065e5141be1e843450b2a",
+      "bytes": 3790
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/outro/outro-group-photo-launch.md",
+      "upstreamPath": "references/shots/outro/outro-group-photo-launch.md",
+      "gitBlob": "d705af0b94e2c0dc245d4e93a9e88c0dc6a3e1a6",
+      "sha256": "6cb64b674b8bded5f08a39aceac73de2b957c7a6fdaf559921c4421b6c27d46f",
+      "bytes": 3540
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/outro/ui-strip-away-outro.md",
+      "upstreamPath": "references/shots/outro/ui-strip-away-outro.md",
+      "gitBlob": "5c5677633b0fa37cee4435c499c00964e55ab579",
+      "sha256": "db597a2edd6fbcecd7172585a7a8724f4f17cc29bf96715d2f9377a8b7af6669",
+      "bytes": 4132
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/outro/ui-to-brand-morph.md",
+      "upstreamPath": "references/shots/outro/ui-to-brand-morph.md",
+      "gitBlob": "d1edb850c90c704d88b26a1d356968eea3d333e1",
+      "sha256": "006c3b4212594b13e1ddeea9cac8ea1cc71d37747acde45b19a72dc943747108",
+      "bytes": 4749
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/rhythm/beat-cut-moves.md",
+      "upstreamPath": "references/shots/rhythm/beat-cut-moves.md",
+      "gitBlob": "3989089170085f31dc79f1aa0629300839d48c5b",
+      "sha256": "8ddffa6bffa58ce9bd7573211e0decd7182e4719b3772a48e9b27085b325d8e7",
+      "bytes": 4255
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/rhythm/beat-step-list-theme-cycle.md",
+      "upstreamPath": "references/shots/rhythm/beat-step-list-theme-cycle.md",
+      "gitBlob": "e542b707916923d6d3f2bb16e7636479bde006f6",
+      "sha256": "47f30ecbdc393a7a2b3dae63ffe516d5c0c93bdfc015ecc68dd70ba3077fdce6",
+      "bytes": 3894
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/rhythm/montage-rhythm-moves.md",
+      "upstreamPath": "references/shots/rhythm/montage-rhythm-moves.md",
+      "gitBlob": "e44077344058c31926c54bfe52c6fc7022fc11f6",
+      "sha256": "d573edbbc8198ec29391784ea4f1720df930684ed51b92c7b3b8babf5383f5ea",
+      "bytes": 4450
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/rhythm/panel-grid-moves.md",
+      "upstreamPath": "references/shots/rhythm/panel-grid-moves.md",
+      "gitBlob": "7233514dd12567e2d52b93cfd8daf431166b25d7",
+      "sha256": "6294ff8de084ac4256a72e9fdded233996e9c91147198f0ff5e4fd8cc063a75a",
+      "bytes": 3970
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/rhythm/quad-split-parallel-scenes.md",
+      "upstreamPath": "references/shots/rhythm/quad-split-parallel-scenes.md",
+      "gitBlob": "f0e39819472dabab9fa821dd3b46c0f90b3b3e6f",
+      "sha256": "22b9e42c9d136c29710ea9371728205198be2ec73a90322107ce92223ea18fcb",
+      "bytes": 3220
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/rhythm/rhythm-interrupt-moves.md",
+      "upstreamPath": "references/shots/rhythm/rhythm-interrupt-moves.md",
+      "gitBlob": "7ae6c7cbf80d7dff6f32e5b3a4815fa18c12a376",
+      "sha256": "e841a4213854f4e3ac0e897cc4dca6a0ccf2427e22f12f68a26908593c591986",
+      "bytes": 2575
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/rhythm/sakuga-timing-shift.md",
+      "upstreamPath": "references/shots/rhythm/sakuga-timing-shift.md",
+      "gitBlob": "99eea859fbb7d87dbdcf178340f0d5d62db6fdfa",
+      "sha256": "64b73c42b1d01883060b0ca611e9427c7b12ddad5a087c8f702591e83e7797b5",
+      "bytes": 2881
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/rhythm/smear-multiples.md",
+      "upstreamPath": "references/shots/rhythm/smear-multiples.md",
+      "gitBlob": "9eb15651a59e9f26308a946d8ba6533ca12f3fd8",
+      "sha256": "07c27e3e4dc24cd648c5ca329c49f90b369294031f977bf8f4b3bace89fc33d7",
+      "bytes": 2927
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/rhythm/spectrum-morph-ui.md",
+      "upstreamPath": "references/shots/rhythm/spectrum-morph-ui.md",
+      "gitBlob": "5ea5a0660c3302e202aa08bd91dafdf9b2dd7274",
+      "sha256": "dd375cd1335a6464e408cc154d1234575df024b0e87bc0a1d29f77ca94985bbd",
+      "bytes": 3066
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/rhythm/speed-ramp-freeze.md",
+      "upstreamPath": "references/shots/rhythm/speed-ramp-freeze.md",
+      "gitBlob": "d4d226c0efeb9432714855abd4ae84f70fe4da00",
+      "sha256": "7d365e36082978b66ec5bca6623b9dbe57c7898b472f031a84d2bbbd09c3f56f",
+      "bytes": 2319
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/rhythm/trailer-grammar-moves.md",
+      "upstreamPath": "references/shots/rhythm/trailer-grammar-moves.md",
+      "gitBlob": "a66fef41bbe26bd6a75b936f7a119489148f59a1",
+      "sha256": "1a898754876bc6cb5b1fa818564634df7932abf5dddaf430d492dfc72d556cdf",
+      "bytes": 3740
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/transition/bottom-push-stack-wipe.md",
+      "upstreamPath": "references/shots/transition/bottom-push-stack-wipe.md",
+      "gitBlob": "9143b25e1b239875f0f40704f449e7e02b2ad08f",
+      "sha256": "f6bbe2e5462b55c354dd6843918c3a981ef3fed5281053d556593ce4f8c282f4",
+      "bytes": 3787
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/transition/bubble-swarm-takeover.md",
+      "upstreamPath": "references/shots/transition/bubble-swarm-takeover.md",
+      "gitBlob": "58b407bc94092bef9e7682ddc1cacd69af0f8ad7",
+      "sha256": "767d3e1d6828c22e2c2ca1270ab54f14046ab19be2d06f1c84461ca333f8c5f8",
+      "bytes": 4171
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/transition/card-flip-reveal.md",
+      "upstreamPath": "references/shots/transition/card-flip-reveal.md",
+      "gitBlob": "6fc23adc10410b51774cfbd7dc4f09bad9ad6fba",
+      "sha256": "02c3e077d64c5eabb31d1b62be542a95c4c8d9b65d58139eba365a26a29e5911",
+      "bytes": 2873
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/transition/card-flock-tumble.md",
+      "upstreamPath": "references/shots/transition/card-flock-tumble.md",
+      "gitBlob": "9492c37ea6a85e51032fe62ac28eea4f5ba738ef",
+      "sha256": "3e9766a79c9e85f364687ba3578ebe0477038722752586befdf97a148e0f7f0b",
+      "bytes": 3427
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/transition/circle-match-iris.md",
+      "upstreamPath": "references/shots/transition/circle-match-iris.md",
+      "gitBlob": "0e9279a83e805ca1770895d5a52c759d38b25662",
+      "sha256": "5c5e46f211f90fdb437865a863144abba7867eea34d7c19b34d5bc0e5e063f14",
+      "bytes": 3367
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/transition/color-block-step-wipe.md",
+      "upstreamPath": "references/shots/transition/color-block-step-wipe.md",
+      "gitBlob": "377bd633e7558ef8308b75f8a950c6b89ac422bc",
+      "sha256": "f8e028eb284e91fb77c882280dfe83ec57057837b972068c1418356f0c76067c",
+      "bytes": 3735
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/transition/cube-navigation.md",
+      "upstreamPath": "references/shots/transition/cube-navigation.md",
+      "gitBlob": "dd16d98058413f729bc13ffdafb86ac500f7ea46",
+      "sha256": "898bd23e7d1a54e4e02b1b9ce4c43142a86a6b9e5dc512a800808f0340c14e38",
+      "bytes": 2978
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/transition/gradient-transition.md",
+      "upstreamPath": "references/shots/transition/gradient-transition.md",
+      "gitBlob": "3aa3e2669f84e0dba82aee44ba01deead165713a",
+      "sha256": "0fb74f2a64807b4855aa55d223ad088e06a25b235a8e8737eb5f8dffbc6d432f",
+      "bytes": 2925
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/transition/line-carry-transition.md",
+      "upstreamPath": "references/shots/transition/line-carry-transition.md",
+      "gitBlob": "b5334cc496015ace807c101be35cd9d3c371b376",
+      "sha256": "fd032128329b222c8769911fe5419c9ee0aad4411055c26bd5f7a238bbf59c97",
+      "bytes": 3260
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/transition/mosaic-reframe.md",
+      "upstreamPath": "references/shots/transition/mosaic-reframe.md",
+      "gitBlob": "61a8297e735c4f9e15b2461c18075f624cd282c4",
+      "sha256": "c39427cb8c3f931da5f63ae72265865334d3f28dd2832eacbd8d55ab034c95f5",
+      "bytes": 2912
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/transition/page-turn-transitions.md",
+      "upstreamPath": "references/shots/transition/page-turn-transitions.md",
+      "gitBlob": "6e805ee96adfa64011024cf4ced8ea7117043ad1",
+      "sha256": "7604612d8fe0af814da0b3b34e7b108a897ce994663180ad6a827c8ee664a2ff",
+      "bytes": 3329
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/transition/paper-plane-messenger.md",
+      "upstreamPath": "references/shots/transition/paper-plane-messenger.md",
+      "gitBlob": "cdc5c6412b93b943fa076fda4df30335e6984cf1",
+      "sha256": "11784ee5f5feedf662b4c513d11623cf7eb92bf084f43ca5847dcceb10ac649f",
+      "bytes": 4234
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/transition/print-texture-transitions.md",
+      "upstreamPath": "references/shots/transition/print-texture-transitions.md",
+      "gitBlob": "00f647da1ed7cbe6318547785e14f037b32f0f9d",
+      "sha256": "a1ccb5edbd881ec2c2a3981cc1a8b5969ec63cae63d6b421169d8247c1180b70",
+      "bytes": 2505
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/transition/shot-transitions.md",
+      "upstreamPath": "references/shots/transition/shot-transitions.md",
+      "gitBlob": "9848b5e5b5009628e77bb310794ea4d5980dca3a",
+      "sha256": "2cdb68da4060b519d4b0545db17ebc5ca000f04c814f40b0de4d4082756bc216",
+      "bytes": 6434
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/transition/tear-streak-transitions.md",
+      "upstreamPath": "references/shots/transition/tear-streak-transitions.md",
+      "gitBlob": "7ed43232b19936439943dd0965407354f182c507",
+      "sha256": "440ebe46abf0894f5b0f380cfcaa5825cec5c20e8a58715b264a2434e806fcdd",
+      "bytes": 2559
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/transition/transition-hidden-cut.md",
+      "upstreamPath": "references/shots/transition/transition-hidden-cut.md",
+      "gitBlob": "30059bbb081ae1734e05518c6dc24e5191c628e1",
+      "sha256": "3e6b872df779eef27a4ec0304d04a02d49ba5a3ad7bf6744020c1de94c64d22e",
+      "bytes": 4825
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/transition/transition-travel.md",
+      "upstreamPath": "references/shots/transition/transition-travel.md",
+      "gitBlob": "575ced3997dfe1413f7485d3ceece851bec093c1",
+      "sha256": "7e1d46357459532c97dde76cf2631770dd21580978f13437a0c4eefd647653eb",
+      "bytes": 3993
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/transition/white-flash-logo-simplify-cut.md",
+      "upstreamPath": "references/shots/transition/white-flash-logo-simplify-cut.md",
+      "gitBlob": "2d81c91df8acc5a96506d24c43c64c730f59afc9",
+      "sha256": "ec2f2181dae3c1a01c823570016df985a40c3b5f9b6a526f80bb3643e878f278",
+      "bytes": 2910
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/transition/wipe-transitions.md",
+      "upstreamPath": "references/shots/transition/wipe-transitions.md",
+      "gitBlob": "7d51f1901d637eb80ae31707168e1bf92c976eb4",
+      "sha256": "d3588e8ccb16dd6561c5298bfdfd1183a93716367148c1a153dba2ba5c0a6d43",
+      "bytes": 3277
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/typography/blur-slide.md",
+      "upstreamPath": "references/shots/typography/blur-slide.md",
+      "gitBlob": "fc4dde5bb06fdbb8fc5dc75307e3b7030305e865",
+      "sha256": "5744aad82a6424a74252381a9c452cbe829478e5ada354a73d8f5a35daa997ab",
+      "bytes": 3967
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/typography/brace-expand.md",
+      "upstreamPath": "references/shots/typography/brace-expand.md",
+      "gitBlob": "1cdd3163e0d9addad7443cd589de5545ef7d840e",
+      "sha256": "a3d0c00d16ff3b61c80055626d8e615fbaeb941af7d2f32ff0b00a67bad49a71",
+      "bytes": 4463
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/typography/cel-flash-stomp.md",
+      "upstreamPath": "references/shots/typography/cel-flash-stomp.md",
+      "gitBlob": "709c24aec28bb5da978187431a97262b3b743d20",
+      "sha256": "1d70addd39663c7670e25ecf7a9f2bb1889a93074a7e01a588a1ffc0c2dd9dcb",
+      "bytes": 3274
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/typography/countdown-arc-scatter.md",
+      "upstreamPath": "references/shots/typography/countdown-arc-scatter.md",
+      "gitBlob": "3855c70f12e2a85b7937cd95add5464bdf9fd3f9",
+      "sha256": "03e5dd4e3e16aed8c81e29ddce109c0c1d88ef8dac8d3497cd38025ebd5c7a14",
+      "bytes": 5367
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/typography/document-typewriter-reveal.md",
+      "upstreamPath": "references/shots/typography/document-typewriter-reveal.md",
+      "gitBlob": "33efcbb6059fc450ab5f9d1396d693341a8fdec2",
+      "sha256": "a40cdd16dd88ce4e868f3f247fe4c6c85e246521d93f7e837a81f87bec9c60fe",
+      "bytes": 3644
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/typography/flying-words.md",
+      "upstreamPath": "references/shots/typography/flying-words.md",
+      "gitBlob": "beb538f8ef7215ca195711bdd2b60a16de13843d",
+      "sha256": "0f56645a905dbb90d0fc9f220e6ddda9a4732d574f75571176d6b89a838375bf",
+      "bytes": 4355
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/typography/glitch-cycle.md",
+      "upstreamPath": "references/shots/typography/glitch-cycle.md",
+      "gitBlob": "ff23fb0972ba20191c3ac631c749a5c204ba0321",
+      "sha256": "e0ad73950c1d56b9fad5c737b981765201a13a93ef44ae02fec2deec885c6b5c",
+      "bytes": 4651
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/typography/gradient-word-sweep.md",
+      "upstreamPath": "references/shots/typography/gradient-word-sweep.md",
+      "gitBlob": "6380e460cf1f1b20eec5799b6447974cfb3f6bb6",
+      "sha256": "595f023015843f6446c1d4e9d29bbf3a1dc0cf331b2f8fe08ccdc95a6f716e88",
+      "bytes": 3124
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/typography/lead-word-zoom-assemble.md",
+      "upstreamPath": "references/shots/typography/lead-word-zoom-assemble.md",
+      "gitBlob": "0ec13ea332fe0c023683e308e0fe618680c38ac0",
+      "sha256": "f3ef1f01e2a719699ab9153dde285576a72eaf324226eecbb119f80dbac60355",
+      "bytes": 7433
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/typography/marker-underline-title.md",
+      "upstreamPath": "references/shots/typography/marker-underline-title.md",
+      "gitBlob": "024fd64e3e79318fe26b21c5b3a32c301940f167",
+      "sha256": "89d3f168f347c742913b7cb18e5730d1809b51a6c346f4dafc3727a25c3e6212",
+      "bytes": 2700
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/typography/outline-word-fill.md",
+      "upstreamPath": "references/shots/typography/outline-word-fill.md",
+      "gitBlob": "b4734212ec34284e539a61976dc19309bf8682e1",
+      "sha256": "691fa3796bd7e20b70b1d5391fc4d44924831d71cef5ea38f7ec9436da9f01d5",
+      "bytes": 5263
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/typography/paper-title-card.md",
+      "upstreamPath": "references/shots/typography/paper-title-card.md",
+      "gitBlob": "c03c56f374c7b6e2add464213ef0de85edf63cd1",
+      "sha256": "a474a2d6f5563239be6fabd33e0e6d9002f57623bc49ddf57ea0020cfeffc458",
+      "bytes": 2814
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/typography/pill-chip-slot-cycle-handled.md",
+      "upstreamPath": "references/shots/typography/pill-chip-slot-cycle-handled.md",
+      "gitBlob": "782530e2c5c98113b20120d3a52c5a7502f00750",
+      "sha256": "24f1784bca3e08958ef952168a1a0d18ece88480bdf7f10b0dcb332d5195fc8b",
+      "bytes": 5129
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/typography/pill-slot-cycle.md",
+      "upstreamPath": "references/shots/typography/pill-slot-cycle.md",
+      "gitBlob": "b7dd188610a854d7d2e2ed820a53634c9de9cc3b",
+      "sha256": "32cddebfe7bb0869057e0f81f66c6d6044ea152b381f402a26707e9d4274ff62",
+      "bytes": 3680
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/typography/scramble.md",
+      "upstreamPath": "references/shots/typography/scramble.md",
+      "gitBlob": "b7a9af23072134f2c8963a04adc216281299ac25",
+      "sha256": "29ce01993b077423643a644800960d221c48feea01e09fc849bdc10b1d656937",
+      "bytes": 3729
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/typography/split-flap-title.md",
+      "upstreamPath": "references/shots/typography/split-flap-title.md",
+      "gitBlob": "b7250e90b6ea973f784cdc60c1608a9a9db550ca",
+      "sha256": "7a3a624c14cf55c7be84a2c4008446403b906f7a6aa015a89696daf7d26d953c",
+      "bytes": 4128
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/typography/text-column-converge.md",
+      "upstreamPath": "references/shots/typography/text-column-converge.md",
+      "gitBlob": "0c8cd360a868a38216d9ffdae96a7cd06b73c32c",
+      "sha256": "120457192f2c595cfcf7a683aaa5411c729581a0d77c09b283ce7e7d7510e72b",
+      "bytes": 3809
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/typography/title-demote-to-label.md",
+      "upstreamPath": "references/shots/typography/title-demote-to-label.md",
+      "gitBlob": "e48da733d513b576c8ebed73c75d29845b5c29b2",
+      "sha256": "8ff840033599c3a8782c0266bbc7e623dda85d8b79ee4b4bbea9fe9f5ca0b1f0",
+      "bytes": 3942
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/typography/type-assembly-moves.md",
+      "upstreamPath": "references/shots/typography/type-assembly-moves.md",
+      "gitBlob": "4beed02657cdf2a95ab21ff5a93f66b04c6a319a",
+      "sha256": "c1bb40bc83810309bb6e2120e2b9abcae83f6edee483202ce10dbff4b7d92a63",
+      "bytes": 3690
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/typography/type-entrance-moves.md",
+      "upstreamPath": "references/shots/typography/type-entrance-moves.md",
+      "gitBlob": "af279d4bc7df1efc02de2a260b101fcc64ddf9e5",
+      "sha256": "fba00e4b0537b1f421d950dd9157522e97a6d583893f97528589692b7732f696",
+      "bytes": 3656
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/typography/type-rhythm-sync.md",
+      "upstreamPath": "references/shots/typography/type-rhythm-sync.md",
+      "gitBlob": "b201e296ee82bbae6ca9bf9097782e60b2612a58",
+      "sha256": "4925c765f251d3674065ee0d544abf30bc52ab7bef6f24b7fcc00983ead00822",
+      "bytes": 3663
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/typography/typewriter-moves.md",
+      "upstreamPath": "references/shots/typography/typewriter-moves.md",
+      "gitBlob": "6c62346a4f5e0770a9f437b24cc9532257f5278d",
+      "sha256": "c870748eeed55ab2c61f423cb355b57ba8dd0ea203bb7039b2a0f0385a5ddc1b",
+      "bytes": 3324
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/typography/typing-code-block.md",
+      "upstreamPath": "references/shots/typography/typing-code-block.md",
+      "gitBlob": "dccd9ce2a568776ed172d407b5a1fe368c18a745",
+      "sha256": "409b1bd712836733dd194c1a433bd3ac4b26f1c5539dbd586d0be559e2e6d645",
+      "bytes": 4426
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/typography/vertical-word-roll-blur-cycle.md",
+      "upstreamPath": "references/shots/typography/vertical-word-roll-blur-cycle.md",
+      "gitBlob": "3798c2dd29d170627aa5b68c3d88379f8fc39b0d",
+      "sha256": "80529fb72660af3c78e51d22bc513f8df94b32072d1a5dc8ad8d4d1d73f05bdd",
+      "bytes": 4571
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/typography/word-relay-filmstrip.md",
+      "upstreamPath": "references/shots/typography/word-relay-filmstrip.md",
+      "gitBlob": "e2c42e313737eecab4e1c1eaa80300ca0bb1f320",
+      "sha256": "46cd72e0c6f584c772a330d8a3ee68f0edf083052c061132d0aa7fe82a7f4678",
+      "bytes": 3141
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/typography/word-relay-geometry.md",
+      "upstreamPath": "references/shots/typography/word-relay-geometry.md",
+      "gitBlob": "42090d0c7bd443366b97d2c8cc36a8d298a75cb6",
+      "sha256": "5590d09cf06109757d7e31f575276a4085c78d31b7f27df87173881c1852f38c",
+      "bytes": 5659
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/ui-entrance/avatar-bracket-carousel.md",
+      "upstreamPath": "references/shots/ui-entrance/avatar-bracket-carousel.md",
+      "gitBlob": "6b86f21988f05fc859015e592bb135c204de4c12",
+      "sha256": "5665c2cb46373728323e206255f9a41c52420d9a8144c4aba03f713c93774a0e",
+      "bytes": 5010
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/ui-entrance/bezier-source-converge-merge.md",
+      "upstreamPath": "references/shots/ui-entrance/bezier-source-converge-merge.md",
+      "gitBlob": "aaae411e3d8d3ebd30e1ebb0f217b1b6c489d954",
+      "sha256": "8b4c94782209e2026e00c3ca4ee802aba1dd0a44d8e8f88e5073caa3f1c986a5",
+      "bytes": 5735
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/ui-entrance/card-stack.md",
+      "upstreamPath": "references/shots/ui-entrance/card-stack.md",
+      "gitBlob": "e436de2f6df1f9532b4d907349e9cfae402489b9",
+      "sha256": "9a9a417fc1021cb0182b38f9cec3e32521eb2fe0ca632c27aae85b2d2e833ecf",
+      "bytes": 4115
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/ui-entrance/carousel-3d.md",
+      "upstreamPath": "references/shots/ui-entrance/carousel-3d.md",
+      "gitBlob": "50611727ebba646b978b0cf4681153a8875e9e70",
+      "sha256": "57f72b4c9d783e9523753f399837322cab98b47120375ab34b4a17d1922524ef",
+      "bytes": 4962
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/ui-entrance/cloner-depth-echo.md",
+      "upstreamPath": "references/shots/ui-entrance/cloner-depth-echo.md",
+      "gitBlob": "a7c79bd5af7d0353bb34a1aa2f83e2f13752ae9f",
+      "sha256": "370a3add4d937dbf3d91e9a677f35843b16bade3b0ee3cbbaad9b4e4d892cd10",
+      "bytes": 2195
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/ui-entrance/deck-deal-flyin.md",
+      "upstreamPath": "references/shots/ui-entrance/deck-deal-flyin.md",
+      "gitBlob": "6aec6340118fd3670c7e2e837d6f2507626dd73c",
+      "sha256": "1341d0ae4728efa49ee47ee5715eb11c19155ba695d15b79ac5f986c180f71ad",
+      "bytes": 6879
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/ui-entrance/doc-park-left-pill-deal.md",
+      "upstreamPath": "references/shots/ui-entrance/doc-park-left-pill-deal.md",
+      "gitBlob": "d8177f56db4e00f61ce336ccd84a6cd0abb8f56b",
+      "sha256": "301561810b31b96af7e8de5c58172bad6d5366dfe01e74795db79ef5a68e2007",
+      "bytes": 5098
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/ui-entrance/draw-svg-trace.md",
+      "upstreamPath": "references/shots/ui-entrance/draw-svg-trace.md",
+      "gitBlob": "16de3043a8c7ed1c5185e3eaf694f02554290cfb",
+      "sha256": "efafcc9abd8cd7dee3e22036b98dc7fcc1c5d122ba7630af622f0714675a335d",
+      "bytes": 2863
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/ui-entrance/element-body-moves.md",
+      "upstreamPath": "references/shots/ui-entrance/element-body-moves.md",
+      "gitBlob": "3a4e6be4ec2eceb92388ab0464efd0467500cf36",
+      "sha256": "d3cbcb1401dcfc8f6206d8a332b3092e212dc146d8ee1d7655c0619c0c0e0317",
+      "bytes": 3467
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/ui-entrance/floating-glossy-label-pills.md",
+      "upstreamPath": "references/shots/ui-entrance/floating-glossy-label-pills.md",
+      "gitBlob": "8051225bccfbcb41b2fe72d3906739d93e9eeb8f",
+      "sha256": "8c49ec6f221f331f09a53aea5baf9a54779f9da0900c5428150270fc69b43b1c",
+      "bytes": 6592
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/ui-entrance/integration-hub-map.md",
+      "upstreamPath": "references/shots/ui-entrance/integration-hub-map.md",
+      "gitBlob": "48ff98a0acea08ddc4ad0c4e8bbd3429127b3040",
+      "sha256": "ebaec72ec69d2bbf5a94d4a10d95300b4710db4cc815fe04c1ac881281c711e1",
+      "bytes": 3524
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/ui-entrance/list-reveal.md",
+      "upstreamPath": "references/shots/ui-entrance/list-reveal.md",
+      "gitBlob": "fdedc96c6db3c09a6a8c79705fd9c17f704a887d",
+      "sha256": "de1633dc78cfdf4d16e5b538640b63e60163df82d9098c469e1794e6a4e5dc68",
+      "bytes": 4071
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/ui-entrance/list-stack-press.md",
+      "upstreamPath": "references/shots/ui-entrance/list-stack-press.md",
+      "gitBlob": "7924dbc5d242304f4940d22b1fcb3e33e59eb7a9",
+      "sha256": "fcf031f506570e4838c9313e4957c8c290a048a35321156ed61874685e8110ba",
+      "bytes": 4386
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/ui-entrance/morph-from-primitive.md",
+      "upstreamPath": "references/shots/ui-entrance/morph-from-primitive.md",
+      "gitBlob": "3f1162aae8f0349c69d17158b49f6bc6d93ba3f5",
+      "sha256": "c338f6d3639b65bea1edff3c5749e530daa9a6ce70c8f44e6bbffbcfe86a6456",
+      "bytes": 2946
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/ui-entrance/neon-frame-forerun.md",
+      "upstreamPath": "references/shots/ui-entrance/neon-frame-forerun.md",
+      "gitBlob": "ba1e44acadf1395291973f85b01a8edc08952354",
+      "sha256": "a504f1a81137042a939ed1a50352023e9fa24f235398086d56132aee32013e71",
+      "bytes": 3240
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/ui-entrance/neon-frame-orbit-drop.md",
+      "upstreamPath": "references/shots/ui-entrance/neon-frame-orbit-drop.md",
+      "gitBlob": "638888a6afbb594367e8f75debd5d200717bab7b",
+      "sha256": "0e33057834bfb86adf2e4e298d008c9efac5bdb6736b4161ca6b96d1d6db4355",
+      "bytes": 3005
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/ui-entrance/page-waterfall-wall.md",
+      "upstreamPath": "references/shots/ui-entrance/page-waterfall-wall.md",
+      "gitBlob": "861befdb65c33fda793c4de69e43b50abdc06128",
+      "sha256": "7f5691a48c167a52e2a6dc6d0472cdc35dca03270e5040d8942a296f54c056ca",
+      "bytes": 3456
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/ui-entrance/paper-craft-moves.md",
+      "upstreamPath": "references/shots/ui-entrance/paper-craft-moves.md",
+      "gitBlob": "825c1aaeddd80636c2a1be277e1977a66d19a8df",
+      "sha256": "077c1bd4c3ac606eca35d2217ad606165012278a9a65f21a104e8faaef3267f8",
+      "bytes": 3158
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/ui-entrance/platform-hinge-rise.md",
+      "upstreamPath": "references/shots/ui-entrance/platform-hinge-rise.md",
+      "gitBlob": "ae74e001af5663b000080118a9a93849335cd2b0",
+      "sha256": "db4c6b014f3b2274f8cc4ff588bfacfa2b85caf3eecb037079d8eabebc929f0e",
+      "bytes": 3428
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/ui-entrance/product-card-progressive-assemble.md",
+      "upstreamPath": "references/shots/ui-entrance/product-card-progressive-assemble.md",
+      "gitBlob": "6a397fa9982f21bc49661c58dac3b024b45e9dc5",
+      "sha256": "15210454fd1fb8efe63eb163799cb71e5a0d081f83fc770e79743be88c130645",
+      "bytes": 5077
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/ui-entrance/radial-wave.md",
+      "upstreamPath": "references/shots/ui-entrance/radial-wave.md",
+      "gitBlob": "bb8093d1602dc14990270a821508a98a8e8e14b0",
+      "sha256": "d4bfb9bb8f0a0983442d6a98cff830674d995ee8dd65584563e65d78ee8bcf9a",
+      "bytes": 3913
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/ui-entrance/research-card-stack-scroll.md",
+      "upstreamPath": "references/shots/ui-entrance/research-card-stack-scroll.md",
+      "gitBlob": "31b4b3e3c602a388b251bde677d2ccaa1915857e",
+      "sha256": "89ad86b38e7216d61fa62fe5c4f32c9881a0363c51fcfe4bcaf28e791d49b4d7",
+      "bytes": 4855
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/ui-entrance/row-embed.md",
+      "upstreamPath": "references/shots/ui-entrance/row-embed.md",
+      "gitBlob": "c0f69743779a846596667446ab19fadd24cd772b",
+      "sha256": "964e3011dc055dca1f5e0ab9afaabde457f7b9b55de6a20a4d068eecf0cd4545",
+      "bytes": 2614
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/ui-entrance/runway-ground-skim.md",
+      "upstreamPath": "references/shots/ui-entrance/runway-ground-skim.md",
+      "gitBlob": "db881e325476ee23535a1e0f7f9c1df39a956488",
+      "sha256": "f236a0d24d05e58f44ceb6680085daf99dd4da864fa7b6fec287b610b4af05a2",
+      "bytes": 3069
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/ui-entrance/skeleton-reveal.md",
+      "upstreamPath": "references/shots/ui-entrance/skeleton-reveal.md",
+      "gitBlob": "628503875c11da47cebe42284614273db54fd35c",
+      "sha256": "d841c44eb95c693bdab7c7c5c30eb0ba287f3cc51683c19957e6cb2365d6f278",
+      "bytes": 3805
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/ui-entrance/svg-shape-morph.md",
+      "upstreamPath": "references/shots/ui-entrance/svg-shape-morph.md",
+      "gitBlob": "cf89ab166d340dee8f196ce5d881213fa9502ebe",
+      "sha256": "ddc54c05b5c397adfe9c9fe458cf1f9ec62232d8162eb82ca3dca00090250f71",
+      "bytes": 5216
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/ui-entrance/value-stagger-gradient.md",
+      "upstreamPath": "references/shots/ui-entrance/value-stagger-gradient.md",
+      "gitBlob": "eded4d3c9673f3f75baf45f68047ba3afc7c62e3",
+      "sha256": "0be902ddd65fc39206dff0eb53763f9d0055d3c8cfda96dab689cfc824b9ed39",
+      "bytes": 5481
+    },
+    {
+      "path": "assets/community/video-shotcraft/references/shots/ui-entrance/wall-reveal-moves.md",
+      "upstreamPath": "references/shots/ui-entrance/wall-reveal-moves.md",
+      "gitBlob": "ea9ddcd6a88b7f00afc438181c21dedc05767812",
+      "sha256": "e0783733037425ca97c48fce97fd10fbd1c104855d59faf8b50115f54f72d91d",
+      "bytes": 5543
+    }
+  ]
+}

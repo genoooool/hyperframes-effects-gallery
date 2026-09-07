@@ -1,0 +1,1632 @@
+{
+  "commit": "5f047c7cfe10d6616fe59160a750fcfaea510b2e",
+  "cards": [
+    {
+      "card": "ai-stream-response",
+      "upstreamCategory": "interaction",
+      "styles": [
+        "ai-stream-response"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "assemble-then-type-flyin",
+      "upstreamCategory": "effects",
+      "styles": [
+        "assemble-then-type-flyin"
+      ],
+      "category": "局部强调",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "aurora-bloom-bg-flip",
+      "upstreamCategory": "effects",
+      "styles": [
+        "aurora-bloom-bg-flip"
+      ],
+      "category": "画面质感",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "autolayout-gap-dial",
+      "upstreamCategory": "interaction",
+      "styles": [
+        "autolayout-gap-dial"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "avatar-bracket-carousel",
+      "upstreamCategory": "ui-entrance",
+      "styles": [
+        "avatar-bracket-carousel"
+      ],
+      "category": "素材展示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "avatar-grid-radial-build-colorize",
+      "upstreamCategory": "data",
+      "styles": [
+        "avatar-grid-radial-build-colorize"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "basic-3d-scene",
+      "upstreamCategory": "camera",
+      "styles": [
+        "basic-3d-scene"
+      ],
+      "category": "镜头运动",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "beat-cut-moves",
+      "upstreamCategory": "rhythm",
+      "styles": [
+        "beat-cut-accelerando",
+        "paparazzi-flash"
+      ],
+      "category": "节奏与情绪",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "beat-step-list-theme-cycle",
+      "upstreamCategory": "rhythm",
+      "styles": [
+        "beat-step-list-theme-cycle"
+      ],
+      "category": "节奏与情绪",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "before-after-slider-scrub",
+      "upstreamCategory": "data",
+      "styles": [
+        "before-after-slider-scrub"
+      ],
+      "category": "素材展示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "bezier-source-converge-merge",
+      "upstreamCategory": "ui-entrance",
+      "styles": [
+        "bezier-source-converge-merge"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "blur-slide",
+      "upstreamCategory": "typography",
+      "styles": [
+        "blur-slide"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    },
+    {
+      "card": "bottom-push-stack-wipe",
+      "upstreamCategory": "transition",
+      "styles": [
+        "bottom-push-stack-wipe"
+      ],
+      "category": "转场",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "brace-expand",
+      "upstreamCategory": "typography",
+      "styles": [
+        "brace-expand"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    },
+    {
+      "card": "brand-frame-snap",
+      "upstreamCategory": "effects",
+      "styles": [
+        "brand-frame-snap"
+      ],
+      "category": "画面质感",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "brand-ink-open",
+      "upstreamCategory": "opening",
+      "styles": [
+        "brand-ink-open"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    },
+    {
+      "card": "bubble-swarm-takeover",
+      "upstreamCategory": "transition",
+      "styles": [
+        "bubble-swarm-takeover"
+      ],
+      "category": "转场",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "canvas-materialize-moves",
+      "upstreamCategory": "interaction",
+      "styles": [
+        "panel-to-canvas",
+        "diagram-cascade"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "card-flip-reveal",
+      "upstreamCategory": "transition",
+      "styles": [
+        "card-flip-reveal"
+      ],
+      "category": "转场",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "card-flock-tumble",
+      "upstreamCategory": "transition",
+      "styles": [
+        "card-flock-tumble"
+      ],
+      "category": "转场",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "card-stack",
+      "upstreamCategory": "ui-entrance",
+      "styles": [
+        "card-stack"
+      ],
+      "category": "素材展示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "carousel-3d",
+      "upstreamCategory": "ui-entrance",
+      "styles": [
+        "carousel-3d"
+      ],
+      "category": "素材展示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "cel-flash-stomp",
+      "upstreamCategory": "typography",
+      "styles": [
+        "cel-flash-stomp"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    },
+    {
+      "card": "chart-live-moves",
+      "upstreamCategory": "data",
+      "styles": [
+        "oscilloscope-stream",
+        "unit-dot-swarm-regroup",
+        "axis-rescale-shock"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "chip-grid-single-select-blackout",
+      "upstreamCategory": "interaction",
+      "styles": [
+        "chip-grid-single-select-blackout"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "chip-lift-to-user-pill",
+      "upstreamCategory": "interaction",
+      "styles": [
+        "chip-lift-to-user-pill"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "circle-match-iris",
+      "upstreamCategory": "transition",
+      "styles": [
+        "circle-match-iris"
+      ],
+      "category": "转场",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "cloner-depth-echo",
+      "upstreamCategory": "ui-entrance",
+      "styles": [
+        "cloner-depth-echo"
+      ],
+      "category": "素材展示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "collab-cursor-moves",
+      "upstreamCategory": "interaction",
+      "styles": [
+        "dialogue-duet",
+        "cast-ensemble"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "color-block-step-wipe",
+      "upstreamCategory": "transition",
+      "styles": [
+        "color-block-step-wipe"
+      ],
+      "category": "转场",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "command-palette-summon",
+      "upstreamCategory": "interaction",
+      "styles": [
+        "command-palette-summon"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "countdown-arc-scatter",
+      "upstreamCategory": "typography",
+      "styles": [
+        "countdown-arc-scatter"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    },
+    {
+      "card": "counter-confetti",
+      "upstreamCategory": "data",
+      "styles": [
+        "counter-confetti"
+      ],
+      "category": "节奏与情绪",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "crane-rise-reveal",
+      "upstreamCategory": "opening",
+      "styles": [
+        "crane-rise-reveal"
+      ],
+      "category": "镜头运动",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "crash-zoom-punch",
+      "upstreamCategory": "camera",
+      "styles": [
+        "crash-zoom-punch"
+      ],
+      "category": "镜头运动",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "cube-navigation",
+      "upstreamCategory": "transition",
+      "styles": [
+        "cube-navigation"
+      ],
+      "category": "转场",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "cursor-flyover",
+      "upstreamCategory": "camera",
+      "styles": [
+        "cursor-flyover"
+      ],
+      "category": "镜头运动",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "cycle-glass-node-morph",
+      "upstreamCategory": "data",
+      "styles": [
+        "cycle-glass-node-morph"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "dashboard-glow-highlight-pill",
+      "upstreamCategory": "effects",
+      "styles": [
+        "dashboard-glow-highlight-pill"
+      ],
+      "category": "局部强调",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "dataviz-landscape-open",
+      "upstreamCategory": "opening",
+      "styles": [
+        "dataviz-landscape-open"
+      ],
+      "category": "素材展示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "deck-deal-flyin",
+      "upstreamCategory": "ui-entrance",
+      "styles": [
+        "deck-deal-flyin"
+      ],
+      "category": "素材展示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "depth-layer-moves",
+      "upstreamCategory": "camera",
+      "styles": [
+        "multiplane",
+        "dolly-zoom"
+      ],
+      "category": "镜头运动",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "doc-park-left-pill-deal",
+      "upstreamCategory": "ui-entrance",
+      "styles": [
+        "doc-park-left-pill-deal"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "document-typewriter-reveal",
+      "upstreamCategory": "typography",
+      "styles": [
+        "document-typewriter-reveal"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "draw-svg-trace",
+      "upstreamCategory": "ui-entrance",
+      "styles": [
+        "draw-svg-trace"
+      ],
+      "category": "素材展示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "edit-hook-moves",
+      "upstreamCategory": "outro",
+      "styles": [
+        "logo-sting-button"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    },
+    {
+      "card": "element-body-moves",
+      "upstreamCategory": "ui-entrance",
+      "styles": [
+        "axial-stretch",
+        "contact-shadow-lift"
+      ],
+      "category": "节奏与情绪",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "floating-glossy-label-pills",
+      "upstreamCategory": "ui-entrance",
+      "styles": [
+        "floating-glossy-label-pills"
+      ],
+      "category": "素材展示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "flying-words",
+      "upstreamCategory": "typography",
+      "styles": [
+        "flying-words"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    },
+    {
+      "card": "fracture",
+      "upstreamCategory": "opening",
+      "styles": [
+        "fracture"
+      ],
+      "category": "素材展示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "fui-hud-moves",
+      "upstreamCategory": "effects",
+      "styles": [
+        "line-unfold-panel",
+        "reticle-lock-on"
+      ],
+      "category": "局部强调",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "gauge-readout-moves",
+      "upstreamCategory": "data",
+      "styles": [
+        "needle-sweep-selftest",
+        "tape-scroll-fixed-pointer"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "glass-pill-dictation-typing",
+      "upstreamCategory": "interaction",
+      "styles": [
+        "glass-pill-dictation-typing"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "glitch-cycle",
+      "upstreamCategory": "typography",
+      "styles": [
+        "glitch-cycle"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "glow-flyline-moves",
+      "upstreamCategory": "effects",
+      "styles": [
+        "glow-orb-ambient",
+        "flyline-arc",
+        "orb-flyline-relay"
+      ],
+      "category": "画面质感",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "gradient-transition",
+      "upstreamCategory": "transition",
+      "styles": [
+        "gradient-transition"
+      ],
+      "category": "转场",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "gradient-word-sweep",
+      "upstreamCategory": "typography",
+      "styles": [
+        "gradient-word-sweep"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    },
+    {
+      "card": "grain-dissolve",
+      "upstreamCategory": "outro",
+      "styles": [
+        "grain-dissolve"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    },
+    {
+      "card": "graze-face-tour",
+      "upstreamCategory": "camera",
+      "styles": [
+        "graze-face-tour"
+      ],
+      "category": "镜头运动",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "hashtag-to-pill-materialize",
+      "upstreamCategory": "interaction",
+      "styles": [
+        "hashtag-to-pill-materialize"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "hatch-depth",
+      "upstreamCategory": "data",
+      "styles": [
+        "hatch-depth"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "icon-field-colorize",
+      "upstreamCategory": "opening",
+      "styles": [
+        "icon-field-colorize"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "icon-performance-moves",
+      "upstreamCategory": "effects",
+      "styles": [
+        "pop-burst-confirm",
+        "attention-bounce"
+      ],
+      "category": "局部强调",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "impact-feedback",
+      "upstreamCategory": "effects",
+      "styles": [
+        "hit-counter",
+        "anime-impact"
+      ],
+      "category": "节奏与情绪",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "input-trigger-moves",
+      "upstreamCategory": "interaction",
+      "styles": [
+        "cursor-performance",
+        "keycap-smash-cut"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "integration-hub-map",
+      "upstreamCategory": "ui-entrance",
+      "styles": [
+        "integration-hub-map"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "lead-word-zoom-assemble",
+      "upstreamCategory": "typography",
+      "styles": [
+        "lead-word-zoom-assemble"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    },
+    {
+      "card": "letterspace-materialize",
+      "upstreamCategory": "opening",
+      "styles": [
+        "letterspace-materialize"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    },
+    {
+      "card": "light-play-moves",
+      "upstreamCategory": "effects",
+      "styles": [
+        "spotlight-sweep",
+        "sheen-sweep",
+        "halation-bloom"
+      ],
+      "category": "局部强调",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "line-boil",
+      "upstreamCategory": "effects",
+      "styles": [
+        "line-boil"
+      ],
+      "category": "画面质感",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "line-carry-transition",
+      "upstreamCategory": "transition",
+      "styles": [
+        "line-carry-transition"
+      ],
+      "category": "转场",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "list-reveal",
+      "upstreamCategory": "ui-entrance",
+      "styles": [
+        "list-reveal"
+      ],
+      "category": "素材展示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "list-stack-press",
+      "upstreamCategory": "ui-entrance",
+      "styles": [
+        "list-stack-press"
+      ],
+      "category": "素材展示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "logo-shrink-wordmark-lockup",
+      "upstreamCategory": "outro",
+      "styles": [
+        "logo-shrink-wordmark-lockup"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    },
+    {
+      "card": "magician-card-flourish",
+      "upstreamCategory": "opening",
+      "styles": [
+        "magician-card-flourish"
+      ],
+      "category": "素材展示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "marker-underline-title",
+      "upstreamCategory": "typography",
+      "styles": [
+        "marker-underline-title"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    },
+    {
+      "card": "montage-rhythm-moves",
+      "upstreamCategory": "rhythm",
+      "styles": [
+        "drop-blackout-slam",
+        "wright-triple-cut",
+        "domino-cascade"
+      ],
+      "category": "节奏与情绪",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "morph-from-primitive",
+      "upstreamCategory": "ui-entrance",
+      "styles": [
+        "morph-from-primitive"
+      ],
+      "category": "素材展示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "mosaic-reframe",
+      "upstreamCategory": "transition",
+      "styles": [
+        "mosaic-reframe"
+      ],
+      "category": "转场",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "neon-frame-forerun",
+      "upstreamCategory": "ui-entrance",
+      "styles": [
+        "neon-frame-forerun"
+      ],
+      "category": "素材展示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "neon-frame-orbit-drop",
+      "upstreamCategory": "ui-entrance",
+      "styles": [
+        "neon-frame-orbit-drop"
+      ],
+      "category": "素材展示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "neon-triple-marquee",
+      "upstreamCategory": "outro",
+      "styles": [
+        "neon-triple-marquee"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    },
+    {
+      "card": "odometer-digit-roll",
+      "upstreamCategory": "data",
+      "styles": [
+        "odometer-digit-roll"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "orbit-ring-title-open",
+      "upstreamCategory": "opening",
+      "styles": [
+        "orbit-ring-title-open"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    },
+    {
+      "card": "outline-word-fill",
+      "upstreamCategory": "typography",
+      "styles": [
+        "outline-word-fill"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    },
+    {
+      "card": "outro-group-photo-launch",
+      "upstreamCategory": "outro",
+      "styles": [
+        "outro-group-photo-launch"
+      ],
+      "category": "素材展示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "overhead-camera-moves",
+      "upstreamCategory": "camera",
+      "styles": [
+        "tilt-reveal",
+        "overhead-tabletop-drop"
+      ],
+      "category": "镜头运动",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "page-turn-transitions",
+      "upstreamCategory": "transition",
+      "styles": [
+        "cube-rotate",
+        "barn-door-split"
+      ],
+      "category": "转场",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "page-waterfall-wall",
+      "upstreamCategory": "ui-entrance",
+      "styles": [
+        "page-waterfall-wall"
+      ],
+      "category": "素材展示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "panel-grid-moves",
+      "upstreamCategory": "rhythm",
+      "styles": [
+        "grid-flash-mosaic",
+        "flip-grid-reflow",
+        "comic-panel-split"
+      ],
+      "category": "节奏与情绪",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "paper-craft-moves",
+      "upstreamCategory": "ui-entrance",
+      "styles": [
+        "masking-tape-slap",
+        "popup-book-rise"
+      ],
+      "category": "素材展示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "paper-plane-messenger",
+      "upstreamCategory": "transition",
+      "styles": [
+        "paper-plane-messenger"
+      ],
+      "category": "转场",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "paper-title-card",
+      "upstreamCategory": "typography",
+      "styles": [
+        "paper-title-card"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    },
+    {
+      "card": "particle-celebrate-hits",
+      "upstreamCategory": "data",
+      "styles": [
+        "confetti-crossfire",
+        "counter-tick-sparks"
+      ],
+      "category": "节奏与情绪",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "particle-sand-fill",
+      "upstreamCategory": "data",
+      "styles": [
+        "particle-sand-fill"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "picker-carousel-feature-cycle",
+      "upstreamCategory": "interaction",
+      "styles": [
+        "picker-carousel-feature-cycle"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "pill-chip-slot-cycle-handled",
+      "upstreamCategory": "typography",
+      "styles": [
+        "pill-chip-slot-cycle-handled"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "pill-slot-cycle",
+      "upstreamCategory": "typography",
+      "styles": [
+        "pill-slot-cycle"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "platform-hinge-rise",
+      "upstreamCategory": "ui-entrance",
+      "styles": [
+        "platform-hinge-rise"
+      ],
+      "category": "素材展示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "print-texture-transitions",
+      "upstreamCategory": "transition",
+      "styles": [
+        "ink-bleed-reveal"
+      ],
+      "category": "转场",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "product-card-progressive-assemble",
+      "upstreamCategory": "ui-entrance",
+      "styles": [
+        "product-card-progressive-assemble"
+      ],
+      "category": "素材展示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "quad-split-parallel-scenes",
+      "upstreamCategory": "rhythm",
+      "styles": [
+        "quad-split-parallel-scenes"
+      ],
+      "category": "节奏与情绪",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "radial-ripple-phone-chips",
+      "upstreamCategory": "effects",
+      "styles": [
+        "radial-ripple-phone-chips"
+      ],
+      "category": "局部强调",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "radial-wave",
+      "upstreamCategory": "ui-entrance",
+      "styles": [
+        "radial-wave"
+      ],
+      "category": "节奏与情绪",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "research-card-stack-scroll",
+      "upstreamCategory": "ui-entrance",
+      "styles": [
+        "research-card-stack-scroll"
+      ],
+      "category": "素材展示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "rhythm-interrupt-moves",
+      "upstreamCategory": "rhythm",
+      "styles": [
+        "jump-cut-punch-in",
+        "strobe-black-frames"
+      ],
+      "category": "节奏与情绪",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "ring-diagram-annotation-reveal",
+      "upstreamCategory": "data",
+      "styles": [
+        "ring-diagram-annotation-reveal"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "riso-print-hits",
+      "upstreamCategory": "effects",
+      "styles": [
+        "misregistration-hit",
+        "beat-pump"
+      ],
+      "category": "画面质感",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "row-embed",
+      "upstreamCategory": "ui-entrance",
+      "styles": [
+        "row-embed"
+      ],
+      "category": "素材展示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "runway-ground-skim",
+      "upstreamCategory": "ui-entrance",
+      "styles": [
+        "runway-ground-skim"
+      ],
+      "category": "镜头运动",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "sakuga-timing-shift",
+      "upstreamCategory": "rhythm",
+      "styles": [
+        "sakuga-timing-shift"
+      ],
+      "category": "节奏与情绪",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "scan-bracket-sweep",
+      "upstreamCategory": "effects",
+      "styles": [
+        "scan-bracket-sweep"
+      ],
+      "category": "局部强调",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "scanline-annotate-focus",
+      "upstreamCategory": "effects",
+      "styles": [
+        "scanline-annotate-focus"
+      ],
+      "category": "局部强调",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "scanline-assemble-flyin",
+      "upstreamCategory": "effects",
+      "styles": [
+        "scanline-assemble-flyin"
+      ],
+      "category": "局部强调",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "scramble",
+      "upstreamCategory": "typography",
+      "styles": [
+        "scramble"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    },
+    {
+      "card": "scroll-brake-moves",
+      "upstreamCategory": "data",
+      "styles": [
+        "changelog-scroll-brake",
+        "brake-reticle-lock"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "segmented-thumb-hero",
+      "upstreamCategory": "interaction",
+      "styles": [
+        "segmented-thumb-hero"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "shot-transitions",
+      "upstreamCategory": "transition",
+      "styles": [
+        "flash-cut",
+        "shot-transitions-4",
+        "shot-transitions-5",
+        "shot-transitions-6",
+        "whip-pan",
+        "mask-wipe"
+      ],
+      "category": "转场",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "skeleton-reveal",
+      "upstreamCategory": "ui-entrance",
+      "styles": [
+        "skeleton-reveal"
+      ],
+      "category": "素材展示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "slam-entrance-moves",
+      "upstreamCategory": "effects",
+      "styles": [
+        "kanada-perspective-snap",
+        "score-slam",
+        "impact-burst-kit"
+      ],
+      "category": "节奏与情绪",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "smear-multiples",
+      "upstreamCategory": "rhythm",
+      "styles": [
+        "smear-multiples"
+      ],
+      "category": "节奏与情绪",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "space-camera-moves",
+      "upstreamCategory": "camera",
+      "styles": [
+        "exploded-view",
+        "drone-dive-landing"
+      ],
+      "category": "镜头运动",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "spectrum-morph-ui",
+      "upstreamCategory": "rhythm",
+      "styles": [
+        "spectrum-morph-ui"
+      ],
+      "category": "节奏与情绪",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "speed-ramp-freeze",
+      "upstreamCategory": "rhythm",
+      "styles": [
+        "speed-ramp",
+        "freeze-annotate"
+      ],
+      "category": "节奏与情绪",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "split-flap-title",
+      "upstreamCategory": "typography",
+      "styles": [
+        "split-flap-title"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    },
+    {
+      "card": "spotlight-hero-card",
+      "upstreamCategory": "opening",
+      "styles": [
+        "spotlight-hero-card"
+      ],
+      "category": "素材展示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "spotlight-sweep-moves",
+      "upstreamCategory": "effects",
+      "styles": [
+        "glow-wake-sleep-panel",
+        "slide-spotlight-pan",
+        "corner-spotlight-reveal"
+      ],
+      "category": "局部强调",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "steep-tilt-glide",
+      "upstreamCategory": "camera",
+      "styles": [
+        "steep-tilt-glide"
+      ],
+      "category": "镜头运动",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "stroke-segment-build",
+      "upstreamCategory": "opening",
+      "styles": [
+        "stroke-segment-build"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    },
+    {
+      "card": "svg-shape-morph",
+      "upstreamCategory": "ui-entrance",
+      "styles": [
+        "svg-shape-morph"
+      ],
+      "category": "素材展示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "tear-streak-transitions",
+      "upstreamCategory": "transition",
+      "styles": [
+        "glitch-displace"
+      ],
+      "category": "转场",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "tension-camera-moves",
+      "upstreamCategory": "camera",
+      "styles": [
+        "bullet-time-freeze-orbit",
+        "dutch-roll-to-level",
+        "slow-push-in",
+        "pull-back-isolation"
+      ],
+      "category": "镜头运动",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "terminal-3d",
+      "upstreamCategory": "camera",
+      "styles": [
+        "terminal-3d"
+      ],
+      "category": "镜头运动",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "text-as-mask",
+      "upstreamCategory": "opening",
+      "styles": [
+        "text-as-mask"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    },
+    {
+      "card": "text-column-converge",
+      "upstreamCategory": "typography",
+      "styles": [
+        "text-column-converge"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    },
+    {
+      "card": "theme-switch-moves",
+      "upstreamCategory": "interaction",
+      "styles": [
+        "theme-sweep-toggle",
+        "palette-theme-ripple"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "timeline-travel",
+      "upstreamCategory": "data",
+      "styles": [
+        "timeline-travel"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "title-demote-to-label",
+      "upstreamCategory": "typography",
+      "styles": [
+        "title-demote-to-label"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    },
+    {
+      "card": "trailer-grammar-moves",
+      "upstreamCategory": "rhythm",
+      "styles": [
+        "trailer-bumper",
+        "card-footage-cadence",
+        "smash-cut"
+      ],
+      "category": "节奏与情绪",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "transition-hidden-cut",
+      "upstreamCategory": "transition",
+      "styles": [
+        "invisible-cut",
+        "versus-slam",
+        "light-leak-burn"
+      ],
+      "category": "转场",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "transition-travel",
+      "upstreamCategory": "transition",
+      "styles": [
+        "shared-element-morph",
+        "letterform-zoom"
+      ],
+      "category": "转场",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "type-and-filter",
+      "upstreamCategory": "interaction",
+      "styles": [
+        "type-and-filter"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "type-assembly-moves",
+      "upstreamCategory": "typography",
+      "styles": [
+        "split-text-stagger",
+        "drift-assembly",
+        "tracking-expand",
+        "text-on-path"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    },
+    {
+      "card": "type-entrance-moves",
+      "upstreamCategory": "typography",
+      "styles": [
+        "scramble-decode",
+        "letter-drop-physics"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    },
+    {
+      "card": "type-rhythm-sync",
+      "upstreamCategory": "typography",
+      "styles": [
+        "font-weight-pump",
+        "karaoke-fill-sync"
+      ],
+      "category": "字幕",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "typewriter-moves",
+      "upstreamCategory": "typography",
+      "styles": [
+        "terminal-typewriter",
+        "error-retype"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    },
+    {
+      "card": "typing-code-block",
+      "upstreamCategory": "typography",
+      "styles": [
+        "typing-code-block"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "ui-strip-away-outro",
+      "upstreamCategory": "outro",
+      "styles": [
+        "ui-strip-away-outro"
+      ],
+      "category": "素材展示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "ui-to-brand-morph",
+      "upstreamCategory": "outro",
+      "styles": [
+        "icon-flip-bloom",
+        "input-morph-assemble"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    },
+    {
+      "card": "value-stagger-gradient",
+      "upstreamCategory": "ui-entrance",
+      "styles": [
+        "value-stagger-gradient"
+      ],
+      "category": "素材展示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "vertical-word-roll-blur-cycle",
+      "upstreamCategory": "typography",
+      "styles": [
+        "vertical-word-roll-blur-cycle"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    },
+    {
+      "card": "voice-waveform-live",
+      "upstreamCategory": "interaction",
+      "styles": [
+        "voice-waveform-live"
+      ],
+      "category": "信息提示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "wall-reveal-moves",
+      "upstreamCategory": "ui-entrance",
+      "styles": [
+        "bento-light-up",
+        "grid-wave-flip",
+        "wireframe-draw-on"
+      ],
+      "category": "素材展示",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "white-flash-logo-simplify-cut",
+      "upstreamCategory": "transition",
+      "styles": [
+        "white-flash-logo-simplify-cut"
+      ],
+      "category": "转场",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "wipe-transitions",
+      "upstreamCategory": "transition",
+      "styles": [
+        "clock-wipe",
+        "blinds-slice"
+      ],
+      "category": "转场",
+      "status": "included",
+      "reason": "属于现有八类用途，保留作者组合镜头和素材依赖说明。"
+    },
+    {
+      "card": "word-relay-filmstrip",
+      "upstreamCategory": "typography",
+      "styles": [
+        "word-relay-filmstrip"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    },
+    {
+      "card": "word-relay-geometry",
+      "upstreamCategory": "typography",
+      "styles": [
+        "word-relay-geometry"
+      ],
+      "category": null,
+      "status": "excluded",
+      "reason": "纯标题排版或品牌片头片尾；现有目录不收录标题。"
+    }
+  ]
+}

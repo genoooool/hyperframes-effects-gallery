@@ -2,7 +2,7 @@
 
 > A curated, interactive gallery of HyperFrames effects, video transitions, animated captions, camera motion, WebGL shaders, and social-video UI effects. It preserves real previews, pinned source links, licenses, and actual integration status.
 
-The catalog contains 255 canonical effects from 266 pinned source versions: 74 official HyperFrames entries and 181 community entries. Visual duplicates are grouped, and the HyperFrames implementation is preferred when one exists. A preview does not imply that a community effect is directly installable in HyperFrames.
+The catalog contains 428 canonical effects from 444 pinned source versions: 74 official HyperFrames entries and 354 community entries. Visual duplicates are grouped, and the HyperFrames implementation is preferred when one exists. A preview does not imply that a community effect is directly installable in HyperFrames.
 
 ## Primary resources
 
@@ -14,14 +14,14 @@ The catalog contains 255 canonical effects from 266 pinned source versions: 74 o
 
 ## Catalog coverage
 
-- 157 video transitions
-- 56 animated captions
-- 7 camera-motion effects
-- 8 emphasis and callout effects
-- 5 asset-presentation effects
-- 7 rhythm and mood effects
-- 9 information cues
-- 6 texture and finish effects
+- 184 video transitions
+- 58 animated captions
+- 25 camera-motion effects
+- 24 emphasis and callout effects
+- 36 asset-presentation effects
+- 37 rhythm and mood effects
+- 50 information cues
+- 14 texture and finish effects
 
 ## Source families
 

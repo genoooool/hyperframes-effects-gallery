@@ -5,8 +5,8 @@
 # HyperFrames Effects & Captions Gallery
 
 [![Live Gallery](https://img.shields.io/badge/Live_Gallery-77654321.xyz-CDFD8B?style=flat-square)](https://77654321.xyz/#library)
-![Effects](https://img.shields.io/badge/curated_effects-255-171917?style=flat-square)
-![Source versions](https://img.shields.io/badge/source_versions-266-171917?style=flat-square)
+![Effects](https://img.shields.io/badge/curated_effects-428-171917?style=flat-square)
+![Source versions](https://img.shields.io/badge/source_versions-444-171917?style=flat-square)
 
 An interactive, source-traceable gallery of **HyperFrames effects, video transitions, animated captions, camera motion, WebGL shaders, and social-video UI effects**. Preview the real motion first, then open the pinned source or copy an integration brief.
 
@@ -27,17 +27,19 @@ HyperFrames Effects Gallery is a visual index for people building short-form vid
 
 | Category | Effects |
 | --- | ---: |
-| Transitions | 157 |
-| Animated captions | 56 |
-| Camera motion | 7 |
-| Emphasis and callouts | 8 |
-| Asset presentation | 5 |
-| Rhythm and mood | 7 |
-| Information cues | 9 |
-| Texture and finish | 6 |
-| **Total** | **255** |
+| Transitions | 184 |
+| Animated captions | 58 |
+| Camera motion | 25 |
+| Emphasis and callouts | 24 |
+| Asset presentation | 36 |
+| Rhythm and mood | 37 |
+| Information cues | 50 |
+| Texture and finish | 14 |
+| **Total** | **428** |
 
-The catalog currently contains **74 official HyperFrames entries** and **181 community entries**, representing **266 pinned source versions** after visual deduplication.
+The catalog currently contains **74 official HyperFrames entries** and **354 community entries**, representing **444 pinned source versions** after visual deduplication.
+
+The Video Shotcraft batch contributes 178 author previews: 173 new primary cards and 5 alternatives to existing cards. Search `shotcraft` to find the entire included selection. Source code and hosted videos are recorded separately; these effects have not been ported to HyperFrames. The 36 title/brand previews outside the catalog's scope are documented in the [source audit](docs/ai/SOURCE_AUDIT.md).
 
 ## Integration status
 

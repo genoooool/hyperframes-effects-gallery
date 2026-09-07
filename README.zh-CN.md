@@ -5,8 +5,8 @@
 # HyperFrames 动效与字幕效果库
 
 [![在线展厅](https://img.shields.io/badge/在线展厅-77654321.xyz-CDFD8B?style=flat-square)](https://77654321.xyz/#library)
-![效果](https://img.shields.io/badge/精选效果-255-171917?style=flat-square)
-![来源版本](https://img.shields.io/badge/来源版本-266-171917?style=flat-square)
+![效果](https://img.shields.io/badge/精选效果-428-171917?style=flat-square)
+![来源版本](https://img.shields.io/badge/来源版本-444-171917?style=flat-square)
 
 一个可交互、可追溯来源的 **HyperFrames 动效、视频转场、动态字幕、镜头运动、WebGL Shader 和短视频 UI 效果库**。先看真实效果，再打开固定版本源码或复制接入指令。
 
@@ -27,17 +27,19 @@
 
 | 分类 | 效果数 |
 | --- | ---: |
-| 转场 | 157 |
-| 动态字幕 | 56 |
-| 镜头运动 | 7 |
-| 局部强调 | 8 |
-| 素材展示 | 5 |
-| 节奏与情绪 | 7 |
-| 信息提示 | 9 |
-| 画面质感 | 6 |
-| **合计** | **255** |
+| 转场 | 184 |
+| 动态字幕 | 58 |
+| 镜头运动 | 25 |
+| 局部强调 | 24 |
+| 素材展示 | 36 |
+| 节奏与情绪 | 37 |
+| 信息提示 | 50 |
+| 画面质感 | 14 |
+| **合计** | **428** |
 
-其中包含 **74 个 HyperFrames 官方效果**、**181 个社区效果**；视觉去重后仍保留 **266 个固定来源版本**。
+其中包含 **74 个 HyperFrames 官方效果**、**354 个社区效果**；视觉去重后仍保留 **444 个固定来源版本**。
+
+Video Shotcraft 本批收录 178 个作者预览：173 张新增主卡、5 个已有主卡的来源变体。搜索 `shotcraft` 可找到全部收录项；原作预览与源码分别留档，均未移植到 HyperFrames。纯标题和品牌片头片尾的 36 个预览未收录，详见[来源审计](docs/ai/SOURCE_AUDIT.md)。
 
 ## 接入状态
 

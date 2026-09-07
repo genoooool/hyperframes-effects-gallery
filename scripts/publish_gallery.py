@@ -5,7 +5,7 @@ import json
 from collections import Counter,defaultdict
 from collect_official import ROOT
 
-COLLECTIONS=['official','community','ali','native-caption','gl','social','round3','round3-official']
+COLLECTIONS=['official','community','ali','native-caption','gl','social','round3','round3-official','shotcraft']
 
 def deduplicate(items,rules):
  by_id={e['id']:e for e in items}
