@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1280,height=720">
+  <title>素材盘点 · 设计样板</title>
+  <script src="gsap.min.js"></script>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { width: 1280px; height: 720px; margin: 0; overflow: hidden; }
+    body { font-family: -apple-system, BlinkMacSystemFont, system-ui, sans-serif; color: #f4f4f5; -webkit-font-smoothing: antialiased; }
+    #material-summary { position: relative; width: 1280px; height: 720px; overflow: hidden; }
+    .canvas { position: absolute; inset: 0; background: #111214; }
+    .panel { position: absolute; left: 80px; top: 88px; width: 1120px; height: 544px; background: #1c1d20; border: 1px solid #36383d; border-radius: 40px; box-shadow: 0 26px 70px #00000030; }
+    h1, p { margin: 0; }
+    .header { position: absolute; top: 42px; left: 56px; right: 56px; display: flex; align-items: center; justify-content: space-between; }
+    h1 { font-size: 32px; font-weight: 500; letter-spacing: -.8px; }
+    .demo { color: #aaadb5; font-size: 18px; }
+    .total { position: absolute; left: 56px; top: 143px; width: 370px; }
+    .number-mask { overflow: hidden; }
+    .total .number-mask { height: 190px; }
+    .total-value { display: block; font-size: 176px; line-height: 190px; letter-spacing: -10px; font-weight: 500; font-variant-numeric: tabular-nums; }
+    .total-label { color: #aaadb5; font-size: 24px; margin-top: 15px; }
+    .categories { position: absolute; left: 562px; right: 56px; top: 134px; }
+    .category { position: relative; height: 132px; display: flex; align-items: center; }
+    .category + .category { margin-top: 22px; }
+    .media { position: relative; width: 106px; height: 90px; flex: none; margin-right: 32px; }
+    .media-back, .media-front { position: absolute; width: 83px; height: 70px; border-radius: 17px; }
+    .media-back { left: 17px; top: 4px; background: #35373c; border: 1px solid #4a4d54; }
+    .media-front { left: 2px; top: 15px; background: #292b2f; border: 1px solid #555860; display: grid; place-items: center; box-shadow: 0 9px 16px #00000026; }
+    .media-front svg { width: 38px; height: 38px; }
+    .category-label { font-size: 25px; font-weight: 400; color: #aaadb5; flex: 1; }
+    .category .number-mask { height: 76px; }
+    .category-value { display: block; font-size: 64px; line-height: 76px; letter-spacing: -2.8px; font-weight: 500; font-variant-numeric: tabular-nums; }
+    .category-unit { color: #aaadb5; font-size: 20px; padding-left: 13px; padding-top: 18px; }
+    .distribution { position: absolute; left: 56px; right: 56px; bottom: 40px; }
+    .track { display: flex; gap: 7px; height: 8px; overflow: hidden; border-radius: 8px; }
+    .share { height: 8px; border-radius: 8px; transform-origin: left center; }
+    .share-video { width: calc((100% - 7px) * .4); background: #e9eaed; }
+    .share-image { flex: 1; background: #636772; }
+    .legend { display: flex; justify-content: space-between; margin-top: 18px; font-size: 18px; color: #aaadb5; }
+  </style>
+</head>
+<body>
+  <div id="material-summary" data-composition-id="material-summary" data-start="0" data-duration="6" data-width="1280" data-height="720">
+    <div class="canvas"></div>
+    <section class="panel" aria-label="素材盘点：视频24份，图片36份，共60份">
+      <header class="header"><h1>素材盘点</h1><span class="demo">演示数据</span></header>
+      <div class="total">
+        <div class="number-mask"><span class="total-value">60</span></div>
+        <p class="total-label">份素材</p>
+      </div>
+      <div class="categories">
+        <div class="category video-category">
+          <div class="media" aria-hidden="true"><div class="media-back"></div><div class="media-front"><svg viewBox="0 0 40 40" fill="none"><path d="M15 10.5 29 19a1.2 1.2 0 0 1 0 2l-14 8.5a1.3 1.3 0 0 1-2-1.1V11.6a1.3 1.3 0 0 1 2-1.1Z" fill="#E9EAED"/></svg></div></div>
+          <p class="category-label">视频</p><div class="number-mask"><span class="category-value">24</span></div><span class="category-unit">份</span>
+        </div>
+        <div class="category image-category">
+          <div class="media" aria-hidden="true"><div class="media-back"></div><div class="media-front"><svg viewBox="0 0 40 40" fill="none"><rect x="6" y="7" width="28" height="26" rx="5" stroke="#E9EAED" stroke-width="2"/><circle cx="25.5" cy="15" r="3" fill="#E9EAED"/><path d="m7 28 9-9 8 8 4-4 5 5" stroke="#E9EAED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div></div>
+          <p class="category-label">图片</p><div class="number-mask"><span class="category-value">36</span></div><span class="category-unit">份</span>
+        </div>
+      </div>
+      <div class="distribution"><div class="track"><div class="share share-video"></div><div class="share share-image"></div></div><div class="legend"><span>视频 40%</span><span>图片 60%</span></div></div>
+    </section>
+  </div>
+  <script>
+    const tl = gsap.timeline({paused: true});
+    tl.fromTo('.panel', {y: 24, scale: .975, opacity: 0}, {y: 0, scale: 1, opacity: 1, duration: .65, ease: 'power3.out'}, 0);
+    tl.fromTo('.header', {y: 8, opacity: 0}, {y: 0, opacity: 1, duration: .4, ease: 'power2.out'}, .18);
+    tl.fromTo('.total-value', {y: 190}, {y: 0, duration: .8, ease: 'expo.out'}, .35);
+    tl.fromTo('.total-label', {opacity: 0, y: 8}, {opacity: 1, y: 0, duration: .42, ease: 'power2.out'}, .64);
+    ['.video-category', '.image-category'].forEach((selector, i) => {
+      const at = .6 + i * .38;
+      tl.fromTo(selector + ' .media', {opacity: 0, x: -20}, {opacity: 1, x: 0, duration: .5, ease: 'power3.out'}, at);
+      tl.fromTo(selector + ' .media-back', {rotation: 0, x: -9, y: 8}, {rotation: 9, x: 0, y: 0, duration: .65, ease: 'back.out(1.2)'}, at + .15);
+      tl.fromTo(selector + ' .category-label', {opacity: 0, x: -8}, {opacity: 1, x: 0, duration: .36, ease: 'power2.out'}, at + .12);
+      tl.fromTo(selector + ' .category-value', {y: 76}, {y: 0, duration: .64, ease: 'expo.out'}, at + .2);
+      tl.fromTo(selector + ' .category-unit', {opacity: 0}, {opacity: 1, duration: .3}, at + .4);
+    });
+    tl.fromTo('.share-video', {scaleX: 0}, {scaleX: 1, duration: .7, ease: 'power3.inOut'}, 1.55);
+    tl.fromTo('.share-image', {scaleX: 0}, {scaleX: 1, duration: .75, ease: 'power3.inOut'}, 1.78);
+    tl.fromTo('.legend', {opacity: 0, y: 5}, {opacity: 1, y: 0, duration: .35}, 2.25);
+    window.__timelines = window.__timelines || {};
+    window.__timelines['material-summary'] = tl;
+  </script>
+</body>
+</html>
