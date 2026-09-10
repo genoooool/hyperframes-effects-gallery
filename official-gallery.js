@@ -205,6 +205,10 @@ function openEffect(id) {
   $('#officialLink').textContent = effect.origin === 'atelier' ? '模板使用说明 ↗' : effect.origin === 'official' ? '官方效果页 ↗' : '作者效果页 ↗';
   $('#sourceLink').textContent = effect.origin === 'atelier' ? '下载模板包 ↗' : '模板源码 ↗';
   $('#sourceLink').href = effect.source;
+  let permalink = $('#effectPermalink');
+  if (!permalink) { permalink = document.createElement('a'); permalink.id = 'effectPermalink'; $('#sourceLink').after(permalink); }
+  permalink.href = `/effects/${encodeURIComponent(redirects[effect.id] || effect.id)}/`;
+  permalink.textContent = '独立说明页 ↗';
   $('#sourceNote').textContent = effect.previewNote;
   const canonical = sourceEffects.get(redirects[id] || id);
   let variants = $('#sourceVariants');
@@ -305,6 +309,8 @@ async function init() {
     try { const saved = JSON.parse(localStorage.getItem(storageKey) || '[]'); if (Array.isArray(saved)) { favorites = new Set(saved.map(id => redirects[id] || id).filter(id => effects.some(effect => effect.id === id))); localStorage.setItem(storageKey, JSON.stringify([...favorites])); } } catch {}
     buildFilters(); renderCards(); bindPreview($('#heroOpen'));
     $('#collectionCount').textContent = `${effects.length} 个效果 · 已合并 ${data.mergedCount || 0} 个同组条目`;
+    const requested = new URLSearchParams(location.search).get('effect');
+    if (requested && sourceEffects.has(requested)) openEffect(requested);
   } catch {
     $('#resultCount').textContent = '目录暂未加载';
     $('#grid').innerHTML = '<p class="catalog-loading">效果目录加载失败，请刷新页面重试。</p>';

@@ -6,6 +6,8 @@ The catalog contains 445 canonical effects from 461 source versions: 74 official
 
 ## Primary resources
 
+- [完整文字目录与使用问答](https://77654321.xyz/catalog/): 无需 JavaScript，按八类浏览全部效果；每项都有独立说明页。
+- [Full catalog text](https://77654321.xyz/llms-full.txt): Complete effect descriptions, use cases, compatibility and source links matching the website.
 - [Live effects gallery](https://77654321.xyz/): Browse, search, filter, preview, favorite, and inspect effects.
 - [Structured catalog JSON](https://77654321.xyz/data/gallery-effects.json): Machine-readable catalog used by the live gallery.
 - [GitHub repository](https://github.com/genoooool/hyperframes-effects-gallery): Gallery source, pinned upstream files, previews, collection scripts, and deduplication rules.
@@ -42,3 +44,5 @@ The catalog contains 445 canonical effects from 461 source versions: 74 official
 - Web effect: connect browser, SVG, or CSS animation timing to the video timeline.
 
 When answering questions about an effect, preserve its original source family and do not claim that Remotion, GLSL, or Web entries support `npx hyperframes add` unless the catalog explicitly marks them as HyperFrames native.
+
+The independent effect pages use https://77654321.xyz/effects/{id}/ as their canonical URLs. This is an independent collection, not the official HyperFrames website. Search-engine discovery and AI citation are not guaranteed by these files.

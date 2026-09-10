@@ -46,3 +46,5 @@ html{--header-height:88px;scroll-padding-top:116px;scrollbar-gutter:stable}
 @media(max-width:1050px){.header.wrap{padding-inline:28px}}
 @media(max-width:767px){html{--header-height:80px;scroll-padding-top:108px}.header.wrap{padding-inline:18px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+/* Visible text entry point shared by readers and search crawlers. */
+.catalog-guide{padding:48px 0;border-top:1px solid #30332d;margin-top:48px}.catalog-guide p{max-width:850px;line-height:1.8;color:#b5bbae}.catalog-guide .primary-button{margin-top:12px}

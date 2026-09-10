@@ -52,5 +52,7 @@ def main():
  (ROOT/'data/dedup-report.json').write_text(json.dumps(audit,ensure_ascii=False,indent=2))
  p=ROOT/'data/collection.json';meta=json.loads(p.read_text());meta.update({'count':len(displayed),'raw_count':len(items),'merged_count':len(redirects),'official_count':sum(e['origin']=='official' for e in displayed),'community_count':sum(e['origin'] not in {'official','atelier'} for e in displayed),'authored_count':sum(e['origin']=='atelier' for e in displayed),'sources':dict(Counter(e['sourceLabel'] for e in displayed)),'category_counts':dict(Counter(e['category'] for e in displayed)),'video_mib':round(sum((ROOT/e['videoPreview']).stat().st_size for e in displayed)/1048576,2),'poster_mib':round(sum((ROOT/e['poster']).stat().st_size for e in displayed)/1048576,2)})
  p.write_text(json.dumps(meta,ensure_ascii=False,indent=2));print(json.dumps(meta,ensure_ascii=False,indent=2))
+ from build_search_pages import main as build_search_pages
+ build_search_pages()
 
 if __name__=='__main__':main()

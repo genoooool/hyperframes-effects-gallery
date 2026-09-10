@@ -4,7 +4,7 @@
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#101110">
   <title>HyperFrames Effects Gallery · 转场、字幕与短视频动效</title>
-  <meta name="description" content="Explore 445 HyperFrames, Remotion, WebGL and browser-based video effects: transitions, animated captions, camera motion and social-video overlays with real previews and pinned source links.">
+  <meta name="description" content="445 个可预览的视频动效：HyperFrames 转场、动态字幕、镜头运动、Remotion 效果与自制知识图解模板。提供源码、用途、许可证与实际接入状态。">
   <meta name="keywords" content="HyperFrames effects, HyperFrames transitions, animated captions, Remotion effects, GLSL transitions, short video effects, video motion graphics">
   <link rel="canonical" href="https://77654321.xyz/">
   <link rel="describedby" href="/llms.txt" type="text/markdown">
@@ -41,7 +41,7 @@
       ]
     }
   </script>
-  <link rel="stylesheet" href="styles.css?v=community-dedup-1">
+  <link rel="stylesheet" href="styles.css?v=geo-pages-1">
 </head>
 <body>
   <header class="header wrap">
@@ -63,6 +63,7 @@
       <div class="grid" id="grid" aria-busy="true"><p class="catalog-loading">正在读取效果库…</p></div>
       <div class="empty" id="empty" hidden><h3>这里还没有效果</h3><p id="emptyCopy">换个关键词，或试试其他分类。</p><button class="quiet-button" id="resetFilters">查看全部效果 ↗</button></div>
     </section>
+    <section class="catalog-guide" aria-labelledby="catalogGuideTitle"><h2 id="catalogGuideTitle">视频动效，按用途找到用法</h2><p>这里收录转场、动态字幕、镜头运动、局部强调、素材展示、节奏与情绪、信息提示和画面质感。每个效果都有独立的说明页，包含预览、源码和接入状态。</p><p>HyperFrames 官方模板与 Atelier 自制模板提供各自的使用方式；Remotion、GLSL 和 Web 效果需相应宿主或适配。预览可播放不代表已经适配，也不代表全部素材可直接商用。</p><a class="primary-button" href="/catalog/">浏览完整目录与使用问答 ↗</a><noscript><p>交互筛选需要 JavaScript；完整目录与效果说明页可直接阅读和播放视频。</p></noscript></section>
     <section class="closing"><div><span class="accent">下一帧，</span>可以很不一样。</div><p>官方、社区与自制示例，每个效果都可追溯。<br>先收藏灵感，再把它变成你的作品。</p></section>
   </main>
   <footer class="wrap"><span>hyperframes effects gallery</span><span id="collectionCount"></span><a href="https://hyperframes.heygen.com/catalog" target="_blank" rel="noopener noreferrer">官方 Catalog ↗</a></footer>
@@ -71,6 +72,6 @@
     <div class="detail-layout"><div class="player"><div id="detailStage" class="detail-stage"><img class="poster" alt="官方效果封面" width="1920" height="1080"><div class="preview-mount"></div><span class="preview-status" role="status"></span><button class="retry-preview quiet-button" id="retryPreview" hidden>重新加载预览</button></div><div class="controls"><button id="detailPlay" aria-label="暂停" disabled>Ⅱ</button><input type="range" id="scrub" min="0" max="1000" value="0" aria-label="播放进度" disabled><span id="timeLabel">加载中</span><select id="speed" aria-label="播放速度" disabled><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="1.5">1.5×</option><option value="2">2×</option></select><button id="replay" aria-label="从头播放" disabled>↺</button></div></div><div class="detail-info"><span class="detail-en" id="detailEnglish"></span><h2 id="detailTitle"></h2><p id="detailDesc"></p><div class="usage"><span>适合用在</span><p id="detailUse"></p></div><div class="detail-actions"><button id="saveDetail" class="primary-button">收藏效果</button><button id="copyBrief" class="quiet-button">复制使用指令 ↗</button></div><div class="source-links"><a id="officialLink" target="_blank" rel="noopener noreferrer">官方效果页 ↗</a><a id="sourceLink" target="_blank" rel="noopener noreferrer">模板源码 ↗</a></div><p class="demo-note" id="sourceNote"></p></div></div>
   </dialog>
   <div class="toast" role="status" id="toast"></div>
-  <script src="official-gallery.js?v=community-dedup-1"></script>
+  <script src="official-gallery.js?v=geo-pages-1"></script>
 </body>
 </html>

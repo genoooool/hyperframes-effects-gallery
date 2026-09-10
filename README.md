@@ -97,6 +97,8 @@ Rendering additional Remotion or WebGL previews requires Node.js, FFmpeg, Chrome
 
 ## AI and crawler access
 
+The [complete HTML catalog](https://77654321.xyz/catalog/) and `/effects/{id}/` detail pages work without JavaScript. They preserve descriptions, real compatibility, source versions and license notes. `sitemap.xml` covers all canonical pages; [`llms-full.txt`](https://77654321.xyz/llms-full.txt) contains their full text. See [implementation and verification notes](docs/GEO.md). These improve accessibility to crawlers, without promising indexing or AI citations.
+
 - [`/llms.txt`](https://77654321.xyz/llms.txt) provides a compact, machine-readable project summary and canonical links.
 - [`data/gallery-effects.json`](https://77654321.xyz/data/gallery-effects.json) is the structured catalog used by the live gallery.
 - Every effect records its category, source family, integration status, preview provenance, and source URL.

@@ -8,7 +8,7 @@ import subprocess
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 PUBLIC_FIELDS = set('id title en category origin sourceLabel compatibility type desc use tags duration poster videoPreview page source install previewLabel usageStatus previewNote usageCaveat hoverStart dedupGroup dedupReason searchAliases'.split())
-STATIC = ['index.html','styles.css','official-gallery.js','llms.txt','robots.txt','sitemap.xml','README.md','README.zh-CN.md','THIRD_PARTY_NOTICES.md','docs/ai/SOURCE_AUDIT.md','docs/COLLECTION_PIPELINE.zh-CN.md']
+STATIC = ['index.html','styles.css','search-pages.css','official-gallery.js','llms.txt','llms-full.txt','robots.txt','sitemap.xml','404.html','README.md','README.zh-CN.md','THIRD_PARTY_NOTICES.md','docs/ai/SOURCE_AUDIT.md','docs/COLLECTION_PIPELINE.zh-CN.md']
 
 def public_effect(effect):
     clean = {k: v for k, v in effect.items() if k in PUBLIC_FIELDS}
@@ -20,6 +20,7 @@ def public_effect(effect):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('destination', type=pathlib.Path)
+    parser.add_argument('--receipt', type=pathlib.Path, default=ROOT/'data/qa/public-package.json')
     args = parser.parse_args()
     dest = args.destination.expanduser().resolve()
     if dest.exists():
@@ -34,6 +35,9 @@ def main():
         if forbidden in payload:
             raise ValueError('Private/internal catalog field: '+forbidden)
     files = set(STATIC)
+    files.add('docs/GEO.md')
+    files.add('catalog/index.html')
+    files.update('effects/' + e['id'] + '/index.html' for e in catalog['effects'])
     files.update(str(p.relative_to(ROOT)) for p in (ROOT/'docs/images').glob('*') if p.is_file())
     # Our authored templates are public deliverables with working source links.
     # Keep imported upstream trees and internal QA outside the upload package.
@@ -63,9 +67,8 @@ def main():
     target.write_text(payload)
     records.append({'path':'data/gallery-effects.json','bytes':target.stat().st_size,'sha256':hashlib.sha256(target.read_bytes()).hexdigest()})
     report = {'destination':str(dest),'sourceCommit':subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),'effects':len(public['effects']),'sourceVariants':public['rawCount'],'fileCount':len(records),'bytes':sum(x['bytes'] for x in records),'files':records}
-    qa = ROOT/'data/qa/shotcraft'
-    qa.mkdir(parents=True, exist_ok=True)
-    (qa/'public-package.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+    args.receipt.parent.mkdir(parents=True, exist_ok=True)
+    args.receipt.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({k:v for k,v in report.items() if k!='files'},ensure_ascii=False,indent=2))
 
 if __name__ == '__main__':
