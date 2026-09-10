@@ -1,0 +1,14 @@
+{
+  "title": "把素材做成可复用效果",
+  "labels": "明确用途|替换内容|检查成片",
+  "values": "",
+  "unit": "",
+  "note": "使用时替换为已确认的项目内容",
+  "accent": "#176957",
+  "background": "#f3eee3",
+  "transparent": false,
+  "focus": 2,
+  "explanation": "",
+  "detailA": "适合已有明确模板的需求",
+  "detailB": "适合需要独特表达的需求"
+}

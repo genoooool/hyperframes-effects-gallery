@@ -202,7 +202,8 @@ function openEffect(id) {
   $('#detailDesc').textContent = effect.desc;
   $('#detailUse').textContent = effect.use;
   $('#officialLink').href = effect.page;
-  $('#officialLink').textContent = effect.origin === 'official' ? '官方效果页 ↗' : '作者效果页 ↗';
+  $('#officialLink').textContent = effect.origin === 'atelier' ? '模板使用说明 ↗' : effect.origin === 'official' ? '官方效果页 ↗' : '作者效果页 ↗';
+  $('#sourceLink').textContent = effect.origin === 'atelier' ? '下载模板包 ↗' : '模板源码 ↗';
   $('#sourceLink').href = effect.source;
   $('#sourceNote').textContent = effect.previewNote;
   const canonical = sourceEffects.get(redirects[id] || id);
@@ -233,7 +234,9 @@ $('#replay').onclick = () => { const player = active?.player; if (player?.readyS
 $('#retryPreview').onclick = () => { if (selected) mountPreview(selected, $('#detailStage'), 'detail'); };
 $('#saveDetail').onclick = () => { if (selected) toggleSave(selected.id); };
 function buildUsageBrief(effect) {
-  const source = effect.origin === 'official'
+  const source = effect.origin === 'atelier'
+    ? `请使用 Atelier 自制 HyperFrames 模板「${effect.title}」。\n${effect.install}\n模板源码：${effect.source}\n说明：${effect.page}\n版本：${effect.provenance.version}\n当前状态：${effect.compatibility}。\n使用 npx hyperframes render <模板目录> --variables-file <参数文件>，不要执行 hyperframes add。示例内容须替换为已确认材料。\n效果：${effect.desc}`
+    : effect.origin === 'official'
     ? `请使用 HyperFrames 官方模板「${effect.title}」（${effect.id}）。\n安装：${effect.install}\n官方效果页：${effect.page}\n源码版本：${effect.provenance.commit}\n效果：${effect.desc}`
     : effect.origin === 'glsl'
       ? `请使用 GL Transitions 的「${effect.title}」（${effect.en}）。\n${effect.install}\n源码：${effect.source}\n版本：${effect.provenance.commit}\n许可证：${effect.provenance.license}\n当前状态：${effect.compatibility}。\n预览使用原始 shader 和默认参数。先检查当前项目是否已有 GL Transitions 宿主；若没有，需要接入 WebGL 渲染与可定位的时间控制，再核对效果。不要直接执行 hyperframes add，也不要用 CSS 近似效果冒充原 shader。`

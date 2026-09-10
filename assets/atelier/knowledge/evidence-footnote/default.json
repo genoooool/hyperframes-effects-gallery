@@ -1,0 +1,14 @@
+{
+  "title": "预览与适配是两件事",
+  "labels": "资料：本库接入说明|口径：按渲染框架区分",
+  "values": "",
+  "unit": "",
+  "note": "使用时替换为已确认的项目内容",
+  "accent": "#176957",
+  "background": "#f3eee3",
+  "transparent": false,
+  "focus": 2,
+  "explanation": "",
+  "detailA": "适合已有明确模板的需求",
+  "detailB": "适合需要独特表达的需求"
+}

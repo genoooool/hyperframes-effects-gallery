@@ -1,0 +1,147 @@
+{
+  "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
+  "commit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
+  "referenceTemplates": 23,
+  "createdTemplates": 17,
+  "existingCapabilities": 6,
+  "items": [
+    {
+      "referenceId": "bar-chart-grow",
+      "decision": "independent-implementation",
+      "ourId": "atelier-column-reveal",
+      "difference": "柱形从同一零基线依次长出，数字落在柱顶，最后强调最大值。"
+    },
+    {
+      "referenceId": "line-chart-draw",
+      "decision": "independent-implementation",
+      "ourId": "atelier-series-trace",
+      "difference": "折线逐段绘出，节点与数值跟随到达顺序出现，保留零基线。"
+    },
+    {
+      "referenceId": "before-after-stat",
+      "decision": "independent-implementation",
+      "ourId": "atelier-paired-values",
+      "difference": "两组标签和数值先后进入，细分隔线展开；不自动宣称提升比例。"
+    },
+    {
+      "referenceId": "horizontal-bar-compare",
+      "decision": "independent-implementation",
+      "ourId": "atelier-measure-bars",
+      "difference": "两根横条共享尺度，由左向右伸展，末端标签同时落定。"
+    },
+    {
+      "referenceId": "top-rank-list",
+      "decision": "independent-implementation",
+      "ourId": "atelier-ordered-podium",
+      "difference": "按输入数值排序，三条排名由下向上建立，首位侧标最后点亮。"
+    },
+    {
+      "referenceId": "turning-point-line",
+      "decision": "independent-implementation",
+      "ourId": "atelier-inflection-note",
+      "difference": "趋势线与节点逐段建立，随后在指定节点下方揭示引线和解释。"
+    },
+    {
+      "referenceId": "source-citation-card",
+      "decision": "independent-implementation",
+      "ourId": "atelier-evidence-footnote",
+      "difference": "来源行先出现，分隔线横向铺开，再揭示结论与统计口径。"
+    },
+    {
+      "referenceId": "stat-duel",
+      "decision": "independent-implementation",
+      "ourId": "atelier-duo-overlay",
+      "difference": "画面下方两张独立数值卡错峰进入，中间细线将比较关系连接。"
+    },
+    {
+      "referenceId": "status-split",
+      "decision": "independent-implementation",
+      "ourId": "atelier-state-handoff",
+      "difference": "两种状态错峰进入左右区域，中间箭头连接前后关系，最后并排保持。"
+    },
+    {
+      "referenceId": "number-impact",
+      "decision": "independent-implementation",
+      "ourId": "atelier-percent-ticks",
+      "difference": "二十段刻度沿阅读方向依次填充，末段可部分填充，和百分比严格对应。"
+    },
+    {
+      "referenceId": "concept-spotlight",
+      "decision": "independent-implementation",
+      "ourId": "atelier-term-definition",
+      "difference": "侧边注释卡从左侧进入，术语与解释随后显现，下方强调线横向展开。"
+    },
+    {
+      "referenceId": "three-step-flow",
+      "decision": "independent-implementation",
+      "ourId": "atelier-step-stair",
+      "difference": "三个步骤沿阶梯依次抬升，连接箭头先于下一个步骤出现，最后同时保持。"
+    },
+    {
+      "referenceId": "myth-fact-swap",
+      "decision": "independent-implementation",
+      "ourId": "atelier-correction-reveal",
+      "difference": "旧观点停留后被一条线划除并降低亮度，新观点从下方进入并保持可读。"
+    },
+    {
+      "referenceId": "timeline-scan",
+      "decision": "independent-implementation",
+      "ourId": "atelier-milestone-rail",
+      "difference": "横向轨道被逐段描出，三个节点依次点亮，标签在节点到达时揭示。"
+    },
+    {
+      "referenceId": "cause-chain",
+      "decision": "independent-implementation",
+      "ourId": "atelier-cause-relay",
+      "difference": "原因、机制、结果顺序出现，箭头沿传播方向生长；每个节点有独立阅读停顿。"
+    },
+    {
+      "referenceId": "mode-choice-compare",
+      "decision": "independent-implementation",
+      "ourId": "atelier-option-balance",
+      "difference": "两个等宽区域同时进入，说明随后显现，不暗示未经证实的优劣。"
+    },
+    {
+      "referenceId": "iteration-loop",
+      "decision": "independent-implementation",
+      "ourId": "atelier-feedback-circuit",
+      "difference": "四个节点按环路依次点亮，末尾的回程线连接起点，表达有限的一轮迭代。"
+    },
+    {
+      "referenceId": "number-counter",
+      "decision": "existing-capability",
+      "ourId": "count-up",
+      "reason": "已有数值递增和落定强调"
+    },
+    {
+      "referenceId": "metric-pulse",
+      "decision": "existing-capability",
+      "ourId": "count-up",
+      "reason": "单项数字落定强调已有对应能力"
+    },
+    {
+      "referenceId": "big-number-card",
+      "decision": "existing-capability",
+      "ourId": "count-up",
+      "reason": "大数字与说明可通过现有数字模板布局实现"
+    },
+    {
+      "referenceId": "compact-number-callout",
+      "decision": "existing-capability",
+      "ourId": "count-up",
+      "reason": "数字强调已有；尺寸变化不另计一种效果"
+    },
+    {
+      "referenceId": "key-point-marker",
+      "decision": "existing-capability",
+      "ourId": "hw-underline",
+      "reason": "已有原文下划线与重点标记"
+    },
+    {
+      "referenceId": "checklist-pop",
+      "decision": "existing-capability",
+      "ourId": "marker-checklist-card",
+      "reason": "已有清单逐项出现和勾选"
+    }
+  ]
+}

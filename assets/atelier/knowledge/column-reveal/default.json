@@ -1,0 +1,14 @@
+{
+  "title": "各阶段的素材数量",
+  "labels": "初筛|复核|整理|交付",
+  "values": "18,32,46,60",
+  "unit": "份",
+  "note": "演示数据，非实测结果",
+  "accent": "#176957",
+  "background": "#f3eee3",
+  "transparent": false,
+  "focus": 2,
+  "explanation": "",
+  "detailA": "适合已有明确模板的需求",
+  "detailB": "适合需要独特表达的需求"
+}

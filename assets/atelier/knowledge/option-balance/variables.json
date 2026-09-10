@@ -1,0 +1,74 @@
+[
+  {
+    "id": "title",
+    "type": "string",
+    "label": "title",
+    "default": "按目标选择工作方式"
+  },
+  {
+    "id": "labels",
+    "type": "string",
+    "label": "labels",
+    "default": "直接使用模板|重新设计动效"
+  },
+  {
+    "id": "values",
+    "type": "string",
+    "label": "values",
+    "default": ""
+  },
+  {
+    "id": "unit",
+    "type": "string",
+    "label": "unit",
+    "default": ""
+  },
+  {
+    "id": "note",
+    "type": "string",
+    "label": "note",
+    "default": "使用时替换为已确认的项目内容"
+  },
+  {
+    "id": "accent",
+    "type": "color",
+    "label": "accent",
+    "default": "#176957"
+  },
+  {
+    "id": "background",
+    "type": "color",
+    "label": "background",
+    "default": "#f3eee3"
+  },
+  {
+    "id": "transparent",
+    "type": "boolean",
+    "label": "transparent",
+    "default": false
+  },
+  {
+    "id": "focus",
+    "type": "number",
+    "label": "focus",
+    "default": 2
+  },
+  {
+    "id": "explanation",
+    "type": "string",
+    "label": "explanation",
+    "default": ""
+  },
+  {
+    "id": "detailA",
+    "type": "string",
+    "label": "detailA",
+    "default": "适合已有明确模板的需求"
+  },
+  {
+    "id": "detailB",
+    "type": "string",
+    "label": "detailB",
+    "default": "适合需要独特表达的需求"
+  }
+]

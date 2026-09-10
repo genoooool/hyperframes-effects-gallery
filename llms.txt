@@ -2,7 +2,7 @@
 
 > A curated, interactive gallery of HyperFrames effects, video transitions, animated captions, camera motion, WebGL shaders, and social-video UI effects. It preserves real previews, pinned source links, licenses, and actual integration status.
 
-The catalog contains 428 canonical effects from 444 pinned source versions: 74 official HyperFrames entries and 354 community entries. Visual duplicates are grouped, and the HyperFrames implementation is preferred when one exists. A preview does not imply that a community effect is directly installable in HyperFrames.
+The catalog contains 445 canonical effects from 461 source versions: 74 official HyperFrames entries, 354 community entries, and 17 Atelier-authored local templates. Visual duplicates are grouped, and the HyperFrames implementation is preferred when one exists. A preview does not imply that a community effect is directly installable in HyperFrames.
 
 ## Primary resources
 
@@ -20,7 +20,7 @@ The catalog contains 428 canonical effects from 444 pinned source versions: 74 o
 - 24 emphasis and callout effects
 - 36 asset-presentation effects
 - 37 rhythm and mood effects
-- 50 information cues
+- 67 information cues
 - 14 texture and finish effects
 
 ## Source families
@@ -31,9 +31,12 @@ The catalog contains 428 canonical effects from 444 pinned source versions: 74 o
 - [Source audit](https://github.com/genoooool/hyperframes-effects-gallery/blob/main/docs/ai/SOURCE_AUDIT.md): Included repositories, pinned revisions, exclusions, and adaptation notes.
 - [Third-party notices](https://github.com/genoooool/hyperframes-effects-gallery/blob/main/THIRD_PARTY_NOTICES.md): License and attribution boundaries.
 
+- [Atelier authored templates](https://77654321.xyz/assets/atelier/knowledge/README.md): Independent parameterized HyperFrames examples, reference mapping, and local rendering instructions.
+
 ## Integration semantics
 
 - HyperFrames native: official block/component; use its preserved install and source path.
+- Atelier authored: local HyperFrames compositions, not registry items; use the provided source directory and variable file, never `hyperframes add`.
 - Remotion: map React animation and frame timing into the target video host.
 - GL Transition: provide from/to textures, progress, aspect ratio, parameters, and endpoint handling.
 - Web effect: connect browser, SVG, or CSS animation timing to the video timeline.

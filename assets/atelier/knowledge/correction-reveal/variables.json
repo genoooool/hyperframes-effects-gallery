@@ -1,0 +1,74 @@
+[
+  {
+    "id": "title",
+    "type": "string",
+    "label": "title",
+    "default": "先看清使用条件"
+  },
+  {
+    "id": "labels",
+    "type": "string",
+    "label": "labels",
+    "default": "能预览，就能直接套用|还需要核对框架与素材依赖"
+  },
+  {
+    "id": "values",
+    "type": "string",
+    "label": "values",
+    "default": ""
+  },
+  {
+    "id": "unit",
+    "type": "string",
+    "label": "unit",
+    "default": ""
+  },
+  {
+    "id": "note",
+    "type": "string",
+    "label": "note",
+    "default": "使用时替换为已确认的项目内容"
+  },
+  {
+    "id": "accent",
+    "type": "color",
+    "label": "accent",
+    "default": "#176957"
+  },
+  {
+    "id": "background",
+    "type": "color",
+    "label": "background",
+    "default": "#f3eee3"
+  },
+  {
+    "id": "transparent",
+    "type": "boolean",
+    "label": "transparent",
+    "default": false
+  },
+  {
+    "id": "focus",
+    "type": "number",
+    "label": "focus",
+    "default": 2
+  },
+  {
+    "id": "explanation",
+    "type": "string",
+    "label": "explanation",
+    "default": ""
+  },
+  {
+    "id": "detailA",
+    "type": "string",
+    "label": "detailA",
+    "default": "适合已有明确模板的需求"
+  },
+  {
+    "id": "detailB",
+    "type": "string",
+    "label": "detailB",
+    "default": "适合需要独特表达的需求"
+  }
+]

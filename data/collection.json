@@ -2,7 +2,7 @@
   "collected_at": "2026-09-08",
   "commit": "7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd",
   "player_version": "0.8.30",
-  "count": 428,
+  "count": 445,
   "official_count": 74,
   "community_count": 354,
   "categories": [
@@ -26,7 +26,8 @@
     "GL Transitions": 119,
     "Remotion · RemotionUI": 10,
     "Rough Notation": 1,
-    "Remotion · Video Shotcraft": 173
+    "Remotion · Video Shotcraft": 173,
+    "HyperFrames · Atelier 自制": 17
   },
   "category_counts": {
     "转场": 184,
@@ -35,11 +36,12 @@
     "局部强调": 24,
     "素材展示": 36,
     "节奏与情绪": 37,
-    "信息提示": 50,
+    "信息提示": 67,
     "画面质感": 14
   },
-  "video_mib": 188.8,
-  "poster_mib": 9.61,
-  "raw_count": 444,
-  "merged_count": 16
+  "video_mib": 190.44,
+  "poster_mib": 9.78,
+  "raw_count": 461,
+  "merged_count": 16,
+  "authored_count": 17
 }

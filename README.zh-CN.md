@@ -5,8 +5,8 @@
 # HyperFrames 动效与字幕效果库
 
 [![在线展厅](https://img.shields.io/badge/在线展厅-77654321.xyz-CDFD8B?style=flat-square)](https://77654321.xyz/#library)
-![效果](https://img.shields.io/badge/精选效果-428-171917?style=flat-square)
-![来源版本](https://img.shields.io/badge/来源版本-444-171917?style=flat-square)
+![效果](https://img.shields.io/badge/精选效果-445-171917?style=flat-square)
+![来源版本](https://img.shields.io/badge/来源版本-461-171917?style=flat-square)
 
 一个可交互、可追溯来源的 **HyperFrames 动效、视频转场、动态字幕、镜头运动、WebGL Shader 和短视频 UI 效果库**。先看真实效果，再打开固定版本源码或复制接入指令。
 
@@ -21,7 +21,7 @@
 - 官方效果链接到 HyperFrames Catalog 和固定版本源码。
 - Remotion、GLSL、Web 效果保留原框架及接入状态。
 - 视觉行为重复时优先展示 HyperFrames，其他版本保留在详情中。
-- 每张卡片播放作者原始预览，或由固定版本源码实际渲染的预览。
+- 卡片播放作者原始预览、固定源码实渲，或明确标注的 Atelier 自制样片。
 
 ## 当前收录
 
@@ -33,19 +33,22 @@
 | 局部强调 | 24 |
 | 素材展示 | 36 |
 | 节奏与情绪 | 37 |
-| 信息提示 | 50 |
+| 信息提示 | 67 |
 | 画面质感 | 14 |
-| **合计** | **428** |
+| **合计** | **445** |
 
-其中包含 **74 个 HyperFrames 官方效果**、**354 个社区效果**；视觉去重后仍保留 **444 个固定来源版本**。
+其中包含 **74 个 HyperFrames 官方效果**、**354 个社区效果**、**17 个 Atelier 自制模板**；视觉去重后仍保留 **461 个来源版本**。
 
 Video Shotcraft 本批收录 178 个作者预览：173 张新增主卡、5 个已有主卡的来源变体。搜索 `shotcraft` 可找到全部收录项；原作预览与源码分别留档，均未移植到 HyperFrames。纯标题和品牌片头片尾的 36 个预览未收录，详见[来源审计](docs/ai/SOURCE_AUDIT.md)。
+
+Atelier 知识与数据批次新增 17 个独立编写的参数化模板，涵盖图表、比较、来源脚注与机制讲解。搜索 `Atelier` 或选择自制来源筛选，详见[模板用法与参考映射](assets/atelier/knowledge/README.md)。
 
 ## 接入状态
 
 | 标记 | 含义 |
 | --- | --- |
 | **HyperFrames 原生** | 官方 block 或 component，保留安装方式与源码路径。 |
+| **Atelier 自制** | 带参数的本地 HyperFrames composition，附自制源码，不属于官方 registry。 |
 | **Remotion** | React/Remotion 组件，需要 Remotion 宿主或有意识地移植到 HyperFrames。 |
 | **GL Transition** | GLSL 转场，需要纹理、进度、宽高比参数和 WebGL 时间轴宿主。 |
 | **Web 动效** | 浏览器、SVG 或 CSS 组件，需要把动画时钟接入视频时间轴。 |
@@ -54,7 +57,7 @@ Video Shotcraft 本批收录 178 个作者预览：173 张新增主卡、5 个�
 
 ## 展厅能力
 
-- 八个短视频实用分类和五种来源筛选
+- 八个短视频实用分类和六种来源筛选
 - 按名称、风格、用途或作者搜索
 - 默认只加载封面，全页同时只运行一个视频预览
 - 桌面悬停试看，点击打开详情；手机端点击查看

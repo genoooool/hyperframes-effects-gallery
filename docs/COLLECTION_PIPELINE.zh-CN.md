@@ -77,6 +77,12 @@ Cloudflare 静态资产当前会忽略视频 Range 请求并返回完整文件�
 
 具体仓库核对、收录范围、排除原因和 Remotion 适配路径见 [来源审查](docs/ai/SOURCE_AUDIT.md)。
 
+## Atelier 自制知识与数据模板
+
+`python3 scripts/build_atelier_knowledge.py` 从本库独立编写的模板定义、CSS 与 GSAP 时间线生成 17 个自足模板目录。`python3 scripts/render_atelier_knowledge.py` 逐项运行 HyperFrames check、24fps 渲染、完整解码与封面抽取；只有输入哈希、渲染器版本与媒体哈希均相同时才复用结果，全部成功后写入 `data/atelier-effects.json`。随后运行 `python3 scripts/publish_gallery.py` 更新统一目录。
+
+本批参考 nutllwhy 的 23 项用途分类，逐项区分 17 个独立实现与 6 个已有能力；不复制上游模板、文字或预览。具体参数及来源说明见 [自制模板说明](../assets/atelier/knowledge/README.md)。网页使用新的 `atelier` 来源，不能套用官方 registry 安装指令或 Remotion 适配说明。公开包包含这些自制源码与所需 GSAP；内部 QA 仍排除。
+
 ## 来源与许可证
 
 本项目是独立社区项目，与 HeyGen、HyperFrames、Remotion 及收录的第三方作者没有隶属关系。每个效果的详情页保留原始来源、固定版本和适配状态；第三方源码与媒体继续遵循各自目录中的许可证或原作者条款。仓库根目录没有为第三方内容重新授予统一许可证，具体见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。

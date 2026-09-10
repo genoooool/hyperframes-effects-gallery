@@ -1,0 +1,74 @@
+[
+  {
+    "id": "title",
+    "type": "string",
+    "label": "title",
+    "default": "样例条目的阅读次数"
+  },
+  {
+    "id": "labels",
+    "type": "string",
+    "label": "labels",
+    "default": "案例甲|案例乙|案例丙"
+  },
+  {
+    "id": "values",
+    "type": "string",
+    "label": "values",
+    "default": "320,240,180"
+  },
+  {
+    "id": "unit",
+    "type": "string",
+    "label": "unit",
+    "default": "次"
+  },
+  {
+    "id": "note",
+    "type": "string",
+    "label": "note",
+    "default": "演示数据，非实测结果"
+  },
+  {
+    "id": "accent",
+    "type": "color",
+    "label": "accent",
+    "default": "#176957"
+  },
+  {
+    "id": "background",
+    "type": "color",
+    "label": "background",
+    "default": "#f3eee3"
+  },
+  {
+    "id": "transparent",
+    "type": "boolean",
+    "label": "transparent",
+    "default": false
+  },
+  {
+    "id": "focus",
+    "type": "number",
+    "label": "focus",
+    "default": 2
+  },
+  {
+    "id": "explanation",
+    "type": "string",
+    "label": "explanation",
+    "default": ""
+  },
+  {
+    "id": "detailA",
+    "type": "string",
+    "label": "detailA",
+    "default": "适合已有明确模板的需求"
+  },
+  {
+    "id": "detailB",
+    "type": "string",
+    "label": "detailB",
+    "default": "适合需要独特表达的需求"
+  }
+]

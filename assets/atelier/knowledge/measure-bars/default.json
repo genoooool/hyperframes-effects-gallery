@@ -1,0 +1,14 @@
+{
+  "title": "两套样例的覆盖量",
+  "labels": "方案青|方案朱",
+  "values": "28,44",
+  "unit": "项",
+  "note": "演示数据，非实测结果",
+  "accent": "#176957",
+  "background": "#f3eee3",
+  "transparent": false,
+  "focus": 2,
+  "explanation": "",
+  "detailA": "适合已有明确模板的需求",
+  "detailB": "适合需要独特表达的需求"
+}

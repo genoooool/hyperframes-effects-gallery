@@ -1,0 +1,14 @@
+{
+  "title": "为什么复用需要参数",
+  "labels": "内容会变化|将内容与动画分开|复用同一段动作",
+  "values": "",
+  "unit": "",
+  "note": "使用时替换为已确认的项目内容",
+  "accent": "#176957",
+  "background": "#f3eee3",
+  "transparent": false,
+  "focus": 2,
+  "explanation": "",
+  "detailA": "适合已有明确模板的需求",
+  "detailB": "适合需要独特表达的需求"
+}

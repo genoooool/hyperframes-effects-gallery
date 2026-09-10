@@ -1,0 +1,14 @@
+{
+  "title": "分阶段阅读记录",
+  "labels": "第一周|第二周|第三周|第四周|第五周",
+  "values": "12,20,17,30,36",
+  "unit": "篇",
+  "note": "演示数据，非实测结果",
+  "accent": "#176957",
+  "background": "#f3eee3",
+  "transparent": false,
+  "focus": 2,
+  "explanation": "",
+  "detailA": "适合已有明确模板的需求",
+  "detailB": "适合需要独特表达的需求"
+}

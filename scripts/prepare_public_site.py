@@ -35,6 +35,12 @@ def main():
             raise ValueError('Private/internal catalog field: '+forbidden)
     files = set(STATIC)
     files.update(str(p.relative_to(ROOT)) for p in (ROOT/'docs/images').glob('*') if p.is_file())
+    # Our authored templates are public deliverables with working source links.
+    # Keep imported upstream trees and internal QA outside the upload package.
+    authored = ROOT/'assets/atelier/knowledge'
+    if authored.exists():
+        files.update(str(p.relative_to(ROOT)) for p in authored.rglob('*')
+                     if p.is_file() and (p.suffix in {'.html','.js','.css','.json','.md','.mp4','.jpg','.zip'} or p.name == 'LICENSE'))
     for effect in catalog['effects']:
         for item in [effect]+effect.get('alternatives', []):
             for key in ['poster','videoPreview']:

@@ -5,8 +5,8 @@
 # HyperFrames Effects & Captions Gallery
 
 [![Live Gallery](https://img.shields.io/badge/Live_Gallery-77654321.xyz-CDFD8B?style=flat-square)](https://77654321.xyz/#library)
-![Effects](https://img.shields.io/badge/curated_effects-428-171917?style=flat-square)
-![Source versions](https://img.shields.io/badge/source_versions-444-171917?style=flat-square)
+![Effects](https://img.shields.io/badge/curated_effects-445-171917?style=flat-square)
+![Source versions](https://img.shields.io/badge/source_versions-461-171917?style=flat-square)
 
 An interactive, source-traceable gallery of **HyperFrames effects, video transitions, animated captions, camera motion, WebGL shaders, and social-video UI effects**. Preview the real motion first, then open the pinned source or copy an integration brief.
 
@@ -21,7 +21,7 @@ HyperFrames Effects Gallery is a visual index for people building short-form vid
 - Official HyperFrames entries link to the catalog and pinned registry source.
 - Remotion, GLSL, and Web entries retain their original framework and integration status.
 - Duplicate visual behaviors are grouped, with the HyperFrames version shown first when available.
-- Every card uses a real author preview or a preview rendered from the pinned source.
+- Cards use real author previews, renders from pinned upstream source, or clearly labeled Atelier-authored renders.
 
 ## Catalog at a glance
 
@@ -33,19 +33,22 @@ HyperFrames Effects Gallery is a visual index for people building short-form vid
 | Emphasis and callouts | 24 |
 | Asset presentation | 36 |
 | Rhythm and mood | 37 |
-| Information cues | 50 |
+| Information cues | 67 |
 | Texture and finish | 14 |
-| **Total** | **428** |
+| **Total** | **445** |
 
-The catalog currently contains **74 official HyperFrames entries** and **354 community entries**, representing **444 pinned source versions** after visual deduplication.
+The catalog currently contains **74 official HyperFrames entries**, **354 community entries**, and **17 Atelier-authored templates**, representing **461 source versions** after visual deduplication.
 
 The Video Shotcraft batch contributes 178 author previews: 173 new primary cards and 5 alternatives to existing cards. Search `shotcraft` to find the entire included selection. Source code and hosted videos are recorded separately; these effects have not been ported to HyperFrames. The 36 title/brand previews outside the catalog's scope are documented in the [source audit](docs/ai/SOURCE_AUDIT.md).
+
+The Atelier knowledge batch adds 17 independently authored, parameterized templates for charts, comparisons, citations and explanations. Search `Atelier` or use the dedicated source filter. See [template usage and reference mapping](assets/atelier/knowledge/README.md).
 
 ## Integration status
 
 | Label | Meaning |
 | --- | --- |
 | **HyperFrames native** | An official registry block or component with its install/source path preserved. |
+| **Atelier authored** | A local HyperFrames composition with editable parameters and its own source; not an official registry entry. |
 | **Remotion** | A React/Remotion component or family that needs a Remotion host or a deliberate HyperFrames port. |
 | **GL Transition** | A GLSL transition that needs textures, progress, aspect-ratio parameters, and a WebGL timeline host. |
 | **Web effect** | A browser/SVG/CSS component that needs its animation clock connected to the video timeline. |
@@ -54,7 +57,7 @@ A preview means the effect was verified visually. It does **not** mean every com
 
 ## Gallery features
 
-- Eight practical short-video categories and five source filters
+- Eight practical short-video categories and six source filters
 - Search by effect name, style, use case, or upstream author
 - Poster-first loading with one active video preview at a time
 - Hover preview on desktop and click-to-preview details

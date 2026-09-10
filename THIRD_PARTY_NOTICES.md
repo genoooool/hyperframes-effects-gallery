@@ -19,3 +19,7 @@ The gallery preserves the source URL, pinned revision, license label, and adapta
 The presence of a preview does not mean that the effect has been ported to HyperFrames. The gallery labels Remotion, GLSL, and Web effects with their actual integration status.
 
 Shotcraft's author videos are hosted separately from its Git source. Each downloaded MP4 has a URL, retrieval timestamp and SHA-256 receipt; the pinned source revision does not establish frame identity between the source and hosted video. The complete 214-preview inventory is accounted for in `assets/community/video-shotcraft/selection.json`: 178 included previews (173 additional primary cards and 5 alternatives), and 36 title/brand previews outside this gallery's scope. The small complete upstream recipe/demo kit is retained for accurate source navigation, including recipes outside the displayed selection.
+
+## Atelier authored knowledge templates
+
+`assets/atelier/knowledge/` contains independently authored templates and locally rendered examples. Concept inventory reference: [nutllwhy/hyperframes-motion-library](https://github.com/nutllwhy/hyperframes-motion-library), commit `fe59998fa3f2c8579ba5ddd00cbbb76131190bdb`, by 栗噔噔. No template code, example copy or media from that repository is redistributed in this collection. See `reference-map.json` for the 23-item coverage mapping. Our template code has its own MIT license in that directory; bundled GSAP keeps its upstream license header.

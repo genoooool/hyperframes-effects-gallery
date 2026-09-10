@@ -101,7 +101,7 @@ HyperFrames 原固定版本补齐 `hw-underline`（实际包含 underline/strike
 
 已检查仓库首页与 README 展示范围，未声称对每个完整项目做过逐文件拆解：
 
-- [hyperframes-motion-library](https://github.com/nutllwhy/hyperframes-motion-library)：偏数字卡、图表、流程等场景组件；本轮不把它们当转场/字幕收录。
+- [hyperframes-motion-library](https://github.com/nutllwhy/hyperframes-motion-library)：早期仅转场/字幕阶段未收录。2026-09-11 根据用户要求，按固定版本 `fe59998fa3f2c8579ba5ddd00cbbb76131190bdb` 的 23 项目录重新盘点：17 项以独立实现补入信息提示类，另 6 项对应已有数字、标记、清单能力。此次仅借鉴形式和用途，不分发上游源码、文案或样片；浅纸色的自制版本与上游原作明确区分。映射见 `assets/atelier/knowledge/reference-map.json`。
 - [hyperframes-student-kit](https://github.com/nateherkai/hyperframes-student-kit)：12 个完整教学项目；不为收录一个效果先拆整片。
 - [hyperframes-launches](https://github.com/heygen-com/hyperframes-launches)：官方发布会成片，存在 LFS 素材；保留为参考来源，未下载整片。
 - [hyperframes-helper](https://github.com/robonuggets/hyperframes-helper)：HTML-to-MP4 工作流辅助套件，非独立效果目录。

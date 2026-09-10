@@ -1,0 +1,14 @@
+{
+  "title": "一个变化节点",
+  "labels": "阶段一|阶段二|阶段三|阶段四|阶段五",
+  "values": "12,16,19,38,45",
+  "unit": "项",
+  "note": "演示数据，非实测结果",
+  "accent": "#176957",
+  "background": "#f3eee3",
+  "transparent": false,
+  "focus": 2,
+  "explanation": "变化发生在这里",
+  "detailA": "适合已有明确模板的需求",
+  "detailB": "适合需要独特表达的需求"
+}

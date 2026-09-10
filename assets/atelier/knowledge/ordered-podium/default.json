@@ -1,0 +1,14 @@
+{
+  "title": "样例条目的阅读次数",
+  "labels": "案例甲|案例乙|案例丙",
+  "values": "320,240,180",
+  "unit": "次",
+  "note": "演示数据，非实测结果",
+  "accent": "#176957",
+  "background": "#f3eee3",
+  "transparent": false,
+  "focus": 2,
+  "explanation": "",
+  "detailA": "适合已有明确模板的需求",
+  "detailB": "适合需要独特表达的需求"
+}

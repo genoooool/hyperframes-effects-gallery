@@ -1,0 +1,14 @@
+{
+  "title": "按目标选择工作方式",
+  "labels": "直接使用模板|重新设计动效",
+  "values": "",
+  "unit": "",
+  "note": "使用时替换为已确认的项目内容",
+  "accent": "#176957",
+  "background": "#f3eee3",
+  "transparent": false,
+  "focus": 2,
+  "explanation": "",
+  "detailA": "适合已有明确模板的需求",
+  "detailB": "适合需要独特表达的需求"
+}

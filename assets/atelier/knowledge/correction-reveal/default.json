@@ -1,0 +1,14 @@
+{
+  "title": "先看清使用条件",
+  "labels": "能预览，就能直接套用|还需要核对框架与素材依赖",
+  "values": "",
+  "unit": "",
+  "note": "使用时替换为已确认的项目内容",
+  "accent": "#176957",
+  "background": "#f3eee3",
+  "transparent": false,
+  "focus": 2,
+  "explanation": "",
+  "detailA": "适合已有明确模板的需求",
+  "detailB": "适合需要独特表达的需求"
+}
