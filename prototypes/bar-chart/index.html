@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1280,height=720">
+  <title>每周产出 · 柱状图样板</title>
+  <script src="gsap.min.js"></script>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { width: 1280px; height: 720px; margin: 0; overflow: hidden; background: transparent; }
+    body { font-family: -apple-system, BlinkMacSystemFont, system-ui, sans-serif; color: #f4f4f5; -webkit-font-smoothing: antialiased; }
+    #bar-chart { position: relative; width: 1280px; height: 720px; overflow: hidden; }
+    .panel { position: absolute; left: 288px; top: 274px; width: 928px; height: 378px; background: rgb(28 29 32 / var(--panel-alpha, .82)); border: 1px solid #ffffff20; border-radius: 28px; box-shadow: 0 12px 32px #00000020; }
+    h1, p { margin: 0; }
+    .header { position: absolute; top: 27px; left: 36px; right: 36px; display: flex; justify-content: space-between; align-items: flex-start; }
+    h1 { font-size: 26px; font-weight: 500; letter-spacing: -.6px; }
+    .subtitle { margin-top: 8px; color: #c5c7ce; font-size: 15px; }
+    .demo { font-size: 14px; color: #c5c7ce; margin-top: 5px; }
+    .plot { position: absolute; left: 36px; right: 36px; bottom: 35px; height: 250px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 28px; }
+    .baseline { position: absolute; left: 0; right: 0; bottom: 30px; height: 1px; background: #ffffff26; transform-origin: left center; }
+    .column { position: relative; }
+    .bar { position: absolute; left: 50%; margin-left: -52px; bottom: 31px; width: 104px; height: var(--bar-height); border-radius: 12px 12px 0 0; background: #888e99; transform-origin: center bottom; }
+    .column:last-child .bar { background: #dce8e0; }
+    .value { position: absolute; left: 0; right: 0; bottom: calc(42px + var(--bar-height)); text-align: center; font-size: 29px; font-weight: 500; line-height: 36px; letter-spacing: -.7px; font-variant-numeric: tabular-nums; }
+    .label { position: absolute; left: 0; right: 0; bottom: 0; text-align: center; font-size: 16px; line-height: 22px; color: #c5c7ce; }
+    .column:last-child .label { color: #f4f4f5; }
+  </style>
+</head>
+<body>
+  <div id="bar-chart" data-composition-id="bar-chart" data-start="0" data-duration="6" data-width="1280" data-height="720">
+    <section class="panel" aria-label="每周产出，演示数据：第一周24份，第二周38份，第三周32份，第四周56份">
+      <header class="header"><div><h1>每周产出</h1><p class="subtitle">完成素材 · 单位：份</p></div><span class="demo">演示数据</span></header>
+      <div class="plot" role="img" aria-label="四周柱状图，所有柱子从零起，按同一比例展示">
+        <div class="baseline"></div>
+        <div class="column" style="--bar-height:72px"><div class="bar"></div><span class="value">24</span><span class="label">第一周</span></div>
+        <div class="column" style="--bar-height:114px"><div class="bar"></div><span class="value">38</span><span class="label">第二周</span></div>
+        <div class="column" style="--bar-height:96px"><div class="bar"></div><span class="value">32</span><span class="label">第三周</span></div>
+        <div class="column" style="--bar-height:168px"><div class="bar"></div><span class="value">56</span><span class="label">第四周</span></div>
+      </div>
+    </section>
+  </div>
+  <script>
+    const tl = gsap.timeline({paused: true});
+    tl.fromTo('.panel', {y: 22, opacity: 0}, {y: 0, opacity: 1, duration: .55, ease: 'power3.out'}, 0);
+    tl.fromTo('.header', {y: 7, opacity: 0}, {y: 0, opacity: 1, duration: .4, ease: 'power2.out'}, .18);
+    tl.fromTo('.baseline', {scaleX: 0}, {scaleX: 1, duration: .6, ease: 'power3.inOut'}, .35);
+    document.querySelectorAll('.column').forEach((column, i) => {
+      const at = .65 + i * .22;
+      const height = parseFloat(column.style.getPropertyValue('--bar-height'));
+      tl.fromTo(column.querySelector('.label'), {opacity: 0, y: 5}, {opacity: 1, y: 0, duration: .32, ease: 'power2.out'}, at - .12);
+      tl.fromTo(column.querySelector('.bar'), {scaleY: 0}, {scaleY: 1, duration: .95, ease: 'power3.out'}, at);
+      tl.fromTo(column.querySelector('.value'), {y: height, opacity: 0}, {y: 0, opacity: 1, duration: .95, ease: 'power3.out'}, at);
+    });
+    tl.to({}, {duration: 3.74}, 2.26);
+    window.__timelines = window.__timelines || {};
+    window.__timelines['bar-chart'] = tl;
+  </script>
+</body>
+</html>
