@@ -1,26 +1,26 @@
 ---
 name: Material Summary
 colors:
-  canvas: "#111214"
-  surface: "#1C1D20"
+  canvas: "transparent"
+  surface: "rgb(28 29 32 / 82%)"
   raised: "#292B2F"
   foreground: "#F4F4F5"
-  secondary: "#AAADB5"
-  boundary: "#36383D"
+  secondary: "#C5C7CE"
+  boundary: "#FFFFFF20"
 typography:
   heading:
     fontFamily: "SF Pro Display, PingFang SC, sans-serif"
-    fontSize: 32px
+    fontSize: 24px
     fontWeight: 500
   number:
     fontFamily: "SF Pro Display, Helvetica Neue, sans-serif"
-    fontSize: 176px
+    fontSize: 94px
     fontWeight: 500
 rounded:
-  panel: 40px
-  thumbnail: 22px
+  panel: 28px
+  thumbnail: 16px
 spacing:
-  inset: 56px
+  inset: 32px
   group: 32px
 ---
 
@@ -34,10 +34,12 @@ Neutral graphite surfaces, near-white primary figures, legible secondary gray. N
 Use the macOS system sans-serif family with PingFang SC for Chinese. A large total is the first focal point; the two category totals are second. Small text is metadata only. Numerals use tabular figures and controlled tracking.
 
 ## Layout
-1280 × 720 composition. One 1120 × 544 panel, inset 80/88. Header, left total, right category rows, and a bottom proportional track. The 24 videos and 36 images remain explicitly demo data; total 60 and 40/60 percent shares are arithmetic, not extra claims.
+1280 × 720 transparent composition. One 1152 × 232 lower-third panel at x64/y420. Header above a horizontal row containing the total and two categories; a proportional track sits below. The 24 videos and 36 images remain explicitly demo data; total 60 and 40/60 percent shares are arithmetic, not extra claims. Position is fixed; there is no automatic subject or subtitle avoidance.
 
 ## Elevation & Depth
 Use slight overlap only inside the illustrative media stack, where it communicates multiple assets. No extra background ornaments, ambient breathing or perpetual UI motion; restraint follows the user's explicit reference.
+
+Only the panel background has 82% opacity. Typography remains opaque at its readable hold. The canvas outside the panel is transparent; no backdrop blur is used. Preview controls allow manual panel opacity from 70% to 96%, plus test backgrounds and local video. These controls and backgrounds are not exported with the composition.
 
 ## Shapes
 One continuous outer radius. Small rounded rectangles describe video frames and images. Icons are independently drawn SVG geometry.
