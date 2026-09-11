@@ -8,7 +8,7 @@
     "sourceLabel": "HyperFrames · Atelier 自制",
     "compatibility": "HyperFrames 原生 · 本地模板",
     "type": "hyperframes:composition",
-    "desc": "柱形从同一零基线依次长出，数字落在柱顶，最后强调最大值。",
+    "desc": "柱形从同一零基线依次长出，数字跟随柱顶，最后一项以浅色强调。",
     "use": "数据说明、知识讲解与教程；沿用真实材料，按旁白节奏安排出现。",
     "tags": [
       "自制",
@@ -29,7 +29,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -39,10 +39,10 @@
     "videoProvenance": {
       "kind": "independently-authored-local-render",
       "renderer": "hyperframes@0.8.34",
-      "sha256": "d773321f60a9ee936fc53215401685d16be783f17e51c165ca3e821dc91e482e",
+      "sha256": "e3cfaae4e5743fe8457af18b26dc193f70fcda75419049cc12e06465b0314247",
       "fps": 24,
       "duration": 6.0,
-      "sourceSha256": "3d0ab12d9da1a284e241acd7f5e5c864ebe396a6356cc61e77205206930d4e99"
+      "sourceSha256": "37ad11152108bdcc1f00ff8a5d5e7705dd10136d46f69d3fed211d2cdc880b0a"
     }
   },
   {
@@ -75,7 +75,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -85,10 +85,10 @@
     "videoProvenance": {
       "kind": "independently-authored-local-render",
       "renderer": "hyperframes@0.8.34",
-      "sha256": "e54aadfd7d400f0972e28699816ba38734f16db79038d6e0d34f590f472e8a13",
+      "sha256": "59f89fe817f084dc3c11d086c0723de8349fefe8127235aaa022b5f4ae505e44",
       "fps": 24,
       "duration": 6.0,
-      "sourceSha256": "6162d17e1e0542c205c716b2ad4994ea9e9e5c57164035679993ad50ec033407"
+      "sourceSha256": "a5d2d455d9fd414920ea045795fb841e06fc030124274ec9a55fe812aecbaa92"
     }
   },
   {
@@ -100,7 +100,7 @@
     "sourceLabel": "HyperFrames · Atelier 自制",
     "compatibility": "HyperFrames 原生 · 本地模板",
     "type": "hyperframes:composition",
-    "desc": "两组标签和数值先后进入，细分隔线展开；不自动宣称提升比例。",
+    "desc": "两组等宽数值区域先后进入，通过字号与明度区分层级；不自动宣称提升比例。",
     "use": "数据说明、知识讲解与教程；沿用真实材料，按旁白节奏安排出现。",
     "tags": [
       "自制",
@@ -121,7 +121,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -131,10 +131,10 @@
     "videoProvenance": {
       "kind": "independently-authored-local-render",
       "renderer": "hyperframes@0.8.34",
-      "sha256": "01af0ab260520b9c9df77ca7070936e7bdf7482c6b0f3fe270900dffac4ffd2a",
+      "sha256": "4a9bd7e297ec7a07d14a1b465189acc007ee034ec5d4edd2a79e2796e1bc7b2d",
       "fps": 24,
       "duration": 6.0,
-      "sourceSha256": "6058f12b3c7f514766cc496c2e525770bf148ea2ec2786861a197d0951f30d49"
+      "sourceSha256": "abbe011d6d6ae10887605956a8ae65c32d25955f95549f3333853785762b7b3f"
     }
   },
   {
@@ -167,7 +167,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -177,10 +177,10 @@
     "videoProvenance": {
       "kind": "independently-authored-local-render",
       "renderer": "hyperframes@0.8.34",
-      "sha256": "ffdea06cdaa630c3787ffb6cac231718a1d42f783f5078ed3edea6e51dc44209",
+      "sha256": "31d800810953ba58c8c8ec5d79253c5524ce516be66f456ed81fc1a55aada7bb",
       "fps": 24,
       "duration": 6.0,
-      "sourceSha256": "9f57915de02870b304a53f0ff2271bd85f3a2ad3126b5c479bd03e574ab13344"
+      "sourceSha256": "2ab56daa12282cd075b69114c702743d522ba1ae2e32559b50e235ae41977df4"
     }
   },
   {
@@ -192,7 +192,7 @@
     "sourceLabel": "HyperFrames · Atelier 自制",
     "compatibility": "HyperFrames 原生 · 本地模板",
     "type": "hyperframes:composition",
-    "desc": "按输入数值排序，三条排名由下向上建立，首位侧标最后点亮。",
+    "desc": "按输入数值排序，三条排名依次进入，首位通过文字明度强调。",
     "use": "数据说明、知识讲解与教程；沿用真实材料，按旁白节奏安排出现。",
     "tags": [
       "自制",
@@ -213,7 +213,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -223,10 +223,10 @@
     "videoProvenance": {
       "kind": "independently-authored-local-render",
       "renderer": "hyperframes@0.8.34",
-      "sha256": "502e8639a6dbac3bfa2390d96fe16547dd12b8c33ebb42e6edfb15a4e76e6c11",
+      "sha256": "dac34c7215138886a39ce01c1382ca37465adb3b8ee0809e468fce6598e545fa",
       "fps": 24,
       "duration": 6.0,
-      "sourceSha256": "da5f610daebba12192ca98746f245c203a769439adae29a9da7208735bd91afd"
+      "sourceSha256": "c28ed701d1c7ac521a73f896f4ccf29d77ea4f789f75e8a2ef1e17ae22d39d9f"
     }
   },
   {
@@ -238,7 +238,7 @@
     "sourceLabel": "HyperFrames · Atelier 自制",
     "compatibility": "HyperFrames 原生 · 本地模板",
     "type": "hyperframes:composition",
-    "desc": "趋势线与节点逐段建立，随后在指定节点下方揭示引线和解释。",
+    "desc": "趋势线逐段连接，指定节点亮起细环，解释在图表下方独立一行显示。",
     "use": "数据说明、知识讲解与教程；沿用真实材料，按旁白节奏安排出现。",
     "tags": [
       "自制",
@@ -259,7 +259,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。 focus 为从 0 开始的节点序号，explanation 为拐点解释。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -269,10 +269,10 @@
     "videoProvenance": {
       "kind": "independently-authored-local-render",
       "renderer": "hyperframes@0.8.34",
-      "sha256": "de2cbebb4fda2922e631f87f88b63b6ee065656fb20a6884c285454d6cf05ee1",
+      "sha256": "dee0f847352d3038041388d6015dee03807075e15368584daa5eeab8c3d1a460",
       "fps": 24,
       "duration": 6.0,
-      "sourceSha256": "e92bef9404030cdf5b1a43c045be02bb056ffa3351aa637fc7fc54965d990a10"
+      "sourceSha256": "557e1dd4e7543eccd999d1b55f6d3a79f0b415b09be39c927e27ec816f0d4e6e"
     }
   },
   {
@@ -284,7 +284,7 @@
     "sourceLabel": "HyperFrames · Atelier 自制",
     "compatibility": "HyperFrames 原生 · 本地模板",
     "type": "hyperframes:composition",
-    "desc": "来源行先出现，分隔线横向铺开，再揭示结论与统计口径。",
+    "desc": "居中的半透明来源卡进入，来源、结论与口径分层显示。",
     "use": "数据说明、知识讲解与教程；沿用真实材料，按旁白节奏安排出现。",
     "tags": [
       "自制",
@@ -305,7 +305,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -315,22 +315,22 @@
     "videoProvenance": {
       "kind": "independently-authored-local-render",
       "renderer": "hyperframes@0.8.34",
-      "sha256": "469056f96851e5ad6d0c9ba4a48650b6c23d4d497dd7fc70da0d4602cad7b6c8",
+      "sha256": "2b5b7c21014df92338afb7c908ee3e0ff4b962c257b2db49fb40058cbfa7ba92",
       "fps": 24,
       "duration": 6.0,
-      "sourceSha256": "3e0cf0a67eba77394048f6fc3bb927b94c985a22be7541b72358358e7edbb8ac"
+      "sourceSha256": "70d49bbc99a9cc0d747254b4fa85a4835f5cde2002f4bce8eb799ee15c25c71a"
     }
   },
   {
     "id": "atelier-duo-overlay",
-    "title": "双指标角落卡",
+    "title": "双指标盘点卡",
     "en": "duo-overlay",
     "category": "信息提示",
     "origin": "atelier",
     "sourceLabel": "HyperFrames · Atelier 自制",
     "compatibility": "HyperFrames 原生 · 本地模板",
     "type": "hyperframes:composition",
-    "desc": "画面下方两张独立数值卡错峰进入，中间细线将比较关系连接。",
+    "desc": "下方居中的半透明信息卡，合计与两项数值依次进入，比例条按真实数据展开。",
     "use": "数据说明、知识讲解与教程；沿用真实材料，按旁白节奏安排出现。",
     "tags": [
       "自制",
@@ -351,7 +351,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -361,10 +361,10 @@
     "videoProvenance": {
       "kind": "independently-authored-local-render",
       "renderer": "hyperframes@0.8.34",
-      "sha256": "22d9a75a2729d06ada105f099291145b4df847cc5abf983862048d45693baede",
+      "sha256": "87bc08721f49be6a8fb3a5658fab4f4784f4c832f0ec184f74849d9b09c882a7",
       "fps": 24,
       "duration": 6.0,
-      "sourceSha256": "d26f850cb62e61902e8b7c99e9fa8df8771f452831b31a7d63b1bd74eee78e4b"
+      "sourceSha256": "9edc9b6c358a07d4304d21b22b3603be985de7e0675ae585858943697a265d4b"
     }
   },
   {
@@ -397,7 +397,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -407,10 +407,10 @@
     "videoProvenance": {
       "kind": "independently-authored-local-render",
       "renderer": "hyperframes@0.8.34",
-      "sha256": "26c2ffaaf20c2a08dfaf0ad18a4122bd898ae1f0c65492bdb0637cde22efa16a",
+      "sha256": "3ef4d47bba09f0bab9366f84ceb805cc0fe9a14de9fe56bc22cdfa43a19b45ae",
       "fps": 24,
       "duration": 6.0,
-      "sourceSha256": "d7d11d0e181856ceb77f22282af30c422246035b73424e931c1c2689ffd6a6e9"
+      "sourceSha256": "b406de318d04b1ddaf4c8291d335c90c34eb594ddc3f7ead2541490fa24eecfa"
     }
   },
   {
@@ -443,7 +443,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -453,10 +453,10 @@
     "videoProvenance": {
       "kind": "independently-authored-local-render",
       "renderer": "hyperframes@0.8.34",
-      "sha256": "d9c6fa4c6632800e5bb33e01959383c2e232b4d2830549bfa2689af9dc9c6c3b",
+      "sha256": "bf2c8132a0ef8b356a15358c3c1291cbf76c92dadce7383eb94657a3a4e92382",
       "fps": 24,
       "duration": 6.0,
-      "sourceSha256": "9b1dc947f775b9860e8c4737903fbea404c3162a66a95978ce6387e2382db1cc"
+      "sourceSha256": "f45b6822a6a19c5d8b4ca5410dc28a325dad8e15169421a59e92f5d1d9ee578b"
     }
   },
   {
@@ -468,7 +468,7 @@
     "sourceLabel": "HyperFrames · Atelier 自制",
     "compatibility": "HyperFrames 原生 · 本地模板",
     "type": "hyperframes:composition",
-    "desc": "侧边注释卡从左侧进入，术语与解释随后显现，下方强调线横向展开。",
+    "desc": "居中的紧凑注释卡轻抬进入，术语与解释依次显现。",
     "use": "数据说明、知识讲解与教程；沿用真实材料，按旁白节奏安排出现。",
     "tags": [
       "自制",
@@ -489,7 +489,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -499,22 +499,22 @@
     "videoProvenance": {
       "kind": "independently-authored-local-render",
       "renderer": "hyperframes@0.8.34",
-      "sha256": "1e4dad091cbae8be4f7d69f88c5baa4eabe39af5c755bb670388005c8576595e",
+      "sha256": "65678052d0ebb40d0d5d3c267a367d3eeedfc021d71511e256e4714900c71bef",
       "fps": 24,
       "duration": 6.0,
-      "sourceSha256": "4e3a6769f3b6a8da4c921176c4855f762fc03c146356eca95a19c8f39b951810"
+      "sourceSha256": "ff617c89b45eca4705dacc45a883fa3e6a9c8256794d3bcffca2afecdd7bda01"
     }
   },
   {
     "id": "atelier-step-stair",
-    "title": "步骤递进阶梯",
+    "title": "步骤递进节点",
     "en": "step-stair",
     "category": "信息提示",
     "origin": "atelier",
     "sourceLabel": "HyperFrames · Atelier 自制",
     "compatibility": "HyperFrames 原生 · 本地模板",
     "type": "hyperframes:composition",
-    "desc": "三个步骤沿阶梯依次抬升，连接箭头先于下一个步骤出现，最后同时保持。",
+    "desc": "三个独立节点水平居中依次进入，连接箭头先于下一个步骤出现，最后同时保持。",
     "use": "数据说明、知识讲解与教程；沿用真实材料，按旁白节奏安排出现。",
     "tags": [
       "自制",
@@ -535,7 +535,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -545,10 +545,10 @@
     "videoProvenance": {
       "kind": "independently-authored-local-render",
       "renderer": "hyperframes@0.8.34",
-      "sha256": "ea5e639f6ad43e6f34dd9165f7dfc6c570b3cccbe889a01c526d0d4ee43c7f98",
+      "sha256": "7d54364759c889b7cb25025c72dc36bdcbfbbcafd8460b65cb6cd91899ef9f49",
       "fps": 24,
       "duration": 6.0,
-      "sourceSha256": "7d8e9cc973bdbd9ff24072c78e0f1c6a32a0dc1572c33fa402e4017de26a59be"
+      "sourceSha256": "70abee8a3011f792746a5a0bc614ba4bbd7806fef2672948ab63572ff5fa3fb2"
     }
   },
   {
@@ -581,7 +581,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -591,10 +591,10 @@
     "videoProvenance": {
       "kind": "independently-authored-local-render",
       "renderer": "hyperframes@0.8.34",
-      "sha256": "82b073ba944bef8a91aee19a991bf911922a7c2af3e504d904f6bd5f4d9b650f",
+      "sha256": "d8bf1aca7eadb6e33264acee1852aad9b7401afad3446207453322135a1b58bc",
       "fps": 24,
       "duration": 6.0,
-      "sourceSha256": "bbc3e704cac055943598756c46d7d54c171317d763b60530c010055527e55053"
+      "sourceSha256": "b9beefd9e25227874a0269c3ce181b028d2887455f7b68812c963fde0aa53713"
     }
   },
   {
@@ -627,7 +627,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -637,10 +637,10 @@
     "videoProvenance": {
       "kind": "independently-authored-local-render",
       "renderer": "hyperframes@0.8.34",
-      "sha256": "df425a818c42e135fe84431217d87a14200f1dc5379f8f3b17351f43cbca7bfb",
+      "sha256": "c8393fb3f1f1d2d0a2aa31b7910900f1488fee83192f4b424073f2223ab7b020",
       "fps": 24,
       "duration": 6.0,
-      "sourceSha256": "3e8f01a3ca00009031d05fa0a00ef7f99deec34f660c4e6ea6616058d08ecec6"
+      "sourceSha256": "7a950c4ea11830877658ca01dac588bde8282c7493f65a5a783003aa36c5c46a"
     }
   },
   {
@@ -673,7 +673,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -683,10 +683,10 @@
     "videoProvenance": {
       "kind": "independently-authored-local-render",
       "renderer": "hyperframes@0.8.34",
-      "sha256": "4325274eb711fef7017c8ab67b5499a5d3fdc297a1beabc5baa7e00c387a3963",
+      "sha256": "25be9e6d884b435194578c50f680841f5bc86e1fe56282b9c64877c304e5c314",
       "fps": 24,
       "duration": 6.0,
-      "sourceSha256": "709cfaf1cd13b54f90fe3cd9875b88569e49000623cc639cf3c85791d4037ae2"
+      "sourceSha256": "3fb20d22820e1176f3b7eebbfbcb87f3a3f9a9adc1186cfcdec3920b9d256f09"
     }
   },
   {
@@ -719,7 +719,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -729,10 +729,10 @@
     "videoProvenance": {
       "kind": "independently-authored-local-render",
       "renderer": "hyperframes@0.8.34",
-      "sha256": "249d85b6852506907a746d1c9e45fe2dfeb5a1f2da23bc902308b68607c49c83",
+      "sha256": "cfdc0246b4d3dc1dfb1abcc65e30845c355037b01ddbf23bfdd71b823214d140",
       "fps": 24,
       "duration": 6.0,
-      "sourceSha256": "6b77eb84f720fba4f345253f88613306e28e2fae30e0ce25b7af90039f31ba2b"
+      "sourceSha256": "638d4bdc28d86f6dee55e5ce7322e2d6548dfe758adc587f9486fa9d5eb10b16"
     }
   },
   {
@@ -765,7 +765,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -775,10 +775,10 @@
     "videoProvenance": {
       "kind": "independently-authored-local-render",
       "renderer": "hyperframes@0.8.34",
-      "sha256": "e6252e03cc17bc893903a8ea494a979ff1c145e8bb8e0f70aeb22995d117f4d1",
+      "sha256": "f6500b44a5b4df9cfa1c6726884fb1f2b560c1d1fb5c994081b41080c9eabaaf",
       "fps": 24,
       "duration": 6.0,
-      "sourceSha256": "b2da4459c1d792180784e244ab1b6bac4988d162b46cec613c66286f9ccd62fc"
+      "sourceSha256": "c53a906e14c2a729b379be2384b13959835adc2211f1d7ca8927a1c0d2ae9546"
     }
   }
 ]

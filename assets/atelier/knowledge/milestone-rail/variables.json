@@ -33,19 +33,25 @@
     "id": "accent",
     "type": "color",
     "label": "accent",
-    "default": "#176957"
+    "default": "#dce8e0"
   },
   {
     "id": "background",
     "type": "color",
     "label": "background",
-    "default": "#f3eee3"
+    "default": "#111214"
   },
   {
     "id": "transparent",
     "type": "boolean",
     "label": "transparent",
-    "default": false
+    "default": true
+  },
+  {
+    "id": "panelOpacity",
+    "type": "number",
+    "label": "panelOpacity",
+    "default": 82
   },
   {
     "id": "focus",

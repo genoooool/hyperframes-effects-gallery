@@ -9,7 +9,7 @@
       "referenceId": "bar-chart-grow",
       "decision": "independent-implementation",
       "ourId": "atelier-column-reveal",
-      "difference": "柱形从同一零基线依次长出，数字落在柱顶，最后强调最大值。"
+      "difference": "柱形从同一零基线依次长出，数字跟随柱顶，最后一项以浅色强调。"
     },
     {
       "referenceId": "line-chart-draw",
@@ -21,7 +21,7 @@
       "referenceId": "before-after-stat",
       "decision": "independent-implementation",
       "ourId": "atelier-paired-values",
-      "difference": "两组标签和数值先后进入，细分隔线展开；不自动宣称提升比例。"
+      "difference": "两组等宽数值区域先后进入，通过字号与明度区分层级；不自动宣称提升比例。"
     },
     {
       "referenceId": "horizontal-bar-compare",
@@ -33,25 +33,25 @@
       "referenceId": "top-rank-list",
       "decision": "independent-implementation",
       "ourId": "atelier-ordered-podium",
-      "difference": "按输入数值排序，三条排名由下向上建立，首位侧标最后点亮。"
+      "difference": "按输入数值排序，三条排名依次进入，首位通过文字明度强调。"
     },
     {
       "referenceId": "turning-point-line",
       "decision": "independent-implementation",
       "ourId": "atelier-inflection-note",
-      "difference": "趋势线与节点逐段建立，随后在指定节点下方揭示引线和解释。"
+      "difference": "趋势线逐段连接，指定节点亮起细环，解释在图表下方独立一行显示。"
     },
     {
       "referenceId": "source-citation-card",
       "decision": "independent-implementation",
       "ourId": "atelier-evidence-footnote",
-      "difference": "来源行先出现，分隔线横向铺开，再揭示结论与统计口径。"
+      "difference": "居中的半透明来源卡进入，来源、结论与口径分层显示。"
     },
     {
       "referenceId": "stat-duel",
       "decision": "independent-implementation",
       "ourId": "atelier-duo-overlay",
-      "difference": "画面下方两张独立数值卡错峰进入，中间细线将比较关系连接。"
+      "difference": "下方居中的半透明信息卡，合计与两项数值依次进入，比例条按真实数据展开。"
     },
     {
       "referenceId": "status-split",
@@ -69,13 +69,13 @@
       "referenceId": "concept-spotlight",
       "decision": "independent-implementation",
       "ourId": "atelier-term-definition",
-      "difference": "侧边注释卡从左侧进入，术语与解释随后显现，下方强调线横向展开。"
+      "difference": "居中的紧凑注释卡轻抬进入，术语与解释依次显现。"
     },
     {
       "referenceId": "three-step-flow",
       "decision": "independent-implementation",
       "ourId": "atelier-step-stair",
-      "difference": "三个步骤沿阶梯依次抬升，连接箭头先于下一个步骤出现，最后同时保持。"
+      "difference": "三个独立节点水平居中依次进入，连接箭头先于下一个步骤出现，最后同时保持。"
     },
     {
       "referenceId": "myth-fact-swap",

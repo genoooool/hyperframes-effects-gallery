@@ -18,7 +18,10 @@ def main():
  results=[]; ready=[]
  for item in candidates:
   folder=(ROOT/item['source']).parent; key=item['id']; receipt=QA/(key+'.json')
-  inputs={p.name:sha(p) for p in [folder/'index.html',folder/'gsap.min.js',folder/'default.json']}
+  # Gallery MP4s need an opaque preview background; downloadable defaults stay transparent.
+  preview_variables=QA/(key+'-preview-variables.json')
+  preview_variables.write_text(json.dumps({**json.loads((folder/'default.json').read_text()),'transparent':False},ensure_ascii=False,indent=2)+'\n')
+  inputs={p.name:sha(p) for p in [folder/'index.html',folder/'gsap.min.js',folder/'default.json',preview_variables]}
   old=json.loads(receipt.read_text()) if receipt.exists() else {}
   video=ROOT/item['videoPreview'];poster=ROOT/item['poster']
   reusable=old.get('ok') and old.get('inputs')==inputs and old.get('renderer')==RENDERER and video.exists() and poster.exists() and sha(video)==old.get('videoSha256') and sha(poster)==old.get('posterSha256')
@@ -32,7 +35,7 @@ def main():
    report=json.loads(check.stdout)
    if not report['ok'] or not report['layout']['samples']:raise RuntimeError('No valid check samples')
    with (QA/(key+'-render.log')).open('w') as log:
-    subprocess.run(['npx','--no-install','hyperframes','render',str(folder),'--output',str(video),'--fps','24','--quality','standard','--workers','1','--strict-variables','--variables-file',str(folder/'default.json')],cwd=ROOT,stdout=log,stderr=subprocess.STDOUT,check=True,timeout=240)
+    subprocess.run(['npx','--no-install','hyperframes','render',str(folder),'--output',str(video),'--fps','24','--quality','standard','--workers','1','--strict-variables','--variables-file',str(preview_variables)],cwd=ROOT,stdout=log,stderr=subprocess.STDOUT,check=True,timeout=240)
    probe=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_format','-show_streams','-of','json',str(video)]))
    duration=float(probe['format']['duration']); stream=next(s for s in probe['streams'] if s['codec_type']=='video')
    if abs(duration-6)>.1 or stream['width']!=960 or stream['height']!=540:raise RuntimeError('Unexpected video size/duration')

@@ -8,7 +8,7 @@
     "sourceLabel": "HyperFrames · Atelier 自制",
     "compatibility": "HyperFrames 原生 · 本地模板",
     "type": "hyperframes:composition",
-    "desc": "柱形从同一零基线依次长出，数字落在柱顶，最后强调最大值。",
+    "desc": "柱形从同一零基线依次长出，数字跟随柱顶，最后一项以浅色强调。",
     "use": "数据说明、知识讲解与教程；沿用真实材料，按旁白节奏安排出现。",
     "tags": [
       "自制",
@@ -29,7 +29,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -67,7 +67,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -84,7 +84,7 @@
     "sourceLabel": "HyperFrames · Atelier 自制",
     "compatibility": "HyperFrames 原生 · 本地模板",
     "type": "hyperframes:composition",
-    "desc": "两组标签和数值先后进入，细分隔线展开；不自动宣称提升比例。",
+    "desc": "两组等宽数值区域先后进入，通过字号与明度区分层级；不自动宣称提升比例。",
     "use": "数据说明、知识讲解与教程；沿用真实材料，按旁白节奏安排出现。",
     "tags": [
       "自制",
@@ -105,7 +105,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -143,7 +143,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -160,7 +160,7 @@
     "sourceLabel": "HyperFrames · Atelier 自制",
     "compatibility": "HyperFrames 原生 · 本地模板",
     "type": "hyperframes:composition",
-    "desc": "按输入数值排序，三条排名由下向上建立，首位侧标最后点亮。",
+    "desc": "按输入数值排序，三条排名依次进入，首位通过文字明度强调。",
     "use": "数据说明、知识讲解与教程；沿用真实材料，按旁白节奏安排出现。",
     "tags": [
       "自制",
@@ -181,7 +181,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -198,7 +198,7 @@
     "sourceLabel": "HyperFrames · Atelier 自制",
     "compatibility": "HyperFrames 原生 · 本地模板",
     "type": "hyperframes:composition",
-    "desc": "趋势线与节点逐段建立，随后在指定节点下方揭示引线和解释。",
+    "desc": "趋势线逐段连接，指定节点亮起细环，解释在图表下方独立一行显示。",
     "use": "数据说明、知识讲解与教程；沿用真实材料，按旁白节奏安排出现。",
     "tags": [
       "自制",
@@ -219,7 +219,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。 focus 为从 0 开始的节点序号，explanation 为拐点解释。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -236,7 +236,7 @@
     "sourceLabel": "HyperFrames · Atelier 自制",
     "compatibility": "HyperFrames 原生 · 本地模板",
     "type": "hyperframes:composition",
-    "desc": "来源行先出现，分隔线横向铺开，再揭示结论与统计口径。",
+    "desc": "居中的半透明来源卡进入，来源、结论与口径分层显示。",
     "use": "数据说明、知识讲解与教程；沿用真实材料，按旁白节奏安排出现。",
     "tags": [
       "自制",
@@ -257,7 +257,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -267,14 +267,14 @@
   },
   {
     "id": "atelier-duo-overlay",
-    "title": "双指标角落卡",
+    "title": "双指标盘点卡",
     "en": "duo-overlay",
     "category": "信息提示",
     "origin": "atelier",
     "sourceLabel": "HyperFrames · Atelier 自制",
     "compatibility": "HyperFrames 原生 · 本地模板",
     "type": "hyperframes:composition",
-    "desc": "画面下方两张独立数值卡错峰进入，中间细线将比较关系连接。",
+    "desc": "下方居中的半透明信息卡，合计与两项数值依次进入，比例条按真实数据展开。",
     "use": "数据说明、知识讲解与教程；沿用真实材料，按旁白节奏安排出现。",
     "tags": [
       "自制",
@@ -295,7 +295,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -333,7 +333,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -371,7 +371,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -388,7 +388,7 @@
     "sourceLabel": "HyperFrames · Atelier 自制",
     "compatibility": "HyperFrames 原生 · 本地模板",
     "type": "hyperframes:composition",
-    "desc": "侧边注释卡从左侧进入，术语与解释随后显现，下方强调线横向展开。",
+    "desc": "居中的紧凑注释卡轻抬进入，术语与解释依次显现。",
     "use": "数据说明、知识讲解与教程；沿用真实材料，按旁白节奏安排出现。",
     "tags": [
       "自制",
@@ -409,7 +409,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -419,14 +419,14 @@
   },
   {
     "id": "atelier-step-stair",
-    "title": "步骤递进阶梯",
+    "title": "步骤递进节点",
     "en": "step-stair",
     "category": "信息提示",
     "origin": "atelier",
     "sourceLabel": "HyperFrames · Atelier 自制",
     "compatibility": "HyperFrames 原生 · 本地模板",
     "type": "hyperframes:composition",
-    "desc": "三个步骤沿阶梯依次抬升，连接箭头先于下一个步骤出现，最后同时保持。",
+    "desc": "三个独立节点水平居中依次进入，连接箭头先于下一个步骤出现，最后同时保持。",
     "use": "数据说明、知识讲解与教程；沿用真实材料，按旁白节奏安排出现。",
     "tags": [
       "自制",
@@ -447,7 +447,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -485,7 +485,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -523,7 +523,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -561,7 +561,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -599,7 +599,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",
@@ -637,7 +637,7 @@
     "previewNote": "Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。",
     "usageCaveat": "这是本地模板，不在官方 registry 中。不得使用 hyperframes add 安装。只替换已确认的文字、数据与颜色；默认数字是示例。",
     "provenance": {
-      "version": "atelier-knowledge-v1",
+      "version": "atelier-knowledge-v2",
       "license": "MIT",
       "reference": "https://github.com/nutllwhy/hyperframes-motion-library",
       "referenceCommit": "fe59998fa3f2c8579ba5ddd00cbbb76131190bdb",

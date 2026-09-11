@@ -9067,7 +9067,7 @@ https://77654321.xyz/effects/shotcraft-blinds-slice/
 
 https://77654321.xyz/effects/atelier-column-reveal/
 
-柱形从同一零基线依次长出，数字落在柱顶，最后强调最大值。
+柱形从同一零基线依次长出，数字跟随柱顶，最后一项以浅色强调。
 
 分类：信息提示；来源：HyperFrames · Atelier 自制；接入：HyperFrames 原生 · 本地模板
 
@@ -9077,7 +9077,7 @@ https://77654321.xyz/effects/atelier-column-reveal/
 
 源码：https://77654321.xyz/assets/atelier/knowledge/column-reveal/template.zip
 
-版本：atelier-knowledge-v1
+版本：atelier-knowledge-v2
 
 许可：MIT
 
@@ -9098,7 +9098,7 @@ https://77654321.xyz/effects/atelier-series-trace/
 
 源码：https://77654321.xyz/assets/atelier/knowledge/series-trace/template.zip
 
-版本：atelier-knowledge-v1
+版本：atelier-knowledge-v2
 
 许可：MIT
 
@@ -9109,7 +9109,7 @@ Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwh
 
 https://77654321.xyz/effects/atelier-paired-values/
 
-两组标签和数值先后进入，细分隔线展开；不自动宣称提升比例。
+两组等宽数值区域先后进入，通过字号与明度区分层级；不自动宣称提升比例。
 
 分类：信息提示；来源：HyperFrames · Atelier 自制；接入：HyperFrames 原生 · 本地模板
 
@@ -9119,7 +9119,7 @@ https://77654321.xyz/effects/atelier-paired-values/
 
 源码：https://77654321.xyz/assets/atelier/knowledge/paired-values/template.zip
 
-版本：atelier-knowledge-v1
+版本：atelier-knowledge-v2
 
 许可：MIT
 
@@ -9140,7 +9140,7 @@ https://77654321.xyz/effects/atelier-measure-bars/
 
 源码：https://77654321.xyz/assets/atelier/knowledge/measure-bars/template.zip
 
-版本：atelier-knowledge-v1
+版本：atelier-knowledge-v2
 
 许可：MIT
 
@@ -9151,7 +9151,7 @@ Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwh
 
 https://77654321.xyz/effects/atelier-ordered-podium/
 
-按输入数值排序，三条排名由下向上建立，首位侧标最后点亮。
+按输入数值排序，三条排名依次进入，首位通过文字明度强调。
 
 分类：信息提示；来源：HyperFrames · Atelier 自制；接入：HyperFrames 原生 · 本地模板
 
@@ -9161,7 +9161,7 @@ https://77654321.xyz/effects/atelier-ordered-podium/
 
 源码：https://77654321.xyz/assets/atelier/knowledge/ordered-podium/template.zip
 
-版本：atelier-knowledge-v1
+版本：atelier-knowledge-v2
 
 许可：MIT
 
@@ -9172,7 +9172,7 @@ Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwh
 
 https://77654321.xyz/effects/atelier-inflection-note/
 
-趋势线与节点逐段建立，随后在指定节点下方揭示引线和解释。
+趋势线逐段连接，指定节点亮起细环，解释在图表下方独立一行显示。
 
 分类：信息提示；来源：HyperFrames · Atelier 自制；接入：HyperFrames 原生 · 本地模板
 
@@ -9182,7 +9182,7 @@ https://77654321.xyz/effects/atelier-inflection-note/
 
 源码：https://77654321.xyz/assets/atelier/knowledge/inflection-note/template.zip
 
-版本：atelier-knowledge-v1
+版本：atelier-knowledge-v2
 
 许可：MIT
 
@@ -9193,7 +9193,7 @@ Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwh
 
 https://77654321.xyz/effects/atelier-evidence-footnote/
 
-来源行先出现，分隔线横向铺开，再揭示结论与统计口径。
+居中的半透明来源卡进入，来源、结论与口径分层显示。
 
 分类：信息提示；来源：HyperFrames · Atelier 自制；接入：HyperFrames 原生 · 本地模板
 
@@ -9203,18 +9203,18 @@ https://77654321.xyz/effects/atelier-evidence-footnote/
 
 源码：https://77654321.xyz/assets/atelier/knowledge/evidence-footnote/template.zip
 
-版本：atelier-knowledge-v1
+版本：atelier-knowledge-v2
 
 许可：MIT
 
 Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。
 
 
-## 双指标角落卡 / duo-overlay
+## 双指标盘点卡 / duo-overlay
 
 https://77654321.xyz/effects/atelier-duo-overlay/
 
-画面下方两张独立数值卡错峰进入，中间细线将比较关系连接。
+下方居中的半透明信息卡，合计与两项数值依次进入，比例条按真实数据展开。
 
 分类：信息提示；来源：HyperFrames · Atelier 自制；接入：HyperFrames 原生 · 本地模板
 
@@ -9224,7 +9224,7 @@ https://77654321.xyz/effects/atelier-duo-overlay/
 
 源码：https://77654321.xyz/assets/atelier/knowledge/duo-overlay/template.zip
 
-版本：atelier-knowledge-v1
+版本：atelier-knowledge-v2
 
 许可：MIT
 
@@ -9245,7 +9245,7 @@ https://77654321.xyz/effects/atelier-state-handoff/
 
 源码：https://77654321.xyz/assets/atelier/knowledge/state-handoff/template.zip
 
-版本：atelier-knowledge-v1
+版本：atelier-knowledge-v2
 
 许可：MIT
 
@@ -9266,7 +9266,7 @@ https://77654321.xyz/effects/atelier-percent-ticks/
 
 源码：https://77654321.xyz/assets/atelier/knowledge/percent-ticks/template.zip
 
-版本：atelier-knowledge-v1
+版本：atelier-knowledge-v2
 
 许可：MIT
 
@@ -9277,7 +9277,7 @@ Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwh
 
 https://77654321.xyz/effects/atelier-term-definition/
 
-侧边注释卡从左侧进入，术语与解释随后显现，下方强调线横向展开。
+居中的紧凑注释卡轻抬进入，术语与解释依次显现。
 
 分类：信息提示；来源：HyperFrames · Atelier 自制；接入：HyperFrames 原生 · 本地模板
 
@@ -9287,18 +9287,18 @@ https://77654321.xyz/effects/atelier-term-definition/
 
 源码：https://77654321.xyz/assets/atelier/knowledge/term-definition/template.zip
 
-版本：atelier-knowledge-v1
+版本：atelier-knowledge-v2
 
 许可：MIT
 
 Atelier 独立编写的 HTML / SVG / GSAP 模板与样片。形式参考 nutllwhy/hyperframes-motion-library；未使用对方模板源码、文案或媒体。MP4 为不透明预览，透明导出需选择支持 alpha 的格式并核验。
 
 
-## 步骤递进阶梯 / step-stair
+## 步骤递进节点 / step-stair
 
 https://77654321.xyz/effects/atelier-step-stair/
 
-三个步骤沿阶梯依次抬升，连接箭头先于下一个步骤出现，最后同时保持。
+三个独立节点水平居中依次进入，连接箭头先于下一个步骤出现，最后同时保持。
 
 分类：信息提示；来源：HyperFrames · Atelier 自制；接入：HyperFrames 原生 · 本地模板
 
@@ -9308,7 +9308,7 @@ https://77654321.xyz/effects/atelier-step-stair/
 
 源码：https://77654321.xyz/assets/atelier/knowledge/step-stair/template.zip
 
-版本：atelier-knowledge-v1
+版本：atelier-knowledge-v2
 
 许可：MIT
 
@@ -9329,7 +9329,7 @@ https://77654321.xyz/effects/atelier-correction-reveal/
 
 源码：https://77654321.xyz/assets/atelier/knowledge/correction-reveal/template.zip
 
-版本：atelier-knowledge-v1
+版本：atelier-knowledge-v2
 
 许可：MIT
 
@@ -9350,7 +9350,7 @@ https://77654321.xyz/effects/atelier-milestone-rail/
 
 源码：https://77654321.xyz/assets/atelier/knowledge/milestone-rail/template.zip
 
-版本：atelier-knowledge-v1
+版本：atelier-knowledge-v2
 
 许可：MIT
 
@@ -9371,7 +9371,7 @@ https://77654321.xyz/effects/atelier-cause-relay/
 
 源码：https://77654321.xyz/assets/atelier/knowledge/cause-relay/template.zip
 
-版本：atelier-knowledge-v1
+版本：atelier-knowledge-v2
 
 许可：MIT
 
@@ -9392,7 +9392,7 @@ https://77654321.xyz/effects/atelier-option-balance/
 
 源码：https://77654321.xyz/assets/atelier/knowledge/option-balance/template.zip
 
-版本：atelier-knowledge-v1
+版本：atelier-knowledge-v2
 
 许可：MIT
 
@@ -9413,7 +9413,7 @@ https://77654321.xyz/effects/atelier-feedback-circuit/
 
 源码：https://77654321.xyz/assets/atelier/knowledge/feedback-circuit/template.zip
 
-版本：atelier-knowledge-v1
+版本：atelier-knowledge-v2
 
 许可：MIT
 
